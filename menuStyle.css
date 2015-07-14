@@ -1,0 +1,101 @@
+﻿div.LmenuBar, div.LmenuBar a.LmenuButton, div.Lmenu, div.Lmenu a.LmenuItem
+{
+    font-family: Arial,Verdana;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    vertical-align:middle;
+}
+div.LmenuBar
+{            
+    text-align: left;            
+}
+div.Lmenu
+{                        
+    left: 0px;            
+    position: absolute;
+    top: 0px;
+    visibility: hidden;            
+    z-index: 101;
+}        
+div.Lmenu a.LmenuItem
+{
+    color: #000000;
+    cursor: default;
+    display: block;
+    width: 255px; /* = 255 - paddinf-left*/ /* se deja 200 por el DTD de la pagina */
+    padding-left:19px;            
+    text-decoration: none;            
+    height:24px;            
+    background-image:url(/ElektraFront/imagenes/nuevoHome/fdoSeparador.gif);
+    background-repeat:no-repeat;
+}
+div.Lmenu a.LmenuItem:hover, div.Lmenu a.LmenuItemHighlight
+{
+    background-color: #999999;
+    background-image: none;
+    color: #000000;            
+}
+
+div.anchoMenu
+{                        
+    width:255px;
+}
+
+/***************DEFINICION PARA LOS SUBMENUS******************************/
+div.Lmenu a.subMenuItem
+{
+    color: #FFFFFF;
+    cursor: default;
+    display: block;
+    width: 200px; /* = 200 - paddinf-left*/ /* se deja 200 por el DTD de la pagina */
+    padding-left:19px;
+    text-decoration: none;
+    min-height:24px;
+    height:auto;
+    background-color:#999999;
+    vertical-align:baseline;
+    overflow: hidden;                
+}
+div.Lmenu a.subMenuItem:hover, div.Lmenu a.subMenuItemHighlight
+{
+    background-color: #c0c0c0;
+    background-image: none;
+    color: #000000;
+    text-decoration:underline;
+}
+
+div.anchoSubMenu
+{                        
+    width:200px;
+}
+/***************************************************************************/
+        
+div.Lmenu a.LmenuItem span.LmenuItemText, div.Lmenu a.subMenuItem span.LmenuItemText
+{
+	padding-right: 22px; /* = menuItem.padding-left + 3*/
+}
+div.Lmenu a.LmenuItem span.LmenuItemArrow, div.Lmenu a.subMenuItem span.LmenuItemArrow
+{
+	font-family:Webdings;            
+    padding-right:1px;
+    text-decoration:none;
+}        
+
+.frameMenu
+{
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-1;
+	filter:mask();
+	width:expression(this.parentNode.offsetWidth);
+	height:expression(this.parentNode.offsetHeight);
+}
+
+.tableMenu
+{
+	width:255px;
+}

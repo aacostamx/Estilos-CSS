@@ -1,0 +1,487 @@
+.barraProgreso {
+	position: relative;
+	visibility: visible;
+	height: 200;
+	width: 400;
+	left: 10%;
+	top: 10%;
+	right: 10%;
+	bottom: 10%;
+	z-index: auto;
+}
+
+.tablaBarra {
+	border: solid #F7D542;
+	background-color: #666666;
+}
+.TablaProgreso{
+	width:350px;
+	height:100px;
+
+}
+.MarcoBarraProgreso {
+	border: solid #999999;
+
+}
+.textoBarraMensajes {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align:center;
+}
+.TextoProcesoActual {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	color: #FFFFFF;
+	text-align: center;
+}
+.colorProgreso {
+	background-color: #F7D542;
+}
+
+
+.root {
+	width:800px;
+	height:600px;
+	margin:auto;
+	position:absolute;
+	overflow:auto;
+}
+*html .scrollPanel {
+	position:absolute;
+	width:100%;
+	height:100%;
+	overflow:auto;
+}
+
+
+.ventana {
+	width:510px;
+	height:210px;
+	margin:auto;
+	position:relative;
+}
+
+.titulo_producto {
+	background: url(../imagenes/tituloproducto.png);
+	background-repeat:no-repeat;
+	width:91px;
+	height:20px;
+	position:absolute;
+	left: -12px;
+	top: -9px;
+}
+
+.fondo_producto_ventana {
+	background: url(../imagenes/fondoVentanaEmergente.png);
+	background-repeat: repeat;
+	height:204px;
+	width:500px;
+	position:relative;
+
+}
+
+.fondo_producto {
+	background: url(../imagenes/fondoproducto.png);
+	background-repeat: repeat;
+	height:100px;
+	width:770px;
+	margin-top:13px;
+	margin-left:13px;
+	padding-top:8px;
+	position:relative;
+
+}
+
+.textEnganche {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.textDes {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#808080;
+}
+
+.text1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.text_campo{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+}
+.Tabla_Tit{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+	background-color:#c6c6c6;
+	font-weight:bold;
+}
+.DisabledText
+{
+	background-color:#c6c6c6;
+}
+
+.Tabla_style1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	background-color:#c6c6c6;
+}
+.Tabla_style2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	background-color:#aeaeae;
+}
+.CuadroGris {
+	background-image:url(../imagenes/cuadroGris.png);
+	height:80px;
+	width:126px;
+	padding:6px 0 0 8px;
+}
+
+.CuadroNaranja {
+	background-image:url(../imagenes/cuadroNaranja.png);
+	background-repeat:no-repeat;	
+	width:118px;
+	height:98px;
+}
+
+
+.text_total{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#F90;
+}
+.text_total2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	color:#F90;
+}
+
+.text_abono	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #FFF;
+	text-align:center;
+	font-weight:bold;
+
+}
+
+.text_total_ventana	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:30px;
+	color: #FFF;
+	text-align:center;
+	font-weight:700;
+}
+
+.text_total_ventapago	{
+	font-family:Arial Narrow;	
+	font-size:14px;
+	color: #151515;
+	text-align:center;
+	font-weight:700;
+}
+
+.text_tarjetapago	{
+	font-family:Arial;	
+	font-size:16px;
+	color: #151515;
+	text-align:left;
+}
+
+.text_campos
+{
+	font-size:14px;
+	font-weight:bold;
+	color:#3ab62c;
+}
+.num_total{
+	width:110px;
+	height:40px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:33px;
+	color:#FFF;
+	float:right;
+}
+.num_total1{
+	width:118px;
+	height:40px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:48px;
+	color:#FFF;
+	float:right;
+}
+.num_total2{
+	width:130px;
+	height:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:29px;
+	color:#FFF;
+	float:right;
+}
+.pesos_total{
+	width:10px;
+	height:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#FFF;
+	position:absolute;
+	padding-top:5px;
+}
+
+.largoEnganche
+{
+	width:170px;
+}
+.largoEnganchePospago
+{
+	width:200px;
+}
+
+.fondo_pago {
+	height:100px;
+	width:770px;
+	margin-left:13px;
+}
+
+.separa_enganche_ex {
+	background-color:#afafaf;
+	height:4px;
+}
+
+.separa_enganche_int {
+	background-color:#d3d3d3;
+	height:4px;
+}
+
+.fondo_enganche {
+	background-color:#afafaf;
+	height:20px;
+	width:200px;
+	padding:3px 10px 0px 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+.fondo_deslizartarjeta {
+	background-image:url(../imagenes/fondotarjetadeslizar.png);
+	height:137px;
+	width:322px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.titulo_pago {
+	background: url(../imagenes/titulopago.png);
+	background-repeat:no-repeat;
+	width:91px;
+	height:20px;
+	width:91px;
+	height:20px;
+	position:absolute;
+	left: 0px;
+	top: 230px;
+}
+.fondo_pago01 {
+	background: url(../imagenes/fondoproducto.png);
+	background-repeat: repeat;
+	height:100px;
+	width:100px;
+	padding:30px 0 0 25px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+
+}
+.fondo_pago02 {
+	background-color:#c2c2c2;
+	height:100px;
+	width:187px;
+	padding:12px 0 0 8px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+}
+.fondo_pago03 {
+	background-image:url(../imagenes/fondopago3.png);
+	background-repeat:repeat-x;
+	height:100px;
+	width:260px;
+	padding:30px 0 0 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#333;
+}
+.radioButton {
+	color:#F00;
+}
+.campo_verde {
+	font-size:20px;
+	color:#090;
+	font-weight:bold;
+}
+.campo_rojo {
+	font-size:20px;
+	color:#F00;
+	font-weight:bold;
+}
+
+.campo_enganche {
+	font-size:13px;
+	color:#4b4c4e;
+	font-weight:bold;
+}
+.fondo_cliente1 {
+	height:89px;
+	width:770px;
+	margin-left:13px;
+	background: url(../imagenes/fondoproducto.png);
+	background-repeat: repeat;
+}
+
+.titulo_cliente {
+	background: url(../imagenes/titulocliente.png);
+	background-repeat:no-repeat;
+	width:91px;
+	height:20px;
+	width:91px;
+	height:20px;
+	position:absolute;
+	left: 0px;
+	top: 350px;
+}
+
+.titulo_cliente_contado {
+	background: url(../imagenes/titulocliente.png);
+	background-repeat:no-repeat;
+	width:91px;
+	height:20px;
+	width:91px;
+	height:20px;
+	position:absolute;
+	left: 0px;
+	top: 373px;
+}
+
+.text_cliente{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+}
+
+.text_rojo8{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#F00;
+}
+.text_vender{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#333;
+	font-weight:bold;
+}
+
+.titulo_plazos{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#161616;
+	background-color:#ffa626;
+	font-weight:bold;
+	text-align:center;
+}
+
+.contenido_plazos{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#ffa626;
+	background-color:#4f4f4f;
+	text-align:center;
+}
+
+.cont_plazo_sel {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#161616;
+	text-align:center;
+	background-color:#FFE784;
+}
+
+
+.FondoGrisVentana {
+	background-image:url(../imagenes/fondoGris.png);
+	height:84px;
+	width:141px;
+	padding:6px 0 0 8px;
+}
+
+.FondoGrisPago {
+	background-image:url(../imagenes/fondo_venta_ventana.png);
+	height:92px;
+	width:156px;
+	padding:6px 0 0 8px;
+}
+
+.textTarjetabiente {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:500;
+	color:#646464;
+	text-align:right;
+}
+.titulo_planes{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#161616;
+	background-color:#ffa626;
+	font-weight:bold;
+	text-align:center;
+}
+.contenido_plazos_planes{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#ffa626;
+	background-color:#4f4f4f;
+	text-align:center;
+}
+
+.cont_plazo_sel_planes {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#161616;
+	text-align:center;
+	background-color:#FFE784;
+}
+
+
+
+.CuadroGris2{
+	background-image:url(../imagenes/cuadroGrisChico.png);
+	background-repeat:no-repeat;
+	width:130px;
+	height:55px;
+	padding:1px 1px 1px 1px;
+}
+
+.CuadroNaranja2 {
+	background-image:url(../imagenes/cuadroNaranjaChico.png);
+	background-repeat:no-repeat;	
+	width:130px;
+	height:55px;
+	padding:1px 1px 1px 1px;
+}
+
+

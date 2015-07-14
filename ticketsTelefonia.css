@@ -1,0 +1,117 @@
+body {
+	margin: 0 0 0 0px;
+}
+.tdContAmigo {
+	
+	padding-left: 45px;
+}
+.renglon1 {
+	padding-top: 30px;
+	padding-left: 320px;
+}
+.renglon2 {
+	padding-left: 140px;
+}
+.renglon3 {
+	padding-left:45px;
+}
+.renglon4 {
+	padding-top: 30px;
+	padding-left:320px;
+}
+.renglon5 {
+	padding-top: 20px;
+	padding-left:355px;
+}
+.renglon6 {
+padding-top: 20px;
+padding-left:410px;
+}
+.renglon7 {
+padding-top: 10px;
+
+	padding-left:410px;
+	
+
+}
+.renglon8 {
+		padding-left:290px;
+
+}
+.renglon9 {
+
+	padding-left:290px;
+}
+.renglon10 {
+
+	padding-left:290px;
+}
+.renglon11 {
+
+	padding-left:290px;
+}
+
+/*---------- FUENTES ----------*/
+.texto8 {
+	font-size: 5px;
+	font-family: arial;
+}
+.texto9b {
+	font-size: 9px;
+	font-family: arial;
+	font-weight: bold;
+}
+.texto11 {
+	font-size: 11px;
+	font-family: arial;
+}
+.texto11b {
+	font-size: 11px;
+	font-family: arial;
+	font-weight: bold;
+}
+.texto12 {
+	font-size: 12px;
+	font-family: arial;
+}
+.texto12bI {
+	font-size: 12px;
+	font-family: Impact;
+	font-weight: bold;
+}
+.texto12b {
+	font-size: 12px;
+	font-family: arial;
+	font-weight: bold;
+}
+.texto14 {
+	font-size: 14px;
+	font-family: arial;
+}
+.texto19b {
+	font-size: 19px;
+	font-family: Impact;
+	font-weight: bold;
+}
+.texto20 {
+	font-size: 20px;
+	font-family: arial;
+}
+.texto24b {
+	font-size: 24px;
+	font-family: Impact;
+	font-weight: bold;
+}
+.texto26 {
+	font-size: 26px;
+	font-family: arial;
+}
+.texto30b {
+	font-size: 30px;
+	font-family: Impact;
+	font-weight: bold;
+}
+.texto32 {
+	font-size: 32px;
+	font-family: arial;
+}

@@ -1,0 +1,57 @@
+/* CSS Document */
+.menu  {
+	width:160px;
+	background-color: #fefefe;
+	margin: 0px 2px 0px 0px;
+	border: dotted 1px #b2b2b2;
+	text-align: left;
+}
+.menu ul {
+	font-size: 11px;
+	font-weight: bold;
+	color: #282828;
+	list-style-image: none;
+	margin: 5px 0px 10px 2px;
+}
+.menu ul ul{
+	margin: 5px 0px 10px 2px;
+}
+.menu ul ul li  { 
+	list-style-image: none;
+	list-style-type: none;
+	font-weight:normal;
+}
+.menu ul ul li a {
+	font-size: 10px;
+	margin-left: 12px;
+	padding: 0px 0px 6px 0px;
+	font-weight:normal;	
+	text-decoration: underline;
+}
+
+.menu ul ul li .deseleccionado {
+	color: #1c66b1;
+}
+
+.menu ul ul li a:hover
+{
+	color: #990000;
+}
+.menu ul ul li a:active,
+.menu ul ul li .seleccionado{
+	color: #990000;
+}
+.menu ul ul li td {
+	padding: 0px 0px 3px 0px;
+}
+.lineas {
+	border-bottom: dotted 1px #b2b2b2;
+	clear: both;
+	height: 0px;
+	font-size: 0px;
+	width: 160px;
+}
+.cantidadProductos {
+	color:#1c66b1;
+	text-decoration:none;
+}

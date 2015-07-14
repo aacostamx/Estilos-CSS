@@ -1,0 +1,515 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+}
+
+body{
+	background:#d8dadc url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgGeneral.jpg') repeat-x 50% top;
+	margin-top:-10px;
+}
+
+img{
+	border:0;
+}
+
+#encabezado{
+	padding:7px 10px 0 10px;
+	color:#515151;
+	height:33px;
+	margin-bottom:10px;
+}
+
+#encabezado h1{
+	float:right;
+	font-weight:normal;
+	font-size:24px;
+	margin:0;
+}
+
+#contenedor{
+	padding:0px;
+}
+
+#companias{
+	background:url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgCompanias.png') repeat-x 50% top;
+	width:140px;
+	float:left;
+	margin-top:-10px;
+	margin-left:30px;
+	padding-top:10px;
+}
+
+*html #companias{
+	margin-left:8px;
+}
+
+#companias ul, #companias li{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#companias li{
+	margin-left:-6px;
+}
+
+.cajaContenido{
+	background:url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgDer.png') repeat-y right 50%; 
+	margin-bottom:10px;
+	
+}
+
+.cajaContenido .izq{
+	background:url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgIzq.png') repeat-y left 50%;
+	padding-left:7px;
+	padding-right:7px;
+	
+}
+.cajaContenido .izqS{
+	background:url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgIzq.png') repeat-y left 50%;
+	padding-left:7px;
+	padding-right:7px;
+
+}
+.cajaContenido .sup{
+	background:url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgSup.png') repeat-x 50% top;
+	height:15px;
+	margin-top:0px;
+}
+
+.cajaContenido .inf{
+	background:url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgInf.png') repeat-x 50% top;
+	height:15px;
+}
+
+.cajaContenido .Contenido{
+	background:#fff url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgCaja.png') repeat-x 50% top;
+	padding-bottom:1px;
+	margin-top:-5px;
+	
+}
+
+.cajaContenido .Contenido table{
+	margin:5px 5px 0 5px;
+	
+}
+
+.cajaContenido .Contenido .datos{
+	background:#FFF url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgTab.png') repeat-x 50% top;
+}
+
+.cajaContenido .Contenido .datos td{
+	font-size:12px;
+	text-align:center;
+	padding:3px
+}
+
+.cajaContenido .Contenido h3{
+	background:url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgModelo.gif') no-repeat left top;
+	display:block;
+	width:128px;
+	height:35px;
+	text-align:right;
+	padding:5px 20px 0 0;
+	position:relative; 
+}
+
+
+.cajaContenido .Contenido h5{
+	background:url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgH4.gif') no-repeat left top;
+	display:block;
+	width:170px;
+	height:35px;
+	padding:5px 10px 0 10px;
+	margin-left:-6px;
+}
+
+.cajaContenido .Contenido h2{
+	font-size:17px;
+	font-weight:normal;
+	display:block;
+	padding:10px 0 0 15px;
+}
+
+.cajaContenido .Contenido .tipoPago{
+	font-size:12px;
+	color:#6f6f6f;
+	margin:5px 0 0 15px;
+}
+
+.cajaContenido .Contenido .CajaTipoPago{
+	background:#ededed;
+	text-align:center;
+	padding:10px;
+	margin:15px;
+}
+
+.cajaContenido .Contenido .datos .obscuro{
+	background:url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgTd.png') repeat-x;
+	height:20px;
+	padding:0 5px 0 5px;
+}
+
+.cajaContenido .Contenido .datos a{
+	color:#333333;
+}
+
+.cajaContenido .Contenido th{
+	text-transform:uppercase;
+	font-size:10px;
+	color:#666666;
+	font-weight:normal;
+	height:20px;
+	padding:3px 5px 3px 5px;
+}
+
+.bandera{
+	position:absolute;
+	margin:-23px 0 0 -7px;
+}
+
+.campo01, .campo02, .campo03, .campo04{
+	border:none;
+	text-transform:uppercase;
+	font-size:11px;
+	color:#808285;
+	padding:7px 0 0 10px;
+	height:22px;
+}
+
+.campo01{
+	background:url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgCampo01.gif') no-repeat center;
+	width:144px;
+}
+
+.campo02{
+	background:url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgCampo02.gif') no-repeat center;
+	width:64px;
+}
+
+.campo03{
+	background:url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgCampo03.gif') no-repeat center;
+	width:94px;
+}
+
+.campo04{
+	background:url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgCampo04.gif') no-repeat center;
+	width:174px;
+}
+
+.boton{
+	border-style: none;
+	border-color: inherit;
+	border-width: medium;
+	background: url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbtnGen.gif') no-repeat center;
+	height:26px;
+	width:83px;
+	cursor:pointer;
+}
+
+.boton01{
+	border-style: none;
+	border-color: inherit;
+	border-width: medium;
+	background: url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbtnBuscar.gif') no-repeat center;
+	height:2px;
+	width:74px;
+	cursor:pointer;
+}
+
+.celCatalogo{
+	float:left;
+	font-size:10px;
+	font-weight:bold;
+	margin:0 20px 0 10px;
+	position:relative;
+}
+
+*html .celCatalogo{
+	margin:0 0px 0 0px;
+}
+
+.celCatalogo h2{
+	font-size:14px;
+	text-align:center;
+}
+
+.celCatalogo .modelo{
+	font-size:14px;
+	text-align:center;
+	color:#646262;
+	font-weight:normal;
+}
+
+.celCatalogo .precio{
+	background:url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgPrecioCat.gif') no-repeat;
+	font-size:22px;
+	font-weight:bold;
+	color:#FFF;
+	width:120px;
+	height:46px;
+	margin:-30px 0 0 14px;
+	position:fixed;
+	padding:20px 0 0 30px;
+}
+
+.celCatalogo .precio span{
+	color:#000;
+	font-size:10px;
+}
+
+.izquierda{
+	float:left;
+}
+
+.derecha{
+	float:right;
+}
+
+
+.tipoCel{
+	font-size:14px;
+	color:#666666;
+	text-align:center;
+	font-weight:bold;
+	margin-top:15px;
+}
+
+.total{
+	font-size:12px;
+	color:#636363;
+	font-weight:bold;
+	margin-top:20px;
+}
+
+.total p{
+	margin:0px;
+}
+
+.total .cantidad{
+	background:url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgTotal.gif') no-repeat left top;
+	color:#FFF;
+	font-size:30px;
+	display:block;
+	width:139px;
+	height:49px;
+	padding:5px 0 0 40px;
+	margin:0 0 0 -15px;
+}
+
+.accesorios{
+	background:url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgAccesorios.gif') no-repeat left top;
+	width:210px;
+	height:121px;
+	font-size:10px;
+	overflow:auto;
+	padding:10px 25px 10px 10px;
+	margin:0 0 2px 5px;
+	color:#6c6c6c;
+	float:left;
+}
+
+.accesorios div{
+	width:100px;
+}
+
+.accesorios h5{
+	margin:5px 0 15px 0;
+	font-size:12px;
+	color:#000;
+}
+
+.accesorios p{
+	margin:0 0 1px 0;
+}
+
+.accesorios .precio{
+	color:#12a912;
+	font-size:24px;
+	font-weight:bold;
+}
+
+.accesorios span{
+	color:#12a912;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.iconos{
+	border:#CCC solid 1px;
+	margin:-30px 0 0 23px!important;
+}
+
+.paginador{
+	text-align:center;
+	clear:both;
+	padding-top:30px;
+}
+
+*html .paginador{
+	padding-top:0px;
+	margin-top:-15px;
+}
+
+.pestanaAccsesorio{
+	list-style:none;
+	float:right;
+	margin-top:-31px;
+	display:inline;
+}
+
+*html .pestanaAccsesorio{
+	position:relative;
+}
+
+.pestanaAccsesorio li{
+	background:url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgPestanaDer.png') no-repeat right top;
+	display:block;
+	float:left;
+	list-style:none;
+	height:23px;
+	padding-right:10px;
+}
+
+.pestanaAccsesorio li a{
+	background:url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgPestanaIzq.png') no-repeat left top;
+	display:block;
+	float:left;
+	height:15px;
+	font-size:11px;
+	text-decoration:none;
+	color:#808285;
+	padding:8px 0 0 15px;
+}
+
+.pestanaAccsesorio li a:hover, .pestanaAccsesorio li .activo{
+	color:#000;
+}
+
+.milenia{
+	background:url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgAccesoriosGnl.gif') no-repeat left top;
+	width:220px;
+	height:126px;
+	font-size:10px;
+	overflow:auto;
+	padding:5px 25px 5px 5px;
+	margin:0 0 2px 5px;
+	color:#6C6C6C;
+	float:left;
+}
+
+.seguro p{
+	color:#FF7600;
+	font-size:11px;
+	text-align:right;
+}
+
+
+.milenia table{
+	float:right!important;
+	margin:-30px -10px 0 0 !important;
+}
+
+.seguro table{
+	float:right!important;
+	font-size:11px;
+}
+
+.milenia table th, .seguro table th{
+	font-size:11px;
+	text-transform:none!important;
+	font-weight:bold!important;
+	padding:0!important;
+}
+
+.milenia table td, .seguro table td{
+	text-align:center;
+	height:13px!important;
+	padding:0!important;
+}
+
+.milenia table td .radio, .seguro tabletd .radio{
+	margin:0!important;
+	padding:0!important;
+}
+
+.milenia table .verde, .seguro table .verde{
+	color:#12A912;
+	font-weight:bold;
+}
+.scrollplaneslibertad
+{  
+	overflow:auto;
+	width:785px;
+	height:540px;	
+	
+	
+}
+
+.detallePlan{
+	background:url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgDetalle.gif') no-repeat left top;
+	height:230px;
+	width:714px;
+	margin:10px;
+	padding:8px;
+}
+
+.detallePlan .plan{
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:15px
+}
+.precioPrePlan{
+	background:url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgPrecioPlan.gif') no-repeat;
+	font-size:22px;
+	font-weight:bold;
+	color:#FFF;
+	width:120px;
+	height:46px;
+	margin:-30px 0 0 14px;
+	position:fixed;
+	padding:20px 0 0 30px;
+}
+.precioPrePlan span{
+	color:#000;
+	font-size:10px;
+}
+
+.precioPlan{
+	background:url('/ElektraFront/imagenes/VentaRapidaTelefonia/LibertadbgPrecioPlan.gif') no-repeat;
+	font-size:22px;
+	font-weight:bold;
+	color:#FFF;
+	width:120px;
+	height:46px;
+	margin:-30px 0 0 14px;
+	position:fixed;
+	padding:20px 0 0 30px;
+}
+
+.precioPlan span{
+	color:#000;
+	font-size:10px;
+}.imgPlan {
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	display: block;
+	padding-top: 12px;
+}
+.capturarNum {
+	clear: both;
+	width: 100%;
+}
+.tablaAdicionales {
+	color:#6f6f6f;
+	float: left;
+	text-align: center;
+	display: block;
+	margin-left: 15px;
+	margin-top: 25px;
+}

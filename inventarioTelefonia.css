@@ -1,0 +1,331 @@
+body {
+	margin: 5 0 0 2px;
+	behavior: url("csshover3.htc");
+}
+.detalleOperacion {
+	padding: 0 0 0 8px;
+}
+.fdoTit_Mi_inventario {
+   background-image: url(/ElektraFront/imagenes/head_mi_Inventario.jpg);
+	background-repeat: no-repeat;
+	padding: 10 0 0 250px;
+	width: 585px;
+	height: 83px;
+}
+.fdoTit_solicita_inventario {
+   background-image: url(/ElektraFront/imagenes/head_solicitar_Inventario.jpg);
+	background-repeat: no-repeat;
+	padding: 10 0 0 280px;
+	width: 585px;
+	height: 83px;
+}
+.fdoTit_regresa_inventario {
+   background-image: url(/ElektraFront/imagenes/head_regresar_Inventario.jpg);
+	background-repeat: no-repeat;
+	padding: 10 0 0 280px;
+	width: 585px;
+	height: 83px;
+}
+.fdogrid_Mi_inventario {
+   background-image: url(/ElektraFront/imagenes/fdo_gridMi_inventario.jpg);
+	background-repeat: no-repeat;
+	padding: 5 0 0 10px;
+	width: 401px;
+	height: 32px;
+}
+.fdogrid_Mi_inventario2 {
+   background-image: url(/ElektraFront/imagenes/fdo_gridMi_inventario2.jpg);
+	background-repeat: no-repeat;
+	padding: 5 0 0 10px;
+	width: 141px;
+	height: 93px;
+}
+.fdogrid_solicita_inventario {
+   background-image: url(/ElektraFront/imagenes/fdo_gridSolicita_inventario.jpg);
+	background-repeat: no-repeat;
+	padding: 5 0 0 10px;
+	width: 556px;
+	height: 32px;
+}
+.fdogrid_AccesorioTelef {
+   background-image: url(/ElektraFront/imagenes/fdo_gridAccesoriosTelef.jpg);
+	background-repeat: no-repeat;
+	padding: 0 0 0 10px;
+	width: 405px;
+	height: 27px;
+}
+.tdTabs {
+   background-image: url(/ElektraFront/imagenes/top_contenido.gif);
+	background-repeat: no-repeat;
+	padding: 0 0 0 20px;
+	height: 41px;
+}
+.tdTabsIzq {
+   background-image: url(/ElektraFront/imagenes/left_contenido2.gif);
+	background-repeat: no-repeat;
+	width: 149px;
+	padding: 15 0 0 2px;
+}
+.tdContenido {
+   height: 445px;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+	padding: 0 0 0 10px;
+}
+.tdContenido2 {
+	border-top: 1px solid #4DAC48;
+	border-bottom: 1px solid #4DAC48;
+	padding: 8 0 0 5px;
+}
+.tdContenido_login {
+   height: 300px;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+	padding: 0 0 0 10px;
+}
+.tdDatos {
+	border-left: 1px solid #4DAC48;
+	border-right: 1px solid #4DAC48;
+	padding: 0 0 0 10px;
+}
+.tdTotalesDatos {
+	padding: 0 0 0 10px;
+	background-color: #4DAC48;
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.tdTotalesDatos_b {
+	padding: 0 0 0 10px;
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold;
+}
+.tb_mensaje{
+	width: 235px;
+	height: 40px;
+	font-family: tahoma;
+	font-size: 11px;
+}
+.tb_215{
+	width: 215px;
+	height: 19px;
+	font-family: tahoma;
+	font-size: 11px;
+}
+.tb_175{
+	width: 175px;
+	height: 19px;
+	font-family: tahoma;
+	font-size: 11px;
+}
+.tb_140{
+	width: 140px;
+	height: 19px;
+	font-family: tahoma;
+	font-size: 11px;
+}
+.tb_70{
+	width: 70px;
+	height: 19px;
+	font-family: tahoma;
+	font-size: 11px;
+	margin-right: 5px;
+}
+.tb_50{
+	width: 55px;
+	height: 19px;
+	font-family: tahoma;
+	font-size: 11px;
+	margin-right: 5px;
+}
+.tb_40{
+	width: 40px;
+	height: 19px;
+	font-family: tahoma;
+	font-size: 11px;
+	margin-right: 3px;
+}
+.tdExtras{
+	background-color: #F4F4F4;
+	border: 1px solid #CCCCCC;
+	width: 760px;
+	height: 32px;
+	padding: 0 0 0 8px;
+	margin: 2 0 12 0px;
+}
+.colHead{
+	background-image: url(/ElektraFront/imagenes/fondoColHead.jpg);
+	background-repeat: repeat-x;
+	font-family: tahoma;
+	font-size: 10px;
+	line-height: 12px;
+	margin: 8 0 0 0px;
+}
+.rowLineaBot_dotted {
+	height: 25px;
+	border-bottom: 1px dotted #CCCCCC;
+	font-family: trebuchet ms;
+	font-size: 11px;
+	color: #2172A5;
+}
+#scrollResultBusq {
+	height: 275px;
+	width: 400px;
+	overflow: auto;
+	margin: 0 0 10 0px;
+}
+#scrollResultBusq2 {
+	height: 175px;
+	width: 555px;
+	overflow: auto;
+	margin: 0 0 10 0px;
+}
+.marginBottom{
+	margin-bottom: 5px;
+}
+.header{
+	margin-bottom: 8px;
+	background-image: url(/ElektraFront/imagenes/fondoHeader.jpg);
+	background-repeat: repeat-y;
+}
+.topAvisos460{
+	background-image: url(/ElektraFront/imagenes/top_avisos_460.jpg);
+	text-align: center;
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666666;
+	width: 460px;
+	height: 28px;
+}
+.topAvisos460_error{
+	background-image: url(/ElektraFront/imagenes/top_avisos_460.jpg);
+	text-align: center;
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FF0000;
+	width: 460px;
+	height: 28px;
+}
+.topAvisos600{
+	background-image: url(/ElektraFront/imagenes/top_avisos_600.jpg);
+	text-align: center;
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666666;
+	width: 600px;
+	height: 28px;
+}
+.topAvisos720{
+	background-image: url(/ElektraFront/imagenes/top_avisos_720.jpg);
+	width: 720px;
+	height: 28px;
+}
+.contenidoAvisos{
+	border-left: 1px solid #B9B9B9;
+	border-right: 1px solid #B9B9B9;
+	background-color: #FFFFFF;
+	padding: 5 5 5 5px;
+}
+.imagenIFE{
+	border: 1px solid #CCCCCC;
+	padding: 5 5 5 5px;
+	height: 500px;
+}
+
+/*-----------------------FUENTES------------------------*/
+
+.font9 {
+	font-family: tahoma;
+	font-size: 9px;
+}
+.font10 {
+	font-family: tahoma;
+	font-size: 10px;
+}
+.font11 {
+	font-family: tahoma;
+	font-size: 11px;
+}
+.font11b_blue {
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #265279;
+}
+.font11b {
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold;
+}
+.font12b {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+}
+.font12b_verde {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #42A73D;
+}
+.font12_rojo {
+	font-family: tahoma;
+	font-size: 12px;
+	color: #FF0000;
+}
+.font13 {
+	font-family: tahoma;
+	font-size: 13px;
+}
+.font13b {
+	font-family: tahoma;
+	font-size: 13px;
+	font-weight: bold;
+}
+.font14 {
+	font-family: tahoma;
+	font-size: 14px;
+}
+.font14b {
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: bold;
+}
+.font16b_blue2 {
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #2172A5;
+	text-align: center;
+	vertical-align: middle;
+}
+.font16b_blue {
+	font-family: tahoma;
+	font-size: 16px;
+	font-weight: bold;
+	color: #2172A5;
+}
+.font16_blue_claro{
+	font-family: tahoma;
+	font-size: 16px;
+	font-weight: normal;
+	color: #3C9ED9;
+}
+.font40b_blue {
+	font-family: tahoma;
+	font-size: 40px;
+	font-weight: bold;
+	color: #2172A5;
+}
+.root {
+	width:790px;
+	height:600px;
+	margin:auto;
+	position:absolute;
+	overflow:auto;
+}

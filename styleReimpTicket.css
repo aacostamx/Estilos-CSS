@@ -1,0 +1,8 @@
+.campos {width: 100%; margin: 0 0 10 0px;}
+.btn {width: 100%; margin: 30 0 10 0px; text-align: CENTER}
+.titulo { font: 12pt verdana; color: #000000}
+.logo {background: #FFFFFF}
+.buscar {background: #F0F0F0; padding: 10 2 2 2px; font-weight: bold; font: 8pt verdana}
+.datos {background: #FFFFFF; padding: 10 10 2 10px;}
+.subtit {font-size: 8pt; font-family: verdana; color: #990000; font-weight: bold}
+.resultado {font-size: 9pt; font-family: verdana}

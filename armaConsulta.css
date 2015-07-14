@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+.armaConsulta #rutaNavegacion {
+	margin-top:-10px;
+}
+#muestraProducto .titulo {
+	margin: 0px;
+}
+.CambioVista {
+ border-top: dotted 1px #aaaaaa;
+ width: 99%;
+ height:25px;
+ text-align:right;
+ margin: 5px auto 2px auto;
+ padding-top:2px;
+ font-size:10px;
+}
+.CambioVista input{
+	vertical-align: middle;
+}
+.CambioVista .Busqueda,
+.controlPaginacion .Busqueda{
+	float: left;
+	text-align:left;
+}
+.Busqueda img{
+	vertical-align:middle;
+	color:#333333;
+}
+.CambioVista .Mostrar{
+	float: right;
+	padding: 0px 5px 0px 0px;
+	margin: 0px 5px 0px 0px;
+}
+.controlPaginacion {
+	background-image:url(/ElektraFront/Imagenes/fnd_pagArmaCons.jpg);
+	background-repeat:repeat-x;
+	width:99%;
+	height:35px;
+	border:none;
+}
+.controlPaginacion td{
+	width:33%;
+}
+.controlPaginacion .Busqueda{
+	font-size:10px;
+	width:auto;
+	padding-top:5px;
+	margin: auto 0px auto 0px;
+}
+.combo{
+	margin: 10px 10px auto 10px;
+	font-size:9px;
+}
+.paginacion {
+	width:100%;
+	font-size:9px;
+	text-align:center;
+	font-weight:normal;
+	padding-top:5px;
+	border:none;
+	margin-top: 7px;
+}
+.hotDeal {
+	background-color:#e2e2e2;
+	color:#990000;
+	font-weight:bold;
+}
+.armaConsulta table.productos {
+	border: none;
+	margin: auto;
+	width: 99%;
+}
+.armaConsulta table.productos td {
+	vertical-align:middle;
+	padding: 0px 0px 2px 0px;
+	text-align:center;
+	width:33%;
+}
+.armaConsulta table.productos td td{
+	width:auto;
+}
+.armaConsulta table.productos td .semanas{
+	font-size: 9px;
+	color: #666666;
+	text-align: center;
+	vertical-align:top;
+	}
+/**.armaConsulta table.productos table {
+	width: 90%;
+}
+.armaConsulta table.productos table td{
+	width: auto;
+}**/
+.armaConsulta table.productos .descripcion {
+	text-align:left;
+	display: none;
+	vertical-align: top;
+	vertical-align: top;
+	vertical-align: super;
+	vertical-align: top;
+}
+.armaConsulta table.productos .precios {
+	font-size: 13px;
+	color: #858585;
+	padding: 2px 2px;
+}
+.armaConsulta table.productos .precioChaz {
+	font-size: 15px;
+}
+.comparativo {
+	font-size: 10px;
+	color: #858585;
+	margin: 3px;
+	font-weight:bold;
+	text-decoration: underline;
+}
+table.productos a.comparativo {
+	font-size: 15px;
+	color: #858585;
+	padding: 2px 12px;
+	font-weight:bold;
+}
+
+table.productos .imgproductos {
+	margin: 0px 6px 6px 6px;
+}
+
+.armaConsulta .botonSeleccionar {
+	display: inline;
+}
+.armaConsulta .promocion {
+	position: relative;
+	z-index:100;
+	width: 125px;
+	margin: auto;
+}
+.armaConsulta .promocion .etiqueta {
+	position: absolute;
+	/*background-image: url(/ElektraFront/Imagenes//etiquetas/esquinaPromocion.gif);*/
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	left: 105px;
+	top: 75px;
+}
+.lineaDivision {
+	border-bottom: dotted #eaeaea 2px;
+	width: 100%;
+}
+
+/*ARMA CONSULTA LISTADO*/
+.armaConsultaL .producto {
+	width: 97%;
+	clear: both;
+	border-bottom: solid 1px #EAEAEA;
+}
+.armaConsultaL .producto .comparaFoto{
+	width: 130px;
+	float:left;
+	text-align: center;
+}
+.armaConsultaL .producto .comparaFoto img{
+margin: 5px auto 0px auto;
+}
+.armaConsultaL .producto .datosProducto{
+	width: 300px;
+	float:left;
+	margin-top:18px;
+}
+.armaConsultaL .datosProducto .precios {
+	text-align:right;
+}
+.armaConsultaL .botonSeleccionar{
+	margin: 5px 2px 0px 2px;
+	float:left;
+	width: 100px;
+}
+.armaConsultaL .table.producto {
+	margin-top: 10px;
+	padding:2px;
+}
+.armaConsultaL table.producto td{
+	border-bottom: dotted 1px #999999;
+	padding: 5px 0px 5px 0px;
+}
+.armaConsultaL .producto td td{
+	border-bottom:none;
+	padding: 2px 0px 0px 0px;
+}
+/*.armaConsultaL .comparativo{
+	margin: 2px 0px 5px 0px;
+}*/
+.armaConsultaL table.producto td.contenido{
+	width:47%;
+	font-size:10px;
+}
+.armaConsultaL .tablaAncho1 td.precios{
+	width:29%;
+}
+.RangoFiltro .controlPaginacion {
+	background-image:none;
+	background-color: #F4F4F4;
+	height:auto;
+	border-top: dotted 1px #777;
+	border-bottom: dotted 1px #777;
+	margin: 12px 0px 12px 0px;
+}
+.RangoFiltro .controlPaginacion td{
+	padding: 2px 5px 2px 5px;
+	font-size:10px;
+}
+.RangoFiltro h4 {
+	margin-top: 5px;
+}

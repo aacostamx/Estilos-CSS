@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+#pie {
+	padding: 5px 0px 5px 0px;
+	clear: both;
+	font-size: 10px;
+	width: 736px;
+	margin: 5px auto 5px auto;
+}
+#pie table {
+	border-top: solid #cccccc 1px;
+	width: 100%;
+	margin:auto;
+	border-bottom: solid #cccccc 1px;
+}
+#pie td {
+	color: #858383;
+	font-size: 10px;
+	text-align: center;
+}
+#pie .menuPie {
+	width: 100%;
+	margin:auto;
+}
+#pie .menuPie td {
+	padding: 7px;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	color: #00446C;
+}
+#pie .logos {
+	width: auto;
+	border-top: none;
+	border-bottom: none;
+}
+#pie .logos td {
+	padding: 0px 15px 0px 15px;
+}
+#pie .derechos {
+	color: #858383;
+	text-align: center;
+}
+#pie .derechos a {
+	text-decoration: none;
+	color: #858383;
+}
+#pie .derechos a:hover {
+	text-decoration: underline;
+}
+#pie #amipci {
+	padding: 5px;
+}

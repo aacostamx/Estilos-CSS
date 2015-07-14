@@ -1,0 +1,53 @@
+body {
+text-align: center;
+font: 8pt verdana;
+margin: 4 0 0 0px;
+}
+
+.tablas {
+margin: 0 0 0 0px;
+padding: 0 0 0 0px;
+}
+
+#contenedor {
+width: 758px;
+margin: auto;
+}
+
+#izq {
+float: left;
+width: 6px;
+}
+
+#contenido {
+float: left;
+background: url("/elektrafront/imagenes/fondoError.jpg");
+width: 745px;
+height: 447px;
+}
+
+#der {
+float: right;
+width: 7px;
+}
+
+#logo {
+margin: 10 0 10 5px;
+text-align: left;
+}
+
+#top {
+width: 500px;
+margin: 80 0 10 5px;
+text-align: left;
+}
+
+#imgerror {
+float: left;
+}
+
+#texto {
+margin: 10 0 0 70px;
+font-size: 20pt;
+font-weight: bold;
+}

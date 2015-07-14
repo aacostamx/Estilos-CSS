@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+.etiquetasMeses {
+	text-align: center;
+	display: none;
+}
+.etiqueta12Meses, .etiqueta12Pagos, .etiqueta6Pagos {
+	background-repeat: no-repeat;
+	width: 120px;
+	height: 30px;
+	font-size: 14px;
+	font-weight: bolder;
+	padding: 50px 0px 5px 0px;
+	margin: auto;
+	text-align: center;
+	color: #333333;
+	background-position: left top;
+}
+.etiqueta12Meses {
+	background-image: url(../imagenes/Etiquetas/12meses.gif);
+}
+.etiqueta12Pagos {
+	background-image: url(../imagenes/Etiquetas/12pagos.gif);
+}
+.etiqueta6Pagos {
+	background-image: url(../imagenes/Etiquetas/6pagos.gif);
+	display: none;
+}
+.etiqueta12MesesCh, .etiqueta12PagosCh, .etiqueta6PagosCh {
+	background-repeat: no-repeat;
+	width: 120px;
+	height: 15px;
+	font-size: 11px;
+	font-weight: bolder;
+	padding: 10px 0px 5px 0px;
+	margin: 5px auto 5px auto;
+	text-align: center;
+	color: #666666;
+	background-position: left top;
+}
+.etiqueta12MesesCh {
+	background-image: url(../imagenes/Etiquetas/12mesesCh.gif);
+}
+.etiqueta12PagosCh {
+	background-image: url(../imagenes/Etiquetas/12pagosCh.gif);
+}
+.etiqueta6PagosCh {
+	background-image: url(../imagenes/Etiquetas/6pagosCh.gif);
+	display: none;
+}
+.mensajeMantenimiento {
+	background-image: url(../imagenes/regresamos.gif);
+	background-repeat: no-repeat;
+	height: 215px;
+	background-position: center 10px;
+}
+.carrito .mensajeMantenimiento {
+	display: none;
+}
+/*Etiqueta carrito de compra*/
+.contieneEtiqueta {
+	position: relative;
+	width: 100%;
+	text-align: left;
+	z-index:300;
+}
+.etiquetaCarrito {
+	position: absolute;
+	background-repeat: no-repeat;
+	margin-left:500px;
+	margin-top:20px;
+}
+#muestraProducto .precios .precioSemanal,
+#muestraProducto .preciosUSA .precioSemanal,
+.preciosArmaConsulta .precios .precioSemanal {
+	width: 98%;
+	margin: 0px auto;
+	text-align: left;
+	font-weight: bold;
+}
+/*#muestraProducto .precios .precioSemanal:first-letter {
+	font-size: 13px;
+	line-height: 50px;
+	float: left;
+}*/
+#muestraProducto .precios .precioSemanal,
+.preciosArmaConsulta .precios .precioSemanal {
+	height: 46px;
+	padding: 0px;/*min-height: 1%;*/
+}
+#muestraProducto .preciosUSA .precioSemanal,
+.preciosArmaConsulta .precios .precioSemanal {
+	height: 46px;
+	font-size: 14px;
+	padding: 15px 0px 0px 0px;
+}
+#muestraProducto .etiquetaPrecioSemanal,
+.preciosArmaConsulta .precioSemanal,
+.armaConsultaL .etiquetaPrecioSemanal {
+	font-size: 9px;
+	color: #666666;
+	margin: 0px auto 5px auto;
+	text-align: left;
+}
+.precios .etiquetaPrecioSemanal p,
+.preciosArmaConsulta .precios .etiquetaPrecioSemanal p {
+	margin: 0px;
+	padding: 0px;
+}
+.precios .pagoPuntual .etiquetaPrecioSemanal p,
+.preciosArmaConsulta .precios .pagoPuntual .etiquetaPrecioSemanal p {
+	padding: 0px 0px 0px 12px;
+}
+.etiquetaPrecioSemanal p {
+	padding: 0px 0px 0px 0px;
+	font-size: 10px;
+	text-align: center;
+}
+.etiquetaPrecioSemanal .precioSemanal table {
+	margin: 0px auto 0px auto;
+}
+.pagoPuntual .etiquetaPrecioSemanal .precioSemanal table {
+	margin: 0px 0px 0px auto;
+}
+.preciosArmaConsulta .etiquetaPrecioSemanal .precioSemanal table {
+	margin: 0px auto 3px auto;
+	width: auto;
+}
+.etiquetaPrecioSemanal .precioSemanal td {
+	color: #444444;
+	font-weight: bold;
+	vertical-align: middle;
+}
+.etiquetaPrecioSemanal .precioSemanal .precioSemanalSigno {
+	font-size: 12px;
+}
+.preciosArmaConsulta .etiquetaPrecioSemanal .precioSemanal .precioSemanalSigno {
+	width:9%;
+	color: #999999;
+	padding-top: 2px;
+}
+.etiquetaPrecioSemanal .precioSemanal .precioSemanalPrecio {
+	font-size: 23px;
+	padding: 0px;
+	text-align: right;
+}
+.etiquetaPrecioSemanal .precioSemanal .centavos,
+.preciosArmaConsulta .etiquetaPrecioSemanal centavos {
+	font-size: 11px;
+	text-align: left;
+}
+.pagoPuntual .etiquetaPrecioSemanal .precioSemanal .precioSemanalPrecio {
+	padding: 0px 5px 0px 0px;
+}
+.preciosArmaConsulta .etiquetaPrecioSemanal .precioSemanal .precioSemanalPrecio {
+	font-size: 23px;
+	padding: 0px;
+	height: 25px;
+	width: 55px;
+	text-align: right;
+}
+.etiquetaPrecioSemanal .precioSemanal .precioSemanalAhorro {
+	color: #666666;
+	width: 60px;
+	text-align: right;
+	background-image: url(../imagenes/fnd_ahorra.jpg);
+	background-repeat: no-repeat;
+	font-size: 10px;
+	vertical-align: middle;
+	padding: 18px 0px 12px 0px;
+}
+.preciosArmaConsulta .etiquetaPrecioSemanal .precioSemanal .precioSemanalLeyenda {
+	font-size: 10px;
+	color:#666666;
+	width:87px;
+	padding: 0px;
+	text-align:center;
+}
+.etiquetaCotizacion {
+	text-align: center;
+	padding: 10px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+}
+
+#lyndaEnganche
+{
+    float:right;
+    text-align:right;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size:10px;
+    font-weight: bold;
+	color: #A30505;
+}
+		

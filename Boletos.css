@@ -1,0 +1,30 @@
+/* CSS Document */
+.divScrollVerticalCorridas {
+	height: 120px;
+	width: 750PX;
+	overflow: auto;}
+	
+	
+.txtContDiv {
+	height: 120px;
+	width: 525px;
+	overflow: visible;
+}
+
+#container {
+   width: 360px;
+	font: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	padding: 8 8 8 8px;
+	background-color: #FBFBFB;
+	border: 1px solid #CCCCCC;
+}
+#quenegocio {
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	padding: 6 6 6 6px;
+	background-color: #E0E8F0;
+	border: 1px solid #92AECB;
+	margin: 8 0 8 0px;
+}	

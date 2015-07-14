@@ -1,0 +1,87 @@
+.tablaCambaceoDatosCliente {
+	width: 100%;
+}
+.tablaSistInfoProd {
+	width: 100%;
+}
+
+.gridRes{
+	width:100%;
+	
+}
+
+.fldCodigo{
+	border:1px solid green;
+}
+
+.fldDesc{
+	border:1px solid blue;
+}
+
+
+.fldMarca{
+	border:1px solid purple;
+}
+
+
+.fldPrecio{
+	border:1px solid gray;
+}
+
+#divGrid{
+	height:220px;
+}
+
+.bodyDetProdSI{
+	overflow-y:auto;
+}
+
+.gridMov,.gridTrans{
+	width:100%;
+}
+
+.gridUbica{
+	width:100%;
+}
+.cellUbica{
+	width:28%;
+}
+.cellDesc{
+	width:39%;
+}
+
+#divTransaccion{
+	height:193px;	
+	
+}
+#divDetalle{
+	HEIGHT: 210px;
+}
+
+.bcfecha,.tdfecha{
+	width:10%;
+}
+.bcTipoOperacion,.tdTipoOperacion{
+	width:15%;
+}
+
+.bcEntradaSalida,.tdEntradaSalida{
+	width:5%;
+}
+
+.bcInventarioInicial,.bcCantidad,.bcInventarioFinal,.bcEmpleado
+.tdInventarioInicial,.tdCantidad,.tdInventarioFinal,.bcEmpleado{
+	width:8%;
+}
+
+.bcEstacionTrabajo,.tdEstacionTrabajo{
+	width:10%;
+}
+
+.bcUbicacion,.tdUbicacion{
+	width:20%;
+}
+
+.bcReferencia,.tdReferencia{
+	width:5%;
+}

@@ -1,0 +1,346 @@
+/** Website template by freewebsitetemplates.com **/
+body {
+	margin:0;
+	padding:0;
+	font-family:Arial;
+	font-size:14px;
+}
+#background {
+	background: url("../images/smart-page.jpg");
+	background-position:top center;
+	background-repeat:no-repeat;
+	height:1200px;
+}	
+#background #page {
+	width:1000px;
+	margin:0 auto;
+	padding:0;
+}	
+
+/******** Start body footer style ***********/
+#background #page  {
+	background:url("../images/smart-sepvertical.gif");
+	background-position:top;
+	background-repeat:repeat-x;
+	width:990px;
+	padding:0px 0 0 0;
+	margin-top:10px;
+	position:relative;
+	left:-5px;
+}
+#background #page .footer {
+	background:url("../images/smart-topcurve.jpg");
+	background-position:center top;
+	background-repeat:no-repeat;
+	padding-top:5px;
+}
+	#background #page .footer .body {
+	background:url("../images/smart-content.gif");
+	background-position:center;
+	background-repeat:repeat-y;
+	padding:0 10px 10px 10px;
+}
+#background #page .footer .body ul.article {
+	margin:0;
+	padding:0;
+	width:990px;
+	height:300px;
+	overflow:hidden;
+	
+}
+#background #page .footer .body ul.article li a img {
+	border:0;
+}
+#background #page .footer .body ul.article li h2 {
+	text-align:center;
+}
+#background #page .footer .body ul.article li h2 a {
+	text-decoration:none;
+	text-align:center;
+	color:#024ca2;
+	font-family: 'KreonBold';
+	font-weight:normal;
+}
+#background #page .footer .body ul.article li p {
+	text-align:center;
+	font-size:12px;
+	color:#8a8989;
+	font-family: 'Georgia';
+	font-weight:normal;
+	line-height:40px;
+}
+
+#background #page .footer .body ul.article li p a {
+	text-align:justify;
+	font-size:12px;
+	color:#8a8989;
+	font-family: 'Georgia';
+	font-weight:normal;
+}
+#background #page .footer .body ul.article li p a:hover {
+	color:#007fde;
+	text-decoration:none;
+}
+#background #page   .footer .body ul.article li {
+	float:left;
+	height:250px;
+	padding:0 24px 0 23px;
+	background:url("../images/smart-sephorizontal.gif");
+	background-position:center right;
+	background-repeat:no-repeat;
+}
+#background #page .footer .body ul.article li.paquetes {
+	float:left;
+	width:140px;
+	padding: 0 px 0 5px;
+	margin-left:10px;
+}
+.paquetes p
+{
+margin-bottom:30px;
+}
+.paquetes .fondo{
+	background:url(../imagenes/VentaRapidaTelefonia/bgTdSmart.png) repeat-x;
+	height:250px;
+	padding:0 10px 0 5px;
+	
+}
+.paquetes table
+{
+	width:120px;
+	border:none #FFF 0px;
+}
+.paquetes tr.itemSeleccionado {
+	text-align:center;
+	font-size:12px;
+	font-weight:normal;
+	line-height:20px;
+	background-color:#FFE784;
+	width:120px;
+	
+}
+.paquetes tr.itemSeleccionado a{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: bold;
+color: #000000;
+
+}
+
+.paquetes tr.itemDesSeleccionado{
+text-align:center;
+	font-size:12px;
+	color:#8a8989;
+	font-family: 'Georgia';
+	font-weight:normal;
+	line-height:20px;
+	width:120px;
+	
+}
+.paquetes tr.itemDesSeleccionado a{
+	color:#0A0A0A;
+	text-align:center;
+}
+
+
+#background #page .footer .body ul.article li.paquetes2 {
+	float:left;
+	width:120px;
+	padding: 0 5px 0 0;
+	margin-left:5px;
+}
+.paquetes2 p
+{
+margin-bottom:30px;
+}
+.paquetes2 .fondo{
+	background:url(../imagenes/VentaRapidaTelefonia/bgTdSmart.png) repeat-x;
+	height:250px;
+	padding:0 10px 0 5px;
+}
+.paquetes2 table
+{
+	width:120px;
+	border:none #FFF 0px;
+}
+.paquetes2 tr.itemSeleccionado{
+	text-align:center;
+	font-size:12px;
+	color:#8a8989;
+	font-weight:normal;
+	line-height:20px;
+	background-color:#FFE784;
+	width:120px;
+}
+.paquetes2 tr.itemSeleccionado a{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: bold;
+color: #000000;
+
+}
+
+.paquetes2 tr.itemDesSeleccionado{
+	text-align:center;
+	font-size:12px;
+	color:#8a8989;
+	font-family: 'Georgia';
+	font-weight:normal;
+	line-height:20px;
+	width:120px;
+}
+.paquetes2 tr.itemDesSeleccionado a{
+	color:#0A0A0A;
+	text-align:center;
+}
+
+#background #page .footer .body ul.article li.plazos {
+	float:left;
+	width:250px;
+	padding: 0 5px 0 0;
+	margin-left:5px;
+}
+
+.plazos .plazosSmartLibre
+{
+	text-align:left;
+	float:left;
+}
+.plazos .plazosSmartLibre  .TablaSuperAbonoCredito
+	{
+
+text-align:center;
+margin-top:2px
+	}
+.plazos .plazosSmartLibre .Credito
+{
+	background:url(../imagenes/bgTd.png) repeat-x;
+	height:30px;
+	font-size:9px;
+	border-style:solid;
+	border-color:#D9D9D9;
+	border-width:1px;
+	text-align:center;
+	width:80px;
+	margin-bottom:-30px;
+
+}
+.plazos .plazosSmartLibre  .scrollPlazosSmart
+{
+	overflow:auto;		
+	/*height:170px;	*/
+}
+.plazos .plazosSmartLibre   .fondo{
+	background:url(../imagenes/VentaRapidaTelefonia/bgTdSmart.png) repeat-x;
+	height:300px;
+	padding:0 5px 0 5px;
+}
+	.plazos .plazosSmartLibre .scrollPlazosSmart  .cont_plazo_sel {
+		font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#161616;
+	text-align:center;
+	background-color:#FFE784;
+	width:80px;
+	
+	}
+	.plazos .plazosSmartLibre .scrollPlazosSmart  .cont_plazo_DesSel {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#161616;
+	text-align:center;
+	width:80px;
+	
+	}
+background #page .footer .body ul.article li.monto{
+	float:left;
+	width:500px;
+	padding: 0 26px 0 23;
+	margin-left:5px;
+}
+#background #page .footer .body ul.article li.last {
+background:url(../imagenes/VentaRapidaTelefonia/bgTdSmart.png) repeat-x;
+margin-top:30px;
+	float:left;
+	width:300px;
+	padding:0 0 0 22px;
+	
+}
+.last .oferta {
+
+margin-top:30px;
+height:199px;
+
+}
+
+
+
+
+#background #page   .footer .body ul.article li a.readmore {
+	background:url("../images/smart-button.png") no-repeat scroll 0 -160px transparent;
+	display:block;
+	width:259px;
+	height:30px;
+	text-decoration:none;
+	line-height:30px;
+	text-align:center;
+	color:#ffffff;
+	margin:20px 0;
+	font-family: 'KreonBold';
+	font-size:16px;
+	font-weight:normal;
+	text-shadow:0 1px 1px #327d33;
+}
+#background #page  .footer .body ul.article li a.readmore:hover {
+	background:url("../images/smart-button.png") no-repeat scroll 0 -80px transparent;
+}
+
+#background #page  .footer .resumen{
+	background:url("../images/smart-content.gif");
+	background-position:center;
+	background-repeat:repeat-y;
+	float:left;
+	margin-top:-10;
+	padding:0;
+	width:990px;
+	height: 100px;
+
+}
+#background #page  .footer .resumen .cuerpo{
+	margin-left:15px; 
+	margin-right: 50px;
+	overflow:hidden;
+	width:540px;
+	position:relative; 
+	float:left;
+
+}
+#background #page .footer .resumen .cuerpo p{
+	text-align:left;
+	font-size:14px;
+	color:#8a8989;
+	font-family: 'Georgia';
+	font-weight:normal;
+	line-height:20px;
+}
+.resumen .vender{
+float:left;
+height:300px;
+
+}
+/*
+.cuerpo .AlturaPagosAccesorios
+{
+height: 100px;
+
+}
+.cuerpo  .scrollResumen {
+overflow: auto;
+height: 13	0px;
+margin-top: 5px;
+margin-bottom: 2px;
+}
+*/
+
+
+

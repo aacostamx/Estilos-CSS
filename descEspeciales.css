@@ -1,0 +1,87 @@
+	.Contenedor
+	{
+		margin: 0 auto;
+		border: 1px #A30505 solid; 
+		border-collapse:collapse;
+		font-weight: bold;
+	}
+	
+	.TablaPromocion
+	{
+		width: 450px;
+		height:auto;
+		border-collapse:collapse;
+		background:url(/Elektrafront/imagenes/CentroProm.jpg) 10%/*{bgHoverXPos}*/ 100%/*{bgHoverYPos}*/ repeat-x/*{bgHoverRepeat}*/;
+		border-collapse:collapse;
+		border: none;
+	}
+	
+	.SubTitulo
+	{
+	    height:45px;
+		text-align:center;	   
+		font-weight: bold;
+	}
+	
+	.arial16N
+	{
+		height:35px;
+		background:url(/Elektrafront/imagenes/Titulo.gif) 10%/*{bgHoverXPos}*/ 10%/*{bgHoverYPos}*/ repeat-x/*{bgHoverRepeat}*/;
+		text-align:center;
+		font-family: Arial;
+		font-weight: bold;
+		font-size: 16px;
+		color: #FFFFFF;
+	}
+	
+	.arial16
+	{
+		height:50px;
+		text-align:center;
+		font-family: Arial;
+		font-weight: bold;
+		font-size: 16px;
+		color: #000000;
+	}
+	
+	.ItalikaArial
+	{
+		text-align:center;
+		font-family: Arial;
+		font-weight: bold;
+		font-size: 15px;
+		color: #000000; 
+		border-bottom-color:#FF0000; 
+		border-bottom-style:dashed; 
+		border-bottom-width:2px
+	}
+	
+	
+	.ItalikaProdArial
+	{
+		text-align:center;
+		font-family: Arial;
+		font-size: 12px;
+		color: #000000;  
+	}
+	
+	
+	.TablaItalika
+	{
+		width: 450px;
+		height:150px;
+		border-collapse:collapse;
+		background:url(/Elektrafront/imagenes/CentroProm.jpg) 10%/*{bgHoverXPos}*/ 100%/*{bgHoverYPos}*/ repeat-x/*{bgHoverRepeat}*/;
+		border-collapse:collapse;
+		border: none;
+	}
+	
+	.TablaProdItalika
+	{
+		width: 400px;
+		height:50px;
+		border-collapse:collapse;
+		
+		border-collapse:collapse;
+		border: none;
+	}

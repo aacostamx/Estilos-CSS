@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0; padding:0;}
+
+#wrapper{width:664px; margin:0 auto; position:relative;}
+#bg{margin:0 auto;height:310px; background:url(/ElektraFront/imagenes/bgDialog.jpg) no-repeat bottom; background-color:#f2f1f1; border:#666; border-style:solid; top:129px;}
+
+/*#cerrar{ height:21px; background:url(/ElektraFront/imagenes/cerrarDialog.gif) no-repeat; width:20px; position:absolute; z-index:10; right:5px;}*/
+
+
+table {  border-collapse:collapse;}
+table tr td.header{  height:58px; text-align:center; background:url(/ElektraFront/imagenes/headerDialog.jpg) repeat; font: 21px Verdana, Geneva, sans-serif; color:#FFF; z-index:1;}
+table tr td.costo{ font: 19px Verdana, Geneva, sans-serif; color:#666; padding:0 0 10px 30px;}
+td.contenido{font: 18px/18px Verdana, Geneva, sans-serif; color:#FFF; padding: 5px 0 0 15px;}
+td.contenidoFoot{font: 14px/14px Verdana, Geneva, sans-serif; color:#FFF; padding: 10px 0 5px 15px;}
+
+table.resultado{width:200px; margin-left:100px; margin-right: auto; margin-top:20px;}
+
+table tr td.costo #line_g{ background:url(/ElektraFront/imagenes/line_g.gif) repeat-x; position:absolute; height:1px; width:400px; margin-top:3px;}
+#line_w{background:url(/ElektraFront/imagenes/line_w.gif) repeat-x; position:absolute; height:1px; width:500px; margin-top:30px;}
+
+img#r {margin-top:10px;}
+img#v {margin-top:10px;}
+p.contenido2{padding-top:10px;}
+p.contenido2 strong{padding-top:10px;}

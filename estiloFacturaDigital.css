@@ -1,0 +1,71 @@
+.titulo
+	{
+		text-align: left;
+		font-size: 12pt;
+		font-family: Arial;
+		font-weight: bold;
+	}
+.tituloPie
+{
+	    text-align: left;
+		font-size: 8pt;
+		font-family: Courier;
+}
+.tituloTda
+{
+		text-align: left;
+		font-size: 10pt;
+		font-family: Arial;
+}
+
+.consulta
+{
+		text-align: left;
+		font-size: 8pt;
+		font-family: Arial;
+		font-weight: bold;
+}
+
+.Cliente
+{
+		text-align: left;
+		font-size: 8pt;
+		font-family: Arial;
+		font-weight: bold;
+}
+
+.nota
+{
+	    text-align: left;
+		font-size: 7pt;
+		font-family: Courier;
+}
+
+.cadenaOrg
+{
+	    text-align: justify;
+		font-size: 9pt;
+		font-family: Courier;
+}
+.tablaCentrada
+	{
+		position: relative;
+		left: 50px;
+	}
+
+.notaAdicional
+{
+		text-align: left;
+		font-size: 6pt;
+		font-family: Arial;
+}
+.tablaDias { table-layout:fixed; }
+
+.cajas
+{
+font-size:10px;
+	color:#666666;
+	font-weight:normal;
+	height:20px;
+	padding:3px 5px 3px 5px;
+	}

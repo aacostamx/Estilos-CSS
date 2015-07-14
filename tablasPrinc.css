@@ -1,0 +1,1626 @@
+body {
+	margin: 0 0 0 5px;
+}
+div#contenedorVentaRapida {
+   width: 449px;
+	height: 210px;
+	background-repeat: no-repeat;
+   margin: 0;
+	background: #EFEFEF url(imagenes/home/fdo_LogoGpoGris.gif);
+	text-align: center
+}
+
+.datosPrincipales {
+	margin: 2 0 4 2px;
+	width: 765px;
+}
+
+div#contenedorOpcionesUsadas {
+   width: 129px;
+	height: 400px;
+   margin: 0;
+	background: #FFFFFF; 
+	text-align: center
+}
+
+.contenidoOpcionesUsadas {
+	height: 350px;
+}
+
+div#contenedorBuscadores {
+   width: 220px;
+   margin: 1 0 0 0px;
+	background: #FFFFFF; 
+	text-align: center
+}
+
+div#contenedorPromociones {
+   width: 176px;
+   margin: 0;
+	background: #FFFFFF; 
+	text-align: center
+}
+
+#container {
+	background-color: #FFFFFF;
+	margin: 0 3 0 0px;
+}
+
+b.rtopb, b.rbottomb {
+   display:block;
+	background: #FFFFFF;
+}
+
+b.rtopb b, b.rbottomb b {
+   display:block;
+	height: 1px;
+	overflow: hidden;
+	background: #666666;
+	border-left: 2px solid #666666;
+	border-right: 2px solid #666666;
+}
+
+b.r1b {
+   margin: 0 5px;
+	border-left: 1px solid #666666;
+	border-right: 1px solid #666666;
+	border-top: 1px solid #666666;
+}
+
+b.r2b {
+   margin: 0 3px;
+	border-left: 1px solid #666666;
+	border-right: 1px solid #666666;
+}
+
+b.r3b {
+   margin: 0 2px;
+	border-left: 1px solid #666666;
+	border-right: 1px solid #666666;
+}
+
+b.rtopb b.r4b, b.rbottomb b.r4b {
+   margin: 0 1px;
+	height: 2px;
+	border-left: 1px solid #666666;
+	border-right: 1px solid #666666;
+}
+
+.contenidob {
+   border-left: 1px solid #666666;
+	border-right: 1px solid #666666;
+}
+
+b.rtop, b.rbottom {
+   display:block;
+	background: #FFFFFF;
+}
+
+b.rtop b, b.rbottom b {
+   display:block;
+	height: 1px;
+	overflow: hidden;
+	background: #A20101;
+	border-left: 2px solid #A20101;
+	border-right: 2px solid #A20101;
+}
+
+b.r1 {
+   margin: 0 5px;
+	border-left: 1px solid #A20101;
+	border-right: 1px solid #A20101;
+	border-top: 1px solid #A20101;
+}
+
+b.r2 {
+   margin: 0 3px;
+	border-left: 1px solid #A20101;
+	border-right: 1px solid #A20101;
+}
+
+b.r3 {
+   margin: 0 2px;
+	border-left: 1px solid #A20101;
+	border-right: 1px solid #A20101;
+}
+
+b.rtop b.r4, b.rbottom b.r4 {
+   margin: 0 1px;
+	height: 2px;
+	border-left: 1px solid #A20101;
+	border-right: 1px solid #A20101;
+}
+
+.contenido {
+   border-left: 1px solid #A20000;
+	border-right: 1px solid #A20000;
+}
+
+.pestanaActiva {
+   height: 11px;
+	color: #FFFFFF;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #A30505;
+}
+
+.titConsultaDetProd {
+   height: 20px;
+	color: #FFFFFF;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #A30505;
+}
+
+.tablaDetallesPagos {
+	border: 1px solid #A20101;
+	width: 176px;
+	height: 190px;
+}
+
+.pestanaInactiva {
+   height: 11px;
+	color: #AEAEAE;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #666666;
+}
+
+.tablaVentaRapida {
+	margin: 0 0 3 0px;
+}
+
+.tablaBuscadorTop {
+   width: 352;
+	border: 1px solid #CCCCCC;
+	margin: 0 0 3 0px;
+}
+.tablaMenuHome {
+	width: 750;
+	border: 1px solid #CCCCCC;
+	margin: 0 0 3 0px;
+	background: #FFFFF9;
+}
+.tablaSubmenuHome {
+	width: 200;
+	border: 1px solid #CCCCCC;
+	margin: 0 0 3 0px;
+	background: #F9F8DB;
+}
+#pathNavegacion {
+   text-align: left;
+   width: 99%;
+   height: 20px;
+	padding: 3 0 0 10px;
+	margin: 0 0 3 0px;
+	background-color: #666666;
+}
+
+.titulosFamProd {
+	width: 100%;
+	padding: 0 8 0 8px;
+	margin: 0 0 3 0px;
+}
+
+.titulosSelTaller {
+	width: 550px;
+	padding: 0 8 0 8px;
+	margin: 0 0 3 0px;
+}
+
+.titulos500 {
+	width: 370px;
+	padding: 0 8 0 8px;
+	margin: 0 0 3 0px;
+}
+
+.titulosOpcMasUsadas {
+	width: 630px;
+	padding: 0 8 0 8px;
+	margin: 0 0 3 0px;
+}
+
+.contenedorOpcMasUsadas {
+	width: 630px;
+	margin: 0 0 6 0px;
+}
+
+.contenedorBtnOpcMasUsadas {
+	width: 630px;
+	text-align:center;
+}
+
+.titOpcionesMasUsadas {
+	width: 204px;
+	height: 30px;
+	padding: 7 2 0 2px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #F0F0F0;
+}
+
+.celdaOpcionesMasUsadas {
+	width: 207px;
+	height: 383px;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+}
+
+.paginacionBuscador {
+	text-align: right;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.paginacionBuscador a:link {
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #A30505;
+	text-decoration: underline;
+}
+
+.paginacion {
+	width: 355px;
+	text-align: right;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.paginacion a:link {
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #A30505;
+	text-decoration: underline;
+}
+
+.paginacion a:hover {
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #F50707;
+	text-decoration: underline;
+}
+
+.tabla765roja {
+   width: 100%;
+	height: 370px;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 0 0 3 0px;
+}
+
+.contCheckoutCliente{
+	width: 765px;
+	height: 60px;
+	border-top: 6px solid #A30505;
+	border-left: 1px solid #A30505;
+	border-right: 1px solid #A30505;
+}
+
+.contCheckoutCliente2{
+	width: 765px;
+	height: 60px;
+	border-top: 1px solid #A30505;
+	border-left: 1px solid #A30505;
+	border-right: 1px solid #A30505;
+}
+
+.tablaDatosDetalle {
+	width: 576px;
+	height: 170px;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+}
+	
+.tablaOrdenadorProd {
+	width: 100%;
+	height: 15px;
+	padding: 0 8 0 8px;
+	background-color: #F0F0F0;
+}
+.tablaOrdenadorAseg{
+	width: 100%;
+	height: 15px;
+	padding: 0 8 0 8px;
+	background-color: #A30505;
+}
+
+.celdaFondoGris {
+	background-color: #EEEEEE;
+}
+
+.celdaFondoGris2 {
+	background-color: #CCCCCC;
+}
+
+.tablaTopProdFamilias {
+	width: 763px;
+	text-align: center;
+}
+
+.celFamiliasFoto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	width: 120px;
+}
+
+.celFamiliasDesc {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	width: 185px;
+}
+
+.celFamiliasEntrega {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	width: 110px;
+}
+
+.celFamiliasPromo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	width: 110px;
+}
+
+.celFamiliasComprar {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	width: 60px;
+}
+
+.celFamiliasPrecio {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	width: 180px;
+}
+
+.casillaPaginadorAbajo {
+	border: 1px solid #A30505;
+	text-align: center;
+	width: 30px;
+}
+
+.casillaPaginadorAbajoSelec {
+	border: 1px solid #A30505;
+	text-align: center;
+	background-color: #CCCCCC;
+	width: 30px;
+}
+
+.tablaTopProdFamilias td {
+	border: 1px solid #CCCCCC;
+	height: 20px;
+}
+
+.tablaContProdFamilias {
+	border: 1px solid #CCCCCC;
+	width: 744px;
+}
+
+.tablaContProdFamiliastd {
+	border: 1px solid #CCCCCC;
+	padding: 2 2 2 2px;
+}
+
+#scrollFamiliaProductos {
+	overflow: auto;
+	height: 325px;
+}
+
+#scrollDetallesProductos {
+	overflow: auto;
+	height: 145px;
+}
+
+#scrollDetallesProductos2 {
+	overflow: auto;
+	height: 215px;
+}
+
+#scrollDetallesProductos3 {
+	overflow: auto;
+	height: 165px;
+}
+
+#scrollDetallesProductos4 {
+	overflow: auto;
+	height: 140px;
+}
+
+.precios {
+	width: 159px;
+}
+
+.semanales {
+	width:95px;
+	padding: 0 0 0 8px;
+}
+
+.contenedorDetallesProd {
+	margin: 0 0 0 2px;
+	width: 765px;
+	height: 415px;
+}
+
+.contenedorDetallesProd2 {
+	margin: 0 0 0 2px;
+	width: 765px;
+}
+
+.contenidoDetalles {
+	width: 100%;
+}
+
+.contenidoMotivItalika {
+	width: 100%;
+}
+
+.contenidoMotivItalika td{
+   border: 1px solid #CCCCCC;
+}
+
+.contenidoSelecTaller {
+	width: 100%;
+}
+
+.contenidoListaMR {
+	width: 500px;
+}
+
+.contenidoSelecTaller td{
+	border: 1px solid #CCCCCC;
+}
+
+.celdasContenidoDetalles0 {
+	padding: 4 8 4 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #FFFFFF;
+}
+
+.celdasContenidoDetalles1 {
+	padding: 4 8 4 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #F4F4F4;
+}
+
+.celdasContenidoDetalles2 {
+	padding: 10 10 10 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #E6E6E6;
+}
+.celdasContenidoDetalles10 {
+	padding: 4 8 4 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #FFFFFF;
+}
+.celdasContenidoDetalles11 {
+	padding: 4 8 4 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #F0F0F0;
+	text-decoration: underline; 
+}
+.celdasContenidoDetalles12 {
+	padding: 4 8 4 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #FFFFFF;
+	text-decoration: underline; 
+}
+
+.celdasConenidoDetalles1 {
+	padding: 4 8 4 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #F4F4F4;
+}
+
+.celdasConenidoDetalles2 {
+	padding: 4 8 4 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #E6E6E6;
+}
+
+#fotoDetalle {
+	width: 212px;
+	height: 200px;
+	margin: 0 0 8 0px;
+	text-align: center;
+}
+
+#datosDetalle {
+   margin: 8 0 0 0px;
+	width: 346px;
+	height: 200px;
+}
+
+#datosDetalleMotos {
+   margin: 8 0 0 0px;
+	width: 280px;
+	height: 200px;
+}
+
+#divColoresCont {
+   margin: 8 0 0 0px;
+	width: 80px;
+	height: 200px;
+}
+
+#promoEnDetalles {
+	margin: 20 0 6 0px;
+	text-align: center;
+	width: 150px;
+}
+
+.conEnganche {
+	width: 174px;
+	padding: 1 1 0 1px;
+	color: #FFFFFF;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #A30505;
+}
+
+.cantEnganche {
+	width: 174px;
+	padding: 1 1 1 1px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	border: 1px solid #A30505;
+}
+
+.pagoPuntual {
+	width: 130px;
+	padding: 1 1 1 8px;
+	color: #FFFFFF;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	background-color: #A30505;
+}
+
+.pagoPuntualDetalle {
+	width: 150px;
+	padding: 1 1 1 1px;
+	margin: 0 0 4 0px;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	background-color: #A30505;
+}
+
+.ordenCompra {
+	width: 380px;
+	padding: 10 10 10 10px;
+	font-family: Verdana;
+	font-size: 11px;
+	border: 1px solid #A30505;
+}
+
+.controlarEfectivo {
+	width: 360px;
+	padding: 4 4 4 4px;
+	text-align: center;
+	border: 1px solid #A30505;
+}
+
+.beneficiario {
+	width: 380px;
+	padding: 10 10 10 10px;
+	border: 1px solid #A30505;
+	margin: 0 0 10 0px;
+}
+
+.titProdExpress {
+	margin: 6 0 8 0px;
+}
+
+.celdasTitPlazos {
+	background-color: #FF9900;
+	border: 1px solid #999999;
+	text-align:center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 7 1 8 1px;
+}
+
+.celdasContPlazos {
+	background-color: #FCEAAB;
+	border: 1px solid #999999;
+	text-align:center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 2 1 2 1px;
+}
+
+.btnImprimirDatosDetalle {
+	width: 100%;
+	text-align: right;
+	padding: 2 20 2 0px;
+	background-color: #F4F4F4;
+}
+
+.tablaTopItalika {
+	width: 765px;
+	height: 230px;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 0 0 3 0px;
+}
+
+.tablaTopCheckout {
+	width: 95%;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+}
+
+.tablaSelecTallerTop {
+	width: 550px;
+	height: 150px;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 0 0 3 0px;
+}
+
+.tablaNegPedidos {
+	width: 250px;
+	height: 150px;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+}
+
+.contenedorAbajoItalika {
+	width: 765px;
+	margin: 0 0 3 0px;
+}
+
+.tablaBotIzqItalika {
+	width: 250px;
+	height: 365px;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 0 3 3 0px;
+}
+
+.tablaBotDerItalika {
+	width: 414px;
+	height: 365px;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 0 0 3 0px;
+}
+
+#scrollMotivosItalika {
+	overflow: auto;
+	height: 340px;
+}
+
+#scrollSelecTaller {
+	overflow: auto;
+	height: 125px;	
+}
+
+#scrollSelecProducto {
+	overflow: auto;
+	height: 310px;	
+}
+
+#scrollSelecTallerIzq {
+	overflow: auto;
+	height: 360px;	
+}
+
+#scrollVendedorExp {
+	overflow: auto;
+	height: 420px;	
+}
+
+#scrollUnefon {
+	overflow: auto;
+	height: 110px;	
+}
+
+#scrollUnefon2 {
+	overflow: auto;
+	width: 247px;
+	height: 105px;	
+}
+#scrollSolicitudLCR {
+	overflow: auto;
+	width: 760px;
+	height: 40px;	
+}
+
+#scrollInfoClientItal {
+	overflow: auto;
+	height: 280px;	
+}
+
+#scrollInfoMR1 {
+	overflow: auto;
+	height: 88px;	
+}
+
+#scrollInfoMR2 {
+	overflow: auto;
+	height: 50px;	
+}
+
+#scrollListaRegalos {
+	overflow: auto;
+	height: 250px;		
+}
+
+#scrolControlarEfectivo {
+	overflow: auto;
+	height: 235px;		
+}
+
+#scrollEstatus {
+	overflow: auto;
+	height: 160px;		
+}
+
+#scrollUnefon {
+	overflow: auto;
+	height: 86px;	
+}
+
+.ctrlBtnItalika {
+	margin: 30 5 0 3px;
+}
+
+.tablaTopMotivosItalika {
+	width: 410px;
+	height: 20px;
+	text-align: center;
+}
+
+.tablaTopMesaRegalosInfo {
+	width: 400px;
+	height: 18px;
+	text-align: center;
+}
+
+.tablaTopSelecTaller {
+	width: 545px;
+	height: 20px;
+	text-align: center;
+}
+
+.selecMotivItal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 60px;
+}
+
+.celNumMotivItal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 40px;
+}
+
+.celMotivItal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 210px;
+}
+
+.celTallerMotivItal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 100px;
+}
+
+.celTaller {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 80px;
+}
+
+.celNomTaller {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 180px;
+}
+
+.celServPend {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 130px;
+}
+
+.celTiempoProm {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 90px;
+}
+
+.celSelecTall {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 65px;	
+}
+
+.celPedItalik {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 100px;
+}
+
+.celClienteItalik {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 150px;
+}
+
+.celNombreItalik {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 417px;
+}
+
+.celSerieItalik {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 247px;
+}
+
+.celDescItalik {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 320px;
+}
+
+.celFechaEvento {
+   height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 150px;
+}
+
+.celTipoEvento {
+   height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 150px;
+}
+
+.celFolioMR {
+   height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 100px;
+}
+
+.celFechaCompraMR {
+   height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 110px;
+}
+
+.celCodigoMR {
+   height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 120px;
+}
+
+.celDescMR {
+   height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 217px;
+}
+
+.celCantidadMR {
+   height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 110px;
+}
+
+.celPrecioMR {
+   height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 110px;
+}
+
+.celCelebracionMR {
+   height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 400px;
+}
+
+.celLista1MR {
+   height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 150px;
+}
+
+.celLista2MR {
+   height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 350px;
+}
+
+.titListaMR {
+	width: 500px;
+	height: 20px;
+	background-color: #666666;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 0 0 0 5px;
+}
+
+.bGrabar {
+	width:415px;
+	text-align:right;
+}
+
+.btnAceptarSelecTaller {
+	width: 550px;
+	text-align:right;
+}
+
+.btnLada {
+	width: 100px;
+	margin: 3 0 0 0px;
+}
+
+.tablaCambaceoDatosCliente {
+	width: 100%;
+	margin: 0 0 8 3px;
+	border: 1px solid #A30505;
+	text-align:center;
+	padding: 0 0 4 0px;
+}
+
+.tabla_red {
+	border: 1px solid #A30505;
+	text-align:center;
+}
+.tablaContenidoSolicitudes {
+	width: 763px;
+	margin: 0 0 8 3px;
+	border: 1px solid #A30505;
+	text-align:center;
+	padding: 0 0 2 0px;
+}
+
+.tablaControlarEfectivo {
+	width: 763px;
+	margin: 0 0 0 3px;
+	border: 1px solid #A30505;
+	text-align:center;
+	padding: 0 0 4 0px;
+}
+
+.tablaControlarEfectivo2 {
+	width: 763px;
+	margin: 6 0 0 3px;
+	border: 1px solid #A30505;
+	text-align:center;
+	padding: 0 0 4 0px;
+}
+
+.tablaDatosPers {
+	width: 763px;
+	margin: 0 0 8 3px;
+	border: 1px solid #A30505;
+	padding: 0 0 4 8px;
+}
+
+.tablaNoEncuentra {
+	width: 763px;
+	margin: 0 0 8 3px;
+	border: 1px solid #A30505;
+	padding: 0 0 2 2px;
+}
+
+.statusCliente {
+   font-family: Verdana;
+	text-align: center;
+	width: 100%;
+	padding: 4 4 4 4px;
+	background-image: url(../imagenes/Es-MX/fondos/backPersup3.jpg);
+}
+
+.inputLada {
+   font-size: 10px;
+	width: 50px;
+}
+
+.input60 {
+   font-size: 10px;
+	width: 60px;
+}
+
+.input80 {
+   font-size: 10px;
+	width: 80px;
+}
+
+.inputNum {
+   font-size: 10px;
+	width: 130px;
+}
+
+.inputNum2 {
+   font-size: 10px;
+	width: 150px;
+}
+
+.inputNombre {
+   font-size: 10px;
+	width: 360px;
+}
+.inputCapturaTxt {
+   font-size: 10px;
+	width: 360px;
+	height: 40px;
+}
+
+.inputNombre165 {
+   font-size: 10px;
+	width: 165px;
+}
+
+.inputQuienProporciona {
+   font-size: 10px;
+	width: 450px;
+}
+
+.SN {
+   font-size: 10px;
+	width: 20px;
+}
+
+.tablaMensajes {
+   width: 428px;
+	height: 227px;
+	background-color: #FFFFFF;
+	text-align:center;
+}
+
+.textoMensajes {
+	width: 355px;
+	height: 110px;
+	margin: 80 0 0 0px;
+	text-align:center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003366;
+}
+
+.tablasClienteBuscar1 {
+	 width:670px;
+	 margin: 0 0 12 0px;
+}
+
+.tablasClienteBuscar2 {
+	 width:670px;
+}
+
+.tablaInfoClienteItalika1 {
+	width: 670px;
+	height: 300px;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 0 0 3 0px;
+}
+
+.tablaInfoClienteItalika2 {
+	width: 670px;
+	height: 120px;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 0 0 3 0px;
+}
+
+.tablaTopInfoClientItal {
+	width: 667px;
+	height: 20px;
+	text-align: center;
+}
+
+.tablaTopDepMonMR {
+	width: 667px;
+	height: 20px;
+	text-align: center;
+}
+
+.tablaTopListaMR {
+	width: 500px;
+	height: 20px;
+	text-align: center;
+}
+
+.tablaMesaRegalos2 {
+	width: 765px;
+	height: 310px;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 0 0 3 0px;
+}
+
+.tablaInfoMesaRegalos1 {
+	width: 670px;
+	height: 100px;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 3 0 0 0px;
+}
+
+.tablaInfoMesaRegalos2 {
+	width: 670px;
+	height: 62px;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 3 0 0 0px;
+}
+
+.tablaPedidosNoSurtidos {
+	width: 745px;
+	height: 100px;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 3 0 0 0px;
+}
+
+.totalDepositosMR {
+	width: 672px;
+	height: 20px;
+	background-color: #A20101;
+	margin: 0 0 3 0px;
+	text-align:right;
+	font-size: 14px;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.totalCheckOut {
+	height: 20px;
+	background-color: #A20101;
+	text-align:center;
+	font-size: 14px;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.totalDepMonedero {
+	height: 20px;
+	background-color: #A20101;
+	text-align:center;
+	font-size: 12px;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.datosClienteCheckOut{
+	margin: 10 0 10 0px;
+}
+
+.marginDown6 {
+	margin: 0 0 6 0px;
+	padding: 0 0 0 5px;
+}
+
+.topOtrosDatos {
+	margin: 0 0 8 0px;
+}
+
+.pathCambaceo {
+	margin: 0 0 6 0px;
+}
+
+.datosConyugue {
+	border: 1px solid #CCCCCC;
+}
+
+.plazoTelefonia {
+	margin: 8 0 0 0px;
+}
+
+.inputBuscarProdNuevo {
+	font-size: 9px;
+	width: 180px;
+	height: 18px;
+	margin: 0 0 2 0px;
+}
+
+.lineH {
+	line-height: 10px;
+}
+
+.lineH2 {
+	line-height: 8px;
+}
+
+
+.tablasTopsTiposPago {
+	background-color: #E8E8E8;
+	padding: 5 5 0 5px;
+}
+
+.tabGarantMil{
+	width: 152px;
+	background-color: #A20101;
+	height: 25px;
+	text-align:center;
+	padding: 3 0 0 0px;
+}
+
+.contImgDetProd {
+	border: 1px solid #A20101;
+	width: 325px;
+	height: 215px;ç
+	text-align: center;
+}
+
+#scrollPromociones {
+	overflow: auto;
+	height: 51px;
+	border-bottom: 2px solid #CCCCCC;
+}
+
+#scrollPromociones2 {
+	overflow: auto;
+	height: 24px;
+}
+#scrollAplicarSurtimiento {
+	overflow: auto;
+	height: 100px;
+}
+#scrollAplicarSurtimientoTel {
+	overflow: auto;
+	height: 150px;
+}
+#scrollCheckOut {
+	overflow: auto;
+	height: 60px;
+}
+
+#scrollCheckOutApartado {
+	overflow: auto;
+	height: 155px;
+}
+
+#scrollCheckOutContado {
+	overflow: auto;
+	height: 255px;
+}
+
+.leftRedMargin {
+	border-left: 1px solid #A30505;
+}
+
+.tablaUnefon1 {
+	width: 100%;
+	height: 90px;
+	border: 1px solid #A20101;
+	padding: 1 1 1 1px;
+	margin: 0 0 8 0px;
+}
+
+.tablaUnefon2 {
+	width: 100%;
+	height: 50px;
+	border: 1px solid #A20101;
+	padding: 1 1 1 1px;
+	margin: 0 0 8 0px;
+}
+
+.tablaUnefon3 {
+	width: 100%;
+	height: 50px;
+	border: 1px solid #A20101;
+	padding: 1 1 1 1px;
+}
+
+.tablaUnefon4 {
+	width: 100%;
+	border: 1px solid #A20101;
+}
+
+.zoomActivo {
+	border: 2px solid #A20101;
+}
+
+.zoomInactivo {
+	border: 2px solid #CCCCCC;
+}
+
+#scrollZoom {
+	overflow: auto;
+	height: 450px;
+	width: 765px;
+}
+
+#scrollPedidosNoSurt {
+	overflow: auto;
+	height: 155px;
+	width: 740px;
+}
+
+#scrollProdLiquidacion {
+	overflow: auto;
+	height: 240px;
+	width: 760px;
+}
+
+#scrollSistInfoProd {
+	overflow: auto;
+	height: 230px;
+	width: 760px;
+}
+
+#scrollStatusLCR {
+	overflow: auto;
+	height: 120px;
+	width: 760px;
+}
+
+.tablaControlarFormasPago {
+	width: 500px;
+	height: 50px;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 3 0 3 0px;
+}
+
+.tablaSistInfoProd {
+	width: 763px;
+	margin: 0 0 8 3px;
+	border: 1px solid #A30505;
+	text-align:center;
+}
+
+.margin10left {
+	margin: 0 0 0 10px;
+}
+
+.marginUpDown5 {
+	margin: 5 0 5 0px;
+}
+
+.marginUpDown8 {
+	margin: 8 0 8 0px;
+}
+
+.tablaPlazosDetalleProd {
+	border: 1px solid #CCCCCC;
+	width: 200px;
+	height: 330px;
+	background-color: #FFFFFF;
+}
+
+.tablaPlazosTelefonia {
+	border: 1px solid #CCCCCC;
+	width: 330px;
+	height: 180px;
+	background-color: #FFFFFF;
+}
+
+.tablaTopCheckoutSyR {
+	width: 95%;
+	text-align:center;
+	border: 1px solid #005499;
+	padding: 1 1 1 1px;
+}
+
+.celdasContenidoLiquidacion1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #F4F4F4;
+}
+
+.celdasContenidoLiquidacion2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #E6E6E6;
+}
+
+/*ElektraCom*/
+.tablaPrincipalEktCom{
+	width: 100%;
+	height: 85%;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 0 0 3 0px;
+}
+
+.ordenCompraEktCom {
+	width: 50%;
+	padding: 10 10 10 10px;
+	font-family: Verdana;
+	font-size: 11px;
+	border: 1px solid #A30505;
+}
+
+.tarjetaAzteca {
+	width: 50%;
+	padding: 10 10 10 10px;
+	border: 1px solid #A30505;
+	margin: 0 0 10 0px;
+}
+
+.beneficiario {
+	width: 70%;
+	padding: 10 10 10 10px;
+	border: 1px solid #A30505;
+	margin: 0 0 10 0px;
+}
+
+/*
+**********************Modificacion para Productos en Liquidacion en sistemas de Informacion
+*/
+Tablas
+#tablaCabecero
+{
+    width: 923px;
+	height: 26px;
+}
+#tdesc
+{
+    width: 245px;
+}
+#tPrecioAnterior
+{
+     width: 130px;
+}
+#tPrecioContado
+{
+     width: 120px;
+}
+#tPrecioCredito
+{
+     width: 120px;
+}
+
+#tPrecioCreditoF52
+{
+     width: 130px;
+}
+#tPrecioCreditoF
+{
+     width: 135px;
+}
+#tPlazo
+{
+    width: 50px;
+}
+
+
+#TabDetalle
+{
+   width: 923px;
+}
+
+#desc
+{
+    width: 14%;
+}
+#PrecioAnterior
+{
+     width: 10%;
+}
+#PrecioContado
+{
+     width: 10.3%;
+}
+#PrecioCredito
+{
+     width: 9.5%;
+}
+#PrecioCreditoF52
+{
+     width: 11%;
+}
+
+#PrecioCreditoF
+{
+     width: 11%;
+}
+#Plazo
+{
+    width: 5.5%;
+}
+#VtaPiso
+{
+    width: 6%;
+}
+#Exhibicion
+{
+    width: 6.1%;
+}
+#DescEsp
+{
+    width: 6%;
+}
+
+.tablaSistInfoProd {
+	width: 100%;
+	margin: 0 0 8 3px;
+	border: 1px solid #A30505;
+	text-align:center;
+	height:20%;
+}
+
+#sku
+{
+    width: 100%;
+}
+
+#divDetalle
+{
+    HEIGHT: 180px;
+    WIDTH: 100%;
+}
+
+#titulo
+{
+     width: 923px;
+ }
+ 
+ #divCabeceros
+ {
+      WIDTH:100%;
+ }
+  #divTransaccion
+  {
+      HEIGHT: 180px;
+       WIDTH:100%;
+ }

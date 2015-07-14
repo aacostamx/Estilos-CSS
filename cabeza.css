@@ -1,0 +1,49 @@
+/* CSS Document */
+#cabeza{
+background-image: url(/ElektraFront/imagenes/cabeza08_barraInfFondo.jpg);
+	background-repeat: repeat-x;
+	padding: 0px;
+	height: 33px;
+	width:100%;
+}
+#cabeza table {
+	width: 250px;
+	border: none;
+	float: right;
+	background-image:url(/ElektraFront/imagenes/cabeza08_buscarFnd.jpg);
+	background-repeat:repeat-x;
+	border-collapse: collapse;
+}
+#cabeza td {
+	vertical-align: top;
+	padding:0px;
+}
+#cabeza #cabezaBarraInfDer {
+	text-align: right;
+	background-image: url(/ElektraFront/imagenes/cabeza08_barraInfDer.jpg);
+}
+#cabeza #cabezaBuscador td{
+	width: auto;
+	padding: 0px;
+}
+#cabeza #cabezaBuscador img{
+	margin:0px;
+	text-align: left;
+}
+#cabeza .cabezaCampoBusqueda {
+	padding: 5px 3px 3px 3px;
+	text-align: right;
+}
+#cabeza #cabezaBuscador table {
+	width: auto;
+}
+#cabeza input,
+#cabeza select {
+	font-size: 9px;
+	margin: 0px;
+	padding: 0px;
+}
+.cabezaBuscar,
+.cabezaBuscar td {
+	background-color: #ffffff;
+}

@@ -1,0 +1,20 @@
+#mapaFlotante {
+	position: relative;
+	width: 900px;
+}
+#mapaContenido {
+	position: absolute;
+	top: 82px;
+	left: 310px;
+	/*left: 310px;*/
+	z-index: 834;
+}
+#mapaContenido iframe {
+	width: 585px;
+	height: 350px;
+	border: none;
+}
+.infoMapaGoogle {
+	padding: 10px 0px 10px 0px;
+	font-weight: bold;
+}

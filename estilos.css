@@ -1,0 +1,664 @@
+body {
+	margin: 0 0 0 0px;
+}
+.contenedor {
+	padding: 5 10 5 5px;
+}
+.tdlogo {
+	border-right: 1px solid #A0A0A0;
+	padding-right: 8px;
+}
+.menuPopup {
+	background-image: url(../imagenes/fondoMenu.png);
+	width: 145px;
+	height: 105px;
+}
+.menuPopup2 {
+	background-image: url(../imagenes/fondoMenu2.png);
+	padding-top: 7px;
+	width: 145px;
+	height: 155px;
+}
+.tdDatosCliente {
+	padding-left: 14px;
+}
+.arialBienvenidos {
+	font-family: trebuchet ms;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FF9900;
+}
+.arial11 {
+	font-family: arial;
+	font-size: 11px;
+	color: #333333;
+}
+.arial11Bold {
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333333;
+}
+.arial10 {
+	font-family: arial;
+	font-size: 10px;
+}
+.arial10bold {
+	font-family: arial;
+	font-size: 10px;
+	font-weight: bold;
+}
+.verdana10 {
+	font-family: trebuchet ms;
+	font-size: 11px;
+	line-height: 12px;
+}
+.verdana10_red {
+	font-family: trebuchet ms;
+	font-size: 11px;
+	line-height: 12px;
+	color: #A20101;
+}
+.verdana10linesp {
+	font-family: verdana;
+	font-size: 10px;
+	line-height: 12px;
+}
+.verdana10bold {
+	font-family: trebuchet ms;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 12px;
+}
+.verdana10VtaMerc {
+	font-family: trebuchet ms;
+	font-size: 11px;
+	color: #339900;
+}
+.arial10VtaMerc {
+	font-family: arial;
+	font-size: 10px;
+	font-weight: bold;
+	color: #339900;
+}
+.verdana12Green {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #339900;
+	text-decoration: none;
+}
+.verdana12Red {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FF0000;
+	text-decoration: none;
+}
+.verdana10_gray {
+	font-family: trebuchet ms;
+	font-size: 11px;
+	line-height: 12px;
+	color: #999999;
+}
+.verdana10_gray_Tache {
+	font-family: trebuchet ms;
+	font-size: 11px;
+	line-height: 12px;
+	color: #999999;
+	text-decoration: line-through;
+}
+.verdana11 {
+	font-family: trebuchet ms;
+	font-size: 12px;
+	line-height: 14px;
+}
+.verdana11b {
+	font-family: trebuchet ms;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: bold;
+}
+.verdana12 {
+	font-family: trebuchet ms;
+	font-size: 13px;
+	line-height: 15px;
+}
+.verdana12b {
+	font-family: trebuchet ms;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 15px;
+}
+.verdana12b_red {
+	font-family: trebuchet ms;
+	font-size: 13px;
+	font-weight: bold;
+	color: #A20101;
+	line-height: 15px;
+}
+.verdana14 {
+	font-family: verdana;
+	font-size: 14px;
+}
+.verdana14b {
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666666;
+}
+.topMargin {
+	margin: 6 0 6 0px;
+}
+.topNuevo {
+   margin: 2 0 6 0px;
+	width: 755px;
+	height: 60px;
+}
+.mensajes {
+	margin: 5 3 5 0px;
+	width: 500px;
+	height: 66px;
+}
+.tdMensajes {
+	font-family: trebuchet ms;
+	font-size: 11px;
+}
+.titMensajes {
+	font-family: verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: #503A0E;
+}
+.accionesHoy {
+	background-image: url(../imagenes/fondo_accionesHoy.jpg);
+	background-repeat: repeat-y;
+}
+.tiendaColocar {
+	background-image: url(../imagenes/fondo_tiendaColocar.gif);
+	background-repeat: repeat-y;
+}
+.celda1 {
+	background-color: #F0F0F0;
+	padding: 2 1 2 1px;
+}
+.celda2 {
+	background-color: #FFFFFF;
+	padding: 2 1 2 1px;
+}
+.celda1b {
+	background-color: #F0F0F0;
+	padding: 1 1 1 10px;
+}
+.celda2b {
+	background-color: #FFFFFF;
+	padding: 1 1 1 10px;
+}
+.imgTablas{
+	margin: 0 6 0 2px;
+}
+a:hover {
+text-decoration: underline;
+color: #000000;
+}
+.marginTabs {
+	margin: 0 0 0 2px;
+}
+
+/*Aqui empieza el menu*/
+
+.menu {
+  border: solid 1px #BFBFBF;
+  padding: 4px 4px 4px 4px;
+  background-color: #F5F5F5;
+  font-family: verdana;
+  font-size: 11px;
+  color: #FFFFFF;
+}
+
+.menuItem {
+  padding:2px 5px 5px 5px;
+  border-bottom:solid 1px #FFFFFF;
+}
+
+.menuItem:hover {
+  background-color:#f1f1f1;
+  font-family: verdana;
+  font-size: 11px;
+  color: #FFFFFF;
+}
+
+.menuItem:visited {
+  background-color:#FFFFFF;
+  font-family: verdana;
+  font-size: 11px;
+  color: #FFFFFF;
+}
+
+.menuItem a {
+  color:#A20101;
+  text-decoration:none;
+  font-family: verdana;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#demo {
+  background-color:#eeeeee;
+  cursor:pointer;
+  padding:5px 20px 5px 20px;
+  margin: 30px 0;
+  width: 150px;
+}
+
+#demo span {
+  padding:3px 20px 0px 20px;
+  cursor:pointer;
+}
+
+#demo span:hover {
+  text-decoration:underline;
+}
+
+.tablaContenidodivs {
+	width: 670px;
+	height: 120px;
+	text-align:center;
+	border: 1px solid #CCCCCC;
+}
+.tablaContenidodivs2 {
+	width: 750px;
+	height: 120px;
+	text-align:center;
+	border: 1px solid #CCCCCC;
+}
+.titDivs {
+	background-color: #E2E2E2;
+	padding: 0 0 0 20px;
+}
+.fondo_regalo {
+	background-image: url(../imagenes/fondo_regalo.jpg);
+	background-repeat: no-repeat;
+}
+.fondo_aniversario {
+	background-image: url(../imagenes/fondo_aniversario.jpg);
+	background-repeat: no-repeat;
+}
+.celdasContenidoDetalles1 {
+	padding: 4 8 4 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #F4F4F4;
+}
+
+.celdasContenidoDetalles2 {
+	padding: 4 8 4 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #F1F1F1;
+}
+.rowLineaBot {
+	height: 25px;
+	background-image: url(../imagenes/fondoRows.gif);
+	font-family: trebuchet ms;
+	font-size: 11px;
+}
+.rowLineaBot_dotted {
+	height: 25px;
+	border-bottom: 1px dotted #CCCCCC;
+	font-family: trebuchet ms;
+	font-size: 11px;
+}
+.rowLineaBot_dotted_bgblue {
+	height: 25px;
+	border-bottom: 1px dotted #CCCCCC;
+	font-family: trebuchet ms;
+	font-size: 11px;
+	background-color: #D6DFEB;
+}
+.rowLineaBot_dotted_rightline {
+	height: 25px;
+	border-bottom: 1px dotted #CCCCCC;
+	font-family: trebuchet ms;
+	font-size: 11px;
+	border-right: 1px solid #CCCCCC;
+}
+.rowLineaBot_dotted_rightline2 {
+	height: 25px;
+	border-bottom: 1px dotted #CCCCCC;
+	font-family: trebuchet ms;
+	font-size: 11px;
+	border-right: 1px solid #CCCCCC;
+	background-color: #F0F0F0;
+}
+.rowLineaBot_dotted_rightline3 {
+	height: 25px;
+	border-bottom: 1px dotted #CCCCCC;
+	font-family: trebuchet ms;
+	font-size: 11px;
+	border-right: 1px solid #CCCCCC;
+	background-color: #F5F5F5;
+}
+.rowLineaBot_no_dotted {
+	height: 25px;
+	font-family: trebuchet ms;
+	font-size: 11px;
+}
+.rowLineaBot_blue {
+	height: 25px;
+	border-bottom: 2px solid #CEDFF0;
+	border-top: 3px solid #999999;
+	font-family: trebuchet ms;
+	font-size: 11px;
+	font-weight: bold;
+}
+.rowLineaBot_dotted_padding {
+	height: 25px;
+	border-bottom: 1px dotted #CCCCCC;
+	font-family: trebuchet ms;
+	font-size: 11px;
+	padding-left: 15px;
+}
+.rowLineaBot_dotted_padding_gray {
+	height: 25px;
+	border-bottom: 1px dotted #CCCCCC;
+	font-family: trebuchet ms;
+	font-size: 11px;
+	padding-left: 15px;
+	background-color: #F5F5F5;
+}
+#scroll325 {
+	overflow: auto;
+	height: 325px;
+}
+.hrclass {
+	border-top: 1px solid #CCCCCC;
+}
+.linksSub {
+	color: #A20101;
+}
+.linksSub2 {
+	color: #0033CC;
+	text-decoration: underline;
+}
+.bottomAccionesHoy {
+	background-image: url(../imagenes/bottom_accionesHoy.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	padding-top: 8px;
+}
+.botonesMenu {
+	margin: 0 5 0 0px;
+}
+.font10 {
+	font-family: trebuchet ms;
+	font-size: 10px;
+	line-height: 12px;
+}
+.font10_gray {
+	font-family: trebuchet ms;
+	font-size: 10px;
+	line-height: 12px;
+	color: #999999;
+}
+.font11 {
+	font-family: trebuchet ms;
+	font-size: 11px;
+	line-height: 12px;
+}
+.font11_gray {
+	font-family: trebuchet ms;
+	font-size: 11px;
+	line-height: 12px;
+	color: #999999;
+}
+.font11b {
+	font-family: trebuchet ms;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 12px;
+}
+.font11b_verde {
+	font-family: trebuchet ms;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 12px;
+	color: #009900;
+}
+.font11b_rojo {
+	font-family: trebuchet ms;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 12px;
+	color: #FF0000;
+}
+.font12 {
+	font-family: trebuchet ms;
+	font-size: 12px;
+	line-height: 14px;
+}
+.font12_azul {
+	font-family: trebuchet ms;
+	font-size: 12px;
+	line-height: 14px;
+	color: #0033CC;
+}
+.font12b {
+	font-family: trebuchet ms;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 14px;
+}
+.font12bRojo {
+	font-family: trebuchet ms;
+	font-size: 12px;
+	font-weight: bold;
+	color: #CC0000;
+	line-height: 14px;
+}
+.font13 {
+	font-family: trebuchet ms;
+	font-size: 13px;
+	line-height: 15px;
+}
+.font13b {
+	font-family: trebuchet ms;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 15px;
+}
+.font13b_rojo {
+	font-family: trebuchet ms;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 15px;
+	color: #A20101;
+}
+.font14b {
+	font-family: trebuchet ms;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+}
+.font14b_rojo {
+	font-family: trebuchet ms;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+	color: #FF0000;
+}
+.font18b_verde {
+	font-family: trebuchet ms;
+	font-size: 18px;
+	font-weight: bold;
+	color: #009900;
+}
+.font18b_rojo {
+	font-family: trebuchet ms;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FF0000;
+}
+.font10_verde {
+	font-family: trebuchet ms;
+	font-size: 11px;
+	color: #339900;
+}
+.font10_azul {
+	font-family: trebuchet ms;
+	font-size: 11px;
+	color: #0033CC;
+}
+.font10_rojo {
+	font-family: trebuchet ms;
+	font-size: 11px;
+	color: #FF0000;
+}
+.normal {
+text-decoration: none;
+color: #000000;
+
+}
+.realizado {
+	font-family: overline;
+	text-decoration: none;
+   color: #000000;
+}
+.secciones_mejoras {
+   margin-bottom: 5px;
+}
+.contenido_acor {
+	background-image: url(../imagenes/fondo_contenido_acor.gif);
+	background-repeat: repeat-y;
+	margin-bottom: 5px;
+}
+.fontTitulosWin {
+	font-family: trebuchet ms;
+	font-size: 14px;
+	font-weight: bold;
+	color: #3E5691;
+}
+.detalles_lampex {
+	background-image: url(../imagenes/fondo_detalle_lampex.jpg);
+	background-repeat: repeat-x;
+	border-bottom: 1px dotted #CCCCCC;
+}
+.numChklist {
+	font-family: trebuchet ms;
+	font-size: 11px;
+	font-weight: bold;
+	color: #3E5691;
+}
+.tdCierreAyer {
+	border-right: 1px solid #CCCCCC;
+	padding: 0 5 5 8px;
+}
+.tdCierreAyer2 {
+	padding: 0 5 5 8px;
+}
+.tdColocacion {
+	border-right: 1px solid #CCCCCC;
+	padding: 0 5 5 8px;
+}
+.tdColocacion2 {
+	padding: 0 5 5 8px;
+}
+.tdColocacion_b {
+	border-right: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	padding: 5 5 5 8px;
+}
+.tdColocacion2_b {
+   border-top: 1px solid #CCCCCC;
+	padding: 5 5 5 8px;
+}
+
+/*-------------------------NUEVO HOME--------------------------*/
+/*Celdas Acciones rubros*/
+.accCelda1 {
+	width: 150px;
+	height: 80px;
+	border-right: 1px solid #CCCCCC;
+	text-align: center;
+}
+.accCelda2 {
+	width: 150px;
+	height: 80px;
+	border-right: 1px solid #CCCCCC;
+	text-align: center;
+}
+.accCelda3 {
+	width: 150px;
+	height: 80px;
+	border-right: 1px solid #CCCCCC;
+	text-align: center;
+}
+.accCelda4 {
+	width: 150px;
+	height: 80px;
+	border-right: 1px solid #CCCCCC;
+	text-align: center;
+}
+.accCelda5 {
+	width: 150px;
+	height: 80px;
+	text-align: center;
+}
+
+/*Celdas Acciones hoy*/
+.celdaCont1 {
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	padding: 3 0 3 4px;
+}
+.celdaCont2 {
+	border-bottom: 1px solid #999999;
+	padding: 3 0 3 4px;
+}
+.celdaCont3 {
+	border-right: 1px solid #999999;
+	padding: 3 0 3 4px;
+}
+.celdaCont4 {
+	padding: 3 0 3 4px;
+}
+.tareasPend {
+	padding: 4 0 0 20px;
+	font-family: arial;
+	font-size: 16px;
+	font-weight: bold;
+	color: #CC0000;
+}
+.titsAccionesHoy {
+   height: 27px;
+	font-family: arial;
+	font-size: 16px;
+	font-weight: bold;
+	color: #CC0000;
+	border: 1px solid #909090;
+	background-color: #F0F0F0;
+	text-align: center;
+}
+.titsAccionesHoy2 {
+	font-family: arial;
+	font-size: 18px;
+	font-weight: bold;
+	color: #CC0000;
+}
+.tb_competencia {
+	width: 130px;
+	height: 25px;
+	font-family: trebuchet ms;
+	font-size: 12px;
+	margin-bottom: 2px;
+}
+.tb_agrega {
+	width: 300px;
+	height: 25px;
+	font-family: trebuchet ms;
+	font-size: 12px;
+}
+.tb_observaciones {
+	width: 370px;
+	height: 100px;
+	font-family: trebuchet ms;
+	font-size: 12px;
+}

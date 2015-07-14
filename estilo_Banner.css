@@ -1,0 +1,83 @@
+﻿.imgPromocion
+{
+    width:100%;
+    height:100%;
+    z-index:-1;
+  
+}
+
+.tbBotonones 
+{
+    width:100%;
+    z-index:1;
+    position:relative;
+    margin-top:-10%;
+    /*border:1px solid black;*/
+    
+}
+
+
+.tbBotononesVideoJuego 
+{
+    width:100%;
+    z-index:1;
+    position:relative;
+    margin-top:-27.3%;
+    /*border:1px solid black;*/
+    
+}
+.tipoBoton
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-weight:bold;
+    font-size:150%;
+    color:#8c0202;
+    
+}
+.tbBotonones img
+{
+    margin-right:3%;
+  
+}
+.tbBotonones label
+{
+    margin-left:3%;
+    
+   
+}
+
+#Enlace
+{
+    cursor:pointer;
+    font-family:Arial;
+    font-weight:bold;
+    font-size:150%;
+    color:#8c0202;
+    
+}
+
+body{
+	background:#e6e7e8;
+	margin:0;
+	overflow:hidden;
+}
+
+
+
+
+#divVideoJuego{
+
+width:400px;
+height:250px;
+}
+
+
+#divRetorno
+{
+    display:none;
+    width:500px;
+    height:100px;
+    
+}
+

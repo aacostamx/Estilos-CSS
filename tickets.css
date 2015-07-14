@@ -1,0 +1,1320 @@
+body {
+	margin: 0 0 0 0px;
+}
+#contenedor{
+	width:592px;
+	height:10px;
+	padding:1px 20px;
+}
+
+#contenedor h1{
+	background:url(../imagenes/bgEncabezado.gif);
+	background-position: center;
+	background-repeat: repeat-x;
+}
+
+#contenedor1 .detalle{
+	width:340px;
+	float:right;
+}
+
+#contenedor1 .detalle h3{
+	font-size:14px;
+	background:url(../imagenes/bgH3.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+	padding-left:10px;
+	display:block;
+}
+
+
+#bb {
+	border-bottom: 2px solid #000000
+}
+
+#bb2 {
+	border-bottom: 1px solid #000000
+}
+
+#bbBajo {
+	border-bottom: 1px solid #000000;
+	border-bottom-style: dashed;
+	padding: 2 2 2 2px;
+}
+
+#marco {
+	border-top: 2px solid #000000;
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+	border-bottom: 1px solid #000000;
+	padding: 8 8 8 8px;
+}
+
+#marco2 {
+	border-top: 1px solid #000000;
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+	padding: 8 8 8 8px;
+}
+
+.lba {
+	margin: 8 0 0 0px;
+}
+
+.svm {
+	margin: 0 0 12 0px;
+}
+
+.titSegMotos {
+	width: 100%;
+	height: 20px;
+	font-size: 10pt;
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	padding: 2 0 0 0px;
+	margin: 0 0 10 0px;
+}
+
+.marginTitSegMoto {
+	margin: 0 0 28 0px;
+}
+
+.titCelPolizaSegMoto {
+	color: #FFFFFF;
+	background-color: #6C6E71;
+	font-size: 10pt;
+	font-family: Arial;
+	font-weight: bold;
+	text-align: center;
+	padding: 3 0 3 0px;
+}
+.titCelPolizaSegMoto2 {
+	border: 1px solid #000000;
+	color: #000000;
+	background-color: #CCCCCC;
+	font-size: 10pt;
+	font-family: Arial;
+	font-weight: bold;
+	text-align: center;
+	padding: 3 0 3 0px;
+}
+
+.cuadroDatosPoliza {
+	border: 1px solid #666666;
+	font-size: 8pt;
+	font-family: Arial;
+	text-decoration: underline;
+}
+
+.cuadroDatosPolizaChicos {
+	border: 1px solid #666666;
+	font-size: 8pt;
+	font-family: Arial;
+}
+
+.cuadroDatosPolizaChicos2 {
+	border-bottom: 1px solid #666666;
+	font-size: 8pt;
+	font-family: Arial;
+}
+
+.dcdp {
+   border-bottom: 1px solid #666666;
+	vertical-align: top;
+	height: 35px;
+	padding: 2 0 0 10px;
+}
+.dcdp3 {
+   border-bottom: 1px solid #666666;
+	vertical-align: top;
+	height: 1px;
+	}
+
+.dcdp2 {
+	vertical-align: top;
+	height: 35px;
+	padding: 2 0 0 10px;
+}
+
+.dcdp3 {
+	border-bottom: 1px solid #666666;
+	vertical-align:bottom;
+	height: 1px;
+	padding: 2 0 0 10px;
+}
+
+.dcdp4 {
+   border-bottom: 1px solid #666666;
+	height: 35px;
+	padding: 2 0 0 10px;
+}
+
+.dcdp5 {
+	vertical-align: top;
+	height: 35px;
+	padding: 2 0 0 10px;
+	border-left: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+}
+
+.dcdp6 {
+   border-bottom: 1px solid #666666;
+	height: 20px;
+	padding: 2 0 0 10px;
+}
+
+.dcdp7 {
+	height: 20px;
+	padding: 2 0 0 10px;
+}
+
+.celdaRFC {
+	width: 17.5px;
+	border-right: 1px solid #666666;
+	text-align: center;
+}
+.celdaRFC2 {
+	border-bottom: 1px solid #666666;
+	width: 17.5px;
+	border-right: 1px solid #666666;
+	text-align: center;
+}
+
+
+.rfc {
+	margin: 0 3 0 0px;
+}
+
+.center {
+	text-align: center;
+}
+
+.der {
+	text-align: right;
+}
+
+.justif 
+{
+	text-align: justify;
+}
+
+.times28 {
+	font-size: 28pt;
+	font-weight: bold;
+}
+
+.times16 {
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.times11b {
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.times10bRojo {
+	font-size: 11pt;
+	font-weight: bold;
+	color: #800000;
+}
+
+.times11bi {
+	font-size: 11pt;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.times12b {
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+.times14b {
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+.times16b {
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.times16i {
+	font-size: 16pt;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.times7 {
+	font-size: 7pt;
+	font-weight: normal;
+}
+
+.times8 {
+	font-size: 8pt;
+	font-weight: normal;
+}
+
+.times9 {
+	font-size: 9pt;
+	font-weight: normal;
+}
+
+.times9b {
+	font-size: 9pt;
+	font-weight: normal;
+	font-weight: bold;
+}
+
+.times10 {
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+.times10bi {
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.times11 {
+	font-size: 11pt;
+	font-weight: normal;
+}
+
+.verdana5 {
+	font-size: 5pt;
+	font-family: Verdana;
+}
+
+.verdana5b {
+	font-size: 5pt;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.verdana6 {
+	font-size: 6pt;
+	font-family: Verdana;
+}
+
+.verdana6b {
+	font-size: 6pt;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.verdana6bolder {
+	font-size: 6pt;
+	font-family: Verdana;
+	font-weight: bolder;
+}
+
+.verdana6bi {
+	font-size: 6pt;
+	font-family: Verdana;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.verdana8 {
+	font-size: 8pt;
+	font-family: Verdana;
+}
+
+.verdana8b {
+	font-size: 8pt;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.verdana8i {
+	font-size: 8pt;
+	font-family: Verdana;
+	font-style: italic;
+}
+
+.verdana8ib {
+	font-size: 8pt;
+	font-family: Verdana;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.verdana9 {
+	font-size: 9pt;
+	font-family: Verdana;
+}
+
+
+.verdana9b {
+	font-size: 9pt;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.verdana9bgray {
+	font-size: 9pt;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #868686;
+}
+
+.verdana10b {
+	font-size: 10pt;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.verdana10bgray {
+	font-size: 10pt;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #868686;
+}
+
+.verdana11b {
+	font-size: 11pt;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.verdana12b {
+	font-size: 12pt;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.verdana14 {
+	font-size: 14pt;
+	font-family: Verdana;
+}
+
+.verdana14b {
+	font-size: 14pt;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.verdana7 {
+	font-size: 7pt;
+	font-family: Verdana;
+}
+
+.verdana7b {
+	font-size: 7pt;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.verdana7bu {
+	font-size: 7pt;
+	font-family: Verdana;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.verdana11 {
+	font-size: 11pt;
+	font-family: Verdana;
+}
+
+.courier5 {
+	font-size: 5pt;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.courier5b {
+	font-size: 5pt;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 900;
+}
+
+.courier6 {
+	font-size: 6pt;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.courier6bolder {
+	font-size: 6pt;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 900;
+}
+
+.courier7 {
+	font-size: 7pt;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.courier7i {
+	font-size: 7pt;
+	font-family: "Courier New", Courier, monospace;
+	font-style: italic;
+}
+
+.courier7b {
+	font-size: 7pt;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+}
+
+.courier8 {
+	font-size: 8pt;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.courier8b {
+	font-size: 8pt;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+}
+
+.courier9 {
+	font-size: 9pt;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.courier9b {
+	font-size: 9pt;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 900;
+}
+
+.courier10b {
+	font-size: 10pt;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 900;
+}
+
+.courier11b {
+	font-size: 11pt;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 900;
+}
+
+.courier12b {
+	font-size: 12pt;
+	font-family: "Courier New", Courier, monospace;
+
+}
+
+.courier12bolder {
+	font-size: 12pt;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bolder;
+}
+
+.courier10 {
+	font-size: 10pt;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bolder;
+}
+
+.courierBolder {
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 900;
+}
+
+.courierBolderIt {
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 900;
+	font-style: italic;
+}
+
+.courierBolderIt14 {
+   font-size: 14pt;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 900;
+	font-style: italic;
+}
+
+.courier11 {
+	font-size: 11pt;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.arial4b {
+	font-size: 4pt;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.arial5 {
+	font-size: 5pt;
+	font-family: Arial;
+}
+
+.arial5b {
+	font-size: 5pt;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.arial6 {
+	font-size: 6pt;
+	font-family: Arial;
+}
+
+.arial6b {
+	font-size: 6pt;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.arial7 {
+	font-size: 7pt;
+	font-family: Arial;
+}
+
+.arial7b {
+	font-size: 7pt;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.arial8 {
+	font-size: 8pt;
+	font-family: Arial;
+}
+
+
+.arial8b {
+	font-size: 8pt;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.arial8i {
+	font-size: 8pt;
+	font-family: Arial;
+	font-style: italic;
+}
+
+.arial7i {
+	font-size: 7pt;
+	font-family: Arial;
+	font-style: italic;
+}
+
+.arial7bi {
+	font-size: 7pt;
+	font-family: Arial;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.arial9 {
+	font-size: 9pt;
+	font-family: Arial;
+}
+
+.arial9b {
+	font-size: 9pt;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.arial9bG {
+	font-size: 9pt;
+	font-family: Arial;
+	font-weight: bold;
+	color: #676767;
+}
+
+.arial10b {
+	font-size: 10pt;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.Leyendas15b {
+	font-size: 15pt;
+	font-family: Arial;
+	font-weight: bold;
+	text-align:center;
+}
+
+.EncabeTombola {
+	font-size: 15pt;
+	font-family: Arial;
+	font-weight: bold;
+	text-align:center;
+}
+
+.Leyendas10b {
+	font-size: 10pt;
+	font-family: Arial;
+	font-weight: bold;
+	text-align:center;
+}
+
+.Tipo8 {
+	font-size: 8pt;
+	font-family: Arial;
+	text-align:center;
+}
+
+.Vigencia7 {
+	font-size: 7pt;
+	font-family:Arial;
+	text-align:left;
+	font-weight:bold;
+}
+
+.Leyendas20b {
+	font-size: 20pt;
+	font-family: Arial;
+	font-weight: bold;
+	text-align:center;
+}
+
+.arial10 {
+	font-size: 10pt;
+	font-family: Arial;
+}
+
+.arial12 {
+	font-size: 12pt;
+	font-family: Arial;
+}
+
+.arial12b {
+	font-size: 12pt;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.arial14 {
+	font-size: 14pt;
+	font-family: Arial;
+}
+
+.arial14b {
+	font-size: 14pt;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.arial16b {
+	font-size: 16pt;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.arial16bu {
+	font-size: 16pt;
+	font-family: Arial;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.arial16i {
+	font-size: 16pt;
+	font-family: arial;
+	font-style: italic;
+}
+
+.arial16 {
+	font-size: 16pt;
+	font-family: Arial;
+}
+
+.arial15 {
+	font-size: 16pt;
+	font-family: Arial;
+}
+
+.arial15b {
+	font-size: 16pt;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.arial11 {
+	font-size: 11pt;
+	font-family: Arial;
+}
+
+.arial11b {
+	font-size: 11pt;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.arial11bG {
+	font-size: 11pt;
+	font-family: Arial;
+	font-weight: bold;
+	color: #676767;
+}
+
+.arial11bi {
+	font-size: 11pt;
+	font-family: Arial;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.arial10bi {
+	font-size: 10pt;
+	font-family: Arial;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.arial10i {
+	font-size: 10pt;
+	font-family: Arial;
+	font-style: italic;
+}
+
+.arial14bi {
+	font-size: 14pt;
+	font-family: Arial;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.tahoma6 {
+	font-size: 6pt;
+	font-family: Tahoma;
+}
+
+.tahoma6b {
+	font-size: 6pt;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+
+.tahoma7 {
+	font-size: 7pt;
+	font-family: Tahoma;
+}
+
+.tahoma8 {
+	font-size: 8pt;
+	font-family: Tahoma;
+}
+
+.tahoma8b {
+	font-size: 8pt;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+
+.tahoma9 {
+	font-size: 9pt;
+	font-family: Tahoma;
+}
+
+.tahoma9b {
+	font-size: 9pt;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+
+.tahoma10 {
+	font-size: 10pt;
+	font-family: Tahoma;
+}
+
+.tahoma11 {
+	font-size: 11pt;
+	font-family: Tahoma;
+}
+
+.tahoma7 {
+	font-size: 7pt;
+	font-family: Tahoma;
+}
+
+.tahoma12b {
+	font-size: 12pt;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+
+.tahoma14 {
+	font-size: 14pt;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+
+.tahoma7b {
+	font-size: 7pt;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+
+.tahoma10 {
+	font-size: 10pt;
+	font-family: Tahoma;
+}
+
+.tahoma10b {
+	font-size: 10pt;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+
+.hojaCarta {
+   width: 21.5cm;
+	height: 28cm;
+}
+
+.hojaCarta2 {
+   width: 21.5cm;
+	height: 27cm;
+}
+
+.contHoja {
+	width: 21.5cm;
+}
+
+.contHojaHor {
+	width: 27.9cm;
+	height: 21cm;
+}
+
+.contHojaLogo {
+	width: 21.5cm;
+	background-image: url(../imagenes/fondoSegMotos.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+.contHoja2 {
+	width: 21.5cm;
+	padding: 40 40 40 25px;
+}
+
+.contHoja3 {
+	width: 21.5cm;
+}
+
+.contHoja4 {
+	width: 21.5cm;
+	padding: 20 40 40 25px;
+}
+
+.contHoja5 {
+	width: 21.5cm;
+	padding: 0 40 40 0px;
+}
+
+.contHoja6 {
+	padding: 0 30 30 0px;
+}
+
+.tdColSV1 {
+	padding: 40 8 25 40px;
+	width: 10cm;
+}
+
+.tdColSV2 {
+	padding: 40 80 25 8px;
+	width: 10cm;
+}
+
+#contHoja2 {
+	width: 21.5cm;
+	padding: 40 40 40 0px;
+}
+
+.datosCliente {
+	padding: 0 0 0 20px;
+}
+
+.tBoletos {
+	margin: 6 0 0 0px;
+}
+
+.tabBoletos {
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #000000;
+}
+
+.titSubdepa {
+   height: 30px;
+	border-bottom: 3px solid #333333;
+	border-top: 3px solid #333333;
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0 0 0 50px;
+}
+
+.titObservacionesReporte {
+   height: 20px;
+	border-bottom: 1px solid #000000;
+	font-family: arial;
+	font-size: 9px;
+   padding: 0 0 0 10px;
+}
+
+.tabLlamada {
+	margin: 6 0 0 0px;
+}
+
+.oferta {
+	margin: 25 0 0 18px;
+}
+
+.contSV {
+	margin: 0 0 0 40px;
+}
+
+.contSV2 {
+	margin: 0 0 0 60px;
+}
+
+.courierbold10 {
+	font-family: "Courier New", Courier, monospace;
+}
+
+.tachar {
+	width: 15px;
+	height: 15px;
+	margin: 0 0 4 0px;
+	border: 1px solid #000000;
+}
+
+.plecaTopDown1 {
+   background-color: #808080;
+	height: 32px;
+}
+
+.plecaTopDown2 {
+   border-bottom: 2px solid #000000;
+	height: 10px;
+	font-size: 8px;
+}
+
+.plecaTopDown3 {
+   border-top: 2px solid #000000;
+	height: 10px;
+	font-size: 8px;
+}
+
+.plecaTopPlanUnefon {
+   background-color: #5B5B5B;
+}
+
+.tituloCarta {
+	background-color: #808080;
+	width: 300px;
+	height: 25px;
+	text-align:center;
+	color: #FFFFFF;
+	font-size: 22px;
+	padding: 3 0 3 0px;
+}
+
+.tarjeta {
+	width: 320px;
+	height: 155px;
+	border: 1px dashed #000000;
+	padding: 5 5 5 5px;
+	margin: 0 35 0 35px;
+}
+
+.beneficiarios {
+	padding: 4 4 4 4px;
+	border: 1px solid #000000;
+}
+
+.plazos1 {
+	border-top: 2px solid #000000;
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+.plazos2 {
+	border-top: 1px solid #000000;
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+}
+
+.numPromokiosko {
+	width:50px;
+	text-align: right;
+}
+
+.marginUpDownDotted {
+	border-bottom: dashed 1px;
+	border-top: dashed 1px;
+}
+
+.marginDownDotted {
+	border-bottom: dashed 1px;
+}
+
+.divCol1 {
+	width: 50px;
+	height: 25px;
+	text-align: center;
+	font-family: arial;
+	font-size: 8pt;
+	border-bottom: 1px solid #000000;
+	margin: 0 15 0 0px;
+	padding: 5 0 0 0px;
+}
+
+.divCol2 {
+	width: 195px;
+	height: 25px;
+	font-family: arial;
+	font-size: 8pt;
+	border-bottom: 1px solid #000000;
+	margin: 0 15 0 0px;
+	padding: 5 0 0 0px;
+}
+
+.divCol3y4 {
+	width: 145px;
+	height: 25px;
+	border-bottom: 1px solid #000000;
+	margin: 0 15 0 0px;
+	padding: 5 0 0 0px;
+}
+
+.divCol5 {
+	width: 135px;
+	height: 25px;
+	border-bottom: 1px solid #000000;
+	padding: 5 0 0 0px;
+}
+
+.titCuadro {
+	font-size: 9pt;
+	font-family: Tahoma;
+	font-weight: bold;
+	text-align: center;
+	border: 2px solid #000000;
+	margin: 6 0 0 0px;
+	width: 98%;
+}
+
+.celdaLogoEdoCuenta {
+	padding: 6 0 6 0px;
+	border: 1px solid #000000;
+}
+
+.celdaLeyEdoCuenta1 {
+	padding: 2 0 0 8px;
+	border-top: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+.celdaLeyEdoCuenta2 {
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+.titClaveMonElek {
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 0 8 0px;
+}
+
+.camposMonElektronico {
+	border: 1px solid #000000;
+	background-color: #E4E4E4;
+	padding: 1 0 1 2px;
+	font-family: arial;
+	font-size: 10pt;
+}
+
+.datosResumenECME {
+	border-bottom: 3px solid #333333;
+	border-top: 3px solid #333333;
+	padding: 4 0 4 0px;
+}
+
+.fondoGrisDatos {
+	background-color: #E4E4E4;
+	width: 100%;
+	height: 400px;
+}
+
+.celdasTablaResumenME1 {
+	padding: 2 8 2 8;
+}
+
+.celdasTablaResumenME2 {
+	padding: 2 8 2 8;
+	background-color: #E4E4E4;
+}
+
+.marcoContratoPVC{
+	border: 1px solid #000000;
+	text-align: left;
+	font-family: Arial;
+	font-size: 6pt;	
+}
+
+.camposContratoPVC{
+	text-align: right;
+	font-family: arial;
+	font-size: 6pt;
+}
+
+
+.tituloCamposContratoPVC{
+	text-align: left;
+	font-family: arial;
+	color: gray;
+	font-size: 6pt;
+}
+
+
+.subtitPlanViva {
+   width: 732px;
+	background-color: #E0E0E0;
+	padding: 2 0 2 0px;
+	text-align: center;
+	font-size: 14pt;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.tablaDatosViva {
+	border: 1px solid #000000;
+	width: 732px;
+	padding: 20 20 15 20px;
+	text-align: left;
+}
+
+.tableDoubleBorder {
+	border: double #000000;
+	width: 590px;
+	padding: 40 0 40 50px;
+	margin: 0 0 0 50px;
+}
+
+.tableDoubleBorder2 {
+	border: double #000000;
+	margin: 5 0 0 0px;
+}
+
+.borderRight {
+   border-right: 1px solid #000000;
+}
+
+.legalesTxtBcoPVC {
+   padding: 2 20 0 4px;
+	font-size: 6pt;
+	font-family: Arial;
+	color: #FFFFFF;
+}
+.borderRightBottom {
+   border-right: 1px solid #000000;
+   border-bottom: 1px solid #000000;
+}
+.borderBottom {
+   
+   border-bottom: 1px solid #000000;
+}
+.borderAll {
+   
+   border-top: 1px solid #000000;
+   border-right: 1px solid #000000;
+}
+
+
+.topHistorialNoSurtidos {
+	border: 1px solid #000000;
+	background-color: #DBDBDB;
+	padding: 1 0 1 0px;
+	font-family: arial;
+	font-size: 10pt;
+}
+
+.fondo1HNS {
+	background-color: #E9E9E9;
+}
+
+.fondo2HNS {
+	background-color: #F5F5F5;
+}
+
+#bbPunteado {
+	border-bottom: 1px dotted #000000
+}
+
+
+.camposContratoPVCLeft{
+	text-align: left;
+	font-family: arial;
+	font-size: 9pt;
+}
+
+.tituloCamposContratoPVCTel{
+	text-align: left;
+	font-family: arial;
+	color: black;
+	font-size: 9pt;
+	font-weight: bold;
+}
+
+.arial8Center {
+	font-size: 9pt;
+	font-family: Arial;
+	text-align:center;
+}
+.arial8left {
+	font-size: 9pt;
+	font-family: Arial;
+	text-align:left;
+}
+.marcoContratoPVCRight{
+	border:  none;
+	text-align: left;
+	font-family: Arial;
+	font-size: 9pt;	
+}
+
+.marcoContratoPVCSF{
+	border:  none;
+	text-align: left;
+	font-family: Arial;
+	font-size: 9pt;	
+}
+
+
+.marcoContratoPVCSFC{
+	border:  none;
+	text-align: center;
+	font-family: Arial;
+	font-size: 9pt;	
+	font-weight: bold;
+}
+
+.marcoContratoPVCSFCN{
+	border:  none;
+	text-align: center;
+	font-family: Arial;
+	font-size: 9pt;	
+}
+
+.marcoContratoClausula{
+	border:  none;
+	text-align: left;
+	font-family: Arial;
+	font-size: 9pt;	
+}
+
+.marcoContratoInfPresentada{
+	border: 1px solid #000000;
+	text-align: left;
+	font-family: Arial;
+	font-size: 9pt;	
+}

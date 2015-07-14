@@ -1,0 +1,53 @@
+@charset "utf-8";
+body {
+	margin-top: 3px;
+}
+img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.contenedor {
+	margin-right: auto;
+	margin-left: 4%;
+	margin-top:4%;
+	/* display: table; */
+}
+#header {
+    position: relative;
+}
+.txtHeader {
+	position: absolute;
+	margin-top: -8px;
+	right: 15%;
+	top: 7%;
+}
+#titulosC{
+	top: 7%;
+}
+#titulosG{
+	
+}
+.izq_tit {
+	background-image: url(../imagenes/GuiaMuebles/izq_tit.jpg);
+	background-repeat: no-repeat;
+	height: 26px;
+	width: 11px;
+}
+.der_tit {
+	background-image: url(../imagenes/GuiaMuebles/der_tit.jpg);
+	background-repeat: no-repeat;
+	height: 26px;
+	width: 11px;
+}
+.bg_tit {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	background-image: url(../imagenes/GuiaMuebles/bg_tit.jpg);
+	background-repeat: repeat-x;
+	text-align: left;
+	height: 26px;
+}

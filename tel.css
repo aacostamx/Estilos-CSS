@@ -1,0 +1,880 @@
+@charset "ISO-8859-1";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding-top: 0px;
+}
+
+body{
+	background-color:#FFF;
+	scrollbar-face-color: #c8c8c8;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-3dlight-color: #CCCCCC;
+	scrollbar-darkshadow-color: #FFFFFF;
+	scrollbar-shadow-color: #AAAAAA;
+	scrollbar-arrow-color: #646464;
+	scrollbar-track-color: #EEEEEE;
+}
+
+#wrapper{
+	background-image:url(/ElektraFront/imagenes/back.jpg);
+	width:1037px; 
+	height: 450px; 
+	margin: 0 0 0 0;
+	position:relative;
+	background-position:10px 16px;
+	background-repeat:no-repeat;
+}
+
+#superior{
+	width:1034px; 
+    height: 35px; 
+	margin:0 auto;
+}
+
+#MenuCategorias
+{
+    position: absolute;
+	/*bottom:852px;*/
+	top:35px;
+	left: -12px;
+}
+
+#contenido{
+	width:800px; 
+    height: 600px; 
+	position:relative;
+}
+
+
+
+#backmenu{
+	height: 57px;
+	width: 965px;
+	position: absolute;
+	top: 21px;
+	left: 30px;
+}
+
+#MenuSubCategorias
+{
+    /*position: absolute;
+	top:11px;
+	left: 50px;*/
+}
+
+#Calendario
+{
+ position:absolute;
+}
+
+#titulo{	
+	font:12px Verdana;
+	font-size:12px;
+	color: #fff;
+	left: 40px;
+	top: 59px;
+	z-index: 150;
+	position:absolute;
+	width: 181px;
+	font-weight: lighter;
+	height: 28px;
+}
+
+#backsubtitulos{
+	
+	
+	height: 29px;
+	width: 735px;
+	position: absolute;
+	top: 53px;
+	left: 29px;
+	background-repeat:no-repeat;
+}
+	
+#backsubtitulos2{
+	height: 29px;
+	width: 735px;
+	position: relative;
+	left: 14px;
+	
+	/*height: 29px;
+	width: 735px;
+	position: absolute;
+	left: 30px;
+	top:284px;
+	z-index:3;*/
+}
+
+
+#contenedoresultados2{
+	/*width:980px;
+	position:relative;
+	margin:0 auto;
+	top: 175px;*/
+	
+	width:732px;
+	position:absolute;
+	margin:0 auto;
+	top: 270px;
+	left:13px;
+}
+
+table.historicotab2{margin:0 auto; width:732px; background-color:white; border:1px #c8c8c8 solid; border-collapse:collapse; margin-left:15px;}
+table.historicotab2 tr.row2 td{padding-top:5px; padding-bottom:3px; text-align:center; color:#4d4b4b; font:10px Verdana; border-right: 1px #c8c8c8 solid;}
+table.historicotab2 tr.rowazul2 td{
+	padding-top:5px;
+	padding-bottom:3px;
+	text-align:center;
+	color:#4d4b4b;
+	font:9px Verdana;
+	border-right: 1px #c8c8c8 solid;
+	border-bottom: 1px #c8c8c8 solid;
+}
+table.historicotab2 tr.title2{ font:10px Verdana; color:#FFF; background-color:#666666;}
+table.historicotab2 tr.title2 td{border-right: 1px #c8c8c8 solid; padding-top:3px;text-align:center;}
+table.historicotab2 tr.title3{ font:10px Verdana; color:#FFF; background-color:#666666;}
+table.historicotab2 tr.title3 td{border-right: 1px #c8c8c8 solid; text-align:center;}
+
+table.historicotab2 span.verde{color:#063; font-size:10px; font-weight:bold;}
+table.historicotab2 span.rojo{color:#F00; font-size:10px; font-weight:bold;}
+table.historicotab2 span.gris{color:#666; font-size:10px; font-weight:bold;}
+
+td.amarillo{
+background-image:url(/ElektraFront/imagenes/amarillo.jpg);
+background-repeat: repeat-x;
+background-position: 3px;
+}
+
+td.hoy{
+background-image:url(/ElektraFront/imagenes/cuadrogris.png);
+background-repeat: repeat-x;
+background-position: 3px;
+}
+
+td.hoyAmarillo{
+background-image:url(/ElektraFront/imagenes/amarillo_gris.jpg);
+background-repeat: repeat-x;
+background-position: 3px;
+}
+
+#navegador2{
+	/*height: 26px;
+	width: 158px;*/
+	position: absolute;
+	left: 0px;
+	top: 482px;
+}
+#titulo2{
+	/*font:16px Verdana;
+	font-size:16px;
+	color: #fff;
+	left: 19px;
+	top: 9px;
+	z-index: 150;
+	position:absolute;
+	width: 192px;
+	font-weight: lighter;*/
+	
+	font:12px Verdana;
+	font-size:12px;
+	color: #fff;
+	left: 23px;
+	top: 7px;
+	z-index: 150;
+	position:absolute;
+	width: 200px;
+	font-weight: lighter;
+	
+}
+
+#titulo2 p.titulo{
+	font:16px Verdana;}
+	
+#titulo3{
+	font:10px Verdana;
+	font-size:10px;
+	color: #333;
+	left: 507px;
+	top: 15px;
+	z-index: 150;
+	position:absolute;
+	width: 102px;
+	font-weight: lighter;
+}
+
+*html ul#menubar{
+	margin:0 0 0 30px;
+	}
+
+ul#menubar
+{
+    width:800px;
+	position:absolute;
+	top:-46px;
+	z-index:50;
+}
+
+ul#menubar li
+{    
+    display:block;
+	margin-right:4px;
+	float:left;
+	position:relative;
+	width:107px;
+	height:17px;
+	list-style:none;
+	text-align:center;
+	font:13px Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#666;
+	text-decoration:none;
+}
+
+a.normal
+{    
+    font:12px Arial, Helvetica, sans-serif; 
+	font-weight:bold; 
+	color:#666; 
+	text-decoration:none;
+	width:107px; 
+	height:17px; 
+	/*background:url(/ElektraFront/imagenes/barrabtn2.png) no-repeat 0px 15px; */
+	background:url(/ElektraFront/imagenes/barrabtn2.gif) no-repeat 0px 15px;
+	display:block; 
+	padding-top:18px;
+}
+
+a.encima
+{    
+    font:12px Arial, Helvetica, sans-serif; 
+	font-weight:bold; 
+	color:#666; 
+	text-decoration:none;
+	/*background:url(/ElektraFront/imagenes/barrabtn2.png) no-repeat 0px -27px;*/
+	background:url(/ElektraFront/imagenes/barrabtn2.gif) no-repeat 0px -27px;
+    
+    width:107px;
+    height:17px; 
+    display: block;
+    padding-top: 18px;
+    
+}
+
+
+table#botonera{
+	padding-top:3px; padding-left:50px;
+	}
+*html table#botonera{
+	padding-top:3px;
+	margin-left: 50px; 
+	}
+
+table#botonera td{
+	width:65px; text-align:center;
+}
+
+
+
+/*------------------------------------------------------------DETALLE------------------------------------------------------------*/
+#wrapper2{
+	width:600px; 
+	height: 460px; 
+	margin:0 auto; 
+	position:relative;
+	background-image:url(/ElektraFront/imagenes/back2.jpg);
+	background-position:15px 0px;
+	background-repeat:no-repeat;
+}
+
+#contenido2{
+	width:600px; 
+    height: 460px; 
+	position:relative;
+}
+
+#estrella{
+	height: 39px;
+	width: 38px;
+	position: relative;
+	/*top: 59px;
+	left: 31px;*/
+	top: 20px;
+	left: 31px;
+}
+
+#tituloseccion{
+	font:14px Verdana;
+	font-size:14px;
+	color: #900;
+	width: 187px;
+	font-weight: bold;
+	position:absolute;
+	left: 83px;
+	/*top: 73px;*/
+	top: 34px;
+	z-index: 150;
+}
+
+#texgris{
+	font:12px Verdana;
+	font-size:10px;
+	color: #999;
+	left: 225px;
+	/*top: 108px;*/
+	top: 69px;
+	z-index: 150;
+	position:absolute;
+	width: 246px;
+}
+
+#fechavigencia{
+	font:12px Verdana;
+	font-size:10px;
+	color: #999;
+	left: 513px;/*533px;*/
+	/*top: 107px;*/
+	top: 68px;
+	z-index: 150;
+	position:absolute;
+	width: 246px;/*226px;*/
+}
+
+#textodos{
+	font:12px Verdana;
+	font-size:10px;
+	color: #0B5085;
+	left: 452px;/*372px;*/
+
+	/*top: 107px;*/
+	top: 68px;
+	z-index: 150;
+	position:absolute;
+	width: 57px;/*67px;*/
+	font-weight: bold;
+}
+
+/*MECÁNICA*/
+#mecanica{
+	width:450px;
+	position:relative;
+	margin:0 auto;
+	padding-top: 90px;
+	padding-left: 280px;
+	height: 68px;
+	z-index: 50;
+	top: -34px;
+	}
+*html #mecanica{
+padding-left: 226px;
+
+	}
+table.mecanica{
+		border:1px #c8c8c8 solid;
+	}
+	
+	td.bullet{
+	background-image:url(/ElektraFront/imagenes/bullet.jpg);
+	background-repeat: no-repeat;
+}
+
+
+#tipoVenta
+{
+    font:12px Verdana;
+	font-size:10px;
+	color: #999;
+    position:absolute;
+    top:185px;
+    left:226px;
+    width:539px;
+   
+}
+
+
+/*MECÁNICA*/
+
+/*mecánica mía*/
+#datosMecanica
+{
+    border:1px #c8c8c8 solid;
+    position:absolute;
+    top:80px;
+    left:226px;
+    width:539px;
+    height:80px;
+    overflow:auto;
+}
+
+span.texgris2
+{
+    font:12px Verdana;
+	font-size:10px;
+	color: #999;
+	width:100px;
+	height:120px;
+}
+
+#picture
+{
+    position:relative;
+    top:4px;
+    float: left;
+    width: 1px;
+}
+
+span.textoMecanica
+{
+    clear: none;
+    font:12px Verdana;
+	font-size:10px;
+	color: #999;
+	position:relative;
+	top:4px;
+}
+
+#interior{
+	width:964px;
+	height: 534px;
+	margin:0 auto;
+	position:relative;
+	/*top: 140px;*/
+	top: 101px;
+}
+
+#GridProductosPromocion
+{
+	margin:0 auto;
+	position:absolute;
+	top: 350px;
+}
+
+#navegador3{
+	position: absolute;
+	left: 190px;
+	top: 37px;
+
+}
+
+#textouno{
+	font:12px Verdana;
+	font-size:10px;
+	color: #0B5085;
+	left: 36px;
+	top: -233px;
+	z-index: 150;
+	position:absolute;
+	width: 171px;
+	font-weight: bold;
+}
+
+table.productos{
+	margin:0 auto;
+	width:540px;
+	border:1px #c8c8c8 solid;
+	border-collapse:collapse;
+	height: 148px;
+	position:absolute;
+	left: 227px;
+	top: -96px;
+	}
+td.cel1{
+	background-image: url(/ElektraFront/imagenes/cel1.png);
+	background-repeat: no-repeat;
+	background-position: 8px;
+}
+td.cel2{
+	background-image: url(/ElektraFront/imagenes/cel2.png);
+	background-repeat: no-repeat;
+	background-position: 8px;
+}
+td.cel3{
+	background-image: url(/ElektraFront/imagenes/cel3.png);
+	background-repeat: no-repeat;
+	background-position: 8px;
+}
+table.productos span.negro{
+	color:#000;
+	font:10px Verdana;
+	font-size:10px;
+	font-weight:bold;
+	text-align: center;
+}
+table.productos span.espe{
+	color:#0B5085;
+	font:10px Verdana;
+	font-size:10px;
+	text-align: left;
+}
+
+/*PRUEBA PARA CAMBIAR LAS CLASES DE LA TABLA DE SKU's*/
+span.titulo42
+{
+    font:9px Verdana;
+	font-size:9px;
+	color: #fff;
+	font-weight: lighter;
+}
+
+span.negro2
+{
+    color:#000;
+	font:10px Verdana;
+	font-size:10px;
+	font-weight:bold;
+	text-align: center;
+}
+span.espe2{
+	color:#0B5085;
+	font:10px Verdana;
+	font-size:10px;
+	text-align: left;
+}
+
+#titulo4{
+	font:9px Verdana;
+	font-size:9px;
+	color: #fff;
+	left: 255px;
+	top: -120px;
+	z-index: 150;
+	position:absolute;
+	width: 105px;
+	font-weight: lighter;
+}
+
+#titulo4a{
+	font:9px Verdana;
+	font-size:9px;
+	color: #fff;
+	left: 528px;
+	top: -120px;
+	z-index: 150;
+	position:absolute;
+	width: 98px;
+	font-weight: lighter;
+}
+#titulo5{
+	font:9px Verdana;
+	font-size:9px;
+	color: #fff;
+	left: 366px;
+	top: -114px;
+	z-index: 150;
+	position:absolute;
+	width: 125px;
+	font-weight: lighter;
+}
+#titulo5a{
+	font:9px Verdana;
+	font-size:9px;
+	color: #fff;
+	left: 633px;
+	top: -115px;
+	z-index: 150;
+	position:absolute;
+	width: 125px;
+	font-weight: lighter;
+}
+
+#recomendaciones{
+	width:450px;
+	position:relative;
+	margin:0 auto;
+	padding-top: 65px;
+	padding-left: 120px;
+	height: 68px;
+	z-index: 50;
+	top: 5;
+	}
+*html #recomendaciones{
+padding-left: 30px;
+}
+table.recomendaciones{
+		border:1px #c8c8c8 solid;
+	}
+#recomendaciones2{
+	width:450px;
+	position:relative;
+	padding-top: 45px;
+
+	height: 68px;
+	z-index: 50;
+	top: 5;
+	}
+table.recomendaciones2{
+		border:1px #c8c8c8 solid;
+	}
+td.anterior{
+	background-image:url(/ElektraFront/imagenes/anterior.png);
+	background-repeat: no-repeat;
+}
+td.bola{
+	background-image:url(/ElektraFront/imagenes/activo.png);
+	background-repeat: no-repeat;
+}
+td.bolaa{
+	background-image:url(/ElektraFront/imagenes/inactivo.png);
+	background-repeat: no-repeat;
+}
+td.siguiente{
+	background-image:url(/ElektraFront/imagenes/siguiente.png);
+	background-repeat: no-repeat;
+}
+td.bullet{
+	background-image:url(/ElektraFront/imagenes/bullet.jpg);
+	background-repeat: no-repeat;
+}
+
+/*INI: ENCABEZADO DEL GRID*/
+#backsubtitulosku{
+	height: 32px;
+	width: 550px;
+	position: absolute;
+	left: 222px;
+	top: -125px;
+	z-index:-1;
+}
+
+#EncabezadoGrid
+{
+    height: 32px;
+	width: 540px;
+	position: absolute;
+	left: 240px;
+	top: -122px;
+	color: White;
+	/*background-image: url(/ElektraFront/imagenes/backsubtitulos_sku.gif);
+	background-repeat: no-repeat;
+	background-position: -10px -2px;*/
+	
+	font:9px Verdana;
+	font-size:9px;
+	color: #fff;
+	font-weight: lighter;
+}
+
+#Col1 
+{
+	float:left;
+	width: 3%;
+	/*background-color:Green;*/
+}
+
+#Col2
+{
+	float:left;
+	width: 17%;
+	text-align:center;
+	padding-top: 6px;
+	/*background-color:black;*/
+}
+
+#Col3 
+{
+	float:left;
+	width: 30%;
+	text-align:center;
+	padding-top: 6px;
+	/*background-color:Red;*/
+}
+
+#Col4 
+{
+	float:left;
+	width: 3%;
+	/*background-color:Green;*/
+}
+
+#Col5
+{
+	float:left;
+	width: 17%;
+	text-align:center;
+	padding-top: 6px;
+	/*background-color:black;*/
+}
+
+#Col6 
+{
+	float:left;
+	width: 30%;
+	text-align: center;
+	padding-top: 6px;
+	/*background-color:Red;*/
+}
+/*FIN: ENCABEZADO DEL GRID*/
+
+#btnimpresion2{
+	width: 107px;
+	position: absolute;
+	/*bottom:210px;*/
+	top:95px;
+	left: 654px;
+}
+
+/*ESTILOS DE HEADER FIJO*/
+#contenedoresultados{
+	width:732px;
+	top:85px;
+	left:32px;
+	position:relative;
+	margin:0 auto;
+	padding-bottom:0px;
+}
+
+#navegador{
+	
+	position:absolute;
+	margin:0 auto;
+	left:610px;
+	top:250px;
+}
+
+table.historicotab{
+	margin:0 auto;
+	width:712px;
+	/*border:1px #c8c8c8 solid;*/
+	border-collapse:collapse;
+	height: 18px;
+	}
+
+	
+table.historicotab tr.rowazul td{
+	background-color:#FFF;
+	padding-top:5px;
+	padding-bottom:3px;
+	text-align:center;
+	color:#0B5085;
+	font:10px Arial;
+	border-right: 1px #c8c8c8 solid;
+	border-bottom: 1px #c8c8c8 solid;
+	font-weight: lighter;
+
+}
+
+table.historicotab tr.title{
+	font:10px Arial;
+	color:#FFF;
+	background-color:#999;
+	font-weight: lighter;
+}
+table.historicotab tr.title td{
+	border-right: 1px #c8c8c8 solid; 
+	padding-top:5px; 
+	padding-bottom:3px; 
+	text-align:center;
+	}
+table.historicotab tr.row td{
+	padding-top:5px;
+	padding-bottom:3px;
+	text-align:center;
+	color:#333;
+	font:10px Arial;
+	border-right: 1px #c8c8c8 solid;
+	border-bottom: 1px #c8c8c8 solid;
+	font-weight: normal;
+	
+	}
+	
+table.historicotab tr.rowazul td.primercol{text-align:left; padding-left:15px;}
+table.historicotab tr.row td.primercol{text-align:left; padding-left:15px;}
+table.historicotab tr.title td.primercol{
+	text-align:left;
+	padding-left:5px;
+	background-color:#FFF;
+	color:#0B5085;
+	border-bottom: 1px #c8c8c8 solid;
+}
+table.historicotab tr.title td.next{text-align:center;background-color:#FFF; color:black;border-bottom: 1px #c8c8c8 solid;
+}
+
+#windowDataScroll 
+{
+    /*height: 163px;*/
+    overflow-x: hidden; 
+    top:85px; 
+    margin:0 auto; 
+    padding-bottom:0px; 
+    border:1px #cccccc solid;
+    
+    /*width:729px;
+    overflow-y: scroll;*/
+    
+    /*overflow-y: hidden; 
+    width:711px;*/
+}
+
+thead.fixedHeader tr {position: relative;}
+
+.dataScroll thead
+{
+    background-color: #cccccc;
+}
+
+
+/*----Se agregó para la impresión de baja de precios--------------------------------------------*/
+#divimpresionbaja{
+	/*width: 107px;*/
+	position: absolute;
+	/*bottom:210px;*/
+	top:25px;
+	left: 654px;
+}
+
+.boton{
+        font-size:10px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+        /*background:#638cb5;*/
+        background:#999;
+        border:0px;
+        width:80px;
+        height:19px;
+        cursor:hand;
+       }  
+       
+span.texgrisDias
+{
+    font:10px Verdana;
+	font-size:10px;
+	color: #999;
+	width:100px;
+	height:120px;
+	font-weight:bold;
+}  
+
+#divSeleccionaDias
+{
+    position:absolute;
+    top:15px;
+    left:65px;
+}
+
+#rbtnDias
+{
+    position:relative;
+    top:7px;
+    left:25px;
+    font-size:10px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color: #0B5085;
+}
+
+#divBotonesSelDias
+{
+    position:relative;
+    top:-5px;
+    left:0px;
+}
+
+#divImpresion
+{
+    position:absolute;
+    top:315px;
+    left:0px;
+}
+

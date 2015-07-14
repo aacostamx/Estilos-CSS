@@ -1,0 +1,108 @@
+div#navcontainer
+{
+font: 10px "verdana",sans-serif;
+font-weight: 900;
+display: block;
+color: #000;
+background: #c0c0c0;
+width: 12em;
+padding: 20px;
+margin: 0;
+}
+
+ul#navlist,ul#navlist li ul#subnavlist
+{
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+ul#navlist li,ul#navlist li ul#subnavlist li { display: inline; }
+
+ul#navlist li a
+{
+display: block;
+width: 10em;
+color: #000;
+background: #ccc;
+text-align: center;
+text-decoration: none;
+border-left: solid #eee;
+border-top: solid #eee;
+border-right: solid #aaa;
+border-bottom: solid #aaa;
+border-width: 2px;
+margin: 0;
+padding: 2px 5px 2px 5px;
+}
+
+ul#navlist li a:hover,ul#navlist li a:focus { background: #eee; }
+
+ul#navlist li a:active
+{
+border-left: solid #aaa;
+border-top: solid #aaa;
+border-right: solid #eee;
+border-bottom: solid #eee;
+border-width: 2px;
+padding: 2px 5px 2px 5px;
+}
+
+ul#navlist li#active a
+{
+color: #003333;
+background: #bbb;
+border-left: solid #eee;
+border-top: solid #eee;
+border-right: solid #aaa;
+border-bottom: solid #aaa;
+border-width: 2px;
+}
+
+ul#navlist li ul#subnavlist li a
+{
+display: list-item;
+width: 9em;
+color: #000;
+background: #ccc;
+text-align: center;
+text-decoration: none;
+border-left: solid #aaa;
+border-right: solid #aaa;
+border-width: 0 1px 0 1px;
+margin: 0 0 0 1em;
+padding: 3px 6px 3px 6px;
+}
+
+ul#navlist li ul#subnavlist li a:hover,ul#navlist li ul#subnavlist li a:focus { background: #eee; }
+
+ul#navlist li#active ul#subnavlist li#subactive a
+{
+color: #eee;
+background: #bbb;
+}
+
+#fraseBuscar {
+   font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+}
+#check {
+	padding: 2 2 2 4px;
+}
+#check2 {
+	padding: 2 2 0 4px;
+}
+.fraseExacta {
+   font-family: Verdana;
+	font-size: 7pt;
+	padding: 0 0 0 3px;
+}
+.claseCheck{
+	width: 12px;
+	height: 12px;
+}
+.claseIn{
+	font-size: 9pt;
+	width: 160px;
+}

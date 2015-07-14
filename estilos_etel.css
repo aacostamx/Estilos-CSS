@@ -1,0 +1,233 @@
+body {
+	margin: 3 3 3 3px;
+}
+.logo {
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+}
+.buscador {
+	background-color: #F6F6F8;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	padding-left: 15px;
+}
+.titulos {
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CC0000;
+	font-family: tahoma;
+	font-size: 20px;
+	font-weight: bold;
+	color: #4A4E71;
+}
+.titulosb {
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	font-family: tahoma;
+	font-size: 20px;
+	font-weight: bold;
+	color: #4A4E71;
+}
+.impex {
+	height: 138px;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	background-image: url(../../ElektraFront/imagenes/EtiquetadoElectronico/fondo_impexp.png);
+	background-repeat: repeat-x;
+}
+.impex2 {
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	background-image: url(../../ElektraFront/imagenes/EtiquetadoElectronico/fondo_impexp.png);
+	background-repeat: repeat-x;
+	background-color: #E6E6E6;
+	padding-top: 10px;
+}
+.impxpromo {
+	height: 100px;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	background-image: url(../../ElektraFront/imagenes/EtiquetadoElectronico/fondo_impxpromo.png);
+	background-repeat: repeat-x;
+	padding-top: 5px;
+}
+.border_impxpromo {
+	border-bottom: 1px solid #CC0000;
+}
+.alertas {
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	padding-top: 5px;
+}
+.impresiones {
+	background-color: #F5F5F5;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.linea_imp {
+	width: 24px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-image: url(../../ElektraFront/imagenes/EtiquetadoElectronico/linea_imp.png);
+	background-repeat: repeat-y;
+}
+.cabeceros {
+	height: 25px;
+	font-family: tahoma;
+	font-size: 13px;
+	font-weight: bold;
+	color: #4A4E71;
+	background-color: #F2F5FF;
+}
+.info_tablas {
+	height: 25px;
+	font-family: tahoma;
+	font-size: 11px;
+	background-image: url(../../ElektraFront/imagenes/EtiquetadoElectronico/linea_info.gif);
+	background-repeat: repeat-x;
+}
+
+
+.impeconfirma {
+	
+	font-family: tahoma;
+	font-size: 18px;
+	font-weight: bold;
+	color: #990000;
+	border-left: solid 2px   #CCCCCC;
+	border-bottom: solid 2px  #CCCCCC;
+	border-top: solid 2px  #CCCCCC;
+	background-color:  #F5F5F5;
+	background-image: url(../../ElektraFront/imagenes/EtiquetadoElectronico/impresora.jpg);
+	background-repeat:no-repeat;
+}
+.impetablaconfirma {
+	
+	font-family: tahoma;
+	font-size: 18px;
+	font-weight: bold;
+	color: #4A4E71;
+	border-left: solid 2px  #4A4E71;
+	border-right: solid 2px #4A4E71;
+	border-bottom: solid 2px #4A4E71;
+	border-top: solid 2px  #4A4E71;
+	background-color: #F5F5F5;
+	
+}
+
+.cabeceroImpresion {
+	height: 30px;
+	font-family: tahoma;
+	font-size: 19px;
+	font-weight: bold;
+	color:#990000;
+	background-color:#DDDDDD;
+	border-left: solid 3px  #990000;
+	border-right: solid 3px  #990000;
+	border-bottom: solid 2px  #990000;
+	border-top: solid 3px  #990000;
+	background-image: url(../../ElektraFront/imagenes/EtiquetadoElectronico/FondoTituloConfirmar.gif);
+}
+.celdaBotonesConfirma {
+	font-family: tahoma;
+	font-size: 18px;
+	font-weight: bold;
+	color: #990000;
+	border-right: solid 2px #CCCCCC;
+	border-bottom: solid 2px  #CCCCCC;
+	border-top: solid 2px  #CCCCCC;
+	background-color: #FFFFFF;		
+	
+}
+
+.tablaConfirma {
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+
+}
+
+/*-------------Fuentes-------------*/
+.font10 {
+	font-family: tahoma;
+	font-size: 10px;
+}
+.font11 {
+	font-family: tahoma;
+	font-size: 11px;
+}
+.font12 {
+	font-family: tahoma;
+	font-size: 12px;
+}
+.font12b {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+}
+.font13 {
+	font-family: tahoma;
+	font-size: 13px;
+}
+.font14 {
+	font-family: tahoma;
+	font-size: 14px;
+}
+.font14_azul {
+	font-family: tahoma;
+	font-size: 14px;
+	color: #1D3E6E;
+}
+.font14b_azul {
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #1D3E6E;
+}
+.font16b_azul {
+	font-family: tahoma;
+	font-size: 16px;
+	font-weight: bold;
+	color: #4A4E71;
+	
+}
+.font14_rojo {
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #990000;
+}
+.font20_rojo {
+	font-family: tahoma;
+	font-size: 20px;
+	font-weight: bold;
+	color: #990000;
+}
+
+.font18_rojo {
+	font-family: tahoma;
+	font-size: 20px;
+	font-weight: bold;
+	color: #990000;
+}
+
+.font20_rojob {
+	font-family: tahoma;
+	font-size: 20px;
+	font-weight: bold;
+	color: #CC0000;
+}
+.font26_rojo {
+	font-family: tahoma;
+	font-size: 26px;
+	font-weight: bold;
+	color: #990000;
+}
+

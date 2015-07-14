@@ -1,0 +1,532 @@
+/* CSS PARA RESOLUCION 800. C3 TELEFONIA VTA TA    */
+.tbTopCotenido2,.tbTopContenido,.tdTopContenido,.tdBottomContenido
+{
+	width: 784px;
+}
+.TATDContenido
+{
+    height: 200px;
+}
+.TAPestanaTiempoAire {
+	width:131px;
+	height:27px;
+	margin-left:22px;
+	float:left;
+	background-image: url(/ElektraFront/imagenes/VentaTA/pestTAireOff.gif);
+	background-repeat:no-repeat; 
+	background-position:center center;
+}
+.TAPestanaPaquetes {
+	width:131px;
+	height:27px;
+	margin-left:5px;
+	float:left;
+	background-image: url(/ElektraFront/imagenes/VentaTA/pestPaquetesOff.gif);
+	background-repeat:no-repeat; 
+	background-position:center center;
+}
+.TAPestanaTodito{
+	width:131px;
+	height:27px;
+	margin-left:5px;
+	float:left;
+	background-image: url(/ElektraFront/imagenes/VentaTA/pestToditoOff.gif);
+	background-repeat:no-repeat; 
+	background-position:center center;
+}
+.TAPestanaTiempoAireOver{
+	width:131px;
+	height:27px;
+	margin-left:22px;
+	float:left;
+	background-image: url(/ElektraFront/imagenes/VentaTA/pestTAireOn.gif);
+	background-repeat:no-repeat; 
+	background-position:center center;
+}
+.TAPestanaPaquetesOver {
+	width:131px;
+	height:27px;
+	margin-left:5px;
+	float:left;
+	background-image: url(/ElektraFront/imagenes/VentaTA/pestPaquetesOn.gif);
+	background-repeat:no-repeat; 
+	background-position:center center;
+}
+.TAPestanaToditoOver{
+	width:131px;
+	height:27px;
+	margin-left:5px;
+	float:left;
+	background-image: url(/ElektraFront/imagenes/VentaTA/pestToditoOn.gif);
+	background-repeat:no-repeat; 
+	background-position:center center;
+}
+.descripcionesTodito{
+	height:37px;
+	width:79px;
+	margin:90px 0 10px 160px;
+	text-align:center;
+}
+.tbTopDatos2,.tdBottomDatos2
+{
+	width: 311px;
+}
+.tdBottomDatosRecargas2
+{
+	width: 430px;
+}
+.carrito,.tbDatos1
+{
+	width: 410px;
+}
+.tdImgCarrito
+{
+	height: 140px;
+	vertical-align: top;
+}
+.tdDatos5
+{
+	height: 50px;
+}
+.recarga4pc{
+	width: 4%;
+	vertical-align: middle;
+	color:#02a6a1; 
+	font-size: 16px;	
+}
+.tdTextPago,.tdDatos1
+{
+	height: 260px;
+}
+.imgNegro
+{
+	width: 270px;
+	height: 1px;
+}
+.tbPaquetesOut
+{
+	width: 755px;
+	border: none;
+	border-collapse: collapse;	
+}
+.cajasMontos
+{
+	width: 750px;
+	border: none;
+	border-collapse: collapse;
+}
+.divPestanas
+{
+	width: 784px;
+	height: 26px;
+	margin: 0 auto 0 auto;
+	font-size: 0px;
+}
+.TABottomContenido
+{
+	width: 784px;
+	height:15px; 
+	border: none;
+	background-repeat:no-repeat; 
+	background-position:center center;
+	background-image:url(/ElektraFront/imagenes/VentaTA/bottom_contenido.jpg); 				
+	vertical-align: top;	
+}
+.TATopContenido
+{
+	width: 784px;
+	height:13px; 
+	border: none;
+	background-repeat:no-repeat; 
+	background-position:center center;
+	background-image:url(/ElektraFront/imagenes/VentaTA/top_contenidob.gif); 				
+	vertical-align: top;
+}
+.TADivMontos
+{
+	width:760px;
+	height:200px;
+}
+.TASimboloPesos
+{
+	font-family: "Arial";
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	width: 30px;
+}
+.TACajaMontos
+{
+	height: 35px;
+	width: 65px;
+	cursor: hand; 
+	position: relative;	
+}
+.TAMontoOut
+{
+	visibility:visible; 
+	height:37; 
+	width: 66px; 
+	position:absolute; 
+	left:0px; 
+	background-image: url(/ElektraFront/imagenes/VentaTA/btn_out.jpg); 
+	background-repeat:no-repeat; 
+	background-position:center center;
+	font-family: "Arial";
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px;
+}
+.TATelefonoRecarga
+{
+	border-style: none;
+	font-family: "Arial";
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;	
+}
+.TAMontoRecarga
+{
+	border-style: none;
+	width: 50px;
+	font-family: "Arial";
+	font-size: 16px;
+	font-weight: bold;
+	color: #02a6a1;
+	text-align: center;
+}
+.TAFontTitulos
+{
+	font-family: arial;
+	font-size: 18px;
+	color:#990000;
+	font-weight:bold;
+}
+.TARecibirPago
+{
+	width: 303px;
+	padding: 4px;
+	margin: 0;
+	height: 273px;
+	border: none;
+}
+.TATDRecargas
+{
+	width: 300px; 
+	height: 268px;
+	vertical-align: top;
+}
+.TAToditoMontoOut{
+	height:35; 
+	width: 44px; 
+	background-image: url(/ElektraFront/imagenes/VentaTA/btn_out.jpg); 
+	border:none;
+	background-repeat:no-repeat;
+	background-position:center center;
+	color:black;
+	display:inline-block;
+	font-weight:bold;
+	font-family:Arial;
+	font-size: 18px;
+	text-align: center;
+	padding-top : 8px;
+}
+.TAToditoCajaPrecio {
+	width:55px;
+	height:30px;
+	float:left;
+	cursor:hand;
+	padding-left: 1px;
+}
+.TAImgCajaTelefonicaToditoCash
+{
+	background: url(/ElektraFront/imagenes/VentaTA/cajaTodito.jpg);
+	width: 100px;
+	height: 39px;
+	margin: 2px;
+}
+.TAToditoMontoOverToditoCash
+{
+	visibility:visible; 
+	height:35; 
+	width: 44px; 
+	background-image: url(/ElektraFront/imagenes/VentaTA/InTCash.gif); 
+	background-repeat:no-repeat; 
+	background-position:center center;
+	font-family: "Arial";
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 8px;
+	display:inline-block;
+}
+.TAImgCajaTelefonicaToditoCard
+{
+	background: url(/ElektraFront/imagenes/VentaTA/cajaTCard.gif);
+	width: 100px;
+	height: 39px;
+	margin: 2px;
+}
+.TAToditoMontoOverToditoCard
+{
+	visibility:visible; 
+	height:35; 
+	width: 44px; 
+	position:absolute; 
+	background-image: url(/ElektraFront/imagenes/VentaTA/InTCard.gif); 
+	background-repeat:no-repeat; 
+	background-position:center center;
+	font-family: "Arial";
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding-top : 8px;
+}
+.TAImgCajaTelefonicaToditoBueno
+{
+	background: url(/ElektraFront/imagenes/VentaTA/cajaTBueno.gif);
+	width: 100px;
+	height: 39px;
+	margin: 2px;
+}
+.TAToditoMontoOverToditoBueno
+{
+	visibility:visible; 
+	height:35; 
+	width: 44px; 
+	position:absolute; 
+	background-image: url(/ElektraFront/imagenes/VentaTA/InTBueno.gif); 
+	background-repeat:no-repeat; 
+	background-position:center center;
+	font-family: "Arial";
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 8px;
+}
+.PDMontoOut{
+	border:none;
+	background:url(../imagenes/VentaTA/precio_blanco.gif);
+	background-repeat:no-repeat;
+	width:44px;
+	height:25px;
+	color:black;
+	font-size:18px;
+	display:inline-block;
+	font-weight:bold;
+	font-family:Arial;
+	text-align: center;
+	padding-top: 3px;
+}
+.PDCajaMontos1 {
+	width:285px;
+	height:45px;
+	float:left;
+}
+.PDCajaMontos2 {
+	width:263px;
+	height:45px;
+	float:left;
+}
+.PDCajaMontoSolo1 {
+	width:60px;
+	height:30px;
+	float:left;
+	cursor:hand;
+}
+.PDDetalleMonto
+{
+	visibility:hidden; 
+	position:absolute; 
+	top: 250px;
+}
+.TAMontoOverIusacell
+{
+	visibility:visible; 
+	height:37; 
+	width: 66px; 
+	position:absolute; 
+	left:0px; 
+	background-image: url(/ElektraFront/imagenes/VentaTA/Telefonicas/Iusacell/Backgrounds/btn_over.jpg); 
+	background-repeat:no-repeat; 
+	background-position:center center;
+	font-family: "Arial";
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px;
+}
+.PDMontoOverIusacell{
+	border:none;
+	background:url(../imagenes/VentaTA/precio_iusa.gif);
+	background-repeat:no-repeat;
+	width:44px;
+	height:25px;
+	color:black;
+	font-size:18px;
+	display:inline-block;
+	font-weight:bold;
+	font-family:Arial;
+	text-align: center;
+	padding-top: 3px;
+}
+.PDMontoOverIusacellWiFi
+{
+	visibility:visible; 
+	height:25px; 
+	width: 44px; 
+	color:black;
+	position:absolute; 
+	background-image: url(/ElektraFront/imagenes/VentaTA/precio_IusaWiFi.gif); 
+	background-repeat:no-repeat; 
+	background-position:center center;
+	font-family: "Arial";
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	display:inline-block;
+	padding-top: 3px;
+}
+.TAMontoOverUnefon
+{
+	visibility:visible; 
+	height:37; 
+	width: 66px; 
+	position:absolute; 
+	left:0px; 
+	background-image: url(/ElektraFront/imagenes/VentaTA/Telefonicas/Unefon/Backgrounds/btn_over.jpg); 
+	background-repeat:no-repeat; 
+	background-position:center center;
+	font-family: "Arial";
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px;
+}
+.PDMontoOverUnefon{
+	border:none;
+	background:url(../imagenes/VentaTA/precio_unefon.gif);
+	background-repeat:no-repeat;
+	width:44px;
+	height:25px;
+	color:black;
+	font-size:18px;
+	display:inline-block;
+	font-weight:bold;
+	font-family:Arial;
+	text-align: center;
+	padding-top: 3px;
+}
+.TAMontoOverNextel
+{
+	visibility:visible; 
+	height:37; 
+	width: 66px; 
+	position:absolute; 
+	left:0px; 
+	background-image: url(/ElektraFront/imagenes/VentaTA/Telefonicas/Nextel/Backgrounds/btn_over.jpg); 
+	background-repeat:no-repeat; 
+	background-position:center center;
+	font-family: "Arial";
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px;
+}
+.PDMontoOverNextel{
+	border:none;
+	background:url(../imagenes/VentaTA/TiempoAire1024/btn_gris.png);
+	background-repeat:no-repeat;
+	width:44px;
+	height:25px;
+	color:black;
+	font-size:18px;
+	display:inline-block;
+	font-weight:bold;
+	font-family:Arial;
+	text-align: center;
+	padding-top: 3px;
+}
+.TAMontoOverMovistar
+{
+	visibility:visible; 
+	height:37; 
+	width: 66px; 
+	position:absolute; 
+	left:0px; 
+	background-image: url(/ElektraFront/imagenes/VentaTA/Telefonicas/Movistar/Backgrounds/btn_over.jpg); 
+	background-repeat:no-repeat; 
+	background-position:center center;
+	font-family: "Arial";
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px;
+}
+.PDMontoOverMovistar{
+	border:none;
+	background:url(../imagenes/VentaTA/precio_movistar.gif);
+	background-repeat:no-repeat;
+	width:44px;
+	height:25px;
+	color:black;
+	font-size:18px;
+	display:inline-block;
+	font-weight:bold;
+	font-family:Arial;
+	text-align: center;
+	padding-top: 3px;
+}
+.cajaTotal{
+	visibility: hidden;
+	position: absolute;
+	top: 415px;
+	left: 340px;
+	background-image:url(../imagenes/VentaTA/casillaTotal.png);
+	background-repeat:no-repeat;
+	width: 183px;
+	height: 34px;
+	font-family:Arial;
+	font-size:14px;
+}
+.descripcionesGral2 {
+	width:158px;
+	height:37px;
+	margin:30px 0 10px 120px;
+}
+.TAImgCajaTelefonicaIusacell
+{
+	background: url(/ElektraFront/imagenes/VentaTA/Telefonicas/Iusacell/Logo/icon_iusacell.jpg);
+	width: 106px;
+	height: 42px;
+	margin: 2px;
+}
+.TAImgCajaTelefonicaIusacellWiFi
+{
+	background: url(/ElektraFront/imagenes/VentaTA/CajaWifi.gif);
+	width: 106px;
+	height: 42px;
+	margin: 2px;
+}
+.TAImgCajaTelefonicaUnefon
+{
+	background: url(/ElektraFront/imagenes/VentaTA/Telefonicas/Unefon/Logo/icon_unefon.jpg);
+	width: 106px;
+	height: 42px;
+	margin: 2px;
+}
+.TAImgCajaTelefonicaNextel
+{
+	background: url(/ElektraFront/imagenes/VentaTA/Telefonicas/Nextel/Logo/icon_nextel.jpg);
+	width: 106px;
+	height: 42px;
+	margin: 2px;
+}
+.TAImgCajaTelefonicaMovistar
+{
+	background: url(/ElektraFront/imagenes/VentaTA/Telefonicas/Movistar/Logo/icon_movistar.jpg);
+	width: 106px;
+	height: 42px;
+	margin: 2px;
+}

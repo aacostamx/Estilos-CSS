@@ -1,0 +1,3783 @@
+.datosPrincipales {
+	margin: 2 0 4 2px;
+	width: 765px;
+}
+
+.botonesPrincipales {
+	margin: 0 0 4 2px;
+	width: 764px;
+}
+
+.contenedorPrincipal {
+	margin: 0 0 0 2px;
+	width: 764px;
+}
+
+.botCambiarOpciones {
+	margin: 3 0 0 0px;
+}
+
+.botVerPromociones {
+	margin: 3 0 0 0px;
+}
+
+.menuPersonalizable {
+   margin: 8 0 0 0px;
+	height: 338px;
+	width: 110px;
+}
+
+.contVentaRapida {
+   margin: 8 0 0 0px;
+	height: 260px;
+}
+
+.Promociones {
+   margin: 8 0 0 0px;
+	height: 200px;
+	width: 176px;
+}
+
+.promo1 {
+	margin: 4 0 3 0px;
+}
+
+.promo2 {
+	margin: 3 0 3 0px;
+}
+
+.promo3 {
+	margin: 3 0 0 0px;
+}
+
+.paquete1 {
+	margin: 6 0 5 0px;
+}
+
+.paquete2 {
+	margin: 9 0 9 0px;
+}
+
+.paquete3 {
+	margin: 5 0 7 0px;
+}
+
+.inputAgregaProd {
+	font-size: 10px;
+	width: 250px;
+}
+
+.inputBuscarProd {
+	font-size: 10px;
+	width: 195px;
+}
+
+.inputBuscarProdNvo {
+	font-size: 10px;
+	width: 195px;
+	height: 15px;
+}
+
+.inputBuscarClientePeq {
+	font-size: 10px;
+	width: 120px;
+}
+
+.inputBuscarProd2 {
+	font-size: 10px;
+	width: 177px;
+}
+
+.comboCliente {
+	font-size: 10px;
+	width: 195px;
+}
+
+.comboNumero {
+	font-size: 10px;
+	width: 30px;
+}
+
+.comboClienteNvo {
+	font-size: 10px;
+	width: 195px;
+	height: 12px;
+}
+
+.comboClientePeq {
+	font-size: 10px;
+	width: 120px;
+}
+.comboCliente150px {
+	font-size: 10px;
+	width: 150px;
+}
+.separador {
+	height: 4px;
+	width: 420px;
+	margin: 1 0 0 0px;
+}
+
+.buscadoresVentaRapida {
+	width: 430px;
+	height: 80px;
+	border: 1px solid #6E0404;
+	background-color: #FFFFFF;
+}
+
+.btnContinuar {
+   margin: 2 0 0 0px;
+	width: 430px;
+	text-align: right;
+}
+
+.link10 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+a.link10:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.tablaContiene {
+	height: 90px;
+	width: 100%;
+}
+.body {
+
+	margin: 0px;
+}
+.tabEspacio {
+	background-position: left;
+	text-align: left;
+	text-indent: 14px;
+	vertical-align: bottom;
+}
+.lineaColumna {
+	border: 0px;
+}
+.text10 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.barra006598 {
+
+	background-color: #006598;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barra336633 {
+
+
+	background-color: #336633;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barra990000 {
+
+
+
+	background-color: #990000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barra0000CC {
+
+
+
+
+	background-color: #0000CC;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barraB08D00 {
+
+
+
+
+
+	background-color: #B08D00;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barra666699 {
+
+
+
+
+
+
+	background-color: #666699;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barra164878 {
+
+
+
+
+
+
+
+	background-color: #164878;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barra333333 {
+
+
+
+
+
+
+
+
+	background-color: #333333;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barra333399 {
+
+
+
+
+
+
+
+
+
+	background-color: #333399;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.text10Cliente {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+}
+.text10ClienteRojo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #990000;
+}
+.barra990099 {
+
+
+
+
+
+
+
+
+
+
+	background-color: #990099;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barra770000 {
+
+	background-color: #770000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barra009AFC {
+
+	background-color: #009AFC;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barraCA0000 {
+
+	background-color: #CA0000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barra155959 {
+
+	background-color: #155959;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barra666666 {
+
+
+
+
+
+
+
+
+
+
+	background-color: #666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barra00BB2C {
+
+
+
+
+
+
+
+
+
+
+	background-color: #00BB2C;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barraFF3300 {
+
+
+
+
+
+
+
+
+
+
+	background-color: #FF3300;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barraEA7500 {
+
+
+
+
+
+
+
+
+
+
+	background-color: #EA7500;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barra2FB900 {
+
+
+
+
+
+
+
+
+
+
+	background-color: #2FB900;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barra003399 {
+
+
+
+
+
+
+
+
+
+
+	background-color: #003399;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barra588EC5 {
+
+
+
+
+
+
+	background-color: #588EC5;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barra0033CC {
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #0033CC;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barra80B909 {
+
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #80B909;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barraA267C0 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #A267C0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barra3A7300 {
+
+
+	background-color: #3A7300;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barraDE371F {
+
+
+	background-color: #DE371F;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barra339900 {
+
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #339900;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barraCheck006598 {
+	background-color: #006598;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 2px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.tablaContieneCheck {
+
+	height: 62px;
+	width: 100%;
+}
+.barra003300 {
+	background-color: #003300;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barra660000 {
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #660000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barra669900 {
+
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #669900;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.barra336666 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #336666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+.tituloPrendido {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	height: 45px;
+	font-size: 12px;
+	background-color: #006600;
+	padding: 3px 3px 23px;
+}
+.barra330000 {
+	background-color: #330000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	height: 28px;
+	font-weight: bold;
+	top: 12px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 9px;
+}
+
+
+#navProducto {
+	width: 257px;
+}
+
+#navProducto ul
+{
+	list-style-type: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #A20101;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+
+#navProducto a
+{
+	display: block;
+	padding: 3px 1px 3px 2px;
+	width: 257px;
+	border-bottom: 1px solid #eee;
+	color: #A20101;
+	background-image: url(../imagenes/backMenuInicio.jpg);
+	text-decoration: none;
+	margin: 0px;
+}
+
+#navProducto a:link, #navlist a:visited
+{
+color: #A20101;
+text-decoration: none;
+}
+
+#navProducto a:hover
+{
+	color: #FFFFFF;
+	background-image: url(../imagenes/backMenuInicio1.jpg);
+}
+
+
+
+#navServicio {
+	width: 257px;
+}
+
+#navServicio ul
+{
+	list-style-type: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #A20101;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+
+#navServicio a
+{
+	display: block;
+	padding: 3px 1px 3px 2px;
+	width: 257px;
+	border-bottom: 1px solid #eee;
+	color: #A20101;
+	background-image: url(../imagenes/backMenuInicio.jpg);
+	text-decoration: none;
+}
+
+#navServicio a:link, #navlist a:visited
+{
+color: #A20101;
+text-decoration: none;
+}
+
+#navServicio a:hover
+{
+	color: #FFFFFF;
+	background-image: url(../imagenes/backMenuInicio1.jpg);
+}
+
+
+
+#navHerramienta {
+	width: 258px;
+}
+
+#navHerramienta  ul
+{
+	list-style-type: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #A20101;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+
+#navHerramienta  a
+{
+	display: block;
+	padding: 3px 1px 3px 0px;
+	width: 258px;
+	border-bottom: 1px solid #eee;
+	color: #A20101;
+	background-image: url(../imagenes/backMenuInicio.jpg);
+	text-decoration: none;
+}
+
+#navHerramienta  a:link, #navlist a:visited
+{
+color: #A20101;
+text-decoration: none;
+}
+
+#navHerramienta  a:hover
+{
+	color: #FFFFFF;
+	background-image: url(../imagenes/backMenuInicio1.jpg);
+}
+
+.tablaCheck {
+	height: 45px;
+	width: 100%;
+}
+
+.textCapacidadPago {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.textInfoCliente {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000099;
+}
+
+a.text10ClienteRojo:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #990000;
+	text-decoration: none;
+}
+
+#mensajeErrorCambaceo {
+	background-image: url(imagenes/Es-Mx/fondos/backMensajes.gif);
+}
+
+#navCambaceo {
+	width: 180px;
+}
+
+#navCambaceo ul
+{
+	list-style-type: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #A20101;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+
+#navCambaceo a
+{
+	display: block;
+	padding: 3px 1px 3px 2px;
+	width: 180px;
+	border-bottom: 1px solid #eee;
+	color: #A20101;
+	background-image: url(../imagenes/backMenuInicio.jpg);
+	text-decoration: none;
+}
+
+#navCambaceo a:link, #navlist a:visited
+{
+color: #A20101;
+text-decoration: none;
+}
+
+#navCambaceo a:hover
+{
+	color: #FFFFFF;
+	background-image: url(../imagenes/backMenuInicio1.jpg);
+}
+
+#navCambaceoCen {
+	width: 180px;
+}
+
+#navCambaceoCen ul
+{
+	list-style-type: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #A20101;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+
+#navCambaceoCen a
+{
+	display: block;
+	padding: 3px 1px 3px 2px;
+	width: 180px;
+	border-bottom: 1px solid #eee;
+	color: #A20101;
+	background-image: url(../imagenes/backMenuInicio.jpg);
+	text-decoration: none;
+}
+
+#navCambaceoCen a:link, #navlist a:visited
+{
+color: #A20101;
+text-decoration: none;
+}
+
+#navCambaceoCen a:hover
+{
+	color: #FFFFFF;
+	background-image: url(../imagenes/backMenuInicio1.jpg);
+}
+
+#navSurtimiento {
+	width: 250px;
+}
+
+#navSurtimiento ul
+{
+	list-style-type: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #A20101;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+
+#navSurtimiento a
+{
+	display: block;
+	padding: 3px 1px 3px 2px;
+	width: 250px;
+	border-bottom: 1px solid #eee;
+	color: #A20101;
+	background-image: url(../imagenes/backMenuInicio.jpg);
+	text-decoration: none;
+}
+
+#navSurtimiento a:link, #navlist a:visited
+{
+color: #A20101;
+text-decoration: none;
+}
+
+#navSurtimiento a:hover
+{
+	color: #FFFFFF;
+	background-image: url(../imagenes/backMenuInicio1.jpg);
+}
+
+#textoError {
+	margin: 120 8 8 8px;
+	text-align: center;
+	color: #00008B;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	background-image: url(imagenes/Es-Mx/fondos/backMensajes.gif);
+}
+
+body {
+	margin: 0 0 0 5px;
+}
+div#contenedorVentaRapida {
+   width: 449px;
+	height: 210px;
+	background-repeat: no-repeat;
+   margin: 0;
+	background: #EFEFEF url(imagenes/home/fdo_LogoGpoGris.gif);
+	text-align: center
+}
+
+.datosPrincipales {
+	margin: 2 0 4 2px;
+	width: 765px;
+}
+
+div#contenedorOpcionesUsadas {
+   width: 129px;
+	height: 400px;
+   margin: 0;
+	background: #FFFFFF; 
+	text-align: center
+}
+
+.contenidoOpcionesUsadas {
+	height: 350px;
+}
+
+div#contenedorBuscadores {
+   width: 220px;
+   margin: 1 0 0 0px;
+	background: #FFFFFF; 
+	text-align: center
+}
+
+div#contenedorPromociones {
+   width: 176px;
+   margin: 0;
+	background: #FFFFFF; 
+	text-align: center
+}
+
+#container {
+	background-color: #FFFFFF;
+	margin: 0 3 0 0px;
+}
+
+b.rtopb, b.rbottomb {
+   display:block;
+	background: #FFFFFF;
+}
+
+b.rtopb b, b.rbottomb b {
+   display:block;
+	height: 1px;
+	overflow: hidden;
+	background: #666666;
+	border-left: 2px solid #666666;
+	border-right: 2px solid #666666;
+}
+
+b.r1b {
+   margin: 0 5px;
+	border-left: 1px solid #666666;
+	border-right: 1px solid #666666;
+	border-top: 1px solid #666666;
+}
+
+b.r2b {
+   margin: 0 3px;
+	border-left: 1px solid #666666;
+	border-right: 1px solid #666666;
+}
+
+b.r3b {
+   margin: 0 2px;
+	border-left: 1px solid #666666;
+	border-right: 1px solid #666666;
+}
+
+b.rtopb b.r4b, b.rbottomb b.r4b {
+   margin: 0 1px;
+	height: 2px;
+	border-left: 1px solid #666666;
+	border-right: 1px solid #666666;
+}
+
+.contenidob {
+   border-left: 1px solid #666666;
+	border-right: 1px solid #666666;
+}
+
+b.rtop, b.rbottom {
+   display:block;
+	background: #FFFFFF;
+}
+
+b.rtop b, b.rbottom b {
+   display:block;
+	height: 1px;
+	overflow: hidden;
+	background: #A20101;
+	border-left: 2px solid #A20101;
+	border-right: 2px solid #A20101;
+}
+
+b.r1 {
+   margin: 0 5px;
+	border-left: 1px solid #A20101;
+	border-right: 1px solid #A20101;
+	border-top: 1px solid #A20101;
+}
+
+b.r2 {
+   margin: 0 3px;
+	border-left: 1px solid #A20101;
+	border-right: 1px solid #A20101;
+}
+
+b.r3 {
+   margin: 0 2px;
+	border-left: 1px solid #A20101;
+	border-right: 1px solid #A20101;
+}
+
+b.rtop b.r4, b.rbottom b.r4 {
+   margin: 0 1px;
+	height: 2px;
+	border-left: 1px solid #A20101;
+	border-right: 1px solid #A20101;
+}
+
+.contenido {
+   border-left: 1px solid #A20000;
+	border-right: 1px solid #A20000;
+}
+
+.pestanaActiva {
+   height: 11px;
+	color: #FFFFFF;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #A30505;
+}
+
+.titConsultaDetProd {
+   height: 20px;
+	color: #FFFFFF;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #A30505;
+}
+
+.tablaDetallesPagos {
+	border: 1px solid #A20101;
+	width: 176px;
+	height: 190px;
+}
+
+.pestanaInactiva {
+   height: 11px;
+	color: #AEAEAE;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #666666;
+}
+
+.tablaVentaRapida {
+	margin: 0 0 3 0px;
+}
+
+.tablaBuscadorTop {
+   width: 352;
+	border: 1px solid #CCCCCC;
+	margin: 0 0 3 0px;
+}
+.tablaMenuHome {
+	width: 750;
+	border: 1px solid #CCCCCC;
+	margin: 0 0 3 0px;
+	background: #FFFFF9;
+}
+.tablaSubmenuHome {
+	width: 200;
+	border: 1px solid #CCCCCC;
+	margin: 0 0 3 0px;
+	background: #F9F8DB;
+}
+#pathNavegacion {
+   text-align: left;
+   width: 99%;
+   height: 20px;
+	padding: 3 0 0 10px;
+	margin: 0 0 3 0px;
+	background-color: #666666;
+}
+
+.titulosFamProd {
+	width: 765px;
+	padding: 0 8 0 8px;
+	margin: 0 0 3 0px;
+}
+
+.titulosSelTaller {
+	width: 550px;
+	padding: 0 8 0 8px;
+	margin: 0 0 3 0px;
+}
+
+.titulos500 {
+	width: 370px;
+	padding: 0 8 0 8px;
+	margin: 0 0 3 0px;
+}
+
+.titulosOpcMasUsadas {
+	width: 630px;
+	padding: 0 8 0 8px;
+	margin: 0 0 3 0px;
+}
+
+.contenedorOpcMasUsadas {
+	width: 630px;
+	margin: 0 0 6 0px;
+}
+
+.contenedorBtnOpcMasUsadas {
+	width: 630px;
+	text-align:center;
+}
+
+.titOpcionesMasUsadas {
+	width: 204px;
+	height: 30px;
+	padding: 7 2 0 2px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #F0F0F0;
+}
+
+.celdaOpcionesMasUsadas {
+	width: 207px;
+	height: 383px;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+}
+
+.paginacion {
+	width: 355px;
+	text-align: right;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.paginacion a:link {
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #A30505;
+	text-decoration: underline;
+}
+
+.paginacion a:hover {
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #F50707;
+	text-decoration: underline;
+}
+
+.tabla765roja {
+   width: 765px;
+	height: 370px;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 0 0 3 0px;
+}
+
+.contCheckoutCliente{
+	width: 765px;
+	height: 60px;
+	border-top: 6px solid #A30505;
+	border-left: 1px solid #A30505;
+	border-right: 1px solid #A30505;
+}
+
+.contCheckoutCliente2{
+	width: 765px;
+	height: 60px;
+	border-top: 1px solid #A30505;
+	border-left: 1px solid #A30505;
+	border-right: 1px solid #A30505;
+}
+
+.tablaDatosDetalle {
+	width: 576px;
+	height: 170px;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+}
+	
+.tablaOrdenadorProd {
+	width: 100%;
+	height: 20px;
+	padding: 0 8 0 8px;
+	background-color: #F0F0F0;
+}
+
+.celdaFondoGris {
+	background-color: #EEEEEE;
+}
+
+.celdaFondoGris2 {
+	background-color: #CCCCCC;
+}
+
+.tablaTopProdFamilias {
+	width: 763px;
+	text-align: center;
+}
+
+.celFamiliasFoto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	width: 120px;
+}
+
+.celFamiliasDesc {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	width: 185px;
+}
+
+.celFamiliasEntrega {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	width: 110px;
+}
+
+.celFamiliasPromo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	width: 110px;
+}
+
+.celFamiliasComprar {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	width: 60px;
+}
+
+.celFamiliasPrecio {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	width: 180px;
+}
+
+.casillaPaginadorAbajo {
+	border: 1px solid #A30505;
+	text-align: center;
+	width: 30px;
+}
+
+.casillaPaginadorAbajoSelec {
+	border: 1px solid #A30505;
+	text-align: center;
+	background-color: #CCCCCC;
+	width: 30px;
+}
+
+.tablaTopProdFamilias td {
+	border: 1px solid #CCCCCC;
+	height: 20px;
+}
+
+.tablaContProdFamilias {
+	border: 1px solid #CCCCCC;
+	width: 744px;
+}
+
+.tablaContIndicadoresVendedores {
+	border: 1px solid #CCCCCC;
+	width: 744px;
+}
+
+.tablaContProdFamiliastd {
+	border: 1px solid #CCCCCC;
+	padding: 2 2 2 2px;
+}
+
+#scrollFamiliaProductos {
+	overflow: auto;
+	height: 325px;
+}
+
+#scrollDetallesProductos {
+	overflow: auto;
+	height: 145px;
+}
+
+#scrollDetallesProductos2 {
+	overflow: auto;
+	height: 215px;
+}
+
+#scrollDetallesProductos3 {
+	overflow: auto;
+	height: 165px;
+}
+
+#scrollDetallesProductos4 {
+	overflow: auto;
+	height: 140px;
+}
+
+.precios {
+	width: 159px;
+}
+
+.semanales {
+	width:95px;
+	padding: 0 0 0 8px;
+}
+
+.contenedorDetallesProd {
+	margin: 0 0 0 2px;
+	width: 765px;
+	height: 415px;
+}
+
+.contenedorDetallesProd2 {
+	margin: 0 0 0 2px;
+	width: 765px;
+}
+
+.contenidoDetalles {
+	width: 100%;
+}
+
+.contenidoMotivItalika {
+	width: 100%;
+}
+
+.contenidoMotivItalika td{
+   border: 1px solid #CCCCCC;
+}
+
+.contenidoSelecTaller {
+	width: 100%;
+}
+
+.contenidoListaMR {
+	width: 500px;
+}
+
+.contenidoSelecTaller td{
+	border: 1px solid #CCCCCC;
+}
+
+.celdasContenidoDetalles0 {
+	padding: 4 8 4 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #FFFFFF;
+}
+
+.celdasContenidoDetalles1 {
+	padding: 4 8 4 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #F4F4F4;
+}
+
+.celdasContenidoDetallesBoleto {
+	padding: 4 8 4 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #FFFFFF;
+}
+
+.celdasContenidoDetalles2 {
+	padding: 4 8 4 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #E6E6E6;
+}
+
+.celdasConenidoDetalles1 {
+	padding: 4 8 4 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #F4F4F4;
+}
+
+.celdasConenidoDetalles2 {
+	padding: 4 8 4 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #E6E6E6;
+}
+
+#fotoDetalle {
+	width: 212px;
+	height: 200px;
+	margin: 0 0 8 0px;
+	text-align: center;
+}
+
+#datosDetalle {
+   margin: 8 0 0 0px;
+	width: 346px;
+	height: 200px;
+}
+
+#datosDetalleMotos {
+   margin: 8 0 0 0px;
+	width: 280px;
+	height: 200px;
+}
+
+#divColoresCont {
+   margin: 8 0 0 0px;
+	width: 80px;
+	height: 200px;
+}
+
+#promoEnDetalles {
+	margin: 20 0 6 0px;
+	text-align: center;
+	width: 150px;
+}
+
+.conEnganche {
+	width: 174px;
+	padding: 1 1 0 1px;
+	color: #FFFFFF;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #A30505;
+}
+
+.cantEnganche {
+	width: 174px;
+	padding: 1 1 1 1px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	border: 1px solid #A30505;
+}
+
+.pagoPuntual {
+	width: 130px;
+	padding: 1 1 1 8px;
+	color: #FFFFFF;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	background-color: #A30505;
+}
+
+.pagoPuntualDetalle {
+	width: 150px;
+	padding: 1 1 1 1px;
+	margin: 0 0 4 0px;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	background-color: #A30505;
+}
+
+.ordenCompra {
+	width: 380px;
+	padding: 10 10 10 10px;
+	font-family: Verdana;
+	font-size: 11px;
+	border: 1px solid #A30505;
+}
+
+.controlarEfectivo {
+	width: 360px;
+	padding: 4 4 4 4px;
+	text-align: center;
+	border: 1px solid #A30505;
+}
+
+.beneficiario {
+	width: 380px;
+	padding: 10 10 10 10px;
+	border: 1px solid #A30505;
+	margin: 0 0 10 0px;
+}
+
+.titProdExpress {
+	margin: 6 0 8 0px;
+}
+
+.celdasTitPlazos {
+	background-color: #FF9900;
+	border: 1px solid #999999;
+	text-align:center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 7 1 8 1px;
+}
+
+.celdasContPlazos {
+	background-color: #FCEAAB;
+	border: 1px solid #999999;
+	text-align:center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 2 1 2 1px;
+}
+
+.btnImprimirDatosDetalle {
+	width: 100%;
+	text-align: right;
+	padding: 2 20 2 0px;
+	background-color: #F4F4F4;
+}
+
+.tablaTopItalika {
+	width: 765px;
+	height: 230px;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 0 0 3 0px;
+}
+
+.tablaTopCheckout {
+	width: 765px;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+}
+
+.tablaSelecTallerTop {
+	width: 550px;
+	height: 150px;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 0 0 3 0px;
+}
+
+.tablaNegPedidos {
+	width: 250px;
+	height: 150px;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+}
+
+.contenedorAbajoItalika {
+	width: 765px;
+	margin: 0 0 3 0px;
+}
+
+.tablaBotIzqItalika {
+	width: 250px;
+	height: 365px;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 0 3 3 0px;
+}
+
+.tablaBotDerItalika {
+	width: 414px;
+	height: 365px;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 0 0 3 0px;
+}
+
+#scrollMotivosItalika {
+	overflow: auto;
+	height: 340px;
+}
+
+#scrollSelecTaller {
+	overflow: auto;
+	height: 125px;	
+}
+
+#scrollSelecBoleto {
+	overflow: auto;
+	height: 500px;	
+}
+
+#scrollSelecProducto {
+	overflow: auto;
+	height: 310px;	
+}
+
+#scrollSelecTallerIzq {
+	overflow: auto;
+	height: 360px;	
+}
+
+#scrollVendedorExp {
+	overflow: auto;
+	height: 420px;	
+}
+
+#scrollUnefon {
+	overflow: auto;
+	height: 110px;	
+}
+
+#scrollUnefon2 {
+	overflow: auto;
+	width: 247px;
+	height: 105px;	
+}
+#scrollSolicitudLCR {
+	overflow: auto;
+	width: 760px;
+	height: 40px;	
+}
+
+#scrollInfoClientItal {
+	overflow: auto;
+	height: 280px;	
+}
+
+#scrollInfoMR1 {
+	overflow: auto;
+	height: 88px;	
+}
+
+#scrollInfoMR2 {
+	overflow: auto;
+	height: 50px;	
+}
+
+#scrollListaRegalos {
+	overflow: auto;
+	height: 250px;		
+}
+
+#scrolControlarEfectivo {
+	overflow: auto;
+	height: 235px;		
+}
+
+#scrollEstatus {
+	overflow: auto;
+	height: 160px;		
+}
+
+#scrollUnefon {
+	overflow: auto;
+	height: 86px;	
+}
+
+.ctrlBtnItalika {
+	margin: 30 5 0 3px;
+}
+
+.tablaTopMotivosItalika {
+	width: 410px;
+	height: 20px;
+	text-align: center;
+}
+
+.tablaTopMesaRegalosInfo {
+	width: 400px;
+	height: 18px;
+	text-align: center;
+}
+
+.tablaTopSelecTaller {
+	width: 545px;
+	height: 20px;
+	text-align: center;
+}
+
+.selecMotivItal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 60px;
+}
+
+.celNumMotivItal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 40px;
+}
+
+.celMotivItal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 210px;
+}
+
+.celTallerMotivItal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 100px;
+}
+
+.celTaller {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 80px;
+}
+
+.celNomTaller {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 180px;
+}
+
+.celServPend {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 130px;
+}
+
+.celTiempoProm {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 90px;
+}
+
+.celSelecTall {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 65px;	
+}
+
+.celPedItalik {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 100px;
+}
+
+.celClienteItalik {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 150px;
+}
+
+.celNombreItalik {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 417px;
+}
+
+.celSerieItalik {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 247px;
+}
+
+.celDescItalik {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 320px;
+}
+
+.celFechaEvento {
+   height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 150px;
+}
+
+.celTipoEvento {
+   height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 150px;
+}
+
+.celFolioMR {
+   height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 100px;
+}
+
+.celFechaCompraMR {
+   height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 110px;
+}
+
+.celCodigoMR {
+   height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 120px;
+}
+
+.celDescMR {
+   height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 217px;
+}
+
+.celCantidadMR {
+   height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 110px;
+}
+
+.celPrecioMR {
+   height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 110px;
+}
+
+.celCelebracionMR {
+   height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 400px;
+}
+
+.celLista1MR {
+   height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 150px;
+}
+
+.celLista2MR {
+   height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 350px;
+}
+
+.titListaMR {
+	width: 500px;
+	height: 20px;
+	background-color: #666666;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 0 0 0 5px;
+}
+
+.bGrabar {
+	width:415px;
+	text-align:right;
+}
+
+.btnAceptarSelecTaller {
+	width: 550px;
+	text-align:right;
+}
+
+.btnLada {
+	width: 100px;
+	margin: 3 0 0 0px;
+}
+
+.tablaCambaceoDatosCliente {
+	width: 763px;
+	margin: 0 0 8 3px;
+	border: 1px solid #A30505;
+	text-align:center;
+	padding: 0 0 4 0px;
+}
+
+.tabla_red {
+	border: 1px solid #A30505;
+	text-align:center;
+}
+
+.tablaContenidoSolicitudes {
+	width: 763px;
+	margin: 0 0 8 3px;
+	border: 1px solid #A30505;
+	text-align:center;
+	padding: 0 0 2 0px;
+}
+
+.tablaControlarEfectivo {
+	width: 763px;
+	margin: 0 0 0 3px;
+	border: 1px solid #A30505;
+	text-align:center;
+	padding: 0 0 4 0px;
+}
+
+.tablaControlarEfectivo2 {
+	width: 763px;
+	margin: 6 0 0 3px;
+	border: 1px solid #A30505;
+	text-align:center;
+	padding: 0 0 4 0px;
+}
+
+.tablaDatosPers {
+	width: 763px;
+	margin: 0 0 8 3px;
+	border: 1px solid #A30505;
+	padding: 0 0 4 8px;
+}
+
+.tablaNoEncuentra {
+	width: 763px;
+	margin: 0 0 8 3px;
+	border: 1px solid #A30505;
+	padding: 0 0 2 2px;
+}
+
+.statusCliente {
+   font-family: Verdana;
+	text-align: center;
+	width: 100%;
+	padding: 4 4 4 4px;
+	background-image: url(../imagenes/Es-MX/fondos/backPersup3.jpg);
+}
+
+.inputLada {
+   font-size: 10px;
+	width: 50px;
+}
+
+.input60 {
+   font-size: 10px;
+	width: 60px;
+}
+
+.input80 {
+   font-size: 10px;
+	width: 80px;
+}
+
+.inputNum {
+   font-size: 10px;
+	width: 130px;
+}
+
+.inputNum2 {
+   font-size: 10px;
+	width: 150px;
+}
+
+.inputNombre {
+   font-size: 10px;
+	width: 360px;
+}
+.inputCapturaTxt {
+   font-size: 10px;
+	width: 360px;
+	height: 40px;
+}
+
+.inputNombre165 {
+   font-size: 10px;
+	width: 165px;
+}
+
+.inputQuienProporciona {
+   font-size: 10px;
+	width: 450px;
+}
+
+.SN {
+   font-size: 10px;
+	width: 20px;
+}
+
+.tablaMensajes {
+   width: 428px;
+	height: 227px;
+	background-color: #FFFFFF;
+	text-align:center;
+}
+
+.textoMensajes {
+	width: 355px;
+	height: 110px;
+	margin: 80 0 0 0px;
+	text-align:center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003366;
+}
+
+.tablasClienteBuscar1 {
+	 width:670px;
+	 margin: 0 0 12 0px;
+}
+
+.tablasClienteBuscar2 {
+	 width:670px;
+}
+
+.tablaInfoClienteItalika1 {
+	width: 670px;
+	height: 300px;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 0 0 3 0px;
+}
+
+.tablaInfoClienteItalika2 {
+	width: 670px;
+	height: 120px;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 0 0 3 0px;
+}
+
+.tablaTopInfoClientItal {
+	width: 667px;
+	height: 20px;
+	text-align: center;
+}
+
+.tablaTopDepMonMR {
+	width: 667px;
+	height: 20px;
+	text-align: center;
+}
+
+.tablaTopListaMR {
+	width: 500px;
+	height: 20px;
+	text-align: center;
+}
+
+.tablaMesaRegalos2 {
+	width: 765px;
+	height: 310px;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 0 0 3 0px;
+}
+
+.tablaInfoMesaRegalos1 {
+	width: 670px;
+	height: 100px;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 3 0 0 0px;
+}
+
+.tablaInfoMesaRegalos2 {
+	width: 670px;
+	height: 62px;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 3 0 0 0px;
+}
+
+.tablaPedidosNoSurtidos {
+	width: 745px;
+	height: 100px;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 3 0 0 0px;
+}
+
+.totalDepositosMR {
+	width: 672px;
+	height: 20px;
+	background-color: #A20101;
+	margin: 0 0 3 0px;
+	text-align:right;
+	font-size: 14px;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.totalCheckOut {
+	height: 20px;
+	background-color: #A20101;
+	text-align:center;
+	font-size: 14px;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.totalDepMonedero {
+	height: 20px;
+	background-color: #A20101;
+	text-align:center;
+	font-size: 12px;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.datosClienteCheckOut{
+	margin: 10 0 10 0px;
+}
+
+.marginDown6 {
+	margin: 0 0 6 0px;
+	padding: 0 0 0 5px;
+}
+
+.topOtrosDatos {
+	margin: 0 0 8 0px;
+}
+
+.pathCambaceo {
+	margin: 0 0 6 0px;
+}
+
+.datosConyugue {
+	border: 1px solid #CCCCCC;
+}
+
+.plazoTelefonia {
+	margin: 8 0 0 0px;
+}
+
+.inputBuscarProdNuevo {
+	font-size: 9px;
+	width: 180px;
+	height: 18px;
+	margin: 0 0 2 0px;
+}
+
+.lineH {
+	line-height: 10px;
+}
+
+.lineH2 {
+	line-height: 8px;
+}
+
+
+.tablasTopsTiposPago {
+	background-color: #E8E8E8;
+	padding: 5 5 0 5px;
+}
+
+.tabGarantMil{
+	width: 152px;
+	background-color: #A20101;
+	height: 25px;
+	text-align:center;
+	padding: 3 0 0 0px;
+}
+
+.contImgDetProd {
+	border: 1px solid #A20101;
+	width: 325px;
+	height: 215px;ç
+	text-align: center;
+}
+
+#scrollPromociones {
+	overflow: auto;
+	height: 51px;
+	border-bottom: 2px solid #CCCCCC;
+}
+
+#scrollPromociones2 {
+	overflow: auto;
+	height: 24px;
+}
+
+#scrollCheckOut {
+	overflow: auto;
+	height: 60px;
+}
+
+#scrollCheckOutApartado {
+	overflow: auto;
+	height: 155px;
+}
+
+#scrollCheckOutContado {
+	overflow: auto;
+	height: 255px;
+}
+
+.leftRedMargin {
+	border-left: 1px solid #A30505;
+}
+
+.tablaUnefon1 {
+	width: 100%;
+	height: 110px;
+	border: 1px solid #A20101;
+	padding: 1 1 1 1px;
+	margin: 0 0 8 0px;
+}
+
+.tablaUnefon2 {
+	width: 100%;
+	height: 50px;
+	border: 1px solid #A20101;
+	padding: 1 1 1 1px;
+	margin: 0 0 8 0px;
+}
+.tablaBuscadorEkt{
+	width: 100%;
+	height: 50px;
+	border: 1px dotted #A20101;
+	padding: 1 1 1 1px;
+	margin: 0 0 8 0px;
+}
+.tablaUnefon3 {
+	width: 100%;
+	height: 50px;
+	border: 1px solid #A20101;
+	padding: 1 1 1 1px;
+}
+
+.tablaUnefon4 {
+	width: 100%;
+	border: 1px solid #A20101;
+}
+
+.zoomActivo {
+	border: 2px solid #A20101;
+}
+
+.zoomInactivo {
+	border: 2px solid #CCCCCC;
+}
+
+#scrollZoom {
+	overflow: auto;
+	height: 450px;
+	width: 765px;
+}
+
+#scrollPedidosNoSurt {
+	overflow: auto;
+	height: 155px;
+	width: 740px;
+}
+
+#scrollProdLiquidacion {
+	overflow: auto;
+	height: 240px;
+	width: 760px;
+}
+
+#scrollSistInfoProd {
+	overflow: auto;
+	height: 230px;
+	width: 760px;
+}
+
+#scrollStatusLCR {
+	overflow: auto;
+	height: 120px;
+	width: 760px;
+}
+
+.tablaControlarFormasPago {
+	width: 500px;
+	height: 50px;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 3 0 3 0px;
+}
+
+.tablaSistInfoProd {
+	width: 763px;
+	margin: 0 0 8 3px;
+	border: 1px solid #A30505;
+	text-align:center;
+}
+
+.margin10left {
+	margin: 0 0 0 10px;
+}
+
+.marginUpDown5 {
+	margin: 5 0 5 0px;
+}
+
+.marginUpDown8 {
+	margin: 8 0 8 0px;
+}
+
+.tablaPlazosDetalleProd {
+	border: 1px solid #CCCCCC;
+	width: 200px;
+	height: 330px;
+}
+
+.tablaPlazosTelefonia {
+	border: 1px solid #CCCCCC;
+	width: 330px;
+	height: 180px;
+}
+
+.fondoNice1 {
+	background-image: url(../imagenes/fondo1_nice.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.fondoNice2 {
+	background-image: url(../imagenes/fondo2_nice.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding-top: 60px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.textOpcionesMasUsadas {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Verdana;
+	color: #666666;
+}
+
+.textNombreProdDetalle {
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Verdana;
+	color: #666666;
+}
+
+.text12 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+.text14 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+}
+.text16 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+.text11 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+}
+.text10 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+}
+.text10b {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+}
+.text10b_Tachado {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: line-through;
+}
+.text12b {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.text10bsemanales {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 8pt;
+}
+
+.text11BoldBlanco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.text10BoldBlanco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.text10BoldBlancoLink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.text14RedBoldNuevos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #A30505;
+}
+
+.text14RedBoldLinkNuevos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration:underline;
+	color: #A30505;
+}
+
+.text13RedBoldLinkNuevos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration:underline;
+	color: #A30505;
+}
+
+.text18RedBoldNuevos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #A30505;
+}
+.text16RedBoldNuevos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #A30505;
+}
+.text15RedBoldNuevos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #A30505;
+}
+.text10RedBoldNuevos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #A30505;
+}
+
+.text12RedBoldNuevos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #A30505;
+}
+
+.text11RedBoldNuevos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #A30505;
+}
+
+.text11RedBoldLinkNuevos  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration:none;		
+	color: #A30505;	
+}
+a.text11RedBoldLinkNuevos:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #A30505;
+	text-decoration: underline;
+}
+
+
+.text10RedBoldLinkNuevos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #A30505;
+	text-decoration: underline;
+}
+
+.text11BoldAmarillo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFCC00;
+}
+.text12link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: underline;
+}
+a.text12link:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: underline;
+}
+.text11link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a.text11link:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.textMenu10link  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration:none;		
+	color: #000000;	
+}
+a.textMenu10link:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000066;
+	text-decoration: underline;
+	font-weight: bold;	
+}
+.text10link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline;
+}
+a.text10link:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+a.text10link:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FF9900;
+	text-decoration: none;
+	font-weight: bold;
+}
+.text12linkBlue {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003366;
+	text-decoration: underline;
+}
+a.text12linkBlue:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003366;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.text10linkBlue {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000066;
+	text-decoration: underline;
+}
+.text10linkGreen {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #339900;
+	text-decoration: underline;
+}
+.text10Green {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #339900;
+}
+.text12Green {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #339900;
+	text-decoration: none;
+}
+a.text10linkBlue:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #003366;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.10linkBlanco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.10linkBlanco:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.text10Rojo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FF0000;
+}
+.text10Bold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.text10BoldBlue {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000066;
+}
+
+.15linkRojoChaz {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: none;
+}
+.text10Gris {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #464646;
+}
+.text12UnivBold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000066;
+}
+a.text12UnivBold:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: underline;
+	color: #000066;
+	font-weight: bold;
+}
+.text12UnivBlanco {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.text16BoldBlanco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.text14BoldBlanco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.text10linkBluen {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #003366;
+	text-decoration: underline;
+}
+a.text10linkBluen:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #003366;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.text12linkBluec {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000099;
+	text-decoration: underline;
+}
+a.text12linkBluec:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000099;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.text22 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #464646;
+}
+
+.text21 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	color: #464646;
+}
+
+.text21light {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	color: #464646;
+}
+
+.text18light {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #464646;
+}
+
+.text14Bienvenidos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #464646;
+}
+
+.text20 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #464646;
+}
+
+.text19 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	font-weight: bold;
+	color: #464646;
+}
+
+.text19light {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	color: #464646;
+}
+
+.text10linkBlueN {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-decoration: none;
+}
+.text10linkGris {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-decoration: underline;
+}
+a.text10linkGris:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-decoration: underline;
+}
+.degrada {
+	background-image:  url("imagenes/caracterBack.jpg");
+	background-repeat: repeat-x;
+}
+.text10GrisClaro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #818181;
+}
+.text11linkBlue {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003366;
+	text-decoration: underline;
+}
+a.text11linkBlue:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #003366;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.text13linkBlue {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003366;
+	text-decoration: underline;
+}
+.text13BoldBlanco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.text11BlueBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003366;
+	text-decoration: none;
+}
+
+.text11RedLight {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FF0000;
+}
+
+.text11RedBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+   font-weight: bold;
+	color: #FF0000;
+}
+
+.text11blackLight {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+
+}
+
+.text10linkBlueLinea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000066;
+	text-decoration: underline;
+	font-weight: bold;
+}
+a.text10linkBlueLine:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FF0000;
+}
+.text12Rojo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FF0000;
+}
+.geneva10 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000033;
+}
+a.geneva10:Hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: line-through;
+	color: #993300;
+}
+.text11linkBlu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000066;
+	text-decoration: underline;
+}
+a.text11linkBlu:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000066;
+	text-decoration: underline;
+}
+.text18 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #464646;
+}
+.text16 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #464646;
+}
+.text15 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #464646;
+}
+.text10linkBlueLine {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000066;
+	text-decoration: underline;
+}
+.text14BlueBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #003366;
+	text-decoration: none;
+}
+.text11BlackBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.text11RedBoldLinkPromo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: underline;
+}
+.text9Gris {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #464646;
+}
+.text10linknegro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: underline;
+	font-weight: normal;
+}
+a.text10linknegro:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: underline;
+	font-weight: normal;
+}
+.text10linkGris- {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999999;
+	text-decoration: underline;
+}
+a.text10linkGris-:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999999;
+	text-decoration: underline;
+}
+.text10Upper {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+   text-transform:uppercase;
+}
+.text9 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+}
+.text14RojoBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: none;
+}
+.text15RojoBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #990000;
+	text-decoration: none;
+}
+.text16RojoBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #990000;
+	text-decoration: none;
+}
+.text12linkRed {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #990000;
+	text-decoration: underline;
+}
+a.text12linkRed {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000099;
+	text-decoration: underline;
+}
+.rolGerente{
+	color: #000033;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	width: 136px;
+	height: 23px;
+}
+a.rolGerente:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #000033;
+	text-decoration: none;
+}
+.text11linkGris {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	text-decoration: underline;
+}
+a.text11linkGris:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	text-decoration: underline;
+}
+.titFamilia990099 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #0000cc;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamilia990000 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #990000;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamiliaB08D00 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #B08D00;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamilia336633 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #336633;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamilia666699 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #666699;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamilia164878 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #164878;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamilia333333 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #333333;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamilia333399 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #333399;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamilia990099 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #990099;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamilia770000 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #770000;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamilia155959 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #155959;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamilia990099 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #990099;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamilia666666 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #666666;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamilia00BB2C {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #00BB2C;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamiliaFF3300 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #FF3300;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamiliaEA7500 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #EA7500;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamilia2FB900 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #2FB900;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamilia003399 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #003399;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamilia0099AF {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #0099AF;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamilia006598 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #006598;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamiliaB08D00 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #B08D00;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamilia009AFC {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #009AFC;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamiliaCA0000 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #CA0000;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamilia0000CC {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #0000CC;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamilia588EC5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #588EC5;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 764px;
+}
+.text10RojoBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FF0000;
+}
+.text10GrisBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #EAEAEA;
+}
+.titFamilia0033CC {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #0033CC;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamilia80B909 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #80B909;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamiliaA267C0 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #A267C0;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamilia3A7300 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #3A7300;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.titFamiliaDE371F {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #DE371F;
+	font-weight: bold;
+	background-image: url(../imagenes/backMuebles1.gif);
+	background-repeat: repeat-x;
+	padding: 0px 0px 7px 7px;
+	text-transform: capitalize;
+	width: 615px;
+}
+.text10RojoDescuento {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #990000;
+}
+.tomatazo {
+	background-image: url(../imagenes/tomatazoResumen.gif);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #003366;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 30px;
+}
+.text11linkNegro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline;
+}
+a.text11linkNegro:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: underline;
+}
+.text11linkNegroL {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+a.text11linkNegroL:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.text14BlueLink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #003366;
+	text-decoration: underline;
+}
+a.text14BlueLink:hover {
+	color: #003366;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.text10linkAgua {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #007EA8;
+	text-decoration: underline;
+}
+
+.text10linkAzulNuevo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #0033CC;
+	text-decoration: underline;
+}
+
+a.text10linkAgua:hover {
+	color: #000099;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.text14BlueBoldCenter {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #003366;
+	text-decoration: none;
+	text-align: center;
+}
+
+.text14BlueBoldResultadoBusqueda {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 767px;
+	height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 0 0 0 10px;
+	border: 1px solid #DCDCDC;
+}
+
+.articuloBuscado {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: Blue;
+}
+
+.titItalika {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #2156B2;
+}
+
+.titNoSurt {
+	font-family: Verdana; 
+	font-size: 8pt; 
+	font-weight: bold; 
+	margin: 0 0 0 12px; 
+	color:#003399; 
+	width:740px; 
+	text-align:center
+}
+
+.text10linkRojo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #A20101;
+	text-decoration: underline;
+}
+
+.text15BoldRojo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #A20101;
+}
+.text10c {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #EEEEEE;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.text10d {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #D6D6D6;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.text10BlueBoldFaw {
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	color: #10399C;
+}
+
+.text12BlueBoldFaw {
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: #10399C;
+}
+
+.text14BlueBoldFaw {
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	color: #10399C;
+}
+
+.text16BlueBoldFaw {
+	font-family: Verdana;
+	font-size: 16px;
+	font-weight: bold;
+	color: #10399C;
+}
+
+.text18BlueBoldFaw {
+	font-family: Verdana;
+	font-size: 18px;
+	font-weight: bold;
+	color: #10399C;
+}
+#elDRAGOne { FONT-WEIGHT: bold; LEFT: 100px; WIDTH: 100px; CLIP: rect(0px 388px 245px 0px); COLOR: white; POSITION: absolute; TOP: 100px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center; layer-background-color: black }
+BODY { MARGIN: 0px }
+ul {list-style: none;}
+li {margin: 0 0 5 0px; font-family: Verdana; font-size: 10pt; font-weight: bold;}
+.detalles {font-family: Verdana; font-size: 8pt; color: #666666}

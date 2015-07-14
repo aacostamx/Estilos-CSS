@@ -1,0 +1,146 @@
+/* Estilos agregados*/
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.panelEncabezado
+{
+	background-image:url(../Imagenes/tab_top.png);
+    background-color:#cccccc;
+    border-bottom:Blue px solid;
+    border-right:Blue px solid;
+    text-align: center;
+    FONT-FAMILY: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    /*color:#404040;*/
+    /*color: White;*/
+    color: Gray;
+    /*color:Silver;*/
+    FONT-SIZE: 13px;
+    FONT-WEIGHT: bold;
+    Height: 10px;
+    padding:3px;
+}
+
+.Boton {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#ffffff;
+	background-image: url(../Imagenes/boton.png);
+	background-color:Transparent;
+	/*background-repeat: repeat-x;*/
+	margin-left: 2px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	/*background-color:#569abd;*/
+	height:30px;
+	border-color:#6699FF;
+	border: thin solid #BBBDBF;
+	FONT-SIZE: 12px; 
+	CURSOR: hand;
+	width: 150px;
+	border-style: solid;
+	border-color: Silver;
+	border-width:thin;
+	/*border-style: none;*/
+	/*font-bold:true;*/
+}
+
+.BotonCamaraOn {
+	background-image: url(../Imagenes/camaraOn.jpg);
+	background-color:Transparent;
+	margin-left: 2px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	height:19px;
+	width: 28px;
+	CURSOR: hand;
+	border-style: none;
+}
+
+.BotonCamaraOff {
+	background-image: url(../Imagenes/camaraOff.jpg);
+	background-color:Transparent;
+	margin-left: 2px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	height:19px;
+	width: 28px;
+	CURSOR: hand;
+	border-style: none;
+}
+
+
+.MensajeError 
+{
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma; 
+	COLOR: #57a9da; 
+	FONT-WEIGHT: bold
+}
+
+.FondoAplicacion 
+{
+	/*FILTER: alpha(opacity=60); */
+	BACKGROUND-COLOR: gray; 
+	/*opacity: 0.7*/
+}
+
+.Fondo
+{
+	BACKGROUND-COLOR: white; 
+}
+
+
+.AlertaFondo 
+{
+	BORDER-BOTTOM: #000000 1px solid; 
+	BORDER-LEFT: #000000 1px solid; 
+	BACKGROUND-COLOR: #dddddd; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma; 
+	FONT-SIZE: 10pt; 
+	BORDER-TOP: #000000 1px solid; 
+	BORDER-RIGHT: #000000 1px solid
+}
+
+.AlertaTitulo 
+{
+	BACKGROUND-IMAGE: url(../Imagenes/tab-top.jpg); 
+	TEXT-ALIGN: center; 
+	BACKGROUND-REPEAT: repeat-x; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma; 
+	COLOR: white; 
+	FONT-SIZE: 17px; 
+	FONT-WEIGHT: bold
+}
+
+.AlertaTexto 
+{
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma; 
+	COLOR: #000000; 
+	FONT-SIZE: 9pt; 
+	FONT-WEIGHT: bold
+}
+
+
+
+.Contenido 
+{
+	Z-INDEX: 10000
+}
+
+.ContenidoOculto 
+{
+	Z-INDEX: 10000; 
+	POSITION: absolute; 
+	WIDTH: 1000px; 
+	TOP: 120px; 
+	LEFT: 200px
+}
+
+

@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, hr {
+  padding: 0;
+}
+
+html, body{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-weight:100;
+}
+
+input { vertical-align: middle; }
+
+h1{ font-size:27px; color:#2681dc; text-align:center; width:100%; margin:auto; font-weight:lighter; text-transform:uppercase; margin-top:20px; margin-bottom:20px;}
+h2{ font-size:14px; color:#003980; text-align:center; width:100%; margin:auto; font-weight:bold; text-transform:uppercase; margin-top:30px; margin-bottom:20px;}
+/*h3{ font-size:14px; color:#2681dc; text-align:center; width:100%; margin:auto; font-weight:lighter; text-transform:uppercase; margin-top:30px; margin-bottom:20px;}*/
+h4{ font-size:21px; color:#003980; text-align:center; width:100%; margin:auto; font-weight:bold; text-transform:uppercase; margin-top:30px; margin-bottom:20px;}
+hr{ border:solid 1px #CCCCCC; margin-bottom:20px; margin-top:20px;}
+fieldset{ width:896px; max-width:100%; margin:auto; overflow-x:hidden; overflow-y:auto; font-size: 14px; padding:7px 0px;/*font-weight:bold;*/}
+
+.tablas{ width:900px; max-width:100%; margin:auto;  height: 475px; overflow-x:hidden; overflow-y:auto; }
+.tablas table{ width:100%; border-collapse:collapse; }
+.tablas tr { height:28px; text-align:center; font-size:14px; font-weight:lighter; padding-top:6px; color:#FFF; }
+.tablas td.separate{ height:0px; border:none}
+.tablas td { border-top:solid 1px #dfdfdf; padding-top:10px; padding-bottom:10px; text-align:center; color:#666;}
+.tablas td.boton{ background:#FFF;}
+
+.tablas2{ width:900px; max-width:100%; margin:auto;  height: auto; overflow-x:hidden; overflow-y:auto; }
+.tablas2 table{ width:100%; border-collapse:collapse; }
+.tablas2 tr { height:28px; text-align:center; font-size:14px; font-weight:lighter; padding-top:6px; color:#FFF; }
+.tablas2 td.separate{ height:0px; border:none}
+.tablas2 td { border-top:solid 1px #dfdfdf; padding-top:10px; padding-bottom:10px; text-align:center; color:#666;}
+.tablas2 td.boton{ background:#FFF;}
+.tablas2 tr { height:28px; text-align:left; font-size:14px; font-weight:lighter; color:#FFF;}
+.tablas2 td { border-top:solid 1px #dfdfdf; padding-right: 0px; padding-left: 37px; padding-bottom: 15px; padding-top: 15px; text-align:center; color:#666;}
+
+#contenedor { text-align:center; }
+#izquierda { text-align:left; width: 425px; overflow: auto;}
+
+.pointer  { cursor: pointer; }
+.bgcolor {background-color:#F2E9E9; filter: alpha(opacity=50);}
+.tabs { width: 900px; margin:auto; }
+.legend { width: 900px; margin:auto; font-size:14px; font-style:italic }
+.btnMostrar { width: 900px; height: 35px; margin:auto; text-align: right; vertical-align: middle;}
+.prueba { background:url(../imagenes/Titulo.gif) 10% 100% repeat-x; }
+
+#BuscarFolio { text-align:center; }
+#GeneraArmado { text-align:center; }
+
+.barra { width:900px; max-width:100%; margin:auto;  height:auto; overflow-x:hidden; overflow-y:auto; }
+.barra table{ width:100%; border-collapse:collapse; }
+.barra tr { height:28px; text-align:center; font-size:14px; font-weight:lighter; padding-top:6px; color:#FFF; }
+.barra td.separate{ height:0px; border:none}
+.barra td { border-top:solid 1px #dfdfdf; padding-top:10px; padding-bottom:10px; text-align:center; color:#666;}
+.barra td.boton{ background:#FFF;}
+
+.armado { width:900px; max-width:100%; margin:auto;  height:auto; }
+
+#noSerie { width:150px; text-align:right;}
+#sku { width:150px; text-align:right;}
+#tdNoSerie { width=150px; }
+#tdSKU { width=150px; }
+
+.botonInicio { BACKGROUND-COLOR: #ffffff; background-image: url(../imagenes/logoCanal.gif);	CURSOR: hand; width: 80px; height:40px; }
+.botonInicioITK { BACKGROUND-COLOR: #ffffff; background-image: url(../imagenes/LogoITKMediano.png);	CURSOR: hand; width: 150px; height:61px; }
+.panelEncabezado { text-align:center; padding:3px; }

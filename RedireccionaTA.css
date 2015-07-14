@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+body{
+	background:#d8dadc url(../imagenes/bgGeneral.jpg) top repeat-x;
+	text-align:center;
+}
+*/
+
+.Mensaje
+{
+	margin: 100px;
+}
+ /*Iusacell*/
+.tablaPromoIusacell {
+	width: 524px;
+}
+.tablaPromoIusacell th {
+	background-image: url(/ElektraFront/imagenes/VentaTA/MensajeRedirecciona/bgTituloIusacell.jpg);
+	background-repeat: repeat-x;
+}
+.tablaPromoIusacell td {
+	border: 1px solid #a10101;
+	background-color:#fff;
+}
+.esqIzqIusacell{
+	background-image: url(/ElektraFront/imagenes/VentaTA/MensajeRedirecciona/esqIzqIusacell.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 32px;
+	width: 5px;
+}
+.esqDerIusacell {
+	background-image: url(/ElektraFront/imagenes/VentaTA/MensajeRedirecciona/esqDerIusacell.jpg);
+	background-repeat: no-repeat;
+	float: right;
+	height: 32px;
+	width: 5px;
+}
+.txtTituloIusacell {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	display: block;
+	margin-top: 9px;
+}
+.txtBoldIusacell{
+	font-weight: bold;
+	color: #990000;
+}
+.imgCelularIusacell {
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom:90px;
+}
+/*Iusacell*/
+
+/*Unefon*/
+.tablaPromoUnefon {
+	width: 524px;
+}
+.tablaPromoUnefon th {
+	background-image: url(/ElektraFront/imagenes/VentaTA/MensajeRedirecciona/bgTituloUnefon.jpg);
+	background-repeat: repeat-x;
+}
+.tablaPromoUnefon td {
+	border: 1px solid #ffdd00;
+	background-color:#fff;
+}
+.esqIzqUnefon {
+	background-image: url(/ElektraFront/imagenes/VentaTA/MensajeRedirecciona/esqIzqUnefon.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 32px;
+	width: 5px;
+}
+.esqDerUnefon {
+	background-image: url(/ElektraFront/imagenes/VentaTA/MensajeRedirecciona/esqDerUnefon.jpg);
+	background-repeat: no-repeat;
+	float: right;
+	height: 32px;
+	width: 5px;
+}
+.txtTituloUnefon {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	display: block;
+	margin-top: 9px;
+}
+.txtBoldUnefon{
+	font-weight: bold;
+	color: #edb700;
+}
+.imgCelularUnefon {
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom:90px;
+}
+/*Unefon*/
+
+/*Movistar*/
+.tablaPromoMovistar {
+	width: 524px;
+}
+.tablaPromoMovistar th {
+	background-image: url(/ElektraFront/imagenes/VentaTA/MensajeRedirecciona/bgTituloMovistar.jpg);
+	background-repeat: repeat-x;
+}
+.tablaPromoMovistar td {
+	border: 1px solid #107323;
+	background-color:#fff;
+}
+.esqIzqMovistar {
+	background-image: url(/ElektraFront/imagenes/VentaTA/MensajeRedirecciona/esqIzqMovistar.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 32px;
+	width: 5px;
+}
+.esqDerMovistar {
+	background-image: url(/ElektraFront/imagenes/VentaTA/MensajeRedirecciona/esqDerMovistar.jpg);
+	background-repeat: no-repeat;
+	float: right;
+	height: 32px;
+	width: 5px;
+}
+.txtTituloMovistar {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffcc;
+	display: block;
+	margin-top: 9px;
+}
+.imgCelularMovistar {
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom:10px;
+}
+/*Movistar*/
+.subTit {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+	background-color: #eaeaea;
+	height: 18px;
+	padding-top: 3px;
+	display: block;
+	float: left;
+	clear: both;
+	width: 100%;
+}
+
+.txtPromocion {
+	text-align: center;
+	float: left;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 18px;
+	color: #000;
+	display: block;
+	width: 360px;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	padding-top: 0px;
+	line-height: 20px;
+}
+
+.txtBold {
+	font-weight: bold;
+}
+
+.btn {
+	width:52px;
+	height:22px;
+	border: none;
+	background: transparent url(/ElektraFront/imagenes/VentaTA/MensajeRedirecciona/btn.jpg) no-repeat center;
+	overflow: hidden;
+	cursor:pointer;
+	font-size: 10px;
+	display:block;
+	float: left;
+	margin-left: 50px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.btnPromo {
+	width:52px;
+	height:22px;
+	border: none;
+	background: transparent url(/ElektraFront/imagenes/VentaTA/MensajeRedirecciona/btn.jpg) no-repeat center;
+	overflow: hidden;
+	cursor:pointer;
+	display:block;
+	float: left;
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom:20px;
+}
+
+
+/* Mensaje de redirecciona despues de cada pesupuesto*/
+
+@charset "utf-8";
+/* CSS Document */
+body 
+{
+	background:#fff;
+}
+
+*{margin:0; padding:0;}
+
+#wrapper{ 
+	width:400px; 
+	height:340px; 
+	position:relative; 
+	margin: 18% 25% 25% 25%;
+}
+#header{ 
+	width:400px; 
+	height:30px; 
+	background-image:url(/ElektraFront/imagenes/VentaTA/RedirPresupuesto/header.gif); 
+	position:relative;
+}
+#content{ 
+	width:400px; 
+	height:300px; 
+	position:relative; 
+	border: 3px solid #1228F5;
+	background: #D6D6D6;
+}
+
+.btnRecargar {
+	width:105px; 
+	height:33px; 
+	position:absolute; 
+	z-index:3; 
+	top:280px; 
+	left:60px;
+	font-size: 20px;
+}
+
+.btnRecargarNo {
+	width:105px; 
+	height:33px; 
+	position:absolute; 
+	z-index:3; 
+	top:280px; 
+	left:230px;
+	font-size: 20px;
+}
+
+.cerrar { 
+	width:24px; 
+	height:24px; 
+	position:absolute; 
+	z-index:4; 
+	top:5px; 
+	right:10px;
+}

@@ -1,0 +1,161 @@
+body {
+	margin: 0 0 0 0px;
+}
+.renglon1 {
+
+	padding-left: 150px;
+}
+.renglon2 {
+	padding-left: 20px;
+}
+.renglon3 {
+	padding-left:45px;
+}
+.renglon4 {
+
+	padding-left:130px;
+}
+.renglon5 {padding-top: 20px;
+		padding-left:130px;
+}
+.renglon6 {
+	padding-bottom: 10px;
+	padding-left:100px;
+}
+.renglon7 {
+	padding-top: 10px;
+	padding-left:390px;
+}
+.renglon8 {
+	padding-left:1px;
+}
+.renglon9 {
+	padding-left:295px;
+}
+.renglon10 {
+	padding-left:295px;
+}
+.renglon11 {
+	padding-left:295px;
+}
+
+.tdContMovistar {
+	width: 235px;
+	height: 475px;
+	padding-top: 110px;
+	padding-left: 24px;
+}
+.tdContMovistar1 {
+	width: 600px;
+	height: 50%;
+	padding-left: 30px;
+	padding-top: 105px;
+
+}
+.tdContMovistar2 {
+	width: 600px;
+	height: 50%;
+	padding-left: 60px;
+	padding-top: 105px;
+
+}
+.tdContMovistar3 {
+	width: 600px;
+	height: 50%;
+	padding-left: 65px;
+	padding-top: 105px;
+}
+.tdContMovistar4 {
+	width: 600px;
+        height: 50%;
+     	padding-left: 30px;
+	padding-top: 120px;
+}
+.tdContMovistar5 {
+	width: 600px;
+	height: 50%;
+	padding-left: 60px;
+	padding-top: 120px;
+}
+.tdContMovistar6 {
+	width: 600px;
+	height: 50%;
+	padding-left: 65px;
+	padding-top: 120px;
+}
+
+}
+
+/*---------- FUENTES ----------*/
+.texto6 {
+	font-size: 5px;
+	font-family: arial;
+}
+.texto7 {
+	font-size: 7px;
+	font-family: arial;
+}
+.texto75 {
+	font-size: 7.5px;
+	font-family: arial;
+}
+.texto10 {
+	font-size: 10px;
+	font-family: arial;
+}
+.texto11 {
+	font-size: 11px;
+	font-family: arial;
+}
+.texto11b {
+	font-size: 11px;
+	font-family: arial;
+	font-weight: bold;
+}
+.texto12 {
+	font-size: 12px;
+	font-family: arial;
+}
+.texto12b {
+	font-size: 12px;
+	font-family: arial;
+	font-weight: bold;
+}
+.texto14 {
+	font-size: 14px;
+	font-family: arial;
+}
+.texto13 {
+	font-size: 13px;
+	font-family: Impact;
+	font-weight: bold;
+}
+.texto15 {
+	font-size: 15px;
+	font-family: Impact;
+	font-weight: bold;
+}
+.texto17b {
+	font-size: 17px;
+	font-family: Impact;
+	font-weight: bold;
+}
+.texto18 {
+	font-size: 18px;
+	font-family: arial;
+}
+.texto26 {
+	font-size: 26px;
+	font-family: arial;
+}
+.texto32 {
+	font-size: 32px;
+	font-family: arial;
+	
+}
+.texto34b {
+	font-size: 34px;
+	font-family: Impact;
+	font-weight: bold;
+	
+}

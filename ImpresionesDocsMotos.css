@@ -1,0 +1,239 @@
+﻿      
+body
+{
+	font-size: 11pt;
+    font-family: Arial;
+}
+	.titulo
+	{
+		text-align: center;
+		font-size: 18pt;
+		font-family: Arial;
+		font-weight: bold;
+	}
+	.titulo18
+	{
+		text-align: center;
+		font-size: 18pt;
+		font-family: Arial;
+		font-weight: bold;
+	}
+	.titulo25
+	{
+		text-align: center;
+		font-size: 25pt;
+		font-family: Arial;
+		font-weight: bold;
+	}
+	.tituloBlanco
+	{
+		text-align: center;
+		font-size: 22pt;
+		font-family: Arial;
+		font-weight: bold;
+		color: #FFFFFF;
+	}
+	.negroBold
+	{
+		text-align: justify;
+		font-size: 8pt;
+		font-family: Arial;
+		font-weight: bold;
+		color: #FFFFFF;
+	}
+	.normal
+	{
+		font-size: 12pt;
+		font-family: Arial;
+		font-weight: normal;
+		text-align: justify;
+	}
+	.normalSmall
+	{
+		font-size: 8pt;
+		font-family: Arial;
+		font-weight: normal;
+	}
+	.arial9
+	{
+		font-size: 8pt;
+		font-family: Arial;
+		font-weight: normal;
+	}
+	.arial6
+	{
+		font-size: 6pt;
+		font-family: Arial;
+		font-weight: normal;
+	}
+	.arial6B
+	{
+		font-size: 6pt;
+		font-family: Arial;
+		font-weight: bold;
+	}
+	.arial8B
+	{
+		font-size: 8pt;
+		font-family: Arial;
+		font-weight: bold;
+	}
+	.arial9B
+	{
+		font-size: 8pt;
+		font-family: Arial;
+		font-weight: bold;
+	}
+	.arial9C
+	{
+		font-size: 8pt;
+		font-family: Arial;
+		font-weight: normal;
+		text-align: center;
+	}
+	.arial8C
+	{
+		font-size: 8pt;
+		font-family: Arial;
+		font-weight: normal;
+		text-align: center;
+	}
+	.arial8CB
+	{
+		font-size: 8pt;
+		font-family: Arial;
+		font-weight: bold;
+		text-align: center;
+	}
+	.normalCentro
+	{
+		text-align: center;
+		font-size: 14pt;
+		font-family: Arial;
+		font-weight: normal;
+	}
+	.normalC36
+	{
+		text-align: center;
+		font-size: 36pt;
+		font-family: Arial;
+	}
+	.normalSC
+	{
+		text-align: center;
+		font-size: 9pt;
+		font-family: Arial;
+		font-weight: normal;
+	}
+	.normalDerecha
+	{
+		font-size: 12pt;
+		text-align: right;
+		font-family: Arial;
+		font-weight: normal;
+	}
+	.normal8D
+	{
+		font-size: 8pt;
+		text-align: right;
+		font-family: Arial;
+		font-weight: normal;
+	}
+	.bold48
+	{
+		text-align: center;
+		font-size: 48pt;
+		font-family: Arial;
+		font-weight: bold;
+	}
+	.boldCentro
+	{
+		font-size:12pt;
+		text-align: center;
+		font-family: Arial;
+		font-weight: bold;
+	}
+	.boldBig
+	{
+		font-size: 18pt;
+		font-family: Arial;
+		font-weight: bold;
+	}	
+	.boldSD
+	{
+		text-align: right;
+		font-size: 8pt;
+		font-family: Arial;
+		font-weight: bold;
+	}
+	.boldSP
+	{
+		font-size: 10pt;
+		font-family: Arial;
+		font-weight: bold;
+		padding-left:20px; 
+		padding-right:20px;
+	}
+	.bold
+	{
+		font-size: 12pt;
+		font-family: Arial;
+		font-weight: bold;
+		text-align: justify;
+	}
+	.normalJust
+	{
+		text-align: justify;
+		font-size: 12pt;
+		font-family: Arial;
+		font-weight: normal;
+	}
+	.boldItal48
+	{
+		text-align: center;
+		font-size: 48pt;
+		font-family: Arial;
+		font-weight: bold;
+		font-style: oblique;
+	}
+	#courier8
+	{
+		font-size: 8pt;
+		font-family: Courier;
+	}
+	#courier8C
+	{
+		font-size: 8pt;
+		font-family: Courier;
+		text-align: center;
+	}
+	#courier9B
+	{
+		font-size: 9pt;
+		font-family: Courier;
+		font-weight: bold;
+	}
+	#courierB15
+	{
+		font-size: 15pt;
+		font-family: Courier;
+		font-weight: bold;
+	}
+	#courierBS
+	{
+		font-size: 8pt;
+		font-family: Courier;
+		font-weight: bold;
+	}
+	#courierBSR
+	{
+		font-size: 8pt;
+		font-family: Courier;
+		font-weight: bold;
+		text-align: right;
+	}
+	.tablaCentrada
+	{
+		position: relative;
+		left: 50px;
+	}

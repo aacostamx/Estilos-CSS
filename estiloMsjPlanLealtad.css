@@ -1,0 +1,61 @@
+.titulo
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color: #a30505;
+
+}
+
+.letrasMsj
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #a30505;
+
+}
+
+.tablaMsj
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	border:solid;
+	border-width:1px;
+	border-collapse:collapse;
+}
+
+table
+{
+
+	left:10%;
+	position:absolute;
+	background-color:#EFEFEF;
+	text-align:center;
+
+}
+
+td
+{
+	text-align:center;
+}
+
+body {
+ width:800px;
+ margin : 0px;
+ margin-left : auto;
+ margin-right : auto;
+	background-color:#f4f4f4;
+ }
+
+ 
+ div 
+ {
+	OVERFLOW: auto; HEIGHT: 200px; width:250px;
+ }
+ 
+ img
+ {
+	width:70px;
+	height:70px;
+ }
+

@@ -1,0 +1,218 @@
+.txtTabPromos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	text-align: left;
+}
+.comboPromo01 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #333333;
+	background-color: #DDE3E8;
+	height: 13px;
+}
+.comboPromoOptica01 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 120px;
+}
+.lineaL_B_Calenda {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+	border-right-width: 1px;
+	border-bottom-width: 1pt;
+	border-right-style: solid;
+	border-bottom-style: dashed;
+	border-right-color: #B8C1DC;
+	border-bottom-color: #666666;
+}
+.tab_FechaAzul {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FFFFFF;
+	background-color: #0B5395;
+	text-align: center;
+	width: 20px;
+}
+.txt_TabGrisCalenda {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	background-color: #D0D6DD;
+	font-weight: bold;
+	text-align: center;
+}
+.txt_TitPromocionesTda {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #BF5302;
+	text-align: center;
+}
+.txt_TitPromocionesTdaRojo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #A20101;
+	text-align: center;
+}
+
+
+.lineaLTotal_B_Calenda {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: dotted;
+	border-bottom-style: dotted;
+	border-right-color: #B8C1DC;
+	border-bottom-color: #666666;
+}
+.lineaR_B_Calenda {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #666666;
+	border-left-width: 1px;
+	border-left-style: dotted;
+	border-left-color: #B8C1DC;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #B8C1DC;
+}
+.txt_TabGrisCalenda12px {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #D0D6DD;
+	font-weight: bold;
+	text-align: center;
+	height: 12px;
+}
+.lineaL_B_CalendaActiva {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: dotted;
+	border-right-color: #B8C1DC;
+	border-bottom-color: #666666;
+	background-color: #0B5395;
+}
+.lineaL_B_CalendaActivaHoriz {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: dotted;
+	border-right-color: #B8C1DC;
+	border-bottom-color: #666666;
+	background-image:   url(file:///E|/arte_just/JUST_RESPALDO/C3/c3JUNIO2006/site/images/promociones/colorCalendaActiHoriz.gif);
+}
+.lineaHorizBotomPromos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #003366;
+	text-align: right;
+	text-decoration: underline;
+}
+.txtTabPromosCalenda {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	text-align: center;
+	background-color: #F9F1D9;
+}
+.lineaHorizBotomPromos2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-align: right;
+	height: 12px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #666666;
+	font-weight: bold;
+}
+.txt_TabGrisCalendaBack {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #003399;
+	background-color: #D0D6DD;
+	font-weight: normal;
+	text-align: left;
+	text-decoration: underline;
+}
+.txtTitPopMecanica {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #DD7442;
+	text-align: center;
+}
+.txtPopUpTabPromos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	text-align: left;
+	background-color: #D0D6DD;
+	border-top-width: 1px;
+	border-top-style: dashed;
+	border-top-color: #4B689C;
+	padding-left: 10px;
+}
+.txt_TabGrisPopUp {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	background-color: #C8CBD2;
+	font-weight: bold;
+	text-align: right;
+	vertical-align: top;
+}
+.lineaTot_PopUp {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+	border: 1px solid #B8C1DC;
+}
+.txt_TabGrisProdOtorg {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+	text-align: left;
+}
+.lineaHorizVertBotomPromos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-align: left;
+	height: 12px;
+	font-weight: bold;
+	border-top-style: dashed;
+	border-top-color: #838383;
+	border-top-width: 1px;
+}
+.lineaLPromo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #B8C1DC;
+}

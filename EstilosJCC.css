@@ -1,0 +1,46 @@
+TD.Empleado
+{	
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Verdana;
+	color: #666666;
+	width:400;
+	height:30;
+	text-align:center;
+}
+
+TD.Celda1
+{
+	bgColor: #a30505;
+	background-color: #a30505;
+	text-align:center;
+	width:400;
+	height:40;
+}
+
+TD.Celda2
+{
+	bgColor: #a30505;
+	background-color: #a30505;
+	text-align:center;
+	width:200;
+	height:20;
+}
+
+TD.Celda3
+{
+	background-color: #d6d6d6;
+	text-align:center;
+	width:200;
+	height:20;
+}
+
+TD.Celda4
+{
+	bgColor: #a30505;
+	background-color: #a30505;
+	text-align:center;
+	height:40;
+}
+
+

@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+#contenedor {
+	margin: 1px 0px 5px 0px;
+	padding: 0px;
+	width: 100%;
+	text-align: center;
+}
+#frmelektra {
+	width: 100%;
+}
+#cabeza, #contenido {
+	/*margin: auto;*/
+	padding: 0px;
+	text-align: left;
+}
+#cabeza{
+	width: 760px;
+	padding: 0px;
+	height: 40px;
+}
+/*
+#cabeza .fotoSombra {
+	margin-bottom: 5px;
+}
+*/
+#contenido {
+	padding: 2px 4px 2px 4px;
+	width: 100%;
+	min-height: 320px;
+	margin: 5px 0px 5px 0px;
+}
+#banners {
+	margin: 5px 0px 3px 0px;
+}
+#descr {
+	position: absolute;
+	z-index: 600;
+	width: 200px;
+	visibility: hidden;
+}
+/********************Columnas************************/
+#colIzquierda {
+	width: 20%;
+	font-size: 1px;
+	text-align: center;
+}
+#colContenido {
+	padding: 0px 0px 0px 2px;
+}
+#cont2Col {
+	width: 97%;
+}
+.unMomento {
+	position: absolute;
+	left: 10px;
+	z-index: 12010;
+	top: 10px;
+}
+/*****************Botón Cerrar*********************/
+.cerrar {
+width:100%;
+margin-bottom:5px;
+border-bottom: dotted 1px #f7f7f7;
+}
+.cerrar img {
+	vertical-align: middle;
+	margin: 3px 2px 3px 0px;
+	text-align: right;
+	float: right;
+}

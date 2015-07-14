@@ -1,0 +1,141 @@
+body{
+overflow-y:hidden;
+overflow-x:hidden;
+}
+.datosPrincipales {
+	margin: 2 0 6 2px;
+	width: 765px;
+}
+
+.botonesPrincipales {
+	margin: 0 0 4 2px;
+	width: 764px;
+}
+
+.contenedorPrincipal {
+	margin: 0 0 0 2px;
+	width: 99%;
+}
+
+.botCambiarOpciones {
+	margin: 3 0 0 0px;
+}
+
+.botVerPromociones {
+	margin: 3 0 0 0px;
+}
+
+.menuPersonalizable {
+   margin: 8 0 0 0px;
+	height: 338px;
+	width: 110px;
+}
+
+.contVentaRapida {
+   margin: 8 0 0 0px;
+	height: 260px;
+}
+
+.Promociones {
+   margin: 8 0 0 0px;
+	height: 200px;
+	width: 176px;
+}
+
+.promo1 {
+	margin: 4 0 3 0px;
+}
+
+.promo2 {
+	margin: 3 0 3 0px;
+}
+
+.promo3 {
+	margin: 3 0 0 0px;
+}
+
+.inputAgregaProd {
+	font-size: 10px;
+	width: 250px;
+}
+
+.inputBuscarClientePeq {
+	font-size: 10px;
+	width: 120px;
+}
+
+
+.inputBuscarCliente{
+	font-size: 10px;
+	width: 195px;
+}
+
+.inputBuscarProd {
+	font-size: 10px;
+	width: 195px;
+}
+
+.inputBuscarProd2 {
+	font-size: 10px;
+	width: 177px;
+}
+
+.comboClientePeq{
+	font-size: 10px;
+	width: 120px;
+}
+
+.comboCliente {
+	font-size: 10px;
+	width: 195px;
+}
+
+
+.separador {
+	height: 4px;
+	width: 420px;
+	margin: 1 0 0 0px;
+}
+
+.buscadoresVentaRapida {
+	width: 430px;
+	height: 80px;
+	border: 1px solid #6E0404;
+	background-color: #FFFFFF;
+}
+
+.btnContinuar {
+   margin: 2 0 0 0px;
+	width: 430px;
+	text-align: right;
+}
+
+.inputBuscarProdNvo {
+	font-size: 10px;
+	width: 195px;
+	height: 15px;
+}
+.comboClienteNvo {
+	font-size: 10px;
+	width: 195px;
+	height: 12px;
+}
+
+    .tablaTop{
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+    }
+    
+    .text12 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+.tbTopItalika{
+	width: 96%;
+	height: 400px;
+	text-align:center;
+	border: 1px solid #A30505;
+	padding: 1 1 1 1px;
+	margin: 0 0 3 0px;
+}

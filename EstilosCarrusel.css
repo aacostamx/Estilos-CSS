@@ -1,0 +1,239 @@
+#dialogContainer0
+{
+position: absolute;
+top: 50%; /* Buscamos el centro horizontal (relativo) del navegador */
+left: 50%; /* Buscamos el centro vertical (relativo) del navegador */
+width: 50px; /* Definimos el ancho del objeto a centrar */
+height: 100px; /* Definimos el alto del objeto a centrar */
+margin-top: -100px; /* Restamos la mitad de la altura del objeto con un margin-top */
+margin-left: -25px; /* Restamos la mitad de la anchura del objeto con un margin-left */
+}
+.tblGeneral
+{
+	border-width:1px;
+	border-style:solid;
+	border-collapse:separate;
+	border-collapse:collapse;
+	border-color:#404040;	
+	width:600px;
+}
+ 
+#contenedor
+{
+text-align:left;	
+}
+ iframe
+ {
+	margin:0; 
+	padding:0; 
+	height:100%;
+	display:block; 
+	width:600%; 
+	border:none;
+ }
+	
+	
+ #wrapper
+ {
+	width:100%;
+	height:100%; 
+ }
+ 
+ #contorno,#PagoPuntual
+ {
+
+	width:100%; height:100%;}
+ }
+
+ #tarjetas 
+ {
+
+	border-width:2.5px;
+	border-style:solid;
+	border-collapse:separate;
+	border-collapse:collapse;
+	border-color:#808080;
+ }
+ 
+ #producto
+ {
+ 	
+	border-width:1px;
+	border-style:solid;
+	
+ }
+ 
+ #credito
+ {
+ 	
+	font-size:12px;
+	font-family:Verdana;
+	font-weight:bold;
+	text-align:center;
+ }
+ 
+ #contado
+ {
+ 	 border-bottom-color:#FF0000;
+	font-size:12px;
+ 	font-family:Verdana;
+	font-weight:bold;
+	background-color:#FFFFCC;
+	text-align:center;
+	
+	
+ }
+ 
+ #comprar
+ {
+	font-weight:bold;
+
+ }
+ 
+ #PagoPuntual
+ {
+	text-align:left;
+	background:url(/Elektrafront/imagenes/Carrusel.gif) 10%/*{bgHoverXPos}*/ 10%/*{bgHoverYPos}*/ repeat-x/*{bgHoverRepeat}*/;
+ }
+ 
+ #Cabecero
+ {
+	text-align:center;
+	background:url(/Elektrafront/imagenes/Carrusel.gif) 10%/*{bgHoverXPos}*/ 10%/*{bgHoverYPos}*/ repeat-x/*{bgHoverRepeat}*/;
+ }
+ 
+ #leyenda1
+ {
+	font-size:18px;
+	font-family:Verdana;
+	COLOR: #ffffff;
+	text-transform: uppercase ;
+ }
+ 
+ #leyenda, #pago
+ {
+	text-transform: uppercase ;
+	font-size:18px;
+	font-family:Verdana;
+	COLOR: #ffffff;
+	text-decoration: underline;
+ }
+ .title
+ {
+	font-size:12px;
+	font-family:Verdana;
+	COLOR: #000000;
+	font-weight:bold;
+ }
+ 
+ 
+ #boton
+ {
+	text-align:center;
+ }
+ 
+ #sku
+ {
+	font-size:12px;
+	font-family:Verdana;
+	font-weight:bold;
+	text-align:center;
+	COLOR: #ff0000;
+ }
+ 
+
+  .ui-jcoverflip {
+        position: relative;
+      }
+      
+      .ui-jcoverflip--item {
+        position: absolute;
+        display: block;
+      }
+      
+      /* Basic sample CSS */
+      #flip {
+        height: 235px;
+        width: 630px;
+        margin-bottom: 50px;
+      }
+      
+      #flip .ui-jcoverflip--title {
+        position: absolute;
+        bottom: -30px;
+        width: 100%;
+        text-align: center;
+        color: #000000;
+      }
+      
+      #flip img {
+        display: block;
+        border: 0;
+        outline: none;
+      }
+      
+      #flip a {
+        outline: none;
+      }
+      
+      
+      #wrapper {
+        height: 280px;
+        width: 630px;
+        overflow: hidden;
+        position: relative;
+      }
+      
+      .ui-jcoverflip--item {
+        cursor: pointer;
+      }
+      
+      
+      
+      body {
+        font-family: Arial, sans-serif;
+        width: 630px;
+        padding: 0;
+        margin: 0;
+      }
+      
+      ul,
+      ul li {
+        margin: 0;
+        padding: 0;
+        display: block;
+        list-style-type: none;
+      }
+      
+      #scrollbar {
+        position: absolute;
+        left: 20px;
+        right: 20px;
+        
+      }
+	  
+/*Estilos Total Play*/
+	  
+#contenido{
+	height: 200px;
+	overflow-y:auto;
+	height:280px;
+}
+	  
+.tblGeneralTP{
+	border-width:1px;
+	border-style:solid;
+	border-collapse:collapse;
+	border-color:#404040;
+	width:530px;
+}
+
+#wrapperTP {
+	height: 390px;
+	width: 600px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 390px;
+}

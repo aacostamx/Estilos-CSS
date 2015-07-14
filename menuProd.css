@@ -1,0 +1,103 @@
+.MainGroup {
+	/*background-image: url(images/MainItemBg.gif);*/
+	cursor:pointer;
+	cursor:hand;
+}
+.MainItem {
+	height:22px;
+	cursor: pointer;
+	cursor: hand;
+	font-size: 11px;
+	font-family: Arial, Verdana;
+	color: #333333;
+	width: 120px;
+	text-align: center;
+	margin: 1px 0px 3px 0px;
+}
+.MainItemOver {
+	/*font-size: 12px;
+	color: #000000;
+	height: 22px;
+	padding: 0px 10px;
+	padding: 0px 0px;
+	background-image: url(images/MainItemSeparator.gif);
+	background-repeat: no-repeat;
+	text-align:left;*/
+}
+.MenuGroup {
+	/*background-image: url(images/backMenuInicio.jpg);*/
+	cursor:pointer;
+	cursor:hand;
+	/*width:258px;
+	border: 1px solid #E4E4E4;
+	border-top: 0px;
+	border-bottom: 1px solid #E4E4E4;*/
+}
+.MenuGroup table {
+
+}
+.MenuGroup td {
+	vertical-align: middle;
+	font-family: Arial, Verdana;
+}
+.MenuItem td,
+.MenuItemOver td {
+	vertical-align: middle;
+	height: 22px;
+	cursor: pointer;
+	cursor: hand;
+	padding: 3px 0px 9px 7px;
+	font-size:11px;
+	text-align:left;
+}
+.MenuItem {
+	background-image: url(/ElektraFront/imagenes/nuevoHome/fdoSeparador.gif);
+	/*background-image: url(../_propuestas/menuC3Nuevo/CtrlpComercializarProductoServicio_files/fdoSeparador.gif);*/
+	background-color: #FFFFFF;
+	/* border-left: 2px solid #990000;
+    border-right: 2px solid #990000;*/
+}
+.MenuItem td {
+	font-weight:normal;
+	color:#333333;
+}
+.MenuItemOver {
+	border-left: 2px solid #990000;
+	border-right: 2px solid #990000;
+	background-color: #999999;
+}
+.MenuItemOver td {
+}
+.MenuItem2 td,
+.MenuItemOver2 td {
+	cursor: pointer;
+	cursor: hand;
+	width: 149px;
+	padding: 6px 0px 6px 7px;
+	font-size:11px;
+	text-align: left;
+}
+.MenuItem2 {
+	background color:#999999;
+	background-color: #999999;
+	border-left: 2px solid #999999;
+	border-right: 2px solid #999999;
+}
+.MenuItem2 td {
+	color:#FFFFFF;
+	background-color: #999999;
+}
+.MenuItemOver2 {
+	background-color: #CCCCCC;
+	border-left: 2px solid #CCCCCC;
+	border-right: 2px solid #CCCCCC;
+}
+.MenuItemOver2 td {
+	color:#000000;
+	text-decoration: underline;
+}
+.Separator {
+	margin: 0px;
+	border-right: 2px solid black;
+	height: 2px;
+}

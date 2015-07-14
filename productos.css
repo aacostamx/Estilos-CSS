@@ -1,0 +1,674 @@
+@charset "ISO-8859-1";
+/* CSS Document */
+
+@charset "ISO-8859-1";
+/* CSS Document */
+
+*
+{
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+html, body
+{
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#wrapper
+{
+	width:1024px;
+	height:768px;
+	margin:0 auto;
+	margin-left:15px;
+}
+
+#container
+{
+	margin-top:20px;
+	width:700px;
+	position:relative;
+	float:left;
+}
+
+#containerTelefonia
+{
+	margin-top:20px;
+	position:relative;
+	float:left;
+}
+
+#pagar
+{
+	margin-top:20px;
+	width:324px;
+	position:relative;
+	float:left;
+}
+
+table.topbar
+{
+	width:765px;
+	font:9px/16px Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	/*color:#999;*/
+	border-bottom:2px #CCC solid;
+	border-top:2px #CCC solid;
+	/*background-color:#DFDFDF;*/
+	background-color:#FF8050;
+	margin-bottom:5px;
+}
+
+td.siguiente
+{
+	text-align:right;
+	border-left: 1px #666 solid;
+}
+
+
+h1.multimedia
+{
+	width:550px;
+	height:40px;
+	padding-top:15px;
+	padding-left:20px;
+	font:19px/5px Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	background-color:#D6D4AE;
+}
+
+h1.premium
+{
+	width:550px;
+	height:40px;
+	padding-top:15px;
+	padding-left:20px;
+	font:19px/5px Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	background-color:#B5B7B4;
+}
+
+h1.smartphone
+{
+	width:550px;
+	height:40px;
+	padding-top:15px;
+	padding-left:20px;
+	font:19px/5px Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	background-color:#570F8C;
+}
+
+h1.touchscreen
+{
+	width:550px;
+	height:40px;
+	padding-top:15px;
+	padding-left:20px;
+	font:19px/5px Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	background-color:#E99FDC;
+}
+
+h1.basico
+{
+	width:550px;
+	height:40px;
+	padding-top:15px;
+	padding-left:20px;
+	font:19px/5px Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	background-color:#E2D700;
+}
+
+
+h1.hogareinternet
+{
+	width:550px;
+	height:40px;
+	padding-top:15px;
+	padding-left:20px;
+	font:19px/5px Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	background-color:/*#231f20*/#0098de;
+}
+h1.educacionyentretenimiento
+{
+	width:550px;
+	height:40px;
+	padding-top:15px;
+	padding-left:20px;
+	font:19px/5px Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	background-color:/*#ce1443*/#f9640d;
+}
+h1.profesionalcreativa
+{
+	width:550px;
+	height:40px;
+	padding-top:15px;
+	padding-left:20px;
+	font:19px/5px Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	background-color:/*#f47321*/#73b932;
+}
+
+h1.impresion
+{
+	width:550px;
+	height:40px;
+	padding-top:15px;
+	padding-left:20px;
+	font:19px/5px Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	background-color:/*#f47321*/#74028e;
+}
+
+h1.computo
+{
+	width:550px;
+	height:40px;
+	padding-top:15px;
+	padding-left:20px;
+	font:19px/5px Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	background-color:#74028e;
+}
+h1.default
+{
+	width:550px;
+	height:40px;
+	padding-top:15px;
+	padding-left:20px;
+	font:19px/5px Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	background-color:#74028e;
+}
+
+p.sub
+{
+	font-size:12px;
+	font-weight:normal;
+	margin-top:9px;
+}
+
+#telefono
+{
+	width:250px;
+	position:relative;
+	float:left;
+}
+
+#nuevopic
+{
+	position:absolute;
+	top:200px;
+	left:100px;
+	z-index:30px;
+}
+
+
+#caracteristicas
+{
+	width:400px;
+	position:relative;
+	float:left;
+}
+
+ #flipbox
+{
+	width:400px;
+	position:static;
+	float:left;
+}
+
+ #CaracteristicasCarrusel
+{
+	width:565px;
+	position:relative;
+	float:left;
+}
+
+table.caracteristicas
+{
+	width:350px;
+	margin-left:45px;
+	margin-top:20px;
+}
+
+table.caracteristicas2
+{
+	width:500px;
+	margin-left:45px;
+	margin-top:20px;
+}
+
+#paging
+{
+	height:30px;
+	position:relative;
+	margin-left:170px;
+	margin-top:8px;
+}
+
+#paging ul
+{
+	width:290px;
+	height:15px;
+	list-style:none;
+	align:center;
+}
+
+#paging ul li
+{
+	font:11px/11px Arial, Helvetica, sans-serif;
+	width:15px;
+	position:relative;
+	float:left;
+	list-style:none;
+}
+
+table.tipotelefono
+{
+	width:200px;
+	height:53px;
+	border-collapse:collapse;
+	margin-top:8px;
+}
+
+td.tipizq
+{
+	background-image:url(../imagenes/DetalleProducto/TipoTelefono/tipmultimedia_01.png);
+}
+
+td.tipcent
+{
+	background-image:url(../imagenes/DetalleProducto/TipoTelefono/tipmultimedia_03.png);
+	font:14px Verdana, Geneva, sans-serif;
+	color:#FFF;
+	text-align:center;
+	vertical-align:middle;
+}
+
+td.tipder
+{
+	background-image:url(../imagenes/DetalleProducto/TipoTelefono/tipmultimedia_05.png);
+}
+
+td.preizq
+{
+	background-image:url(../imagenes/DetalleProducto/TipoTelefono/tippremium_01.png);
+}
+
+td.precent
+{
+	background-image:url(../imagenes/DetalleProducto/TipoTelefono/tippremium_03.png);
+	font:14px Verdana, Geneva, sans-serif;
+	color:#FFF;
+	text-align:center;
+	vertical-align:middle;
+}
+
+td.preder
+{
+	background-image:url(../imagenes/DetalleProducto/TipoTelefono/tippremium_05.png);
+}
+
+td.smaizq
+{
+	background-image:url(../imagenes/DetalleProducto/TipoTelefono/tipinteligente_01.png);
+}
+
+td.smacent
+{
+	background-image:url(../imagenes/DetalleProducto/TipoTelefono/tipinteligente_03.png);
+	font:14px Verdana, Geneva, sans-serif;
+	color:#FFF;
+	text-align:center;
+	vertical-align:middle;
+}
+
+td.smader
+{
+	background-image:url(../imagenes/DetalleProducto/TipoTelefono/tipinteligente_05.png);
+}
+
+td.touizq
+{
+	background-image:url(../imagenes/DetalleProducto/TipoTelefono/tipPcompleta_01.png);
+}
+
+td.toucent
+{
+	background-image:url(../imagenes/DetalleProducto/TipoTelefono/tipPcompleta_03.png);
+	font:14px Verdana, Geneva, sans-serif;
+	color:#FFF;
+	text-align:center;
+	vertical-align:middle;
+}
+
+td.touder
+{
+	background-image:url(../imagenes/DetalleProducto/TipoTelefono/tipPcompleta_05.png);
+}
+
+td.basizq
+{
+	background-image:url(../imagenes/DetalleProducto/TipoTelefono/tipbasico_01.png);
+}
+
+td.bascent
+{
+	background-image:url(../imagenes/DetalleProducto/TipoTelefono/tipbasico_03.png);
+	font:14px Verdana, Geneva, sans-serif;
+	color:#FFF;
+	text-align:center;
+	vertical-align:middle;
+}
+
+td.basder
+{
+	background-image:url(../imagenes/DetalleProducto/TipoTelefono/tipbasico_05.png);
+}
+
+td.defizq
+{
+	background-image:url(../imagenes/DetalleProducto/TipoTelefono/tipdefault_01.jpg);
+}
+
+td.defcent
+{
+	background-image:url(../imagenes/DetalleProducto/TipoTelefono/tipdefault_03.jpg);
+	font:14px Verdana, Geneva, sans-serif;
+	color:#FFF;
+	text-align:center;
+	vertical-align:middle;
+}
+
+td.defder
+{
+	background-image:url(../imagenes/DetalleProducto/TipoTelefono/tipdefault_05.jpg);
+}
+
+td.compizq
+{
+	background-image:url(../imagenes/DetalleProducto/TipoTelefono/tipdefault_01.jpg);
+}
+
+td.compcent
+{
+	background-image:url(../imagenes/DetalleProducto/TipoTelefono/tipdefault_03.jpg);
+	font:14px Verdana, Geneva, sans-serif;
+	color:#FFF;
+	text-align:center;
+	vertical-align:middle;
+}
+
+td.compder
+{
+	background-image:url(../imagenes/DetalleProducto/TipoTelefono/tipdefault_05.jpg);
+}
+
+table.inventario
+{
+	margin-top:10px;
+}
+
+td.inventarios
+{
+	width:200px;
+	font:10px/24px Verdana, Geneva, sans-serif;
+	color:#333;
+	border-top:1px #CCC dotted;
+	border-bottom:2px #CCC solid;
+}
+
+td.entrega
+{
+	width:200px;
+	font:10px/24px Verdana, Geneva, sans-serif;
+	color:#063;
+	border-bottom:2px #CCC solid;
+}
+ 
+td.imprimir
+{
+	width:200px;
+	font:10px/24px Verdana, Geneva, sans-serif;
+	color:#333;
+	border-bottom:2px #CCC solid;
+}
+
+#beneficios
+{
+	/*position:relative;
+	float:left;*/
+	margin-top:25px;
+	margin-left:50px;
+	margin-right:20px;
+	width:330px;
+	height:auto;
+	/*clear:right;*/
+}
+
+#beneficiosTelefonia
+{
+	/*position:relative;
+	float:left;*/
+	margin-top:0px;
+	margin-left:50px;
+	margin-right:20px;
+	width:500px;
+	height:auto;
+	/*clear:right;*/
+}
+
+h2
+{
+	font:16px Verdana, Geneva, sans-serif;
+	color:#333;
+	font-weight:bold;
+}
+
+h3
+{
+	font:12px Verdana, Geneva, sans-serif;
+	color:#333;
+}
+
+h4
+{
+	font:25px/25px Verdana, Geneva, sans-serif;
+	color:#333;
+	font-weight:bold;
+	
+}
+
+#tablaotros
+{
+	width:350px;
+	display:block;
+	float:left;
+	/*margin-bottom:5px;*/
+	position:static;
+	
+}
+
+table.otrosacc
+{
+	width:260px;
+	font:9px/20px Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#666;
+	border-collapse:collapse;
+}
+
+tr.tdotros
+{
+	background-color:#E6E6E6;
+	border-bottom:2px #999 solid;
+	cursor:hand;
+}
+
+#pagandopuntual
+{
+	width:214px;
+	position:relative;
+	float:left;
+	margin-top:40px;
+	padding:40px;
+	
+}
+
+table.preciochaz
+{
+	width:134px;
+	height:36px;
+}
+
+td.centchaz
+{
+	background-image:url(img/preciochaz.png);
+	font:11px Verdana, Geneva, sans-serif;
+	color:#FFF;
+	padding:8px;
+}
+
+#plandecredito
+{
+	width:290px;
+	position:relative;
+	float:left;
+}
+
+table.plancredito
+{
+	width:200px;
+	font:10px/16px Verdana, Geneva, sans-serif;
+	text-align:center;
+	border: 1px #666 solid;
+}
+
+tr.titulosplan
+{
+	background-color:#666;
+	color:#FFF;
+	font-weight:bold;
+	border: 1px #666 solid;
+}
+
+tr.nonesplan
+{
+	background-color:#CCC;
+	color:#333;
+}
+
+tr.paresplan
+{
+	background-color:#FFF;
+	color:#333;
+}
+
+#btnregresar
+{ width:90px;
+	height:26px; 
+	position:static;
+	/* top:68px;
+	left:484px; */
+	z-index:20;
+	cursor:hand;
+	margin-top:-30px;
+	margin-left:460px;
+	}
+
+	
+#btnAgregar
+{ 
+	width:90px;
+	height:26px; 
+	position:absolute;
+	top:60px;
+	left:670px;
+	z-index:20;
+	cursor:hand;
+}
+	
+img.imgIconos
+{ 
+	width:65px;
+	height:65px;
+}
+
+.precioTelefonia 
+{
+	width:200px;
+	height: 20px;
+	background-image: url(/ElektraFront/imagenes/fnd_PrecioChaz.gif);
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding: 2px 5px 0px 0px;
+	text-align: right;
+	top:40px;
+	color: #666666;
+        font-weight: bold;
+	font-size: 10px;
+	/*left:450px;*/
+	left:569px;
+	z-index:20;
+	position:absolute;
+}
+
+.antFlip
+{
+    width:150px;
+    float:right;
+    margin-left:20px;
+    margin-bottom:10px;
+    margin-right:40px;
+}
+.antFlip table tr td img 
+{
+    width:70px;
+    height:70px;
+   
+}
+.desFlip
+{
+    width:150px;
+    height:100px;
+    float:left;
+    margin-left:-200px;
+    position:relative;
+    z-index:1;
+    margin-top:-60px;
+    
+    
+    
+
+}
+
+.desFlip table tr td img 
+{
+    width:70px;
+    height:70px; 
+}
+
+#pspace{	
+	margin-bottom:-5px;
+}
+
+

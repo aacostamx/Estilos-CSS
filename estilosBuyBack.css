@@ -1,0 +1,277 @@
+BODY {
+	MARGIN: 5px 0px 0px 2px; BEHAVIOR: url("csshover3.htc")
+}
+.detalleOperacion {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 8px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.tdTabs {
+	BACKGROUND-IMAGE: url(../imagenes/top_contenido.gif); PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 41px; PADDING-TOP: 0px
+}
+.tdTab_Busqueda {
+	BACKGROUND-IMAGE: url(../imagenes/base_busqueda.jpg); TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 247px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: tahoma; HEIGHT: 19px; COLOR: #003300; FONT-SIZE: 11px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.Fdobtn_Proceso {
+	BACKGROUND-IMAGE: url(../imagenes/btn_sTxt/btn_base3.jpg); TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 150px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: tahoma; HEIGHT: 40px; COLOR: #003300; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.fdoBuscador {
+	BACKGROUND-IMAGE: url(../imagenes/fdo_ContenidoBusqueda.jpg); TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 2px; WIDTH: 719px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: tahoma; HEIGHT: 46px; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 8px
+}
+.fdoTab_Seleccion {
+	BACKGROUND-IMAGE: url(../imagenes/fdo_tabSeleccion.jpg); TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 742px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: tahoma; HEIGHT: 38px; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 1px
+}
+.fdoTop_Tit {
+	BACKGROUND-IMAGE: url(../imagenes/fdo_Tit.jpg); TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 337px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: tahoma; HEIGHT: 21px; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.fdoTop_Tit_2 {
+	BACKGROUND-IMAGE: url(../imagenes/fdo_Tit_2.jpg); TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 335px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: tahoma; HEIGHT: 21px; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.fdoTab_Left {
+	BACKGROUND-IMAGE: url(../imagenes/fdo_ContenidoLeft.jpg); TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; WIDTH: 58px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: tahoma; HEIGHT: 107px; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.fdoCuadro {
+	BACKGROUND-IMAGE: url(../imagenes/fdo_Cuadro.jpg); TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; WIDTH: 30px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: tahoma; HEIGHT: 25px; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.fdoCuadro_Dia {
+	BACKGROUND-IMAGE: url(../imagenes/fdo_Cuadro_Dia.jpg); TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 2px; WIDTH: 40px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: tahoma; HEIGHT: 40px; COLOR: #065285; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.tdTab_Boton {
+	BACKGROUND-IMAGE: url(../imagenes/btn_sTxt/btn_Esc.gif); PADDING-BOTTOM: 0px; PADDING-LEFT: 50px; WIDTH: 142px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: tahoma; HEIGHT: 22px; COLOR: #333333; FONT-SIZE: 11px; FONT-WEIGHT: bold; PADDING-TOP: 4px
+}
+.tdTxt_TabBoton {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 50px; WIDTH: 142px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: tahoma; HEIGHT: 22px; COLOR: #333333; FONT-SIZE: 12px; FONT-WEIGHT: normal; PADDING-TOP: 4px
+}
+.Txt_BotonesMenu {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 50px; WIDTH: 207px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: tahoma; HEIGHT: 27px; COLOR: #ffffff; FONT-SIZE: 13px; FONT-WEIGHT: normal; PADDING-TOP: 4px
+}
+.tdTabsIzq {
+	BACKGROUND-IMAGE: url(../imagenes/left_contenido2.gif); PADDING-BOTTOM: 0px; PADDING-LEFT: 2px; WIDTH: 149px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; PADDING-TOP: 15px
+}
+.tdContenido {
+	BORDER-LEFT: #cccccc 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; HEIGHT: 580px; BORDER-RIGHT: #cccccc 1px solid; PADDING-TOP: 0px
+}
+.tdContenidoLateralRojo {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 80px; BORDER-RIGHT: #b50000 1px solid; PADDING-TOP: 0px
+}
+.tdContenidoBottomPunteado {
+	BORDER-BOTTOM: #999999 1px dashed; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.tdContenidoTitulos {
+	BORDER-LEFT: #999999 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 150px; BORDER-RIGHT: #999999 1px solid; PADDING-TOP: 0px
+}
+.tdContenidoTitulos_2 {
+	BORDER-LEFT: #999999 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 170px; BORDER-RIGHT: #999999 1px solid; PADDING-TOP: 0px
+}
+.tdContenidoEquipos {
+	BORDER-LEFT: #aca899 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 79px; BORDER-RIGHT: #aca899 1px solid; PADDING-TOP: 0px
+}
+.tdContenido2 {
+	BORDER-BOTTOM: #4dac48 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 0px; HEIGHT: 150px; BORDER-TOP: #4dac48 1px solid; PADDING-TOP: 8px
+}
+.tdContenido3 {
+	BORDER-LEFT: #999999 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; HEIGHT: 90px; BORDER-RIGHT: #999999 1px solid; PADDING-TOP: 0px
+}
+.tdContenidoTotal {
+	BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; HEIGHT: 90px; BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid; PADDING-TOP: 0px
+}
+.tdDatos {
+	BORDER-LEFT: #4dac48 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; BORDER-RIGHT: #4dac48 1px solid; PADDING-TOP: 0px
+}
+.tdDatos_Factura {
+	BORDER-BOTTOM: #4dac48 1px solid; BORDER-LEFT: #4dac48 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #edebd8; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; BORDER-TOP: #4dac48 1px solid; BORDER-RIGHT: #4dac48 1px solid; PADDING-TOP: 0px
+}
+.tdTotalesDatos {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #4dac48; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; FONT-FAMILY: tahoma; COLOR: #ffffff; FONT-SIZE: 11px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.tdTotalesDatos_b {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; FONT-FAMILY: tahoma; FONT-SIZE: 11px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.tb_mensaje {
+	WIDTH: 235px; FONT-FAMILY: tahoma; HEIGHT: 40px; FONT-SIZE: 11px
+}
+.tb_215 {
+	WIDTH: 215px; FONT-FAMILY: tahoma; HEIGHT: 19px; FONT-SIZE: 11px
+}
+.tb_315 {
+	WIDTH: 315px; FONT-FAMILY: tahoma; HEIGHT: 19px; FONT-SIZE: 11px
+}
+.tb_375 {
+	WIDTH: 375px; FONT-FAMILY: tahoma; HEIGHT: 19px; FONT-SIZE: 11px
+}
+.tb_175 {
+	WIDTH: 175px; FONT-FAMILY: tahoma; HEIGHT: 19px; FONT-SIZE: 11px
+}
+.tb_140 {
+	WIDTH: 140px; FONT-FAMILY: tahoma; HEIGHT: 19px; FONT-SIZE: 11px
+}
+.tb_140Mod {
+	WIDTH: 230px; FONT-FAMILY: tahoma; HEIGHT: 19px; FONT-SIZE: 11px
+}
+.tb_90 {
+	WIDTH: 90px; FONT-FAMILY: tahoma; HEIGHT: 19px; FONT-SIZE: 11px; MARGIN-RIGHT: 5px
+}
+.tb_90FdoGris {
+	BACKGROUND-COLOR: #e4e4e4; WIDTH: 90px; FONT-FAMILY: tahoma; HEIGHT: 19px; FONT-SIZE: 11px; MARGIN-RIGHT: 5px
+}
+.tb_70 {
+	WIDTH: 70px; FONT-FAMILY: tahoma; HEIGHT: 19px; FONT-SIZE: 11px; MARGIN-RIGHT: 5px
+}
+.tb_70FdoGris {
+	BACKGROUND-COLOR: #e4e4e4; WIDTH: 70px; FONT-FAMILY: tahoma; HEIGHT: 19px; FONT-SIZE: 11px; MARGIN-RIGHT: 5px
+}
+.tb_50 {
+	WIDTH: 55px; FONT-FAMILY: tahoma; HEIGHT: 19px; FONT-SIZE: 11px; MARGIN-RIGHT: 5px
+}
+.tb_40 {
+	WIDTH: 40px; FONT-FAMILY: tahoma; HEIGHT: 19px; FONT-SIZE: 11px; MARGIN-RIGHT: 3px
+}
+.tdExtras {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f4f4f4; MARGIN: 2px 0px 12px; PADDING-LEFT: 8px; WIDTH: 760px; PADDING-RIGHT: 0px; HEIGHT: 32px; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid; PADDING-TOP: 0px
+}
+.colHead {
+	BACKGROUND-IMAGE: url(../imagenes/fondoColHead.jpg); LINE-HEIGHT: 12px; MARGIN: 8px 0px 0px; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: tahoma; FONT-SIZE: 10px
+}
+.rowLineaBot_dotted {
+	BORDER-BOTTOM: #cccccc 1px dotted; FONT-FAMILY: trebuchet ms; HEIGHT: 25px; FONT-SIZE: 11px
+}
+#scrollResultBusq {
+	MARGIN: 0px 0px 10px; HEIGHT: 175px; OVERFLOW: auto
+}
+#scrollResultBusq2 {
+	MARGIN: 0px 0px 10px; HEIGHT: 130px; OVERFLOW: auto
+}
+#scrollResultBusq3 {
+	MARGIN: 0px 0px 10px; HEIGHT: 80px; OVERFLOW: auto
+}
+#scrollDatos_Adicionales {
+	MARGIN: 0px 0px 10px; HEIGHT: 300px; OVERFLOW: auto
+}
+#scrollDatos_Agentes {
+	MARGIN: 0px 0px 10px; HEIGHT: 150px; OVERFLOW: auto
+}
+.marginBottom {
+	MARGIN-BOTTOM: 5px
+}
+.header {
+	BACKGROUND-IMAGE: url(../imagenes/Head/fdo_Header.jpg); MARGIN-BOTTOM: 0px
+}
+.headerT_Aire {
+	BACKGROUND-IMAGE: url(../imagenes/Head/fdo_Header_TpoAire.jpg); MARGIN-BOTTOM: 0px
+}
+.headerBoletosBus {
+	BACKGROUND-IMAGE: url(../imagenes/Head/fdo_Header_BoletosBus.jpg); MARGIN-BOTTOM: 0px
+}
+.headerBAZ {
+	BACKGROUND-IMAGE: url(../imagenes/Head/fdo_Header_PagoBAZ.jpg); MARGIN-BOTTOM: 0px
+}
+.headerPagoOtrosB {
+	BACKGROUND-IMAGE: url(../imagenes/Head/fdo_Header_TpoAire.jpg); MARGIN-BOTTOM: 0px
+}
+.headerWU {
+	BACKGROUND-IMAGE: url(../imagenes/Head/fdo_Header_WU.jpg); MARGIN-BOTTOM: 0px
+}
+.topAvisos460 {
+	BACKGROUND-IMAGE: url(../imagenes/top_avisos_460.jpg); TEXT-ALIGN: center; WIDTH: 460px; FONT-FAMILY: tahoma; HEIGHT: 28px; COLOR: #666666; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.topAvisos460_11 {
+	BACKGROUND-IMAGE: url(../imagenes/top_avisos_460.jpg); TEXT-ALIGN: center; WIDTH: 460px; FONT-FAMILY: tahoma; HEIGHT: 28px; COLOR: #666666; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.topAvisos600 {
+	BACKGROUND-IMAGE: url(../imagenes/top_avisos_600.jpg); TEXT-ALIGN: center; WIDTH: 600px; FONT-FAMILY: tahoma; HEIGHT: 28px; COLOR: #666666; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.topAvisos600_11 {
+	BACKGROUND-IMAGE: url(../imagenes/top_avisos_600.jpg); TEXT-ALIGN: center; WIDTH: 600px; FONT-FAMILY: tahoma; HEIGHT: 28px; COLOR: #666666; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.topLogin404 {
+	BACKGROUND-IMAGE: url(../imagenes/tab_loginUp.jpg); TEXT-ALIGN: center; WIDTH: 404px; FONT-FAMILY: tahoma; HEIGHT: 12px; COLOR: #666666; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.topAvisos720 {
+	BACKGROUND-IMAGE: url(../imagenes/top_avisos_720.jpg); WIDTH: 720px; HEIGHT: 28px
+}
+.serviciosLogos {
+	BACKGROUND-IMAGE: url(../imagenes/fdo_servicios.jpg); WIDTH: 159px; HEIGHT: 102px
+}
+.contenidoAvisos {
+	BORDER-LEFT: #b9b9b9 1px solid; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-RIGHT: #b9b9b9 1px solid; PADDING-TOP: 5px
+}
+.imagenIFE {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; HEIGHT: 500px; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid; PADDING-TOP: 5px
+}
+.font9 {
+	FONT-FAMILY: tahoma; FONT-SIZE: 9px
+}
+.font9_Bca {
+	FONT-FAMILY: tahoma; COLOR: #ffffff; FONT-SIZE: 9px
+}
+.font10 {
+	FONT-FAMILY: tahoma; FONT-SIZE: 10px
+}
+.font11 {
+	FONT-FAMILY: tahoma; FONT-SIZE: 11px
+}
+.font11b {
+	FONT-FAMILY: tahoma; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.font11_Negro {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; FONT-FAMILY: tahoma; HEIGHT: 20px; COLOR: #000000; FONT-SIZE: 11px; PADDING-TOP: 0px
+}
+.font11Vde {
+	FONT-FAMILY: tahoma; COLOR: #42a73d; FONT-SIZE: 11px
+}
+.font11_AzulBold {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; FONT-FAMILY: tahoma; HEIGHT: 20px; COLOR: #065285; FONT-SIZE: 11px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.font12b {
+	FONT-FAMILY: tahoma; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.font12b_verde {
+	FONT-FAMILY: tahoma; COLOR: #42a73d; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.font12_rojo {
+	FONT-FAMILY: tahoma; COLOR: #ff0000; FONT-SIZE: 12px
+}
+.font12_rojoBold {
+	FONT-FAMILY: tahoma; COLOR: #ff0000; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.font12_Azul {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; FONT-FAMILY: tahoma; HEIGHT: 20px; COLOR: #065285; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+.font13 {
+	FONT-FAMILY: tahoma; FONT-SIZE: 13px
+}
+.font13_gris {
+	FONT-FAMILY: tahoma; COLOR: #999999; FONT-SIZE: 13px
+}
+.font13b_gris {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; FONT-FAMILY: tahoma; COLOR: #999999; FONT-SIZE: 13px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.font13b {
+	FONT-FAMILY: tahoma; FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+.font14 {
+	FONT-FAMILY: tahoma; FONT-SIZE: 14px
+}
+.font14b {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; FONT-FAMILY: tahoma; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.font14B_verde {
+	FONT-FAMILY: tahoma; COLOR: #42a73d; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.font14Blanco {
+	FONT-FAMILY: tahoma; COLOR: #ffffff; FONT-SIZE: 14px
+}
+.font18b_Beigh {
+	FONT-FAMILY: tahoma; COLOR: #cfc29c; FONT-SIZE: 18px; FONT-WEIGHT: bold
+}
+.font18Blanco {
+	FONT-FAMILY: tahoma; COLOR: #ffffff; FONT-SIZE: 18px
+}
+.contenidoLogin {
+	BORDER-LEFT: #b9b9b9 1px solid; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 5px; WIDTH: 404px; PADDING-RIGHT: 5px; BORDER-RIGHT: #b9b9b9 1px solid; PADDING-TOP: 5px
+}
+#scrollVentanaEmergente {
+	HEIGHT: 50px; OVERFLOW: auto
+}
+.tablaSelecTallerTop {
+	BORDER-BOTTOM: #a30505 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #a30505 1px solid; PADDING-BOTTOM: 1px; MARGIN: 0px 0px 3px; PADDING-LEFT: 1px; WIDTH: 200px; PADDING-RIGHT: 1px; HEIGHT: 150px; BORDER-TOP: #a30505 1px solid; BORDER-RIGHT: #a30505 1px solid; PADDING-TOP: 1px
+}
+.botonOculto {visibility:hidden}

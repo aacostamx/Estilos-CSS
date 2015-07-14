@@ -1,0 +1,10 @@
+.c_cross {
+}
+.c_cross td {
+	text-align: center;
+	padding: 5px;
+	width: 16%;
+}
+#muestraProducto .c_cross .tituloProducto {
+	font-size: 11px;
+}

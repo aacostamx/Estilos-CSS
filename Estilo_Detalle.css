@@ -1,0 +1,456 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+*{
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+	background:#e6e7e8;
+	margin:0;
+}
+
+img{
+	border:0;
+}
+
+.BotonAtrasA
+{
+	background-image: URL(/ElektraFront/imagenes/btnAnteriorA.gif);
+	padding-right: -5px; 
+}
+
+.BotonAtrasB
+{
+	background-image: URL(/ElektraFront/imagenes/btnAnteriorB.gif);
+	padding-top: 5px; 
+	text-align: center; 
+	font-size: x-small;
+	font-weight: bold;
+}
+
+.BotonAdelante
+{
+	background-image: URL(/ElektraFront/imagenes/btnSiguienteDetalle.gif);
+	padding-top: 5px; 
+	text-align: center; 
+	font-size: x-small;
+	font-weight: bold;
+}
+
+.encabezado{
+	background:#FFF;
+	height:35px;
+	padding:5px 10px 0 10px;
+}
+
+.flotDer{
+	float:right;
+	margin-right: 10px;
+}
+
+.flotIzq{	
+	float:left;
+}
+
+.carritoResumen{
+	float:right;
+	font-size:12px;
+}
+
+.carritoResumen th{
+	color:#2858bb;
+	text-align:left;
+}
+
+.carritoResumen td{
+	text-align:right;
+}
+
+.menu{
+	background:url(/ElektraFront/bgMenu.gif) top repeat-x;
+	margin:5px 10px 0 10px;
+	height:54px;
+}
+
+.menu .cajaMenu{
+	padding-top:13px;
+}
+
+.menu ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+.menu ul>:first-child{
+	border-left:none;
+}
+
+.menu ul>:last-child{
+	border-right:none;
+}
+
+.menu li{
+	display:block;
+	float:left;
+	border-left:1px solid #870000;
+	border-right:1px solid #de7373;
+	padding:0 25px 0 25px;
+}
+
+.menu li a{
+	color:#FFF;
+	text-decoration:none;
+	font-size:14px;
+}
+
+.menu li a span{
+	font-weight:bold;
+	font-size:16px;
+}
+
+.menu .prim{
+	border-left:none;
+}
+.menu .ult{
+	border-right:none;
+	
+}
+
+.busqueda{
+	margin:0 12px;
+}
+.cajaBusqueda{
+	background: url(/ElektraFront/imagenes/bgBusquedas.gif) top repeat-x;
+	
+	margin:0 10px;
+	height:77px;
+	padding:10px 0;
+}
+
+.cajaBusqueda h3{
+	font-weight:normal;
+	margin:0 0 5px 0;
+	text-transform:uppercase;
+	font-size:15px;
+	
+}
+.cajaBusqueda h3 b{
+	font-weight:bold;
+	color:#ba0000;
+}
+.cajaBusqueda form{
+	margin:0;
+}
+.cajaBusqueda{
+}
+
+.mensajeBusqueda{
+	float:right;
+	width:50%;
+	color:#888888;
+	font-size:15px;
+	font-weight:bold;
+	margin-top:-15px;
+}
+
+.input{
+	display:block;
+	float:left;
+	border:none; 
+	background:transparent url(/Elektrafront/imagenes/bgCampo03.gif) center no-repeat;
+	height:22px;
+	padding:4px;
+	margin:0;
+	width:104px;
+	margin-right:0px;
+	overflow:hidden;
+	text-align:center;
+}
+.input input, .input select{
+	border:none;
+	background:none;
+	width:80px;
+	margin:0;
+	color:#ccc;
+	font-size:11px;
+	text-transform:uppercase;
+}
+.customSelect{
+	background:transparent url(/Elektrafront/imagenes/bgCampoSelect.gif) center no-repeat;
+	width:122px;
+	margin-top:-1px;
+}
+.customSelect select{
+	margin:3px;
+}
+.customSelect:hover select{
+	visibility:visible;
+	
+}
+.sendImage{
+	cursor:pointer;
+	margin:3px 0 0 0;
+}
+.cajaProductos{
+	margin-right:10px;	
+	width: 100%;
+	display: block;
+	height: 600px;
+}
+.cajaProductos .top {
+	height:1px;
+}
+.cajaProductos .top .cont{
+	height:22px;
+	background:transparent url(/Elektrafront/imagenes/CajaProductosTop.gif) top center repeat-x;
+	padding-top:17px;
+	font-size:14px;
+	font-weight:bold;
+	color:#585858;
+}
+
+.celdaAhorras{
+	background: transparent url(/Elektrafront/imagenes/icoAhorro.gif) no-repeat;
+	background-position: center center;
+	width: 90px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight:bold;
+}
+
+.cajaProductos .top .cont .flotDer{
+	font-size:12px;
+	font-weight:normal;
+}
+
+.cajaProductos .top .cont a{
+	color:#888;
+	text-decoration:none;
+}
+.cajaProductos .top .cont b{
+	color:#ba0000;
+	
+}
+.cajaProductos .top .cont span{
+	color:#000;
+	
+}
+.cajaProductos .top .cont .marcado{
+	color:#ba0000;
+	text-decoration:underline;
+}
+.cajaProductos .navegacion{
+	background:url(/Elektrafront/imagenes/bgNavegacion.gif) top;
+	margin:0 4px 0 13px;
+	padding:3px 10px;
+	font-size:12px;
+	text-align:center;
+	
+}
+.cajaProductos .navegacion .controles img{
+	margin:0px 3px;
+	cursor:pointer;
+}
+
+
+.remate{
+	margin-left:10px;
+	width:100%;
+}
+.remate .cont{
+	background:url(/Elektrafront/imagenes/bgCajaProd.gif) ;
+	height:19px;	
+	margin-left: 12px;
+	margin-rigth: 12px;
+}
+
+.cajaContenidos{
+	background:url(/Elektrafront/imagenes/bgCajaContenidos.gif)  left repeat-y; /* Imagen lado izquierdo*/
+	margin-left:10px;
+	padding-left:5px;
+	/*padding-right: 20px;
+	width: 100%;*/
+	display: inline-block;
+}
+.cajaCont{
+	float:left;	
+	background:#f3f3f3 url(/Elektrafront/imagenes/Muebles/bgCajaCont.gif)  right repeat-y ; /* Imagen lado derecho*/
+	padding-right:0px;
+	margin-right: 0px;
+}
+.productos {
+	width:100%;
+}
+.productos td{
+	border-top:white solid 1px;
+	border-bottom:#ddd solid 1px;
+	
+	border-right:white solid 1px;
+	border-left:#ddd solid 1px;
+	padding:5px;
+	
+}
+.producto a {
+	margin:0;
+}
+.producto img{
+	margin:0;
+}
+.producto{font-size:12px; color:#5d5c5c;}
+.producto h4{
+	margin:0;
+	font-size:12px;
+}
+.producto .flotIzq{
+	margin-right:5px;
+	margin-left:5px;
+}
+.producto .flotDer{
+	margin-right:5px;
+}
+.producto .clave{ }
+.precio
+{ 
+	color:#1ea703; 
+	font-size:29px; 
+	font-weight:bold; 
+	margin: 10 10 0 0;
+	background: none;
+}
+.plazo{ font-weight:bold; margin: 10 0 0 0;}
+.chaz{font-size:11px;}
+.precioChaz{font-weight:bold; }
+.inventario{}
+.entrega{}
+.pagoP{font-weight:bold; text-decoration:underline; }
+.flotDer img{
+	margin-right:3px;
+	margin-top:3px;
+}
+
+.detalle{
+	clear:left;
+	font-size:14px;
+	padding:0 0px;
+	height:300px;
+	margin-top:-5px;	
+}
+
+.detalleIzq{
+	float:left;
+	padding:0 5px;
+}
+.detalleDer{
+	float:left;	
+	padding:8px;	
+	width: 489px;	
+}
+.detalleProducto h2{
+	margin:0;
+	font-size:18px;
+}
+.propiedades{
+	width: 100%;
+	margin:1px 1px 1px 1px;
+	font-size:11px;	
+}
+.propiedades th{
+	text-align:left;
+	color:#505050;
+	font-weight:normal;
+	/*padding-right:5px;*/
+	vertical-align:top;
+}
+.propiedades td{
+	vertical-align:top;
+	font-weight:bold;
+	color:black;
+	padding-right: 5px;
+}
+.galeria{
+	background:url(/Elektrafront/imagenes/bgImgActiva.png)  top no-repeat;
+	width:200px;
+	height:200px;
+	padding:10px;
+}
+
+.galeria h4{
+	margin:0;
+	font-size:10px;
+	font-weight:bold;
+	color:#ba0000;
+}
+
+.detalle .costo{
+	margin-top:10px;
+	font-size:12px;
+	height:100px;
+	width: 100%;
+}
+.detalle .plazo, .detalle .chaz, .detalle .precioChaz {
+margin:0;
+}
+.detalle .chaz{
+	margin-top:5px;
+}
+.detalle .entrega{
+	margin:0;
+	color:#1ea703; 
+	margin-bottom:20px;
+}
+
+.detalle .diagrama{
+	margin:15px 30px 5px 30px;
+	border:#ccc solid 1px;
+}
+.detalle .inventario span{
+	text-decoration:underline;
+}
+.detalle .descripcion{
+	color: black;
+	width: 100%;	/* 480px;*/
+}
+.detalle .descripcion b{
+	color:#ba0000;
+}
+
+.tabla{
+	background:url(/Elektrafront/imagenes/bgTabla.png)  top no-repeat;
+	font-size:10px;
+	text-align:center;
+	padding-top:5px;
+	height:123px;
+	margin:0 -5px;
+}
+
+.tabla table{
+	width:355px;
+	text-align:left;
+}
+.tabla table th{
+	height:25px;
+}
+.tabla table td{
+	text-transform:uppercase;
+	color:black;
+}
+
+.opcion{
+	position:absolute;
+	top:3px;
+	right:8px;
+	padding:0px 0px 0 0 ;
+	font-size:12px;
+}
+
+.opcion a{
+	text-decoration:none;	
+	color:gray;	
+}
+
+.opcion a:hover{
+	text-decoration:underline;
+	}

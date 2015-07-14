@@ -1,0 +1,175 @@
+body {
+	margin: 7 4 4 4px;
+	background-color: #EFEFEF;
+}
+.banner {
+	margin-bottom: 2px;
+	padding-top: 0px;
+}
+.contenido {
+	border-left: 1px solid #B7B7B7;
+	border-right: 1px solid #B7B7B7;
+	background-color: #FFFFFF;
+}
+fieldset {
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+	width: 550px;
+	height: 110px;
+}
+fieldset legend {
+	background: #FFFFFF;
+	padding: 2px;
+	font-family: tahoma;
+	font-size: 13px;
+	font-weight: bold;
+	color: #3D6AA3;
+}
+.textarea {
+	width: 550px;
+	height: 100px;
+}
+.tbPagina {
+	width: 25px;
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+}
+.tbLada {
+	width: 50px;
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+}
+.tbTelefono {
+	width: 200px;
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+}
+.rowLineaBot_dotted2 {
+	border-bottom: 1px dotted #CCCCCC;
+	font-family: arial;
+	font-size: 11px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #000000;
+}
+.colhead {
+	background-image: url(../imagenes/fondoColHead.jpg);
+	background-repeat: repeat-x;
+	font-family: arial;
+	font-size: 11px;
+	line-height: 12px;
+	margin: 8 0 0 0px;
+}
+.rowTienda {
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color: #FFFFCC;
+}
+.rowProveedor {
+	font-family: arial;
+	font-size: 12px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color: #E1EBFF;
+}
+#scrollResultBusq {
+	overflow: auto;
+	width: 650px;
+	height: 180px;
+}
+
+/*----FUENTES----*/
+.font_titNav {
+	font-family: tahoma;
+	font-size: 16px;
+	font-weight: bold;
+	color: #666666;
+}
+.font_titQS {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+}
+.font_titulos {
+	font-family: tahoma;
+	font-size: 16px;
+	font-weight: bold;
+	color: #D60330;
+}
+.font12 {
+	font-family: tahoma;
+	font-size: 12px;
+}
+.font12b {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+}
+.font12b_azul {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #3D6AA3;
+}
+.font12b_rojo {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #D60330;
+}
+.font13 {
+	font-family: tahoma;
+	font-size: 13px;
+	line-height: 18px;
+}
+.font13b {
+	font-family: tahoma;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 18px;
+}
+.font13b_azul {
+	font-family: tahoma;
+	font-size: 13px;
+	font-weight: bold;
+	color: #3D6AA3;
+}
+.font14b {
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: bold;
+}
+.font14b_gris {
+	font-family: tahoma;
+	font-size: 16px;
+	font-weight: bold;
+	color: #666666;
+}
+.font16b {
+	font-family: tahoma;
+	font-size: 16px;
+	font-weight: bold;
+}
+.font11 {
+	font-family: tahoma;
+	font-size: 11px;
+}
+.font11_gris {
+	font-family: tahoma;
+	font-size: 11px;
+	color: #666666;
+}

@@ -1,0 +1,367 @@
+﻿table.tablaCuotaColocacion
+{
+    font-size:11px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;  
+    border-width:0px;  
+    height:235px;
+    width:469px;
+}
+tr.trCuotaColocacion
+{
+    height:30px;
+    text-align:center; 
+}
+td.tdCuotaColocacion
+{        
+    border-width:1px;
+    border-color:#BFBFBF;
+    border-style:solid;
+    background-color:#086A87; 
+    color:#FFFFFF;
+    font-size:13px;
+    font-weight:bold;
+    font-family:Verdana, Arial, Helvetica, sans-serif; 
+}
+tr.trCuotaColocacionFecha, tr.trSubTituloConcepto, tr.trSubTituloEfectividad    
+{   
+    height:35px; 
+    text-align:center; 
+}
+td.tcCuotaColocacionFecha , td.tcCuotaColocacionDiaria, td.tdSubTituloConcepto, td.tdSubtituloEfectividad
+{
+    border-width:1px;
+    border-color:#BFBFBF;
+    border-style:solid; 
+    background-color:#FFFFFF;
+    font-size:11px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;      
+}
+td.tcDatoEfectividad
+{
+    border-width:1px;
+    border-color:#BFBFBF;
+    border-style:solid; 
+    background-color:#FFFFFF;  
+    vertical-align:middle;
+    text-align:center;
+    font-size:11px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+td.tdConcepHorario
+{
+    border-width:1px;
+    border-color:#BFBFBF;
+    border-style:solid;     
+    background-color:#FFFFFF;
+    vertical-align:top;
+    
+    font-size:10px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+td.tdConcepCuota
+{
+    border-width:1px;
+    border-color:#BFBFBF;
+    border-style:solid;     
+    background-color:#FFFFFF;
+    vertical-align:top;
+    text-align:right;    
+    padding-top:5px;
+    font-size:11px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+td.tcCeldaCuotaHoy
+{
+    border-width:1px;
+    border-color:#BFBFBF;
+    border-style:solid;
+    width:67px;  
+    background-color:#ECFDE1;
+    text-align:center;
+    vertical-align:middle;
+    font-size:11px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+td.tcCeldaCuotaFuturo
+{
+    border-width:1px;
+    border-color:#BFBFBF;
+    border-style:solid;
+    width:67px;  
+    background-color:#D7EAFD;
+    text-align:center;
+    vertical-align:middle;
+    font-size:11px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+td.tcCeldaCuotaDiaDescanso
+{
+    border-width:1px;
+    border-color:#BFBFBF;
+    border-style:solid;
+    width:67px;  
+    background-color:#DADADA;
+    text-align:center;
+    vertical-align:middle;
+   font-size:11px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+tr.trCuotaColocacionDiaria
+{
+    height:60px;
+}
+table.tablaCuotaDiaria
+{
+    font-size:11px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;    
+    border-width:0px;  
+    height:59px;    
+    width:67px; 
+}
+tr.trMontoCuota
+{
+    height:25px;
+}
+td.tcMontoCuota
+{
+    text-align:right;
+    vertical-align:top;
+    padding-top:5px;
+    padding-right:1px;
+    font-size:11px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+tr.trImgCuotaCumplida
+{
+    height:34px;
+    vertical-align:middle;
+}
+td.tcImgCuotaCumplida, td.CeldaNumEfectividad
+{
+    text-align:center;
+    font-size:11px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+tr.FilaEspacioVacio, tr.FilaTotalEfectividad
+{
+    height:25px;
+}
+td.CeldaTotalEfectividad
+{
+    text-align:right;
+    color:#00105b;
+    font-size:12px;
+    font-weight:bold;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+td.tcDatoTotalEfectividad
+{
+    border-width:1px;
+    border-color:#BFBFBF;
+    border-style:solid; 
+    background-color:#FFFFFF;  
+    vertical-align:middle;
+    text-align:center;
+    color:#00105b;
+    font-weight:bold;
+   font-size:11px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    height:25px;
+}
+
+/*Dia descanso*/
+table.tbDiaDescanso
+{
+    
+   background-image:url('../imagenes/CuotasColocacion/imgDiaDescanso.png');
+   font-size:12px;
+   font-family:Verdana, Arial, Helvetica, sans-serif;  
+}
+
+/*Dia descanso*/
+table.tbMensaje
+{
+    
+   background-image:url('../imagenes/CuotasColocacion/imgMensajeCuotas.png');
+   font-size:12px;
+   font-family:Verdana, Arial, Helvetica, sans-serif;  
+}
+.FontOpcHorarioOpcion
+{
+    color:#00105b;
+    font-weight:bold;
+    font-size:12px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;    
+}
+.FontOpcHorarioNormal
+{
+    color:#00105b;
+    font-weight:bold;
+    font-size:12px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;    
+}
+td.tdDiasDescanso
+{
+    padding-left:140px;
+    font-size:11px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+}
+.btnAceptarDescanso
+{
+ 
+    background-image:url('../imagenes/CuotasColocacion/btnAceptarDescanso.png');
+    font-weight:bold;
+    color:White;
+    Height:25px;
+    Width:125px;
+}
+/*Cuotas colocaion gerente*/
+td.tdCabeceroCuotaGte
+{        
+	text-align:center;
+    border-width:1px;
+    border-color:#FFFFFF;
+    border-style:solid;
+    background-color:#4482BA; 
+    color:#FFFFFF;
+    font-weight:bold;
+    border-left-width:1px;
+    border-right-width:1px;
+    border-top-width:1px;
+    border-bottom-width:3px;
+}
+td.tdSubtituloCabeceroCuotaGte
+{        
+	text-align:center;
+    border-width:1px;
+    border-color:#FFFFFF;
+    border-style:solid;
+    background-color:#D1D9E9; 
+    color:#000000;
+}
+td.tdSubtituloCabeceroCuotaGteBgBlanco
+{        
+	text-align:center;
+    border-width:1px;
+    border-color:#FFFFFF;
+    border-style:solid;
+    background-color:#FFFFFF; 
+    color:#000000;
+}
+td.tdSubtituloImgCabeceroCuotaGte
+{        
+	text-align:center;
+    border-width:1px;
+    border-color:#FFFFFF;
+    border-style:solid;
+    background-color:#FFFFFF; 
+    color:#000000;    
+    padding-left:3px;
+}
+td.tdCuotaAzulGte
+{        
+	text-align:center;
+    border-width:1px;
+    border-color:#FFFFFF;
+    border-style:solid;
+    background-color:#D1D9E9; 
+    color:#000000;    
+}
+td.tdCuotaAzulBoldGte
+{        
+	text-align:center;
+    border-width:1px;
+    border-color:#FFFFFF;
+    border-style:solid;
+    background-color:#D1D9E9; 
+    color:#000000;  
+    font-weight:bold;   
+}
+td.tdCuotaAzulClaroGte
+{        
+	text-align:center;
+    border-width:1px;
+    border-color:#FFFFFF;
+    border-style:solid;
+    background-color:#E9E9F0; 
+    color:#000000;    
+}
+td.tdCuotaAzulClaroBoldGte
+{        
+	text-align:center;
+    border-width:1px;
+    border-color:#FFFFFF;
+    border-style:solid;
+    background-color:#E9E9F0; 
+    color:#000000;    
+    font-weight:bold; 
+}
+td.tdInfoCuotaCenterFondoBcoGte
+{        
+	text-align:center;
+    border-width:1px;
+    border-color:#FFFFFF;
+    border-style:solid;
+    background-color:#FFFFFF; 
+    color:#000000;    
+}
+td.tdInfoCuotaCenterBoldFondoBcoGte
+{        
+	text-align:center;
+    border-width:1px;
+    border-color:#FFFFFF;
+    border-style:solid;
+    background-color:#FFFFFF; 
+    color:#000000; 
+    font-weight:bold;  
+}
+td.tdInfoCuotaRightFondoBcoGte
+{        
+	text-align:right;
+    border-width:1px;
+    border-color:#FFFFFF;
+    border-style:solid;
+    background-color:#FFFFFF; 
+    color:#000000;    
+}
+td.tdInfoCuotaRightBoldFondoBcoGte
+{        
+	text-align:right;
+    border-width:1px;
+    border-color:#FFFFFF;
+    border-style:solid;
+    background-color:#FFFFFF; 
+    color:#000000;   
+    font-weight:bold;  
+}
+img.imgInfoCuotaFondoBcoGte
+{        
+	margin-left:3px;
+	margin-right:3px;    
+}
+td.tdCuotaComparaBoldVerdeGte
+{        
+	text-align:center;
+    border-width:1px;
+    border-color:#FFFFFF;
+    border-style:solid;
+    background-color:#E8EFD8; 
+    color:#000000;    
+    font-weight:bold; 
+}
+td.tdCuotaComparaBoldRojoGte
+{        
+	text-align:center;
+    border-width:1px;
+    border-color:#FFFFFF;
+    border-style:solid;
+    background-color:#F2D9D9; 
+    color:#000000;    
+    font-weight:bold; 
+}
+table.tbMensajes
+{
+	background-image:url(../imagenes/CuotasColocacion/imgMensajeCuotas800x600.png);
+	background-repeat:no-repeat;
+}

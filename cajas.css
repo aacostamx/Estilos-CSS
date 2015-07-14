@@ -1,0 +1,51 @@
+.boton
+{
+	background-color: #D9E6F4;
+	margin: 2px;
+	padding: 0px;
+	border: 0px none;
+}
+.botonAzulOscuro
+{
+	margin: 2px;
+	padding: 0px;
+	background-image: none;
+	page-break-before: left;
+	border-top: 0px none;
+	border-right: 0px none;
+	border-bottom: 0px none;
+	border-left: 0px none;
+	background-color: BBD2EC;
+}
+.boton div
+{
+	margin: 1px;
+	border: 1px solid #9EBFE4;
+	padding: 1px;
+}
+.botonAzulOscuro div
+{
+	margin: 1px;
+	padding: 1px;
+	border: 1px solid #9CBEE4;
+}
+
+.imagenBack
+{
+}
+
+
+.btnBoton
+{
+	float: right;
+}
+.clear
+{
+	clear: both;
+}
+
+.btnCentro
+{
+	width: 650px;
+}
+

@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+.contenedor{
+   position:absolute;
+      margin-top:100px;
+   margin-left:-65px;
+   width: 105px;
+   height:450px;
+ 
+}
+.men_oc{
+   float:left;
+   height: 450px;
+   margin-top:70px;
+ 
+}	
+.men_oc ul li ,a,img{
+     list-style:none;
+	 border:none;
+	 margin-left:0px;
+}
+.evento_oc{
+    margin-top:25px;
+    float:right;	
+	height: 383px;
+    width: 36px;
+	 
+	 
+}
+.listado{
+
+	left:0px;
+	margin-left:0px;
+}
+
+	 
+.divDetalle{
+	
+	margin-left:50px;
+
+	
+	
+
+

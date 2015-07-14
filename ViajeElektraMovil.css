@@ -1,0 +1,403 @@
+/*======================= Menu Tabs==================*/
+body{
+	font-family:Arial, Helvetica, sans-serif;
+}
+.menu {
+	padding: 0;
+	float: left;
+	margin-top:10px;
+	width:900px;
+	border-bottom:2px solid #bd0001;
+	position:relative;
+}
+.menu li { display: inline; }
+.menu li a {
+	 background:#999999;
+	 padding: 12px; 
+	 float:left; text-decoration: none;
+	 color: #fff;
+	 width:120px;
+	 text-align:center;
+ }
+.menu li.active a { background:#bd0001; color:#fff; }
+.content {
+	float:left;
+    width:900px;
+}
+.avionIco{
+	width: 27px;
+	height: 27px;
+	display: inline-block;
+	float: left;
+	position: absolute;
+}
+.posAvion1{
+	left: 874px;
+	top: 29px;
+}
+.msjGris{
+	width:900px;
+	border-top:2px solid #bd0001;
+	padding-top:28px;
+	padding-bottom:15px;
+	background-color:#eeeeee;
+	float:left;
+	margin-top:20px;
+	text-align:center;
+	position:relative;
+}
+.msjGris div{
+	font-size:20px;
+	color:#bd0001;
+}
+.msjGris p{
+	font-size:12px;
+	color:#000;
+	margin:0;
+	margin-top:5px;
+	margin-bottom:3px;
+}
+.msjGris span{
+	font-size:15px;
+	color:#000;
+}
+.posAvion2{
+	left: 458px;
+	top: -13px;
+}
+.acordeon{
+	width:900px;
+	float:left;
+	margin-top: 10px;
+}
+.clausulado{
+	width:170px;
+	height:48px;
+	float:left;
+	background-color:#999999;
+	display:block;
+}
+.clausulado div{
+	color:#fff;
+	margin-top:15px;
+	margin-right:16px;
+	float:right;
+	display:inline-block;
+}
+.clausulado img{
+	display:inline-block;
+	vertical-align:middle;
+	float:left;
+	margin-left:5px;
+}
+.marg1{ margin-top:16px;}
+.marg2{ margin-top:7px;}
+.rotar{
+	transform: rotate(180deg) ;
+-webkit-transform: rotate(180deg) ;
+-moz-transform: rotate(180deg) ;
+-o-transform: rotate(180deg) ;
+-ms-transform: rotate(180deg) ;
+}
+.rotar2{
+	transform: rotate(360deg) ;
+-webkit-transform: rotate(360deg) ;
+-moz-transform: rotate(360deg) ;
+-o-transform: rotate(360deg) ;
+-ms-transform: rotate(360deg) ;
+}
+.clausulas{
+	float:left;
+	width:100%;
+}
+.linea{
+	width:900px;
+	border-top:solid #999999 2px;
+	float:right;
+	height:2px;
+}
+.clausulas ul{
+	list-style-image:url(/ElektraFront/imagenes/VentaRapidaTelefonia/avion3.png);
+	font-size:13px;
+	margin-left: 27px;
+}
+.clausulas ul li{
+	margin:5px 0;
+	line-height:1.7;
+	padding-left:7px;
+}
+
+body{
+  font-family:arial;
+}
+.menuTabs a,.numPedido,.Pedido,.conteTotal,.renglonTotal,.renglonTotal label,.renglonTotal input,.totalSaldo,.renglonTotal span{
+  float:left;
+} 
+#mainWrapper a{
+  text-decoration:none;
+  color:#fff;
+}
+#mainWrapper{
+  width:900px;
+  margin:0 auto;
+}
+.banner{
+  width:100%;
+  height:230px;
+  background:black;
+}
+.banner img{
+	width:100%;
+}
+.contenedor{
+  width:100%;
+  overflow:hidden;
+}
+.menuTabs{
+  width:100%;
+  height:34px;
+  border-bottom:2px solid #ba0000;
+  position:relative;
+}
+.menuTabs a{
+  width:120px;
+  background:#999;
+  text-align:center;
+  height:34px;
+  line-height:2.4;
+}
+.conteForm{
+  width:90%;
+  height:367px;
+  padding:20px 0 0px 0;
+}
+
+.numPedido{
+  width:350px;
+}
+
+.Pedido{
+  width:500px;
+}
+
+.numPedido h1{
+  text-align:center;
+  color:#ba0000;
+  font-size:18px;
+  margin-bottom:10px;
+}
+
+.Pedido h1{
+  color:#ba0000;
+  font-size:18px;
+  margin-bottom:10px;
+}
+
+.btnLimpiar
+{
+color: #FFFFFF;
+text-decoration: none;
+background-color: #BA0000;
+float: left;
+font-size: 14px;
+height: 42px;
+line-height: 3;
+padding: 0 10px 0 28px;
+text-align: center;
+background-image: url("/ElektraFront/imagenes/VentaRapidaTelefonia/tacheIco.png");
+background-position: 10px center;
+background-repeat: no-repeat;
+vertical-align: baseline;
+}
+.numPedido input{
+  width:80px;
+  height:35px;
+  border-radius:5px; 
+  background-color:#fff;
+  border:1px solid #999;
+  text-align:center;
+  margin-bottom:13px;
+  font-size:12px;
+}
+
+.Pedido input{
+  width:80px;
+  height:35px;
+  border-radius:5px;
+  background-color:#fff;
+  border:1px solid #999;
+  text-align:center;
+  margin-bottom:13px;
+  font-size:12px;
+  margin-top:auto;
+  top:auto;
+}
+
+.conteTotal{
+  width:80%;
+  padding:30px 0 0 30px;
+}
+.renglonTotal{
+  margin-bottom:5px;
+  height: 53px;
+}
+.renglonTotal label{
+  padding-right:35px;
+  margin-right: 5px;
+  width: 185;
+  font-size:18px;
+  line-height:2.3;
+  background-image: url(/ElektraFront/imagenes/VentaRapidaTelefonia/pesosIco.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+.cajasTexto{
+  width:160px;
+  padding-left:10px;
+  height:38px;
+  background-color:#fff;
+  border:1px solid #999;
+  font-size:16px;
+  border-right:none;
+}
+.renglonTotal a {
+  float: left;
+  background-color: #ba0000;
+  height: 42px;
+  text-align: center;
+  padding: 0 10px 0 28px;
+  line-height: 3;
+  font-size: 14px;
+}
+.totalSaldo{
+  margin-top: 90px;
+}
+.totalSaldo .renglonTotal label{
+  font-size: 22px;
+  line-height: 2;
+}
+.renglonTotal span {
+  text-align: center;
+  height: 37px;
+  background-color: #dedede;
+  width: 86px;
+  line-height: 1.2;
+  font-size: 14px;
+  border-left:1px solid #999; 
+  font-weight: bold;
+  padding-top: 5px;
+}
+.cleanIco{
+  background-image: url(../imagenes/VentaRapidaTelefonia/tacheIco.png);
+  background-position: 10px center; 
+  background-repeat: no-repeat;
+}
+.renglonTotal .boletoPrem{
+  width: 92px;
+  border-right:1px solid #999; 
+}
+.imprimirCod{
+  width: 350px;
+  float: right;
+  height:53px;
+  background-image:url(../imagenes/VentaRapidaTelefonia/imprimirCodigo.png); 
+  margin-top: 15px;
+}
+
+/*======================= Reset==================*/
+
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}

@@ -1,0 +1,13 @@
+#contenido{
+	width:99%;
+}
+
+.contenidoScroll{
+	width:99%;
+	height:450px;
+
+}
+
+.contenidoScroll .contenido{
+	width:100%;
+}

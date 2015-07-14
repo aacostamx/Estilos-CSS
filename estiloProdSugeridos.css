@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	margin-top:-10px;
+	margin-left:-10px;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+#contenedor{
+	width:761px;
+    height:584px;
+	margin-left:0px;
+	margin-top:-5px;
+}
+#marcoLeft{
+	width:21px;
+	height:584px;
+	float:left;
+	background-image:url('/ElektraFront/imagenes/VentaRapidaTelefonia/MarcoLeft.png');
+	background-repeat:no-repeat;
+}
+#marcoMiddle{
+	width:719px;
+	height:584px;
+	float:left;
+	background-image:url('/ElektraFront/imagenes/VentaRapidaTelefonia/MarcoMiddle.png');
+	background-repeat:repeat-x;
+}
+#marcoRigth{
+	width:21px;
+	height:584px;
+	float:right;
+	background-image:url('/ElektraFront/imagenes/VentaRapidaTelefonia/MarcoRigth.png');
+	background-repeat:no-repeat;
+}
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#FFF;
+	text-align:center;
+	padding-top:15px;
+	font-variant:small-caps;
+	
+}
+#subMarco{
+	width:707px;
+	height:485px;
+	margin:auto;
+	margin-top:15px;
+}
+#subMarcoTop{
+	width:707px;
+	height:7px;
+	background-image:url('/ElektraFront/imagenes/VentaRapidaTelefonia/SubMarcoTop.png');
+	background-repeat:no-repeat;
+}
+#subMarcoMiddle{
+	width:707px;
+	height:470px;
+	margin-top:-11px;
+	background-image:url('/ElektraFront/imagenes/VentaRapidaTelefonia/SubMarcoMiddle.png');
+	background-repeat:repeat-y;
+}
+#subMarcoBottom{
+	width:707px;
+	height:8px;
+	background-image:url('/ElektraFront/imagenes/VentaRapidaTelefonia/SubMarcoBottom.png');
+	background-repeat:no-repeat;
+}
+
+#colProductos{
+	width:220px;
+	height:465px;
+	float:left;
+	margin-left:-5px;
+}
+.Dato1{
+	width:225px;
+	height:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-variant:small-caps;
+	color:656565;
+	text-align:center;
+	margin-top:8px;
+	margin-bottom:5px;
+}
+#BloqueContenido{
+	width:230px;
+	height:429px;
+	/*margin-top:8px;
+	overflow: auto;*/
+	background-image:url('/ElektraFront/imagenes/VentaRapidaTelefonia/bloqueProducts.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	padding-top:8px;
+}
+#bgProducto{
+	width:133px;
+	height:124px;
+	background-image:url('/ElektraFront/imagenes/VentaRapidaTelefonia/bgProductos.png');
+	background-repeat:no-repeat;
+	margin:10px 0 0 45px;
+	/*margin:auto;
+	margin-top:15px;*/
+}
+.Producto{
+	width:60px;
+	margin:15px 0 0 40px;
+	text-align:center;
+	float:none;	
+}
+
+.CantidadPesos{
+	font-family: Helvetica, sans-serif;@charset "UTF-8";
+/* CSS Document */
+}
+
+#contDatosCel{
+	width:190px;
+	margin:10px 0 0 20px;
+}
+.texSKU {
+	
+	font-size:14px;
+	color:#666;
+	
+}
+.texTipo {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+}
+.texDato2 {
+	font-size:11px;
+	color:#666;
+	font-variant:small-caps;
+}
+.Contproductos{
+	width:235px;
+	height:420px;  
+	margin-left:0px;
+	overflow:auto; 
+}
+.cajaContenido{
+	background:url(/ElektraFront/imagenes/bgDer.png) right repeat-y; 
+	margin-bottom:1px;
+	}
+.izq{
+	background:url(/ElektraFront/imagenes/bgIzq.png)left repeat-y;
+	padding-left:7px;
+	padding-right:7px;
+}
+.sup{
+	background:url(/ElektraFront/imagenes/bgSup.png) top repeat-x;
+	height:15px;
+}
+.inf{
+	background:url(/ElektraFront/imagenes/bgInf.png) top repeat-x;
+    height:15px;
+}
+.Contenido{
+	background:#fff url(/ElektraFront/imagenes/bgCaja.png) top repeat-x;
+	padding-bottom:1px;
+	margin-top:0px;	
+	text-align:center;
+	vertical-align:text-bottom;
+}
+
+.DatosSerieEtiqueta{
+	width:225px;
+	height:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-variant:small-caps;
+	color:656565;
+	margin-top:8px;
+	margin-bottom:5px;
+}
+
+.DatosSerieEtiquetaTitulo{
+	width:225px;
+	height:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-variant:small-caps;
+	font-weight:bold;
+	color:656565;
+	margin-top:8px;
+	margin-bottom:5px;
+}

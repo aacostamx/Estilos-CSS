@@ -1,0 +1,342 @@
+@charset "ISO-8859-1";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding-top: 0px;
+}
+
+body
+{
+	background-color:#FFF;
+
+}
+
+.tablaPrincipal
+{
+	width: 600px;
+	margin-left: 0px;
+}
+
+.tablaProovedor
+{
+	width: 600px;
+	border-collapse:collapse; 
+	margin-left:24px;
+}
+
+.tdImgProovedor
+{
+	text-align: left;
+}
+.tdFamilia
+{
+	width: 490px;
+	text-align: right;
+	vertical-align:top;
+}
+
+.textoFamilia
+{
+	font: 16px Verdana;
+	font-size: 16px;
+	color: #999;
+	font-weight: bold;
+	text-align: right;
+}
+
+.tablaDetallePromo
+{
+	width: 600px;
+	border-collapse:collapse; 
+}
+
+.tdEstrella
+{
+	width: 50px;
+	text-align: left;
+}
+
+.tdDetallePromo
+{
+	width: 550px;
+	text-align: left;
+}
+
+.textoDetallePromo
+{
+	font: 18px Verdana;
+	font-size: 18px;
+	color: #900;
+	font-weight: bold;
+}
+
+.tablaPromoVigencia
+{
+	width: 600px;
+	border-collapse:collapse;
+}
+
+.tdTituloPromo
+{
+	width: 100px;
+	text-align: right;
+	vertical-align: bottom;	
+}
+
+.textoTituloPromo
+{
+	font: 14px Verdana;
+	font-size: 12px;
+	color: #0B5085;
+	font-weight: bold;
+	text-align: right;
+}
+
+.tdTextoPromo
+{
+	width: 500px;
+	text-align: left;
+	vertical-align: bottom;
+}
+
+.TextoNombrePromo
+{
+	font: 14px Verdana;
+	font-size: 12px;
+	color: #999;
+}
+
+.tdTituloVigencia
+{
+	width: 100px;
+	height: 25px;
+	text-align: right;
+	vertical-align: middle;	
+}
+
+.textoTituloVigencia
+{
+	font: 14px Verdana;
+	font-size: 12px;
+	color: #0B5085;
+	font-weight: bold;
+}
+
+.tdFechaVigencia
+{
+	width: 500px;
+	height: 25px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.textoFechavigencia
+{
+	font: 14px Verdana;
+	font-size: 12px;
+	color: #999;
+}
+
+.tdTituloMecanica
+{
+	 width: 100px;
+	 height: 25px;
+	 text-align: right;
+	 vertical-align: middle;
+}
+
+.textoTituloMecanica
+{
+	font: 14px Verdana;
+	font-size: 12px;
+	color: #0B5085;
+	font-weight: bold;
+}
+
+.tdTextoMecanica
+{
+	width: 500px;
+	height: 25px;
+	text-align: left;
+	border-style:inset;
+	border-width:1px;
+	vertical-align: middle;
+}
+
+.textoMecanica
+{
+	font:12px Verdana;
+	font-size:12px;
+	color: #999;
+	font-weight: lighter;
+}
+
+.tablaContenido
+{
+	width: 600px;
+	border-collapse: collapse;
+}
+
+.tdSKUAplica
+{
+	width: 100px;
+	padding-top: 70px;
+	text-align:left;
+	vertical-align:top;
+}
+
+.textoSKUAplica
+{
+	font: 14px Verdana;
+	font-size: 12px;
+	color: #0B5085;
+	font-weight: bold;	
+}
+
+.tdCabeImgProd
+{
+	width: 95px;
+	height: 40px;
+	vertical-align:middle;
+}
+
+.tdCabeProductos
+{
+	width: 750px;
+	text-align: center;	
+	vertical-align:middle;
+}
+
+.tdCabeEspecs
+{
+	width: 255px;
+	text-align: left;
+	vertical-align:middle;
+	padding-left: 50px;
+}
+
+.textoCabeceroProductos
+{
+	font: 12px Verdana;
+	font-size: 12px;
+	color: #999;
+	font-weight: lighter;	
+}
+
+.tdTablaProductos
+{
+	width: 600px;
+}
+
+.tablaProducto
+{
+	width: 100%;
+	empty-cells: show;
+	border-spacing: 0px;
+	padding: 0px;
+}
+
+.pagebreak {page-break-after: always;}
+
+.tdImgProducto
+{
+	width: 80px;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 15px;
+}
+
+.tdSKU
+{
+	width: 100px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.textoSKU
+{
+	color: black;
+	font: 11px Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.tdEspecificacion
+{
+	width: 300px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.textoEspecificacion
+{
+	color: #0B5085;
+	font: 11px Verdana;
+	font-size: 12px;
+	text-align: left;	
+}
+
+.tdImgProductoFinalImpar
+{
+	width: 300px;
+	text-align: right;
+	vertical-align: middle;
+	padding-right: 15px;
+}
+
+.tdEspecificacionFinalImpar
+{
+	width: 460px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+
+/*IMPRESIÓN BAJA PRECIOS*/
+#backsubtitulos2{
+	height: 29px;
+	width: 670px;
+	position: relative;
+	left: 24px;
+	
+	top:0px;
+	z-index:-1;
+}
+
+#titulo2{
+	font:14px Verdana;
+	font-size:14px;
+	color: #FFF;
+	z-index: 150;
+	width: 143px;
+	font-weight: lighter;
+	position:relative;
+	left: 300px;
+	top: -25px;
+}
+
+#titulo2 p.titulo{
+	font:14px Verdana;
+	z-index:200;}
+	
+table.historicotab2{margin:0 auto; width:660px; background-color:white; border:1px #c8c8c8 solid; border-collapse:collapse; margin-left:24px;}
+table.historicotab2 tr.row2 td{padding-top:5px; padding-bottom:3px; text-align:center; color:#4d4b4b; font:10px Verdana; border-right: 1px #c8c8c8 solid;}
+table.historicotab2 tr.rowazul2 td{
+	padding-top:5px;
+	padding-bottom:3px;
+	text-align:center;
+	color:#4d4b4b;
+	font:9px Verdana;
+	border-right: 1px #c8c8c8 solid;
+	border-bottom: 1px #c8c8c8 solid;
+}
+table.historicotab2 tr.title2{ font:10px Verdana; color:#FFF; background-color:#666666;}
+table.historicotab2 tr.title2 td{border-right: 1px #c8c8c8 solid; padding-top:3px;text-align:center;}
+table.historicotab2 tr.title3{ font:10px Verdana; color:#FFF; background-color:#666666;}
+table.historicotab2 tr.title3 td{border-right: 1px #c8c8c8 solid; text-align:center;}
+
+table.historicotab2 span.verde{color:#063; font-size:10px; font-weight:bold;}
+table.historicotab2 span.rojo{color:#F00; font-size:10px; font-weight:bold;}
+table.historicotab2 span.gris{color:#666; font-size:10px; font-weight:bold;}

@@ -1,0 +1,61 @@
+/* CSS Document */
+/*************COLORES*************/
+option.mes1 {
+	background-color: #38D838; font-weight: bold; font-size: 16px;
+}
+option.mes2 {
+	background-color: #0000F8; color: white; font-weight: bold; font-size: 16px;
+}
+option.mes3 {
+	background-color: #F8F800;
+}
+option.mes4 {
+	background-color: #F878D8;
+}
+option.mes5 {
+	background-color: #884800; color: white; font-family: Tahoma;
+}
+option.mes6 {
+	background-color: #707070; color: white; font-weight: bold; font-size: 16px;
+}
+option.mes7 {
+	background-color: #204068; color: white; font-weight: bold; font-size: 16px;
+}
+option.mes8 {
+	background-color: #900890; color: white; font-weight: bold; font-size: 16px;
+}
+option.mes9 {
+	background-color: #F80000; color: white; font-weight: bold; font-size: 16px;
+}
+option.mes10 {
+	background-color: #000000; color: white; font-weight: bold; font-size: 16px;
+}
+option.mes11 {
+	background-color: #00F8F8;
+}
+option.mes12 {
+	background-color: #F88000; color: white; font-family: Tahoma; font-size:larger;
+}
+select {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.scrollSurteTelRapida {
+	overflow: auto;
+	height: 150px;
+	width:100%;
+}
+
+.mes1 {background-color: #38D838; font-size: 11px;}
+.mes2 {background-color: #0000F8; color: white; font-size: 11px;}
+.mes3 {background-color: #F8F800; font-size: 11px;}
+.mes4 {background-color: #F878D8; font-size: 11px;}
+.mes5 {background-color: #884800; color: white; font-size: 11px;}
+.mes6 {background-color: #707070; color: white; font-size: 11px;}
+.mes7 {background-color: #204068; color: white; font-size: 11px;}
+.mes8 {background-color: #900890; color: white; font-size: 11px;}
+.mes9 {background-color: #F80000; color: white; font-size: 11px;}
+.mes10 {background-color: #000000; color: white; font-size: 11px;}
+.mes11 {background-color: #00F8F8; font-size: 11px;}
+.mes12 {background-color: #F88000; color: white; font-size: 11px;}
+/***********************************/

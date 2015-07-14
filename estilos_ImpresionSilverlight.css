@@ -1,0 +1,259 @@
+BODY
+{
+    MARGIN: 3px
+}
+.logo
+{
+    BORDER-LEFT: #cccccc 1px solid;
+    BORDER-BOTTOM: #cccccc 1px solid
+}
+.buscador
+{
+    BORDER-RIGHT: #cccccc 1px solid;
+    PADDING-LEFT: 15px;
+    BORDER-BOTTOM: #cccccc 1px solid;
+    BACKGROUND-COLOR: #f6f6f8
+}
+.titulosb
+{
+    BORDER-RIGHT: #cccccc 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 20px;
+    BORDER-LEFT: #cccccc 1px solid;
+    COLOR: #4a4e71;
+    BORDER-BOTTOM: #cccccc 1px solid;
+    FONT-FAMILY: tahoma
+}
+.impxpromo
+{
+    BORDER-RIGHT: #cccccc 1px solid;
+    BACKGROUND-IMAGE: url(../../ElektraFront/imagenes/EtiquetadoElectronico/fondo_impxpromo.png);
+    BORDER-LEFT: #cccccc 1px solid;
+    PADDING-TOP: 5px;
+    BACKGROUND-REPEAT: repeat-x;
+    HEIGHT: 100px
+}
+.border_impxpromo
+{
+    BORDER-BOTTOM: #cc0000 1px solid
+}
+.alertas
+{
+    BORDER-RIGHT: #cccccc 1px solid;
+    BORDER-LEFT: #cccccc 1px solid;
+    PADDING-TOP: 5px
+}
+.linea_imp
+{
+    BACKGROUND-IMAGE: url(../../ElektraFront/imagenes/EtiquetadoElectronico/linea_imp.png);
+    PADDING-BOTTOM: 2px;
+    WIDTH: 24px;
+    PADDING-TOP: 2px;
+    BACKGROUND-REPEAT: repeat-y
+}
+.info_tablas
+{
+    FONT-SIZE: 11px;
+    BACKGROUND-IMAGE: url(../../ElektraFront/imagenes/EtiquetadoElectronico/linea_info.gif);
+    BACKGROUND-REPEAT: repeat-x;
+    FONT-FAMILY: tahoma;
+    HEIGHT: 25px
+}
+.impeconfirma
+{
+    BORDER-TOP: #cccccc 2px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 18px;
+    BACKGROUND-IMAGE: url(../../ElektraFront/imagenes/EtiquetadoElectronico/impresora.jpg);
+    BORDER-LEFT: #cccccc 2px solid;
+    COLOR: #990000;
+    BORDER-BOTTOM: #cccccc 2px solid;
+    BACKGROUND-REPEAT: no-repeat;
+    FONT-FAMILY: tahoma;
+    BACKGROUND-COLOR: #f5f5f5
+}
+.impetablaconfirma
+{
+    BORDER-RIGHT: #4a4e71 2px solid;
+    BORDER-TOP: #4a4e71 2px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 18px;
+    BORDER-LEFT: #4a4e71 2px solid;
+    COLOR: #4a4e71;
+    BORDER-BOTTOM: #4a4e71 2px solid;
+    FONT-FAMILY: tahoma;
+    BACKGROUND-COLOR: #f5f5f5
+}
+.cabeceroImpresion
+{
+    BORDER-RIGHT: #990000 3px solid;
+    BORDER-TOP: #990000 3px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 19px;
+    BACKGROUND-IMAGE: url(../../ElektraFront/imagenes/EtiquetadoElectronico/FondoTituloConfirmar.gif);
+    BORDER-LEFT: #990000 3px solid;
+    COLOR: #990000;
+    BORDER-BOTTOM: #990000 2px solid;
+    FONT-FAMILY: tahoma;
+    HEIGHT: 30px;
+    BACKGROUND-COLOR: #dddddd
+}
+.celdaBotonesConfirma
+{
+    BORDER-RIGHT: #cccccc 2px solid;
+    BORDER-TOP: #cccccc 2px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 18px;
+    COLOR: #990000;
+    BORDER-BOTTOM: #cccccc 2px solid;
+    FONT-FAMILY: tahoma;
+    BACKGROUND-COLOR: #ffffff
+}
+.tablaConfirma
+{
+    BORDER-RIGHT: #cccccc 1px solid;
+    BORDER-TOP: #cccccc 1px solid;
+    BORDER-LEFT: #cccccc 1px solid;
+    BORDER-BOTTOM: #cccccc 1px solid
+}
+.font10
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: tahoma
+}
+.font11
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: tahoma
+}
+.font12
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY: tahoma
+}
+.font12b
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    FONT-FAMILY: tahoma
+}
+.font13
+{
+    FONT-SIZE: 13px;
+    FONT-FAMILY: tahoma
+}
+.font14
+{
+    FONT-SIZE: 14px;
+    FONT-FAMILY: tahoma
+}
+.font14_azul
+{
+    FONT-SIZE: 14px;
+    COLOR: #1d3e6e;
+    FONT-FAMILY: tahoma
+}
+.font14b_azul
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    COLOR: #1d3e6e;
+    FONT-FAMILY: tahoma
+}
+.font16b_azul
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 16px;
+    COLOR: #4a4e71;
+    FONT-FAMILY: tahoma
+}
+.font14_rojo
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    COLOR: #990000;
+    FONT-FAMILY: tahoma
+}
+.font20_rojo
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 20px;
+    COLOR: #990000;
+    FONT-FAMILY: tahoma
+}
+.font18_rojo
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 20px;
+    COLOR: #990000;
+    FONT-FAMILY: tahoma
+}
+.font20_rojob
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 20px;
+    COLOR: #cc0000;
+    FONT-FAMILY: tahoma
+}
+.font26_rojo
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 26px;
+    COLOR: #990000;
+    FONT-FAMILY: tahoma
+}
+.cabecerosSilver
+{
+	FONT-WEIGHT: bold;
+    FONT-SIZE: 16px;
+    COLOR: gold;
+    FONT-FAMILY: tahoma;
+}
+.impexSilver
+{
+    BORDER-RIGHT: #cccccc 1px solid;
+    BACKGROUND-IMAGE: url(../../ElektraFront/imagenes/EtiquetadoElectronico/fondo_SILVER.png);
+    BORDER-LEFT: #cccccc 1px solid;
+    BORDER-BOTTOM: #cccccc 1px solid;
+    BACKGROUND-REPEAT: repeat-x;
+    HEIGHT: 138px
+}
+.impex2Silver
+{
+    height: 38px;
+}
+.impresionesSilver
+{
+    MARGIN-BOTTOM: 10px;
+    PADDING-BOTTOM: 10px;
+    MARGIN-LEFT: 8px;
+    COLOR: gold;
+    MARGIN-RIGHT: 8px;
+    PADDING-TOP: 10px;
+}
+.titulosSilver
+{
+    border: 0px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 20px;  
+    FONT-FAMILY: trebuchet MS;
+	 COLOR: white;
+}
+.textosSilver
+{
+    border: 0px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 16px;  
+    FONT-FAMILY: trebuchet MS;
+	 COLOR: white;
+}
+.contImpSilver
+{
+    background-image: url(../../ElektraFront/imagenes/EtiquetadoElectronico/fondo_dialog_silverlight.jpg);
+	width: 400px;
+	height: 220px;
+	Z-INDEX: 101;
+	LEFT: 8px;
+	POSITION: absolute;
+	TOP: 8px"
+}

@@ -1,0 +1,98 @@
+body {
+	background-image: url(/Elektrafront/imagenes/fondo_1.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	margin-top: 6px;
+	margin-left: 0px;
+}
+.titulo {
+	margin-left: 22px;
+}
+.selecCamp {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 20px;
+}
+.selecFiltro {
+	margin-bottom: 3px;
+}
+.tab1 {
+	padding-left: 15px;
+	padding-right: 3px;
+}
+.tab2 {
+	padding-right: 3px;
+}
+.contenidoTabs {
+	background-image: url(/Elektrafront/imagenes/fondoCont.png);
+	background-repeat: repeat-y;
+}
+.contProductos {
+	width: 235px;
+	height: 110px;
+	border: 1px solid #CCCCCC;
+	
+}
+.fotos {
+	border: 1px solid #CCCCCC;
+	margin-right: 5px;
+	margin-left: 3px;
+}
+.tb_pedido {
+	width: 30px;
+	height: 20px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+.sku {
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	color: #5E7588;
+}
+.rowLineaBot_blue {
+	height: 25px;
+	border-bottom: 2px solid #CEDFF0;
+	border-top: 3px solid #999999;
+	font-family: trebuchet ms;
+	font-size: 11px;
+	font-weight: bold;
+}
+.rowLineaBot_dotted {
+	height: 25px;
+	border-bottom: 1px dotted #CCCCCC;
+	font-family: trebuchet ms;
+	font-size: 11px;
+}
+#scrollPedido {
+	overflow: auto;
+	height: 100px;
+}
+.font12 {
+	font-family: Arial;
+	font-size: 12px;
+}
+.font12_azul {
+	font-family: Arial;
+	font-size: 12px;
+	color: #5E7588;
+	
+}
+.font12b {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+.font12b_verde {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #009900;
+}
+.font12b_rojo {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF0000;
+}

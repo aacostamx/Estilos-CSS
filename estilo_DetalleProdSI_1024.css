@@ -1,0 +1,53 @@
+.comboClientePeq{
+	width:154px;
+}
+
+.inputBuscarClientePeq{
+	width:154px;
+}
+
+#divGrid{
+	height:340px;
+}
+
+.fldCodigo{
+	border:1px solid green;
+}
+
+.fldDesc{
+	border:1px solid blue;
+}
+
+
+.fldMarca{
+	border:1px solid purple;
+}
+
+
+.fldPrecio{
+	border:1px solid gray;
+}
+
+
+
+#scrollCheckOut{
+	height:130px;
+}
+
+.tablaSistInfoProd{
+	width:100%;
+}
+
+
+
+#tdCod{
+	width:20%;
+}
+
+#tdDes{
+	width:37%;
+}
+
+#tdPrecio{
+	width:25%;
+}

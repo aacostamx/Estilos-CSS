@@ -1,0 +1,282 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	font-family:Verdana, Arial, sans-serif;
+	margin:0;
+}
+
+#fondoGeneral{
+	width:100%;
+	height:100%;
+	position:absolute;
+
+}
+
+#contenedorGeneral{
+	width:100%;
+	margin:auto;
+	height:auto;
+	position:relative;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#000;
+	font-size:19px;
+}
+img {
+	border:none;
+}
+a {
+	font-style:normal;
+	text-decoration:none;
+}
+a:hover {
+	color:#F60;
+}
+
+
+.Top{
+	width:100%;
+	height:55px;
+	background-image:url(../imagenes/barra_top.png);
+}
+.Btn_Inicio{
+	width:96px;
+	height:47px;
+	float:left;
+	margin-top:6px;
+	margin-left:14px;
+}
+.CajaContenido{
+	width:100%;
+	height:420px;
+	position:relative;
+}
+.Tit_Operacion{
+	width:775px;
+	height:44px;
+	float:left;
+	padding:15px 0 0 25px;
+	font-size:12px;
+	color:#000;
+	text-align:left;
+	font-weight:bold;
+}
+.Text_rojo{
+	color:#900;
+}
+.Caja_Capt_Tarjeta{
+	width:733px;
+	height:438px;
+	background-image:url(../imagenes/fondo_tarjeta.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-left:38px;
+
+}
+.Caja_Tarjeta{
+	width:186px;
+	height:119px;
+	padding-top:26px;
+	margin-left:28px;
+}
+.Caja_Aviso{
+	width:209px;
+	height:64px;
+	margin-top:50px;
+	margin-left:18px;
+	font-size:9px;
+	background-image:url(../imagenes/fondo_aviso.png);
+	padding:8px 0 0 9px;
+}
+.TextVerde18{
+	color:#40A53D;
+	font-size:18px;
+}
+.CajaPanel1{
+	width:490px;
+	height:143px;
+	margin-left:240px;
+}
+
+.CajaPanel2{
+	width:465px;
+	height:60px;
+	margin-left:220px;
+	position:absolute;
+}
+.CajaTits1{
+	color:#003366;
+	font-size:16px;
+	width:444px;
+	height:22px;
+	margin-left:14px;
+	margin-top:7px;
+	font-weight:bold;
+}
+.CajaTits2{
+	color:#003366;
+	font-size:16px;
+	width:444px;
+	height:22px;
+	margin-left:16px;
+	margin-top:14px;
+	font-weight:bold;
+}
+.CajaTits3{
+	color:#003366;
+	font-size:16px;
+	width:444px;
+	height:22px;
+	margin-left:14px;
+	font-weight:bold;
+}
+.NumeroTits{
+	color:#91A3B5;
+	font-size:22px;
+	margin-right:12px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.TextAzul11{
+	color:#003366;
+	font-size:11px;
+}
+.CajaCampos{
+	color:#000;
+	font-size:15px;
+	width:454px;
+	height:80px;
+	margin-top:20px;
+	margin-left:10px;
+	text-align:left;
+	font-weight:bold;
+}
+.CajaAlerta{
+	color:#000;
+	font-size:16px;
+	width:445px;
+	height:45px;
+	margin-left:24px;
+	text-align:left;
+	font-weight:bold;
+	background-image:url(../imagenes/fondoAlerta.png);
+	padding:10px 0 0 15px;
+}
+.campos_cambio{
+	width:486px;
+	height:277px;
+}
+.CajaCampos2{
+	color:#000;
+	font-size:15px;
+	width:470px;
+	height:150px;
+	margin-top:20px;
+	margin-left:10px;
+	text-align:left;
+	font-weight:bold;
+
+}
+.EstiloCampos{
+	color:#000;
+	font-size:17px;
+	font-weight:bold;
+}
+
+.Btn_aceptar{
+	width:105px;
+	height:25px;
+	margin-top:298px;
+	margin-left:420px;
+	position:absolute;
+}
+
+.Btn_aceptar2{
+	width:105px;
+	height:25px;
+	margin-top:80px;
+	margin-left:420px;
+	position:absolute;
+}
+/* Datos Personales */
+
+.Caja_Capt_Nombre{
+	width:733px;
+	height:295px;
+	background-image:url(../imagenes/fondo_Personales.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-left:35px;
+	margin-top:12px;
+}
+.Caja_NumTarjeta{
+	width:735px;
+	height:45px;
+	background-image:url(../imagenes/Pleca_sup.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-left:35px;
+	font-size:20px;
+	color:#000;
+	padding: 9px 0 0 83px;
+}
+.CajaTits_Nombre{
+	color:#003366;
+	font-size:16px;
+	width:454px;
+	height:32px;
+	margin-top:158px;
+	margin-left:270px;
+	font-weight:bold;
+	position:absolute;
+}
+.CajaCampos_Nombre{
+	color:#000;
+	font-size:15px;
+	width:466px;
+	height:180px;
+	margin-top:-95px;
+	margin-left:254px;
+	text-align:left;
+	font-weight:bold;
+	position:absolute;
+}
+
+.TextVerde20{
+	color:#40A53D;
+	font-size:20px;
+	font-weight:bold;
+}
+
+
+/* Pantalla Emergente */
+
+.Caja_Emergente{
+	width:447px;
+	height:222px;
+	background-image:url(../imagenes/fondo_ventana.png);
+	background-repeat:no-repeat;
+	float:left;
+	padding:25px 0 0 40px;
+	color:#003366;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	
+}
+.Caja_Tarjeta_emergente{
+	width:120px;
+	height:80px;
+	background-image:url(../imagenes/fondo_Personales.png);
+	background-repeat:no-repeat;
+
+}
+.TextVerde24{
+	color:#40A53D;
+	font-size:30px;
+}
+.Text13{
+	font-size:13px;
+}

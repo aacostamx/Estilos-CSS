@@ -1,0 +1,473 @@
+.body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.cajaPath {
+	background-color: #FFFFFF;
+	width: 624px;
+	height: 48px;
+}
+.caja100 {
+	width: 100%;
+	text-align: center;
+}
+.logoCanal {
+	background-image:  url("/imagenes/logoCanal.gif");
+	background-repeat: no-repeat;
+	text-align: center;
+	background-position: left center;
+	width: 85px;
+}
+.imagPath {
+	background-image:  url("/imagenes/pathPresup1.gif");
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 400px;
+	text-align: center;
+}
+.imagAyuda {
+	background-image:  url("/imagenes/botCarrito3.gif");
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 59px;
+}
+.cajaLogoCanal {
+	width: 85px;
+}
+.cajaAyuda {
+	width: 59px;
+}
+.cajaPath1 {
+	text-align: center;
+	width: 363px;
+	height: 48px;
+}
+.centrar {
+	text-align: center;
+}
+.text13linkBlue {
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003366;
+	text-decoration: none;
+}
+.text12UnivBold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000066;
+}
+.lineaAzul {
+	background-color: #006598;
+	height: 2px;
+	width: 100%;
+}
+.caja624 {
+
+	width: 624px;
+	text-align: center;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+.cajaBuscaCli {
+	width: 220px;
+	height: 27px;
+}
+.lupaCliente {
+	background-image:  url("../imagenes/leftZoom.gif");
+	background-repeat: no-repeat;
+	width: 6px;
+}
+.lupaCliente2 {
+
+	background-image:  url("../imagenes/rightZoom.gif");
+	background-repeat: no-repeat;
+	width: 6px;
+}
+.lupaCliente3 {
+	background-image:  url("../imagenes/backZoom.gif");
+	background-repeat: repeat-x;
+	text-align: center;
+}
+.lupaBusca {
+	background-image:  url("/imagenes/buscaCliente.gif");
+	background-repeat: no-repeat;
+	width: 70px;
+}
+.text10Gris {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #464646;
+}.cajaImprime {
+
+	width: 160px;
+	height: 27px;
+}
+.cajaTipoVenta {
+	height: 27px;
+	width: 180px;
+}
+.text10 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+
+}.persona1 {
+	background-image:  url("../imagenes/backPersup.gif");
+	background-repeat: no-repeat;
+	width: 7px;
+	height: 23px;
+}
+.persona2 {
+	background-image:  url("../imagenes/backPersup1.jpg");
+	background-repeat: repeat;
+	height: 23px;
+	vertical-align: bottom;
+}
+.persona3 {
+
+	background-image:  url("../imagenes/backPersup2.gif");
+	background-repeat: no-repeat;
+	width: 7px;
+	height: 23px;
+}
+.bordes {
+	width: 100%;
+	border-top: 0px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+}
+.fondoPersona {
+	background-image:  url("../imagenes/backPersup3.jpg");
+	height: 26px;
+	vertical-align: middle;
+}
+.colorGris {
+	background-color: #EAEAEA;
+}
+.cajaSeparaV {
+	background-color: #D2D2D2;
+	width: 1px;
+	height: 120px;
+
+}
+.text10GrisClaro {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #818181;
+}
+.left {
+	text-align: left;
+}
+.caja275px {
+
+	width: 275px;
+	text-align: center;
+}
+.cajaSeparaH {
+	background-color: #330000;
+	height: 1px;
+	width: 50px;
+}
+.tipoOpera {
+	background-repeat: no-repeat;
+	width: 320px;
+	background-image:  url("/imagenes/tipoOperacion.gif");
+	height: 27px;
+}
+.text12UnivBold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000066;
+}
+.text12Rojo {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FF0000;
+}
+.montoPaga {
+
+	background-repeat: no-repeat;
+	width: 250px;
+	background-image:  url("/imagenes/tipoOperacion.gif");
+	height: 27px;
+}
+.bordes4 {
+
+	width: 612px;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+}
+.bordes4Black {
+	border-top: 1px solid #999999;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #999999;
+}
+.text18 {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #464646;
+}
+.cajaConfirma {
+	width: 350px;
+	background-color: #FFFFFF;
+	height: 90px;
+	border: 1px solid #003399;
+	text-align: center;
+}
+.caja50 {
+
+	width: 50%;
+	text-align: center;
+}
+.caja70 {
+
+
+	width: 70%;
+	text-align: center;
+}
+.bordesPlazos {
+	border-top: 1px none #E2E2E2;
+	border-right: 1px none #E2E2E2;
+	border-bottom: 1px solid #E2E2E2;
+	border-left: 1px none #E2E2E2;
+}
+.lupaBuscaP {
+
+	background-image:  url(../imagenes/buscaProducto1.gif);
+	background-repeat: no-repeat;
+	width: 80px;
+}
+.cajaBuscaPro {
+
+	width: 230px;
+	height: 27px;
+}
+.comboColonia {
+	width: 595px;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+}
+.comboBuscar {
+	width: 130px;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+.text11Rojo {
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FF0000;
+}
+.text10Rojo {
+
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FF0000;
+}
+.campoText10Gris {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #464646;
+	width: 110px;
+}
+.campoText10GrisChico {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #464646;
+	width: 27px;
+}
+.campoText10GrisGrande {
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #464646;
+	width: 250px;
+}
+.bordes1Color {
+	border-top: 1px none #000099;
+	border-right: 1px none #000099;
+	border-bottom: 1px solid #000099;
+	border-left: 1px none #000099;
+}
+.campoText10Gris50PX {
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #464646;
+	width: 50px;
+}
+.divScroll {
+	width: 610px;
+	height: 260px;
+}
+
+.colorBarra {
+	background-color: #FFFFFF;
+}
+.colorBarra td {
+	border: 1px solid #CCCCCC;	
+}
+.colorBarra1 {
+	background-color: #E6E6E6;
+}
+.colorBarra1 td {
+	border: 1px solid #CCCCCC;
+	
+}
+.divScrollPresupuesto {
+	width: 613px;
+	height: 120px;
+	overflow: auto;
+}
+.divScrollVertical {
+	height: 120px;
+	width: 100%;
+	overflow: auto;
+}
+.divScrollVertical1 {
+	height: 80px;
+	width: 100%;
+	overflow: auto;
+}
+.divScrollPlazos {
+
+	width: 330px;
+	height: 200px;
+	overflow: auto;
+}
+.divScrollPlazosContado {
+
+
+	width: 500px;
+	height: 68px;
+	overflow: auto;
+}
+.campoText10GrisMediano {
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #464646;
+	width: 75px;
+}
+.divScrollVerticalPago {
+	height: 30px;
+	width: 760px;
+	overflow: auto;
+}
+.cajaPago {
+	border-top: 1px none #006598;
+	border-right: 1px solid #006598;
+	border-bottom: 1px solid #006598;
+	border-left: 1px solid #006598;
+}
+.lineaPago {
+	border-top: 1px none #006598;
+	border-right: 1px none #006598;
+	border-bottom: 1px solid #006598;
+	border-left: 1px none #006598;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #DBECF7;
+}
+.lineaPago1 {
+
+	border-top: 1px none #006598;
+	border-right: 1px none #006598;
+	border-bottom: 1px solid #006598;
+	border-left: 1px none #006598;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.divScrollPrestamo {
+	width: 320px;
+	height: 100px;
+	overflow: auto;
+}
+.divScrollResultado {
+	width: 100%;
+	height: 90px;
+	overflow: auto;
+}
+.divScrollInventario {
+
+	width: 100%;
+	height: 150px;
+	overflow: auto;
+}
+.divScrollResultado250 {
+
+	width: 100%;
+	height: 270px;
+	overflow: auto;
+}
+.divScrollPresupuesto700 {
+	height: 252px;
+	overflow: auto;
+	width: 700px;
+}
+.bordeSuperior {
+
+	border-top: 1px solid #000000;
+	border-right: 1px none #000000;
+	border-bottom: 1px none #000000;
+	border-left: 1px none #000000;
+}
+.divScrollServicios {
+	width: 320px;
+	overflow: scroll;
+}
+.divScrollDescuento {
+
+	height: 300px;
+	width: 650px;
+	overflow: auto;
+}
+.divScrollPrestamos {
+
+	width: 100%;
+	height: 280px;
+	overflow: auto;
+}
+.divScrollSurtir {
+
+	height: 100px;
+	overflow: auto;
+	width: 700px;
+}

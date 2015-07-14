@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+.comparativo {
+	width: 97%;
+}
+.comparativo .titulo {
+	background-image: url(/ElektraFront/imagenes/fnd_TitAtributos.gif);
+	background-repeat: repeat-x;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 5px 0px 0px 0px;
+	height: 33px;
+	padding: 8px 0px 0px 5px;
+
+}

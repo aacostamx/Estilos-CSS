@@ -1,0 +1,489 @@
+body {
+	margin: 5 0 0 2px;
+	behavior: url("csshover3.htc");
+}
+.detalleOperacion {
+	padding: 0 0 0 8px;
+}
+.tdTabs {
+   background-image: url(../imagenes/top_contenido.gif);
+	background-repeat: no-repeat;
+	padding: 0 0 0 20px;
+	height: 41px;
+}
+.tdTabsIzq {
+   background-image: url(../imagenes/left_contenido2.gif);
+	background-repeat: no-repeat;
+	width: 149px;
+	padding: 15 0 0 2px;
+}
+.tdContenido {
+   height: 445px;
+	border-left: 1px solid #990000;
+	border-right: 1px solid #990000;
+	padding: 0 0 0 10px;
+}
+.tdContenido2 {
+	border-top: 1px solid #4DAC48;
+	border-bottom: 1px solid #4DAC48;
+	padding: 8 0 0 5px;
+}
+.tdDatos {
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+	padding: 0 0 0 10px;
+}
+.tdDatos_total {
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+	padding: 0 0 0 0;
+}
+.tdTotalesDatos {
+	padding: 0 0 0 10px;
+	background-color: #4DAC48;
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.tdTotalesDatos_b {
+	padding: 0 0 0 10px;
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold;
+}
+.tdDatos_FdoGris {
+	border-left: 6px solid #D2DCE3;
+	border-right: 6px solid #D2DCE3;
+	background-color: #F2F2F2;
+	padding: 0 0 0 10px;
+}
+.tb_mensaje{
+	width: 235px;
+	height: 40px;
+	font-family: tahoma;
+	font-size: 11px;
+}
+.tb_btonVenta{
+	width: 50px;
+	height: 41px;
+	font-family: tahoma;
+	font-size: 11px;
+}
+.tb_btonVenta_Gris{
+	width: 46px;
+	height: 35px;
+	font-family: tahoma;
+	font-size: 11px;
+	padding: 0 5 0 5px;
+}
+.tb_215{
+	width: 215px;
+	height: 19px;
+	font-family: tahoma;
+	font-size: 11px;
+}
+.tb_175{
+	width: 175px;
+	height: 19px;
+	font-family: tahoma;
+	font-size: 11px;
+}
+.tb_140{
+	width: 140px;
+	height: 24px;
+	font-family: tahoma;
+	font-size: 18px;
+	font-weight: bold;
+}
+.tb_190_30{
+	width: 230px;
+	height: 34px;
+	font-family: tahoma;
+	font-size: 28px;
+	font-weight: bold;
+}
+.tb_140Combo{
+	width: 140px;
+	height: 19px;
+	font-family: tahoma;
+	font-size: 11px;
+}
+.tb_140fdo{
+	width: 140px;
+	height: 26px;
+	font-family: tahoma;
+	font-size: 19px;
+	background-color: #F4F4F4;
+}
+.tb_70{
+	width: 70px;
+	height: 19px;
+	font-family: tahoma;
+	font-size: 11px;
+	margin-right: 5px;
+}
+.tb_50{
+	width: 55px;
+	height: 19px;
+	font-family: tahoma;
+	font-size: 11px;
+	margin-right: 5px;
+}
+.tb_40{
+	width: 40px;
+	height: 19px;
+	font-family: tahoma;
+	font-size: 11px;
+	margin-right: 3px;
+}
+.tdExtras{
+	background-color: #F4F4F4;
+	border: 1px solid #CCCCCC;
+	width: 760px;
+	height: 32px;
+	padding: 0 0 0 8px;
+	margin: 2 0 12 0px;
+}
+.colHead{
+	background-image: url(../imagenes/fondoColHead.jpg);
+	background-repeat: repeat-x;
+	font-family: tahoma;
+	font-size: 10px;
+	line-height: 12px;
+	margin: 8 0 0 0px;
+}
+.fdo_Login{
+	background-image: url(../imagenes/fdo_login.jpg);
+	background-repeat: repeat-x;
+	font-family: tahoma;
+	font-size: 20px;
+	font-weight: bold;
+	width: 584px;
+	height: 328px;
+	padding: 4 0 0 8px;
+	margin: 2 0 2 0px;
+}
+.fdoDatos_Amarillo{
+	background-image: url(../imagenes/fdo_datosAmarillo.jpg);
+	background-repeat: repeat-x;
+	font-family: tahoma;
+	font-size: 20px;
+	font-weight: bold;
+	width: 290px;
+	height: 40px;
+	padding: 4 0 0 8px;
+	margin: 2 0 2 0px;
+}
+.fdoAlerta_Login{
+	background-image: url(../imagenes/fdo_alertaLogin.jpg);
+	background-repeat: repeat-x;
+	font-family: tahoma;
+	font-size: 20px;
+	font-weight: bold;
+	width: 200px;
+	height: 97px;
+	padding: 4 0 0 8px;
+	margin: 2 0 2 0px;
+}
+.fdoDatos_Amarillo2{
+	background-image: url(../imagenes/fdo_datosAmarillo_2.gif);
+	background-repeat: no-repeat;
+	width: 290px;
+	height: 66px;
+	padding: 0 0 0 8px;
+	margin: 2 0 2 0px;
+}
+.fdoDatos_Amarillo3{
+	background-image: url(../imagenes/fdo_datosAmarillo_3.jpg);
+	background-repeat: no-repeat;
+	width: 230px;
+	height: 93px;
+	padding: 15 0 0 10px;
+	margin: 2 0 2 0px;
+	font-family: tahoma;
+	font-size: 45px;
+	font-weight: bold;
+	color: #CC0000;
+}
+.rowLineaBot_dotted {
+	height: 25px;
+	border-bottom: 1px dotted #CCCCCC;
+	font-family: trebuchet ms;
+	font-size: 11px;
+}
+#scrollResultBusq {
+	height: 175px;
+	overflow: auto;
+	margin: 0 0 10 0px;
+}
+#scrollResultBusq2 {
+	height: 130px;
+	overflow: auto;
+	margin: 0 0 10 0px;
+}
+.marginBottom{
+	margin-bottom: 5px;
+}
+.header{
+	margin-bottom: 8px;
+	background-image: url(../imagenes/fondoHeader.jpg);
+	background-repeat: repeat-y;
+}
+.topAvisos460{
+	background-image: url(../imagenes/top_avisos_460.jpg);
+	text-align: center;
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #990000;
+	width: 460px;
+	height: 28px;
+}
+.topAvisos460_2{
+	background-image: url(../imagenes/top_avisos_460.jpg);
+	text-align: center;
+	font-family: tahoma;
+	font-size: 23px;
+	font-weight: bold;
+	color: #990000;
+	width: 460px;
+	height: 28px;
+}
+.topAvisos600{
+	background-image: url(../imagenes/top_avisos_600.jpg);
+	text-align: center;
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666666;
+	width: 600px;
+	height: 28px;
+}
+.topLogin404{
+	background-image: url(../imagenes/tab_loginUp.jpg);
+	text-align: center;
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666666;
+	width: 404px;
+	height: 12px;
+}
+.topAvisos720{
+	background-image: url(../imagenes/top_avisos_720.jpg);
+	width: 720px;
+	height: 28px;
+}
+.serviciosLogos{
+	background-image: url(../imagenes/fdo_servicios.jpg);
+	width: 159px;
+	height: 102px;
+}
+.contenidoAvisos{
+	border-left: 1px solid #B9B9B9;
+	border-right: 1px solid #B9B9B9;
+	background-color: #FFFFFF;
+	padding: 5 5 5 5px;
+}
+.imagenIFE{
+	border: 1px solid #CCCCCC;
+	padding: 5 5 5 5px;
+	height: 500px;
+}
+
+/*-----------------------FUENTES------------------------*/
+
+.font9 {
+	font-family: tahoma;
+	font-size: 9px;
+}
+.font10 {
+	font-family: tahoma;
+	font-size: 10px;
+}
+.font11 {
+	font-family: tahoma;
+	font-size: 11px;
+}
+.font11b {
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold;
+}
+.font11Vde {
+	font-family: tahoma;
+	font-size: 11px;
+	color: #42A73D;
+}
+.font12b {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+}
+.font12b_verde {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #42A73D;
+}
+.font12_rojo {
+	font-family: tahoma;
+	font-size: 12px;
+	color: #FF0000;
+}
+.font12_ekt {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #CC0000;
+}
+.font13 {
+	font-family: tahoma;
+	font-size: 13px;
+}
+.font13b {
+	font-family: tahoma;
+	font-size: 13px;
+	font-weight: bold;
+}
+.font14 {
+	font-family: tahoma;
+	font-size: 14px;
+}
+.font14_Underline {
+	font-family: tahoma;
+	font-size: 14px;
+	text-decoration:underline;
+	color:#00F;
+}
+.font14b {
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: bold;
+}
+.font14b_Red {
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #990000;
+}
+.font18b_Red {
+	font-family: tahoma;
+	font-size: 18px;
+	font-weight: bold;
+	color: #990000;
+}
+.font18_Gris{
+	font-family: tahoma;
+	font-size: 18px;
+	font-weight: normal;
+	color: #5F5F5F;
+}
+.font20b {
+	font-family: tahoma;
+	font-size: 20px;
+	font-weight: bold;
+}
+.font20b_Red {
+	font-family: tahoma;
+	font-size: 20px;
+	font-weight: bold;
+	color: #CC0000;
+}
+.font21_Azul {
+	font-family: tahoma;
+	font-size: 21px;
+	font-weight: normal;
+	color: #003366;
+}
+.font24b {
+	font-family: tahoma;
+	font-size: 24px;
+	font-weight: bold;
+}
+.font24b_Red {
+	font-family: tahoma;
+	font-size: 24px;
+	font-weight: bold;
+	color: #990000;
+}
+.font42b_Red {
+	font-family: Arial;
+	font-size: 42px;
+	font-weight: bold;
+	color: #990000;
+}
+.font18b_Beigh {
+	font-family: tahoma;
+	font-size: 18px;
+	font-weight: bold;
+	color: #CFC29C;
+}
+.contenidoLogin {
+	border-left: 1px solid #B9B9B9;
+	border-right: 1px solid #B9B9B9;
+	background-color: #FFFFFF;
+	padding: 5 5 5 5px;
+	width: 404px;
+
+}
+.fdo_Login{
+	background-image: url(../imagenes/fdo_login.jpg);
+	background-repeat: repeat-x;
+	font-family: tahoma;
+	font-size: 20px;
+	font-weight: bold;
+	width: 584px;
+	height: 328px;
+	padding: 4 0 0 8px;
+	margin: 2 0 2 0px;
+}
+.fdo_NumeroTrajeta{
+	background-image: url(../imagenes/fdo_numeroTarjeta.jpg);
+	background-repeat:no-repeat;
+	font-family: tahoma;
+	font-size: 20px;
+	font-weight: bold;
+	width: 733px;
+	height: 44px;
+	padding: 4 0 0 8px;
+	margin: 2 0 2 0px;
+}
+.fdo_Tabla{
+	background-image: url(../imagenes/fdo_tabla.jpg);
+	background-repeat:no-repeat;
+	font-family: tahoma;
+	font-size: 20px;
+	font-weight: bold;
+	width: 733px;
+	height: 269px;
+	padding: 4 0 0 8px;
+	margin: 2 0 2 0px;
+}
+.fdo_avisoAmarillo{
+	background-image: url(../imagenes/fdo_avisoMonto.jpg);
+	background-repeat:no-repeat;
+	font-family: tahoma;
+	font-size: 15px;
+	font-weight: bold;
+	width: 424px;
+	height: 45px;
+	padding: 4 20 10 70px;
+	margin: 20 0 2 0px;
+}
+.fdo_tarjetaComprar{
+	background-image: url(../imagenes/fdo_nombreTarjeta.jpg);
+	background-repeat:no-repeat;
+	font-family: arial;
+	font-size: 28px;
+	font-weight: normal;
+	width: 211px;
+	height: 110px;
+	padding: 15 20 10 20px;
+	margin: 2 0 2 0px;
+}
+#scrollVentanaEmergente {
+	overflow: auto;
+	height: 50px;
+}

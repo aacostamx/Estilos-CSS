@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+/*****************Tags******************/
+#pasos {
+	width: 95%;
+	margin: 2px 0px 5px 0px;
+}
+OL.subPasos {
+	MARGIN: 0px 0px 5px 10px;
+	WIDTH: auto;
+	LIST-STYLE-TYPE: none;
+	height: auto;
+	padding: 5px 0px 0px 0px;
+	clear: both;
+}
+OL.altPasos {
+	MARGIN: 0px 0px 0px 22px
+}
+OL.subPasos LI {
+	DISPLAY: inline;
+	FONT-SIZE: 0.95em;
+	FLOAT: left;
+	MARGIN: 0px 15px 0px 0px;
+	COLOR: #989898
+}
+OL.buildPasos LI {
+	MARGIN-RIGHT: 8px
+}
+OL.subPasos LI A {
+	DISPLAY: inline;
+	background:url(/ElektraFront/imagenes/i_paloma.gif) no-repeat 0px 0px;
+	FLOAT: left;
+	height: 20px;
+	padding: 0px 0px 0px 20px;
+}
+OL.altPasos LI A {
+	PADDING-RIGHT: 12px;
+	PADDING-LEFT: 0px;
+	BACKGROUND: none ;
+}
+OL.subPasos LI#activeStep {
+	COLOR: #000
+}
+#wizard h3 {
+	/*background-color: #FFFFFF;
+	display: inline;
+	padding: 0px 5px 0px 5px*/
+	padding-bottom: 8px;
+	background-color: #F2F2F2;
+	margin: 25px 0px 8px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #666666;
+	font-size: 18px;
+	padding-top: 8px;
+}
+.tablawizard h4 {
+	font-size:20px;
+	color:#666666;
+	display: inline;
+	padding: 0px;
+}
+.tablawizard {
+	width: 95%;
+	border: solid 1px #e6e6e6;
+	margin: 15px auto 10px auto;
+}
+.tablawizard th,
+.tablawizard td {
+	border: solid 1px #e6e6e6;
+	vertical-align:middle;
+	height:auto;
+}
+.tablawizard th.seleccionado {
+	background-color: #E6E6E6;
+	text-align: left;
+}
+.tablawizard img {
+	padding:2px;
+	text-align: right;
+}
+.columnaOpciones {
+	width:70%;
+	text-align:left;
+}

@@ -1,0 +1,151 @@
+﻿@charset "utf-8";
+/* SpryAccordion.css - Revision: Spry Preview Release 1.4 */
+
+/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+
+/* This is the selector for the main Accordion container. For our default style,
+ * we draw borders on the left, right, and bottom. The top border of the Accordion
+ * will be rendered by the first AccordionPanelTab which never moves.
+ *
+ * If you want to constrain the width of the Accordion widget, set a width on
+ * the Accordion container. By default, our accordion expands horizontally to fill
+ * up available space.
+ *
+ * The name of the class ("Accordion") used in this selector is not necessary
+ * to make the widget function. You can use any class name you want to style the
+ * Accordion container.
+ */
+.Accordion {
+	overflow: hidden;
+	width: 100%;
+}
+#AccordionAtributos {
+	height:auto;
+}
+
+/* Alberga todo el panel*/
+.AccordionPanel {
+	margin: 0px;
+	padding: 0px;
+}
+/*
+.AccordionPanelTab = Asi aparecen de entrada, sin estar seleccionada
+ */
+.AccordionPanelTab {
+	padding: 2px 0px 0px 0px;
+	background-color: #F0F0F0;
+	border-bottom: dotted 1px #636363;
+	margin: 0px 0px 5px 0px;
+	cursor: hand;
+	color: #505050;
+	font-weight: bold;
+	font-size: 11px;	
+	background-repeat: no-repeat;
+	background-position: 3px 6px;
+	height:auto;
+	background-image: url(/ElektraFront/imagenes/bullet_CuadroMas.gif);
+}
+
+.atributos .AccordionPanelTab  {
+	height: 20px;
+	font-size: 10px;
+}
+
+.comparativo .AccordionPanelTab  table{
+	border:none;
+}
+
+/*.atributos .AccordionPanelTab .estrellas, 
+.comparativo .estrellas { 
+	margin: 0px 3px 0px 60px;
+	width:100%;
+	display:inline;
+	text-align:right;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.AccordionPanelContent = El contenido de cada panel
+*/
+.AccordionPanelContent {
+	overflow: auto;
+	margin: 0px;
+	padding: 0px 0px;
+	height: auto;
+	background-color: #fff;
+}
+/*.detalleProd .AccordionPanelContent {
+	padding: 0px 3px;
+	height: 250px;
+}*/
+.detalleProd .AccordionPanelContent h4{
+	color:#666666;
+	font-size:13px;
+	margin-top: 2px;
+	font-weight:bold;
+}
+
+/* 
+.AccordionPanelOpen = Esto es el tab abierto, color de fondo y tal
+*/
+.AccordionPanelOpen .AccordionPanelTab {
+	background-color: #F4F4F4;
+	border-bottom: dotted 1px #636363;
+	background-image: url(/ElektraFront/imagenes/bullet_CuadroMasOver.gif);
+	background-repeat: no-repeat;
+	background-position: 3px 6px;
+	padding: 0px 0px 0px 0px;
+	height: 25px;
+	color: #999999;
+}
+.atributos .AccordionPanelOpen .AccordionPanelTab  {
+	height: 20px;
+	font-size: 10px;
+	
+}
+.comparativo .AccordionPanelOpen .AccordionPanelTab  table{
+	border:none;
+	
+}
+/*.detalleProd .AccordionPanelOpen .AccordionPanelTab {
+	padding: 6px 0px 0px 16px;
+	vertical-align: middle;
+}
+
+
+AccordionPanelTabHover = El over del panelTab. 
+ */
+.AccordionPanelTabHover{
+	color: #666666;
+	background-color:#F6f6f6;
+}
+/* 
+.AccordionFocused = Cuando el panelTab está focused
+ */
+.AccordionFocused .AccordionPanelTab   {
+	background-color: #F6f6f6;
+}
+/*
+.AccordionFocused .AccordionPanelOpen .AccordionPanelTab = El panel tab abierto
+ */
+.AccordionFocused .AccordionPanelOpen .AccordionPanelTab  {
+	background-color: #EBEBEB;
+	border-bottom: dotted 1px #636363;
+}

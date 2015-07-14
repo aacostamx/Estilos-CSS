@@ -1,0 +1,49 @@
+.presupuestopath
+{
+width:90;
+height:41px;
+background-image: url(../Imagenes/pathPresupuesto.jpg);
+}
+
+.pathPromo
+{
+width:90;
+height:41px;
+	background-image: url(../Imagenes/pathPromo.jpg);
+}
+
+.pathFormas
+{
+width:90;
+height:41px;
+	background-image: url(../Imagenes/pathFormas.jpg);
+}
+
+
+.pathConfirma
+{
+	width:100;
+	height:41px;
+	background-image: url(../Imagenes/pathConfirma1.jpg);
+}
+
+
+#controlPresupuesto
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+#navegacion
+{
+margin: 0 auto;
+text-align: center;
+}
+
+.tablaUniticket
+{
+margin: 0 auto;
+text-align: center;
+
+}

@@ -1,0 +1,146 @@
+
+body {
+	margin-left: 15px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color:#f1f1f1;	
+	font-family: Calibri,Corbel,Verdana, Helvetica, Arial, sans-serif;
+}
+
+
+.tituloImportante{
+	font-family:Calibri,Corbel;
+	font-size:20px;
+	text-transform: uppercase;
+	color:red;
+}
+
+.lblNumeroPedidos{	
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	width:400px;
+	height:25px;
+}
+
+.detallePendientesSurtir1{	
+	font-size:12px;
+	position: left;
+}
+.detallePendientesSurtir2
+{	
+	background-color:Gainsboro;
+	font-size:12px;
+	position: left;
+}
+
+.detallePendientesSurtir10{	
+	background-color:#FFF1;
+	font-size:11px;
+	position: left;
+}
+
+.detallePendientesSurtir20{	
+	background-color:#FFF0;
+	font-size:11px;
+	position: left;
+}
+
+.tablaPanelPedidos{
+	width:400px;
+	text-align:center; 
+    vertical-align:middle;
+}
+
+.tdRecordatorio{
+	font-family:Corbel, Calibri;
+	font-size:12px;
+	font-weight:bold;
+	height:50px;
+	text-align: justify;
+	color:red;
+}
+
+.noPedidoGrid{
+	text-align:left;
+	font-size:13px;
+	width:130px;
+}
+
+.botonAceptar{
+	text-align: center;	
+}
+
+.area{
+	Width:450px;
+	Height:250px;
+}
+
+.textoCentrado{
+	font-size:15px;
+	font:bold;
+	height:50px;
+}
+
+.pedidos{
+	border: 1px solid blue;
+	width:450px;
+	height:200px;
+}
+
+.leyendaPedidos{
+	font-size: 12px;
+	height:50px;
+	font-family:Calibri,Corbel;
+	color:red;
+}
+
+.leyendaBotones{
+	width:150px;
+	font-size:10px;
+	font:bold;
+	font-family:Calibri,Corbel;
+}
+
+p {
+	margin-top:0;
+    margin-bottom:0
+}
+
+img {
+	cursor:pointer;
+}
+
+#botonAceptar{
+	width: 100px;
+	height: 25px;
+	background-color:#993300;
+	border:2;
+	border-color:black;	
+}	
+
+#_GridPedidosPendientes{
+	margin-left: 20px;
+	border-bottom:1;
+	border-left:1;
+}
+
+#pnlPedidos{
+	padding: 5px;
+	vertical-align: center;	
+}
+
+#tblAcciones{
+	width:450px;
+}
+
+#tblAcciones td{
+	text-align:center; 
+    vertical-align:top;
+}
+
+.botones{
+   width:75px;
+   height:25px;
+}

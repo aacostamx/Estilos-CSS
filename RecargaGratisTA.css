@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding:0;}
+
+#wrapper{ 
+	width:520px; 
+	height:250px; 
+	position:relative; 
+	margin:100px;
+}
+#header{ 
+	width:520px; 
+	height:40px; 
+	background-image:url(/ElektraFront/imagenes/VentaTA/RecargaGratis/header.gif); 
+	position:relative;
+}
+#subtitle{ 
+	width:520px; 
+	height:30px; 
+	position:relative; 
+	background-image:url(/ElektraFront/imagenes/VentaTA/RecargaGratis/subtitle.gif);
+}
+#content{ 
+	width:520px; 
+	height:180px; 
+	position:relative; 
+	border: 1px solid #dbdbdb;
+	background-image:url(/ElektraFront/imagenes/VentaTA/RecargaGratis/content.gif);
+}
+#telefono{ 
+	position:absolute; 
+	z-index:2; 
+	top:51px; 
+	left:410px;
+}
+.aceptar {
+	width:144px; 
+	height:40px; 
+	position:absolute; 
+	z-index:3; 
+	top:200px; 
+	left:190px;
+}
+.cerrar { 
+	width:28px; 
+	height:28px; 
+	position:absolute; 
+	z-index:4; 
+	top:5px; 
+	right:10px;
+}
+.text{ 
+	margin:0px 30px 10px 20px; 
+	width:360px; 
+	padding-top:15px; 
+	_margin-top:15px;
+}
+td.cliente{ 
+	font:16px Arial, Helvetica, sans-serif; 
+	color:#333;
+}
+td.recarga{
+	font:13px Arial, Helvetica, sans-serif; 
+	color:#999; 
+	padding-top:5px;
+}
+span.red{
+	font:bold 16px Arial, Helvetica, sans-serif; 
+	color:#c51a2d;
+}
+span.number{
+	font:bold 14px Arial, Helvetica, sans-serif; 
+	color:#666;
+}
+/* Mensaje de redirecciona despues de cada pesupuesto*/
+
+#wrapperMITA{ 
+	width:504px; 
+	height:350px; 
+	position:relative; 
+	margin: 13% 10% 15% 15%;
+}
+#headerMITA{ 
+	width:504px; 
+	height:40px; 
+	background-image:url(/ElektraFront/imagenes/VentaTA/MsjInicioTA/TopLineMSBTAc3.gif); 
+	position:relative;
+}
+#contentMITA{ 
+	width:504px; 
+	height:350px; 
+	position:relative; 
+	border: 2px solid #a10101;
+	/*background: #D6D6D6;*/
+}

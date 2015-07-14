@@ -1,0 +1,2088 @@
+﻿/*ETIQUETADO BUYBACK*/
+body 
+{
+	font-size: 53%;
+	background-repeat:no-repeat;
+}
+H1{font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#666666; font-weight:bold}
+H2, a{font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#666666}
+a{font-size:12px}
+
+
+/*Estilo para el Titulo del Etiquetado*/
+.TextoTitulo{
+	letter-spacing:1.5px;
+    font-size:19px;
+	font-weight:bold;
+	color:#D00639;
+    text-shadow: 0 -5px 8px #fff;    
+}
+/********************************************/
+/*Barra de Titulo*/
+/********************************************/
+#idLogoLin
+{
+	position:absolute;
+	top:10px;
+	left:15px;
+	behavior: url("../imagenes/VentaRapidaTelefonia/iepngfix.htc");
+}
+/***********************************************/
+/*Estilos del Panel de Busqueda por SKU*/
+/***********************************************/
+#idPnlBusPorSku{
+	position:absolute;
+	top:130px;
+	left:47px;
+	display:none;
+}
+
+#idPnlBusPorSku textarea{
+	width:198px;
+	height:36px;
+	border-left:1px;
+	border-right:1px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;		
+	font-size:10px;
+	color:#666666;
+	border: none;
+	background:none;
+	overflow:hidden;
+	position:absolute;
+	left:13px;
+	top:27px;
+}
+
+#idPnlBusPorSku div{
+	background-image: url(../imagenes/VentaRapidaTelefonia/fndinpBusKku.png);
+	background-repeat:no repeat;
+	width:220px;
+	height:50px;
+}
+
+#idPnlBusPorSku a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;		
+	font-size:11px;
+	color:#666666
+}
+
+
+.cssETQUp{
+	background: url(../imagenes/VentaRapidaTelefonia/ETQBtnflUp.png) no-repeat;
+	top:80px;
+	left:235px;
+	width:25px;
+	height:25px;
+	position:absolute;
+	cursor:pointer;
+	z-index:9999;
+	display:none;
+}
+
+.cssETQDw{
+	background: url(../imagenes/VentaRapidaTelefonia/ETQBtnflDown.png) no-repeat;
+	top:285px;
+	left:235px;
+	width:25px;
+	height:25px;
+	position:absolute;
+	cursor:pointer;
+	z-index:9999;
+	display:none;
+}
+.cssETQDw:hover{
+	background: url(../imagenes/VentaRapidaTelefonia/ETQBtnflDownS.png) no-repeat;
+}
+.cssETQUp:hover{
+	background: url(../imagenes/VentaRapidaTelefonia/ETQBtnflUpS.png) no-repeat;
+}
+
+#idLiETQErrores{
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	list-style: none;
+}
+
+#idErrCodigo{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:9px;
+	padding-right: 1px;
+	display: inline;
+	padding-left: 5px;
+	float: left;
+	padding-bottom: 1px;
+	width: 23%;
+	color:#414141;
+}
+#idErrMensaje{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:9px;
+	padding-right: 1px;
+	display: inline;
+	padding-left: 1px;
+	float: left;
+	padding-bottom: 1px;
+	width: 72%;
+	color:#414141;
+}
+
+.ccsDivLisErr{
+	margin-left:10px;
+	width:200px;
+	height:12px;
+	border-color:#DBD2DA;
+	border:1px;
+	margin-bottom:1px;
+	margin-top:1px;
+	border-style:solid;
+}
+
+.cssidLiETQErrores{
+	max-height:160px;
+	overflow:auto;
+}
+
+/********************************************/
+/*Panel Derecho*/
+/*******************************************/
+#idContPnlDerecho{
+	position:absolute;
+	top:82px;
+	left:345px;
+	width:410px;
+	height:495px;
+}
+
+#idLdlArticulos{
+	position:relative;
+	top:4px;
+	left:130px;
+	behavior: url("../imagenes/VentaRapidaTelefonia/iepngfix.htc");
+}
+.cssPnlRojoDer{
+	width:405px;
+	height:490px;
+	background-image: url(../imagenes/VentaRapidaTelefonia/ETQfndDer.png);
+	background-repeat:no-repeat;
+}
+.cssPclGrisDer{
+	position:relative;
+	top:3px;
+	left:17px;
+	width:376px;
+	height:437px;
+}
+/************************************************/
+/*SELECCION DE ETIQUETAS Y DEPARTAMENTOS*/
+/***********************************************/
+#idPnlSelector
+{
+    background-color:Red;
+	position:absolute;
+	top:470px;
+}
+
+#LisTipoEtiqueta{
+	position:absolute;
+	top:505px;
+	left:328px;
+	cursor:pointer;
+	background: url(../imagenes/VentaRapidaTelefonia/ImgLstEtiq.png);
+	width:19px;
+	height:19px;
+}
+
+#LisTipoEtiqueta:hover{
+	position:absolute;
+	top:505px;
+	left:328px;
+	cursor:pointer;
+	background: url(../imagenes/VentaRapidaTelefonia/ImgLstEtiqS.png);
+	width:19px;
+	height:19px;
+}
+
+#idLisTipoEtiqueta{
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	list-style: none;
+}
+
+#idFilTipETQ{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:9px;
+	padding-right: 1px;
+	display: inline;
+	padding-left: 5px;
+	float: left;
+	padding-bottom: 1px;
+	width: 23%;
+	color:#414141;
+}
+
+.ccsDivLisTipoEtiqueta{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:9px;
+	margin-left:10px;
+	width:140px;
+	border-color:#DBD2DA;
+	border:1px;
+	border-style:solid;
+	color:#414141;
+	text-align:center;
+}
+
+.ccsDivLisTipoEtiqueta:hover{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:9px;
+	margin-left:10px;
+	width:140px;
+	border-color:#DBD2DA;
+	border:1px;
+	border-style:solid;
+	background-color:#f3f3f3;
+	cursor:pointer;
+	color:#bc0404;
+}
+
+.cssidLisTipoEtiqueta{
+	max-height:160px;
+	overflow:auto;
+}
+
+.cssDeptoSelect div{
+	position:absolute;
+	width:290px;
+	height:28px;
+	top:3px;
+	text-align:center;
+	font-size:13px;
+	color:#6F748C; 
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif; 
+	letter-spacing:.7px;
+}
+
+.cssEtiquetaSelect div{
+	position:absolute;
+	width:290px;
+	height:28px;
+	top:3px;
+	text-align:center;
+	font-size:13px;
+	color:#6F748C; 
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;   
+	letter-spacing:.7px;
+	display:none;
+}
+
+/************************************************/
+/* IMPRESION DE ETIQUETAS*/
+/************************************************/
+#idImprimeLin{
+	/*position:absolute;*/
+	top:55px;
+	left:380px;
+	cursor:pointer;
+}
+
+/*********************************************************/
+/*ESTILOS LISTA DE SUB CLASIFICACIONES*/
+/*********************************************************/
+#idListClassSku
+{
+	position: absolute;
+	width:240px;
+	top:75px;
+	left:-6px;
+	height:228px;
+	display:none;
+	overflow:hidden;
+}
+
+#idListClassSku ul
+{
+	list-style: none;
+}
+
+#idListClassSku ul li
+{
+	cursor:pointer;
+	position: relative;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+#idListClassSku li a
+{
+	font: 12px Arial, Helvetica, sans-serif;
+	letter-spacing:.5px;
+	color:#414141;
+	font-weight: bold;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+#idListClassSku ul img
+{
+	position: absolute; 
+	cursor: pointer; 
+	top:4px;
+	left: -25px;
+}
+/*********************************************************/
+/*ESTILOS LISTA DE SUB DEPARTAMENTOS*/
+/*********************************************************/
+
+#idETQArbol
+{
+	position: relative;
+	width:270px;
+	top:-5px;
+	left:-10px;
+	height:500px;
+}
+
+#idETQArbol ul
+{
+	list-style: none;
+}
+
+#idETQArbol ul li
+{
+	cursor:pointer;
+	position: relative;
+}
+
+#idClassSelect
+{
+	position: absolute;
+	top:364px;
+	left:17px;
+}
+.cssClassSelect a
+{
+	cursor:pointer;
+	font: 11px "Times New Roman", Lucida, Verdana, sans-serif;
+	margin-left:3px;
+	margin-right:3px;
+	color:white;
+}
+
+#idETQArbol li a
+{
+	font: 12px Arial, Helvetica, sans-serif;
+	letter-spacing:.5px;
+	color:#414141;
+	font-weight: bold;
+}
+
+#idETQArbol ul img
+{
+	position: relative; 
+	cursor: pointer; 
+	top:3px;
+	left: -10px;
+}
+
+/************************************************************************/
+/*ESTILOS LISTA DE ARTICULOS*/
+/************************************************************************/
+#ListaArticulos{
+	position:relative;
+	left:-16px;
+	top:-5px;
+		
+}
+
+.cssETQCabArt{
+	background:url(../imagenes/VentaRapidaTelefonia/ETQCabProd.png) no-repeat;
+	position:relative;
+	width:331px;
+	height:20px;
+	left:19px;
+	top:14px;
+	behavior: url("../imagenes/VentaRapidaTelefonia/iepngfix.htc");
+}
+
+.cssCabSpac{
+	font-size:10px;
+	font-weight:bold;
+	padding-right: 1px;
+	display: inline;
+	padding-left: 5px;
+	float: left;
+	padding-bottom: 1px;
+	width: 5%;
+	padding-top: 1px;
+}
+
+.cssCabCodigo{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:10px;
+	font-weight:bold;
+	padding-right: 1px;
+	display: inline;
+	padding-left: 5px;
+	float: left;
+	padding-bottom: 1px;
+	width: 13%;
+	padding-top: 1px;
+	border-color:#ffffff;
+	color:#e5e5e5;
+}
+
+.csscabDesc{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:10px;
+	font-weight:bold;
+	padding-right: 1px;
+	display: inline;
+	padding-left: 5px;
+	float: left;
+	padding-bottom: 1px;
+	width: 60%;
+	padding-top: 1px;
+	border-left:1px;
+	border-color:#ffffff;
+	color:#e5e5e5;
+}
+
+.checkboxLista{
+	list-style:none;
+}
+
+.cssETQSelProd1 {
+	background:url(../imagenes/VentaRapidaTelefonia/ETQfnd1.png);
+	margin-left:6px;
+	width:345px;
+	height:16px;
+	border-color:#fec2c2;
+	border-style:none;
+	border:1px;
+	cursor:pointer;
+}
+
+.cssETQSelProd2 {
+	background:url(../imagenes/VentaRapidaTelefonia/ETQfnd2.png);
+	margin-left:6px;
+	width:345px;
+	height:16px;
+	border-color:#fec2c2;
+	border-style:none;
+	border:1px;
+	cursor:pointer;
+}
+
+.cssCodETQ{
+	font: 10px "Times New Roman", Lucida, Verdana, sans-serif; 
+	padding-right: 2px;
+	display: inline;
+	padding-left: 2px;
+	float: left;
+	padding-bottom: 2px;
+	width: 13%;
+	padding-top: 2px;
+	color:#414141;
+	font-weight:bold;
+}
+
+.cssDesETQ{
+	font: 10px "Times New Roman", Lucida, Verdana, sans-serif;
+	padding-right: 2px;
+	display: inline;
+	padding-left: 2px;
+	float: left;
+	padding-bottom: 2px;
+	width: 56%;
+	padding-top: 2px;
+	color:#414141;
+	font-weight:bold;
+}
+
+.cssCarETQ{
+	padding-right: 2px;
+	display: inline;
+	padding-left: 2px;
+	float: left;
+	padding-bottom: 2px;
+	width: 3.5%;
+	padding-top: 2px;
+	color:#414141;
+	font-weight:bold;
+}
+
+.uncheck{
+	background:url(../imagenes/VentaRapidaTelefonia/uncheck1.png) no-repeat;
+	padding-left: 15px; 
+	cursor:pointer;
+	height:18px;
+}
+
+.check{
+	background:url(../imagenes/VentaRapidaTelefonia/check1.png) no-repeat;
+	padding-left: 15px; 
+	cursor:pointer;
+	height:18px;
+	color:blue;
+}
+
+.cssLsEmpty  a{
+	padding-left:40px;
+	color:white;
+	padding-right:15px;
+}
+
+.cssLsEmpty {
+	list-style:none; 
+}
+
+.divPagLin a{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:9px;
+	font-weight:bold;
+}
+
+#idSelAllProd{
+	cursor:pointer;
+	position:absolute;
+	top:145px;
+	left:369px;
+	display:none;
+}
+
+#idSelAllProd a{
+	background: url(../imagenes/VentaRapidaTelefonia/ETQAll.png) no-repeat;
+	width:13px;
+	height:13px;
+	position:absolute;
+}
+
+#idSelAllProd a:hover{
+	background: url(../imagenes/VentaRapidaTelefonia/ETQAllS.png) no-repeat;
+	width:13px;
+	height:13px;
+	position:absolute;
+}
+
+#idSelPlasoEtiq{
+	cursor:pointer;
+	position:absolute;
+	top:215px;
+	left:365px;
+	display:none;
+}
+
+#idSelPlasoEtiq a{
+	background: url(../imagenes/VentaRapidaTelefonia/ETQimgCmbPlazo.png) no-repeat;
+	width:13px;
+	height:149px;
+	position:absolute;
+}
+
+#idSelPlasoEtiq a:hover{
+	background: url(../imagenes/VentaRapidaTelefonia/ETQimgCmbPlazoS.png) no-repeat;
+	width:13px;
+	height:149px;
+	position:absolute;
+}
+
+/*********************************************/
+/*ESTILOS DE LA MODIFICACION DE PLAZO A ETIQUETAR/
+/*********************************************/
+
+.cssDivPlazoETQ{
+	width:170px;
+	overflow: hidden; 
+	height:159px;
+	position:absolute;
+	top:35px;
+	left:15px;
+}
+
+.cssETQUpPl{
+	background: url(../imagenes/VentaRapidaTelefonia/ETQBtnUpSCS.png) no-repeat;
+	top:40px;
+	left:170px;
+	width:25px;
+	height:25px;
+	position:absolute;
+	cursor:pointer;
+	z-index:9999;
+	display:none;
+}
+
+.cssETQDwPl{
+	background: url(../imagenes/VentaRapidaTelefonia/ETQBtnDwSCS.png) no-repeat;
+	top:172px;
+	left:175px;
+	width:25px;
+	height:25px;
+	position:absolute;
+	cursor:pointer;
+	z-index:9999;
+	display:none;
+}
+
+.cssETQUpProd{
+	background: url(../imagenes/VentaRapidaTelefonia/upProd.png) no-repeat;
+	top:15px;
+	left:360px;
+	width:25px;
+	height:25px;
+	position:absolute;
+	cursor:pointer;
+	z-index:9999;
+	display:none;
+}
+
+.cssETQDwProd{
+	background: url(../imagenes/VentaRapidaTelefonia/downProd.png) no-repeat;
+	top:362px;
+	left:360px;
+	width:25px;
+	height:25px;
+	position:absolute;
+	cursor:pointer;
+	z-index:9999;
+	display:none;
+}
+
+.cssETQDwPl:hover{
+	background: url(../imagenes/VentaRapidaTelefonia/ETQBtnDwSC.png) no-repeat;
+}
+
+.cssETQUpPl:hover{
+	background: url(../imagenes/VentaRapidaTelefonia/ETQBtnUpSC.png) no-repeat;
+}
+
+.cssTitPlazoETQ {
+	width:55px;
+	height:15px;
+	background-color:#cc0606;
+	color:white;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:10px;
+	font-weight:bold;
+	text-align:center;
+	border-style:solid;
+	border:1px;
+	border-color:#cfcfcf;
+}
+
+.cssCodPlazo{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:11px;
+	font-weight:bold;
+	top:.9px;
+	letter-spacing:.5px;
+	color:#44536a;
+	border-style:solid;
+	border-color:#cfcfcf;
+	border-width:1px 1px 1px 1px;
+}
+
+.ui-combobox {
+	position: relative;
+	display: inline-block;
+}
+
+.ui-combobox-toggle {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-left: -1px;
+	padding: 0;
+	height: 1.4em ;
+	top: .6em ;
+}
+
+.ui-combobox-input {
+	margin: 0;
+	padding: 0.3em;
+	width:25px;
+	height:9px;
+}
+
+/***************************************************************/
+/*ESTILOS DE LA SELECCION DE ETIQUETA Y DEPARTAMENTO*/
+/***************************************************************/
+.cssPagETQ{
+	background: url(../imagenes/VentaRapidaTelefonia/ETQPaginar.png) no-repeat top;
+	cursor:pointer;
+	width:12px;
+	height:13px;
+	z-index:999999;
+	position:relative;
+	bottom:3px;
+	left:26px;
+}
+
+
+.cssEtiquetasSel{
+	position:absolute;
+	top:10px;
+	width:400px;
+	height:16px;
+	left:100px;
+	z-index:999;
+}
+
+.cssEtiquetasSel div{
+	top:25px;
+	position:absolute;
+	display:none;
+}
+
+.cssTitVprev{
+	position:absolute;
+	z-index:999;
+}
+.cssDescPrev a{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:11px;
+	font-weight:bold;
+}
+.cssDescPrev{
+	width:400px;
+	display:none;
+	left:12px;
+	position:absolute;
+	left:50px;
+	top:8px;
+	color:#c0c0c0;
+	z-index:999;
+}
+
+#idBackETQSel{
+	background: url(../imagenes/VentaRapidaTelefonia/ETQFrame.png) no-repeat;
+	position:absolute;
+	width:500px;
+	height:321px;
+	top:10px;
+	left:-23px;
+}
+/**/
+#idPosTolLin1{
+	position:absolute;
+	left:315px;
+	margin-top:-35px;
+	z-index:9999;
+}
+
+#idPosTolLin2{
+	position:absolute;
+	left:300px;
+	margin-top:2px;
+	z-index:9999;
+}
+
+#idPosTolLin3{
+	position:absolute;
+	left:300px;
+	margin-top:30px;
+	z-index:9999;
+}
+
+#idPosTolLin4{
+	position:absolute;
+	left:110px;
+	margin-top:-30px;
+	z-index:9999;
+}
+
+#idPosTolLin5{
+	position:absolute;
+	left:180px;
+	margin-top:80px;
+	z-index:9999;
+}
+
+#idPosTolLin6{
+	position:absolute;
+	left:37px;
+	top:-7px;
+	z-index:9999;
+}
+
+#idPosTolLin7{
+	position:absolute;
+	left:110px;
+	margin-top:17px;
+	z-index:9999;
+}
+
+#idPosTolLin8{
+	position:absolute;
+	left:220px;
+	margin-top:38px;
+	z-index:9999;
+}
+
+#imgProcessDataLin{
+	position: absolute; 
+	margin-top: 260px; 
+	left:290px;
+	z-index:9999;
+}
+/******************************************************************/
+/*ESTILOS DE LA SELECCION DE PRODUCTOS*/
+/******************************************************************/
+#NumArt{
+	position:absolute;
+	top:548px;
+	left:352px;
+	width:390px;
+}
+#NumArt a{
+	color:white;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:11px;
+	font-weight:bold;
+}
+
+/****************************************************************/
+/*ESTILOS DEL SCROLLBAR*/
+/****************************************************************/
+#scrollbar1 { 
+	width: 340px; 
+	margin: 20px 0 10px; 
+}
+#scrollbar1 .viewport { 
+	width: 290px; 
+	height: 320px; 
+	overflow: hidden; 
+	position: relative; 
+}
+#scrollbar1 .overview { 
+	list-style: none; 
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	padding: 0; 
+	margin: 0; 
+}
+#scrollbar1 .scrollbar{ 
+	background: transparent url(../imagenes/VentaRapidaTelefonia/bg-scrollbar-track-y.png) no-repeat 0 0; 
+	position: relative;
+	background-position: 0 0; 
+	float: right; 
+	width: 15px; 
+ }
+ 
+#scrollbar1 .track {
+	background: transparent url(../imagenes/VentaRapidaTelefonia/bg-scrollbar-trackend-y.png) no-repeat 0 100%; 
+	height: 100%; 
+	width:13px; 
+	position: relative; 
+	padding: 0 1px; 
+}
+#scrollbar1 .thumb { 
+	background: transparent url(../imagenes/VentaRapidaTelefonia/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; 
+	height: 20px; 
+	width: 25px; 
+	cursor: pointer; 
+	overflow: hidden; 
+	position: absolute; 
+	top: 0; 
+	left: -5px; 
+}
+#scrollbar1 .thumb .end { 
+	background: transparent url(../imagenes/VentaRapidaTelefonia/bg-scrollbar-thumb-y.png) no-repeat 50% 0; 
+	overflow: hidden; 
+	height: 5px; 
+	width: 25px; 
+}
+#scrollbar1 .disable { 
+	display: none; 
+}
+/****************************************************************/
+/*ESTILOS DEL SCROLLBAR*/
+/****************************************************************/
+#scrollbar2 { 
+	width: 382px; 
+	margin: 20px 0 10px;  
+}
+#scrollbar2 .viewport { 
+	width: 355px; 
+	height: 387px; 
+	overflow: hidden; 
+	position: relative; 
+}
+#scrollbar2 .overview { 
+	list-style: none; 
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	padding: 0; 
+	margin: 0; 
+}
+#scrollbar2 .scrollbar{ 
+	background: transparent url(../imagenes/VentaRapidaTelefonia/bg-scrollbar-track-y.png) no-repeat 0 0; 
+	position: relative;
+	background-position: 0 0; 
+	float: right; 
+	width: 15px; 
+ }
+#scrollbar2 .track {
+	background: transparent url(../imagenes/VentaRapidaTelefonia/bg-scrollbar-trackend-y.png) no-repeat 0 100%; 
+	height: 100%; 
+	width:13px; 
+	position: relative; 
+	padding: 0 1px; 
+}
+#scrollbar2 .thumb { 
+	background: transparent url(../imagenes/VentaRapidaTelefonia/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; 
+	height: 20px; 
+	width: 25px; 
+	cursor: pointer; 
+	overflow: hidden; 
+	position: absolute; 
+	top: 0; 
+	left: -5px; 
+}
+#scrollbar2 .thumb .end { 
+	background: transparent url(../imagenes/VentaRapidaTelefonia/bg-scrollbar-thumb-y.png) no-repeat 50% 0; 
+	overflow: hidden; 
+	height: 5px; 
+	width: 25px; 
+}
+#scrollbar2 .disable { 
+	display: none; 
+}
+
+/*NUEVO ETIQUETADO STORE*/
+
+
+/*ESTILOS DEL MENU IZQUIERDO CONTENEDOR CARRIERS*/
+.contenedorCarriers{
+	position: absolute;
+	top: 120px;
+	left:15px;
+	width: 160px;
+	height: 400px;
+	overflow: hidden;
+	
+}
+
+.cssBusqueda{
+	position:relative;
+	top:8px;
+	font-family: tahoma;
+	font-size: 8px;
+	font-weight: bold;
+	color: #065285;
+	text-align: left;
+}
+
+.panelCarriers{
+	position: relative;
+	width: 700;
+	height: 90px;
+	overflow: auto;
+}
+
+.contenedorCarriers span{
+	position:relative;
+	left:-5px;
+	top:13px;
+	
+}
+
+.CarriersNormal{
+	background-image:url(/AdministraCambaceo/FrontEtiqAzteca/imagenes/ETQCarr.png);
+	background-repeat:no-repeat;
+	position: relative; 
+	top:12px;
+	left:30px;
+	height:50px;
+	cursor:pointer;
+	
+}
+
+.CarriersSelected  {
+	background-image:url(/AdministraCambaceo/FrontEtiqAzteca/imagenes/ETQCarrC.png);
+	background-repeat:no-repeat;
+	position: relative; 
+	top:12px;
+	left:30px;
+	height:50px;
+	cursor:pointer;
+	
+}
+
+.contenedorCarriers img{
+	position:relative;
+	left:12px;
+	top:2px
+}
+
+#idCabCarr{
+	position: relative;
+	left:-10px;
+	behavior: url("imagenes/iepngfix.htc");
+}
+
+#idBtnBusqueda{
+	position:relative;
+	cursor:pointer;
+	top:3px;
+	left:40px;
+	behavior: url("imagenes/iepngfix.htc");
+}
+
+#ctrlBotones_ibtnImprimir{
+	position:relative;
+	top:9px;
+	left:55px;
+	cursor:pointer;
+	behavior: url("imagenes/iepngfix.htc");
+}
+
+#contCarriers{
+	height:500px;
+}
+
+/*BARRA SUPERIROR ROJA*/
+#idBarratel{
+	position:absolute;
+	top:70px;
+	left:5px;
+	behavior: url("../imagenes/VentaRapidaTelefonia/iepngfix.htc");
+}
+
+/*CABECERO DE LOS PRODUCTOS*/
+
+#idCabeceroProd{
+	position:absolute;
+	top:128px;
+	left:220px;
+	width:436px;
+}
+
+#idCabecero{
+	position: absolute;
+	top:8px;
+	behavior: url("../imagenes/VentaRapidaTelefonia/iepngfix.htc");
+}
+
+.cssCab1{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:11px;
+	font-weight:bold;
+	padding-right: 1px;
+	display: inline;
+	padding-left: 5px;
+	float: left;
+	padding-bottom: 1px;
+	width: 15%;
+	padding-top: 1px;
+	border:1px;
+	border-style:solid;
+	border-color:#ffffff;
+	color:#ffffff;
+	background:url(../estilos/images/ui-bg_highlight-soft_15_cc0000_1x100.png);
+
+}
+
+.cssCab2{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:11px;
+	font-weight:bold;
+	padding-right: 1px;
+	display: inline;
+	padding-left: 5px;
+	float: left;
+	padding-bottom: 1px;
+	width: 29%;
+	padding-top: 1px;
+	border:1px;
+	border-style:solid;
+	border-color:#ffffff;
+	color:#ffffff;
+	background:url(../estilos/images/ui-bg_highlight-soft_15_cc0000_1x100.png);
+}
+
+.cssCab3{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:11px;
+	font-weight:bold;
+	padding-right: 1px;
+	display: inline;
+	padding-left: 5px;
+	float: left;
+	padding-bottom: 1px;
+	width: 24%;
+	padding-top: 1px;
+	border:1px;
+	border-style:solid;
+	border-color:#ffffff;
+	color:#ffffff;
+	background:url(../estilos/images/ui-bg_highlight-soft_15_cc0000_1x100.png);
+}
+
+.cssCab4{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:11px;
+	color:#ffffff;
+	font-weight:bold;
+	padding-right: 1px;
+	display: inline;
+	padding-left: 5px;
+	float: left;
+	padding-bottom: 1px;
+	width: 24%;
+	padding-top: 1px;
+	border:1px;
+	border-style:solid;
+	border-color:#ffffff;
+	color:#ffffff;
+	background:url(../estilos/images/ui-bg_highlight-soft_15_cc0000_1x100.png);
+}
+
+/*ESTILOS PARA GENERAR LOS BORDES Y SOMBREDO DE EL PANEL DE PRODUCTOS*/
+
+.idBdSup {
+	background:url(../imagenes/VentaRapidaTelefonia/ETQImgSI.png) no-repeat;
+	width: 50px;
+	height: 50px;
+}
+
+.idBdSup div {
+	background:url(../imagenes/VentaRapidaTelefonia/ETQLinSup.png);
+	position:relative;
+	left:50px;
+	width: 400px;
+	height: 12px;
+}
+
+.idBdSup div div{
+	background:url(../imagenes/VentaRapidaTelefonia/ETQImgSD.png) no-repeat;
+	position:relative;
+	left:400px;
+	width: 50px;
+	height: 50px;
+}
+
+.idBdMed{
+	background:url(../imagenes/VentaRapidaTelefonia/ETQLinIzq.png);
+	position:relative;
+	width: 50px;
+	height: 350px;
+}
+
+.idBdMed div{
+	background:url(../imagenes/VentaRapidaTelefonia/ETQLinDer.png);
+	position:relative;
+	width: 50px;
+	height: 350px;
+	left:450px;
+}
+
+.idBdBaj{
+	background:url(../imagenes/VentaRapidaTelefonia/ETQImgII.png) no-repeat;
+	position:relative;
+	width: 50px;
+	height: 50px;
+}
+
+.idBdBaj div {
+	background:url(../imagenes/VentaRapidaTelefonia/ETQLinIn.png);
+	position:relative;
+	left:50px;
+	width: 400px;
+	height: 50px;
+	top:35px;
+}
+
+.idBdBaj div div{
+	background:url(../imagenes/VentaRapidaTelefonia/ETQImgID.png) no-repeat;
+	position:relative;
+	left:400px;
+	top:-35px;
+	width: 50px;
+	height: 50px;
+}
+
+.linLatI{
+	background:url(../imagenes/VentaRapidaTelefonia/ETQLinpp.png);
+	position:absolute;
+	left:218px;
+	top:149px;
+	width: 8px;
+	height: 381px;
+}
+
+.linLatD{
+	background:url(../imagenes/VentaRapidaTelefonia/ETQLinpp.png) ;
+	position:absolute;
+	width: 8px;
+	height: 381px;
+	top:149px;
+	left:649px;
+}
+
+.linLatB{
+	background:url(../imagenes/VentaRapidaTelefonia/ETQLinpb.png) ;
+	position:absolute;
+	width: 432px;
+	height: 8px;
+	top:527px;
+	left:221px;
+}
+
+.linLatS{
+	background:url(../imagenes/VentaRapidaTelefonia/ETQLinpb.png);
+	position:absolute;
+	width: 432px;
+	height: 8px;
+	top:145px;
+	left:221px;
+}
+
+/*ESTILOS PARA EL SCROLLBAR*/
+
+#scrollbar3 { 
+	width: 460px; 
+	margin: 15px 0 10px; 
+}
+
+#scrollbar3 .viewport { 
+	width: 440px; 
+	height: 380px; 
+	overflow: hidden; 
+	position: relative; 
+
+}
+
+#scrollbar3 .overview { 
+	list-style: none; 
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	padding: 0; 
+	margin: 0; 
+}
+
+#scrollbar3 .scrollbar{ 
+	position: relative;
+	background-position: 0 0; 
+	float: right; 
+	width: 11px; 
+ }
+ 
+#scrollbar3 .track {
+	height: 100%; 
+	width:5x; 
+	position: relative; 
+	padding: 0 1px; 
+}
+
+#scrollbar3 .thumb { 
+	background: transparent url(../imagenes/VentaRapidaTelefonia/bg-scrollbar-thumb-z.png) no-repeat 50% 100%; 
+	height: 20px; 
+	width: 20px; 
+	cursor: pointer; 
+	overflow: hidden; 
+	position: absolute; 
+	top: 0; 
+	left: -5px; 
+}
+
+#scrollbar3.thumb.end { 
+	overflow: hidden; 
+	height: 5px; 
+	width: 20px; 
+}
+
+#scrollbar3 .disable { 
+	display: none; 
+}
+
+#idProductosTel{
+	position:absolute;
+	top:30px;
+	left:22px;
+	width:450px;
+	height:400px;
+}
+
+.idoMarca{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:10px;
+	padding-right: 2px;
+	display: inline;
+	padding-left: 2px;
+	float: left;
+	padding-bottom: 2px;
+	width: 15%;
+	padding-top: 2px;
+}
+
+.idoModelo{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:10px;
+	padding-right: 2px;
+	display: inline;
+	padding-left: 2px;
+	float: left;
+	padding-bottom: 2px;
+	width: 30%;
+	padding-top: 2px;
+}
+
+.idoCarrier{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:10px;
+	padding-right: 2px;
+	display: inline;
+	padding-left: 2px;
+	float: left;
+	padding-bottom: 2px;
+	width: 26%;
+	padding-top: 2px;
+
+}
+
+.idoCodigos{
+	font-family:Times New Roman, Helvetica, sans-serif; 
+	font-size:9px;
+	padding-right: 2px;
+	display: inline;
+	padding-left: 2px;
+	float: left;
+	padding-bottom: 2px;
+	width: 20%;
+	padding-top: 2px;
+}
+
+#idImgSelSt{
+	display: inline;
+	float: left;
+	width: 4%;
+}
+
+#idContProdStore {
+	position:relative;
+	right:39px;
+	list-style:none;
+}
+
+#idContProdStore li{
+	color: #065285;
+}
+
+.TitMensCarr1 a{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px;
+	font-weight:bold;
+}
+
+.TitMensCarr2 a{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:11px;
+	font-weight:bold;
+}
+
+.cssSpanProd1{
+	background-color:#e6e8ff;
+	margin-left:10px;
+	width:426px;
+	border-color:#fec2c2;
+	border-style:none;
+	border:1px;
+	cursor:pointer;
+	display:inline-block;
+}
+
+.cssSpanProd2 {
+	background-color:#fef2f1;
+	margin-left:10px;
+	width:426px;
+	border-color:#fec2c2;
+	border-style:none;
+	border:1px;
+	cursor:pointer;
+	display:inline-block;
+}
+
+#imgProcessData{
+	position: absolute; 
+	top: 200px; 
+	left:208px;
+}
+
+.contenedorProductos{
+	position: absolute;
+	top: 110px;
+	left:190px;
+	width: 500px;
+	height: 460px;
+	overflow: hidden;
+}
+
+.cssBtnTipoImp{
+	position:absolute;
+	top:436px;
+	left:15px;
+	cursor:pointer;
+}
+
+.cssBtnTipoImp a{
+	position:absolute;
+	text-align:center;
+	top:3px;
+	left:30px;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:11px;
+	color:#005EAA;
+}
+
+.cssBtnImpCarac{
+	position:absolute;
+	top:466px;
+	left:15px;
+	cursor:pointer;
+}
+
+.cssBtnImpCarac a{
+	position:absolute;
+	text-align:center;
+	top:3px;
+	left:37px;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:11px;
+	color:#005EAA;
+}
+
+.cssOk{
+	behavior: url("../imagenes/VentaRapidaTelefonia/iepngfix.htc");
+}
+
+#idPosTol1{
+	position:absolute;
+	top:387px;
+	left:175px;
+}
+
+.cssETQTelInfo1{
+	background: url(../imagenes/VentaRapidaTelefonia/Info.png) no-repeat;
+	width:15px;
+	height:15px;
+	cursor:pointer;
+	position:absolute;
+	behavior: url("imagenes/VentaRapidaTelefonia/iepngfix.htc");
+}
+
+.cssETQTelInfo1:hover{
+	background: url(../imagenes/VentaRapidaTelefonia/Infoh.png) no-repeat;
+	width:15px;
+	height:15px;
+	position:absolute;
+	behavior: url("imagenes/VentaRapidaTelefonia/iepngfix.htc");
+}
+
+.ETQtooltip {
+	display:none;
+	font-family:Times New Roman, Helvetica, sans-serif;
+	font-size:10px;
+	width:299px;
+	height:47px;
+	padding:8px 0x 8px 8px;
+	float:left;
+	color:#868686;
+	font-weight:bold;
+	position:absolute;
+	z-index:101;
+	bottom:-2px;
+	left:-5px;
+	behavior: url("imagenes/VentaRapidaTelefonia/ETQtooltip.png");
+}
+
+.ETQtooltipProd {
+	display:none;
+	font-family:Times New Roman, Helvetica, sans-serif;
+	font-size:9px;
+	width:113px;
+	height:36px;
+	background:url(../imagenes/VentaRapidaTelefonia/ETQToolProd.png) no-repeat;
+	padding:4px 0px 8px 8px;
+	float:left;
+	color:#868686;
+	font-weight:bold;
+	position:absolute;
+	z-index:101;
+	padding-left:10px;
+	padding-top:14px;
+	bottom:-62px;
+	left:-5px;
+}
+
+.cssMonedero  span{
+	position:absolute;
+	left:235px;
+}
+
+
+
+.ETQtooltipSmall {
+	display:none;
+	font-family:Times New Roman, Helvetica, sans-serif;
+	font-size:10px;
+	width:160px;
+	height:42px;
+	background:url(../imagenes/VentaRapidaTelefonia/ETQtooltipSmall.png) no-repeat;
+	padding:8px 0px 8px 8px;
+	float:left;
+	color:#868686;
+	font-weight:bold;
+	position:absolute;
+	z-index:101;
+	bottom:-15px;
+	left:-5px;
+}
+
+#idPosTol2{
+	position:absolute;
+	top:490px;
+	left:180px;
+}
+
+.cssETQTelInfo2{
+	background: url(../imagenes/VentaRapidaTelefonia/Info.png) no-repeat;
+	width:15px;
+	height:15px;
+	cursor:pointer;
+	position:absolute;
+	behavior: url("../imagenes/VentaRapidaTelefonia/iepngfix.htc");
+}
+
+.cssETQTelInfo2:hover{
+	background: url(../imagenes/VentaRapidaTelefonia/Infoh.png) no-repeat;
+	width:15px;
+	height:15px;
+	position:absolute;
+	behavior: url("../imagenes/VentaRapidaTelefonia/iepngfix.htc");
+}
+
+#idPosTol3{
+	position:absolute;
+	top:148px;
+	left:400px;
+}
+
+.cssETQTelInfo3{
+	width:8px;
+	height:8px;
+	cursor:pointer;
+	position:absolute;
+}
+
+.cssETQTelInfo3:hover{
+	width:8px;
+	height:8px;
+	position:absolute;
+}
+
+.cssInfoTelProd{
+	position:absolute;
+	top:533px;
+	left:225px;
+	width:600px;
+	height:30px;
+}
+
+.cssPsdTelSelect{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:10px;
+	font-weight:bold;
+	padding-right: 2px;
+	display: inline;
+	padding-left: 2px;
+	float: left;
+	padding-bottom: 2px;
+	width: 44%;
+	padding-top: 2px;
+	color:#005EAA;
+}
+
+.cssPsdTelPrdTot{
+	font-family:Arial, Helvetica, sans-serif;  
+	font-size:10px;
+	font-weight:bold;
+	padding-right: 2px;
+	display: inline;
+	padding-left: 2px;
+	float: left;
+	padding-bottom: 2px;
+	width: 47%;
+	padding-top: 2px;
+	color:#005EAA;
+}
+
+#idMenuCli div{
+	font-family:Arial, Helvetica, sans-serif;  
+	font-size:12px;
+	font-weight:bold;
+	border:1px;
+	border-style:solid;
+	border-color:#A30505;
+	color:#C0C0C0;
+	background-color:#666666;
+	text-align:center;
+	height:17px;
+	cursor:pointer;
+}
+
+#idNomOpc input{
+	width:125px;
+	height:12px;
+	border-left:3px;
+}
+
+#idNomOpc{
+	position:absolute;
+	display:none;
+	font-family:Arial, Helvetica, sans-serif;  
+	font-size:11px;
+	font-weight:bold;
+}
+#idTazOpc input{
+	width:250px;
+	height:12px;
+	border-left:3px;
+}
+
+#idTazOpc{
+	position:absolute;
+	display:none;
+	font-family:Arial, Helvetica, sans-serif;  
+	font-size:11px;
+	font-weight:bold;
+	
+}
+
+#idTcrOpc input{
+	width:250px;
+	height:12px;
+	border-left:3px;
+}
+
+#idTcrOpc{
+	position:absolute;
+	display:none;
+	font-family:Arial, Helvetica, sans-serif;  
+	font-size:11px;
+	font-weight:bold;
+}
+
+#idCluOpc input{
+	width:50px;
+	height:12px;
+	border-left:3px;
+	margin-left:5px;
+	margin-right:5px
+}
+
+#idCluOpc{
+	position:absolute;
+	display:none;
+	font-family:Arial, Helvetica, sans-serif;  
+	font-size:11px;
+	font-weight:bold;
+}
+
+#idImgClBus{
+	position:absolute;
+	cursor:pointer;
+	top:83px;
+	left:498px;
+}
+
+#idImgClBus img{
+	position:absolute;
+}
+
+.ImgInt2{
+	top:32px;
+}
+
+#idResBus{
+	width:520px;
+
+}
+
+#idResBus ul{
+	list-style:none;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+.cssdivBus{
+	border:1px;
+	border-style:solid;
+	height:150px;
+	border-color:#EEEEEE;
+	overflow:hidden;
+}
+.cssCliUp{
+	background: url(../imagenes/VentaRapidaTelefonia/CliScUp.png) no-repeat;
+	width:25px;
+	height:25px;
+	top:-153px;
+	position:absolute;
+	cursor:pointer;
+	display:none;
+}
+.cssCliDw{
+	background: url(../imagenes/VentaRapidaTelefonia/CliScDown.png) no-repeat;
+	top:-22px;
+	width:25px;
+	height:25px;
+	position:absolute;
+	cursor:pointer;
+	display:none;
+}
+.cssCliDw:hover{
+	background: url(../imagenes/VentaRapidaTelefonia/CliScDownS.png) no-repeat;
+}
+.cssCliUp:hover{
+	background: url(../imagenes/VentaRapidaTelefonia/CliScUpS.png) no-repeat;
+}
+
+#idScrollMov{
+	position:absolute;
+	margin-left:-2px;
+}
+
+
+.CssSSSS{
+	position:absolute;
+}
+
+.CliBtnOpcImp {
+	display:none;
+	font-family:Times New Roman, Helvetica, sans-serif; 
+	font-size:10px;
+	width:50px;
+	height:18px;
+	padding:8px 0px 8px 8px;
+	float:left;
+	color:#868686;
+	font-weight:bold;
+	position:absolute;
+	z-index:101;
+	bottom:-32px;
+	left:-54px;
+}
+.CliBtnOpcImp img{
+	margin-left:5px;
+}
+.cssEstadLC{
+	padding-top:4px;
+}
+.cssEstadLC a{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:10px;
+	padding-left:5px;
+	position:relative;
+	top:-6px;
+	color:black;
+}
+.cssEstadLC img{
+	position:relative;
+	top:1px;
+}
+
+.cssEstadLC div{
+	font-family:Arial, Helvetica, sans-serif;  
+	font-size:10px;
+	font-weight:bold;
+	border:1px;
+	border-style:solid;
+	border-color:#A30505;
+	color:white;
+	background-color:#A30505;
+	text-align:center;
+	height:13px;
+	margin-bottom:4px;
+}
+
+.cssEstadLC span  a{
+	font-family:Arial, Helvetica, sans-serif;  
+	font-size:12px;
+	font-weight:bold;
+	padding-right: 5px;
+	position: relative;
+	top: -5px;
+	height:60px;
+}
+.cssEstadLC span img {
+	margin-top:1px;
+	cursor :pointer;
+}
+.cssEstadLC span span {
+	margin-top:1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: blue;
+	cursor:pointer;
+}
+.cssEstadLC table{
+	border-width: 1px;
+	border-spacing: ;
+	border-style: solid;
+	border-color: #eeeeee;
+	border-collapse: collapse;
+	background-color: white;
+	margin-bottom:4px;
+}
+
+.cssClUnico {
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:10px;
+	padding-right: 1px;
+	display: inline;
+	padding-left: 1px;
+	float: left;
+	padding-bottom: 6px;
+	width: 17%;
+	padding-top: 6px;
+	text-align:center;
+}
+
+.cssClEkt {
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:10px;
+	padding-right: 1px;
+	display: inline;
+	padding-left: 1px;
+	float: left;
+	padding-bottom: 6px;
+	width: 17%;
+	padding-top: 6px;
+	text-align:center;
+}
+.cssClNombre {
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:10px;
+	padding-right: 1px;
+	display: inline;
+	padding-left: 1px;
+	float: left;
+	padding-bottom: 6px;
+	width: 20%;
+	padding-top: 6px;
+	text-align:center;
+}
+.cssClDir {
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:10px;
+	padding-right: 1px;
+	display: inline;
+	padding-left: 1px;
+	float: left;
+	padding-bottom: 6px;
+	width: 30%;
+	padding-top: 6px;
+	text-align:center;
+}
+.cssClEst {
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:10px;
+	padding-right: 1px;
+	display: inline;
+	padding-left: 1px;
+	float: left;
+	padding-bottom: 6px;
+	width: 5%;
+	padding-top: 6px;
+	text-align:center;
+}
+.cssClSucGe {
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:10px;
+	padding-right: 1px;
+	display: inline;
+	padding-left: 1px;
+	float: left;
+	padding-bottom: 6px;
+	width: 8%;
+	padding-top: 6px;
+	text-align:center;
+}
+
+.cssDivListBus1{
+	background-color:#F0F0FF;
+	width:518px;
+	border-color:#fec2c2;
+	border-style:none;
+	border:1px;
+	cursor:pointer;
+}
+
+.cssDivListBus2{
+	background-color:#FFF0F0;
+	width:518px;
+	border-color:#fec2c2;
+	border-style:none;
+	border:1px;
+	cursor:pointer;
+}
+
+#idCabecCliente{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:9px;
+}
+
+.cssCabCl1{
+	font-family:Arial, Helvetica, sans-serif;  
+	font-size:9px;
+	font-weight:bold;
+	height:22px;
+	line-height:22px;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	color:white;
+	background-color:#A30505;
+	text-align:center;
+}
+.cssCabCl2{
+	font-family:Arial, Helvetica, sans-serif;  
+	font-size:9px;
+	font-weight:bold;
+	height:22px;
+	line-height:22px;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	color:white;
+	background-color:#A30505;
+	text-align:center;
+}
+.cssCabCl3{
+	font-family:Arial, Helvetica, sans-serif;  
+	font-size:9px;
+	font-weight:bold;
+	height:22px;
+	line-height:22px;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	color:white;
+	background-color:#A30505;
+	text-align:center;
+}
+.cssCabCl4{
+	font-family:Arial, Helvetica, sans-serif;  
+	font-size:9px;
+	font-weight:bold;
+	height:22px;
+	line-height:22px;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	color:white;
+	background-color:#A30505;
+	text-align:center;
+}
+.cssCabCl5{
+	font-family:Arial, Helvetica, sans-serif;  
+	font-size:9px;
+	font-weight:bold;
+	height:22px;
+	line-height:22px;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	color:white;
+	background-color:#A30505;
+	text-align:center;
+}
+.cssCabCl6{
+	font-family:Arial, Helvetica, sans-serif;  
+	font-size:9px;
+	font-weight:bold;
+	height:22px;
+	padding-bottom:0px;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	color:white;
+	background-color:#A30505;
+	text-align:center;
+}
+
+#idCuanImprime{
+	background: url(../imagenes/VentaRapidaTelefonia/ETQFrame.png) no-repeat;
+	position:absolute;
+	width:400px;
+	height:305px;
+	top:10px;
+	left:55px;
+	overflow:hidden;
+}
+
+#feedback { font-size: 1.4em; }
+        
+#selectable1H .ui-selecting { background: #FECA40; }
+#selectable1H .ui-selected { background: #F39814; color: white; }
+#selectable1H { list-style-type: none; margin: 0; padding: 0; width: 390px; }
+#selectable1H li { margin: 0px; padding: 1px; float: left; width: 380px; height: 250px; font-size: 10em; text-align: center; }
+
+#selectable2H .ui-selecting { background: #FECA40; }
+#selectable2H .ui-selected { background: #F39814; color: white; }
+#selectable2H { list-style-type: none; margin: 0; padding: 0; width: 390px; }
+#selectable2H li { margin: 3px; padding: 1px; float: left; width: 360px; height: 130px; font-size: 5em; text-align: center; }
+
+#selectable4H .ui-selecting { background: #FECA40; }
+#selectable4H .ui-selected { background: #F39814; color: white; }
+#selectable4H { list-style-type: none; margin: 0; padding: 0; width: 390px; }
+#selectable4H li { margin: 3px; padding: 1px; float: left; width: 180px; height: 130px; font-size: 7em; text-align: center; }
+
+#selectable4V .ui-selecting { background: #FECA40; }
+#selectable4V .ui-selected { background: #F39814; color: white; }
+#selectable4V { list-style-type: none; margin: 0; padding: 0; width: 390px; }
+#selectable4V li { margin: 3px; padding: 1px; float: left; width: 180px; height: 130px; font-size: 7em; text-align: center; }
+
+#selectable5V .ui-selecting { background: #FECA40; }
+#selectable5V .ui-selected { background: #F39814; color: white; }
+#selectable5V { list-style-type: none; margin: 0; padding: 0; width: 300px; }
+#selectable5V li { margin: 4px; padding: 1px; float: left; width: 250px; height: 45px; font-size: 3em; text-align: center; }
+
+#selectable8V .ui-selecting { background: #FECA40; }
+#selectable8V .ui-selected { background: #F39814; color: white; }
+#selectable8V { list-style-type: none; margin: 0; padding: 0; width: 325px; }
+#selectable8V li { margin: 3px; padding: 1px; float: left; width: 140px; height: 65px; font-size: 3em; text-align: center; }
+
+#selectable8H .ui-selecting { background: #FECA40; }
+#selectable8H .ui-selected { background: #F39814; color: white; }
+#selectable8H { list-style-type: none; margin: 0; padding: 0; width: 325px; }
+#selectable8H li { margin: 3px; padding: 1px; float: left; width: 140px; height: 65px; font-size: 3em; text-align: center; }  
+
+#selectable21V .ui-selecting { background: #FECA40; }
+#selectable21V .ui-selected { background: #F39814; color: white; }
+#selectable21V { list-style-type: none; margin: 0; padding: 0; width: 350px; }
+#selectable21V li { margin: 3px; padding: 1px; float: left; width: 100px; height: 32px; font-size: 1em; text-align: center; }  
+
+#selectable21H .ui-selecting { background: #FECA40; }
+#selectable21H .ui-selected { background: #F39814; color: white; }
+#selectable21H { list-style-type: none; margin: 0; padding: 0; width: 250px; }
+#selectable21H li { margin: 3px; padding: 1px; float: left; width: 200px; height: 50px; font-size: 2em; text-align: center; } 
+
+#selectable24V .ui-selecting { background: #FECA40; }
+#selectable24V .ui-selected { background: #F39814; color: white; }
+#selectable24V { list-style-type: none; margin: 0; padding: 0; width: 350px; }
+#selectable24V li { margin: 3px; padding: 1px; float: left; width: 100px; height: 26px; font-size: 1em; text-align: center; }
+
+#selectable24H .ui-selecting { background: #FECA40; }
+#selectable24H .ui-selected { background: #F39814; color: white; }
+#selectable24H { list-style-type: none; margin: 0; padding: 0; width: 350px; }
+#selectable24H li { margin: 3px; padding: 1px; float: left; width: 100px; height: 26px; font-size: 1em; text-align: center; }       

@@ -1,0 +1,125 @@
+.jcarousel-skin-tango .jcarousel-container
+{
+
+	
+	background: #FFFFFF;
+	
+	top: 0px;
+	left: -1px;
+	height:495px;
+
+}
+	
+
+.jcarousel-skin-tango .jcarousel-container-vertical
+{
+	width: 166px;
+	height:385px;
+	padding: 26px 5px -10px 5px;
+}
+
+
+.jcarousel-skin-tango .jcarousel-clip-vertical
+{
+	
+	width: 157px;
+	height: 385px;
+	padding-left: 2px;
+}
+
+.jcarousel-skin-tango .jcarousel-item {
+    width: 145px;
+    height: 129px;
+}
+
+
+.jcarousel-skin-tango .jcarousel-item-vertical {
+    margin-bottom: 0px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+
+
+/**
+ *  Vertical Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-vertical {
+    position: absolute;
+    top: 2px;
+    left: 7px;
+    width: 33px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(/elektrafront/imagenes/scrollPromDown.gif) no-repeat 0 0;
+}
+
+
+.jcarousel-skin-tango .jcarousel-prev-vertical {
+    position: absolute;
+    top: 2px;
+    left: 40px;
+    width: 33px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(/elektrafront/imagenes/scrollPromUp.gif) no-repeat 0 0;
+}
+
+
+.verpromos
+{
+	position: relative; 
+	top: -432px;
+	left: 78px;
+	width: 0px;
+	height: 0px;
+	cursor: pointer;
+	
+	display: inline;
+	visibility: visible;
+	overflow: inherit;
+	z-index:2;
+	display: run-in;
+}
+
+
+.textOpcionesMasUsadasJrotator {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Verdana;
+	color: #666666;
+
+
+	position:relative;
+	top: -435px;
+	left: 19px;
+	width: 0px;
+	height: 0px;
+	cursor: pointer;
+	
+	visibility: visible;
+	overflow: inherit;
+	z-index:2;
+	display: run-in;
+	overflow: visible;
+}
+	
+.ImagenInferior
+{
+	position:relative;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	
+	visibility: visible;
+	overflow: inherit;
+	z-index:2;
+	display: run-in;
+	overflow: visible;
+}
+
+

@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+/* CSS Document */
+
+*{margin:0; padding:0;}
+
+#accesorios{width:560px; height:490px; overflow:hidden; position:static;}
+
+#fila{width:560px; position:static; float:left; background:url(/ElektraFront/imagenes/divisor.jpg) no-repeat center bottom; padding-bottom:10px;}
+#filaSinDivision{width:560px; position:static; float:left; padding-bottom:10px;}
+
+table.accesorioitem{border-collapse:collapse; margin-top:3px; margin-bottom:3; position:static; float:left;}
+table.accesorioitem tr td.item{ width:110px; background-color:#575757; font:10px Verdana, Geneva, sans-serif; color:#FFF; text-align:right; padding-right:8px; padding-left:8px;}
+table.accesorioitem tr td.cod{background-color:#848484; font:10px Verdana, Geneva, sans-serif; color:#FFF; text-align:right; padding-right:8px;}
+table.accesorioitem tr td.borderesq{background:url(/ElektraFront/imagenes/bordeizquierdo.jpg) no-repeat right;}
+table.accesorioitem tr td.credito{background-color:#cccccc; font:11px Verdana, Geneva, sans-serif; text-align:center; border:1px #cccccc solid; padding:5px; width:88px;}
+table.accesorioitem tr td.credito strong{color:#F00;}
+table.accesorioitem tr td.contado{background-color:#f1f1f1; font:11px Verdana, Geneva, sans-serif; text-align:center; border:1px #cccccc solid; padding:5px; width:88px;}
+
+
+
+

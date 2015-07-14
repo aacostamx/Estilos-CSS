@@ -1,0 +1,699 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+body{
+	font-family:Arial Narrow,sans-serif;
+	margin:0;
+	padding:0;
+	font-size:13px;
+}
+img{
+	border:none;
+}
+
+
+.specList{
+	font-family:Arial ,sans-serif;
+	margin:0;
+	height:180px;
+	Top:-12px;
+	padding:9px 8px 8px 30px;
+	width:260px;
+
+	font-size:10px;
+	text-align:left;
+}
+.specList li{
+	list-style-image:url(/ElektraFront/imagenes/flecha_roja.jpg);
+		
+}
+.specList li ul li{
+	list-style-image: url(/ElektraFront/imagenes/ListarBen.png);
+	list-style:none;
+	font-weight:200;
+	font-size:10px;
+	position:relative;
+	left:-30px;
+}
+.contenedorCtrlpOfrecer
+{
+
+	height:210px;
+	display:block;
+}
+.contenedorCtrlpOfrecer div table
+{
+  	font-size:12px;
+	font-weight:bold;
+	color:#0f3e73;
+}
+.ContenidoPrincipal{
+	position:relative;
+	background:#FFF;
+	height:530px;
+	text-align:left;
+	top: 10px;
+	OVERFLOW: hidden;
+}
+
+#datosCliente{
+width:100%;
+}
+
+#datosCliente_datosProductos{
+
+	position: relative;
+	top:-26px;
+}
+#datosCliente_datosProductos table{
+	width:100%;
+	position: relative;
+	
+	
+}
+.titEncabezado{
+	font-size: 12px;
+	font-weight: bold;
+	color: #065a88;
+	position: relative;
+	margin-left:45px;
+	top:22px;
+}
+
+.lineavertical{
+	float:left;
+	height:459px;
+	width:2px;
+}
+.lineavertical2{
+	float:left;
+	height:310px;
+	width:1px;
+}
+
+.movimientos{
+	font-size:10px;
+}
+.movimientosTit{
+	font-size:11px;
+	background:#e4e6e9;
+	font-weight:bold;
+	color:#124f7f;
+	padding-left:3px;
+	height:18px;
+	width:100%;
+}
+.cssMsjErrTit{
+	width:240px;
+	height:20px;
+	border-style:solid;
+	border:1px;
+	font-weight:bold;
+	border-color:white;
+	padding-top : 3px;
+}
+#idMsjError{
+	width:250px;
+	height:150px;
+	position:absolute;
+	background-color:#124f7f;
+	border-style:solid;
+	border:1px;
+	top:-180px;
+	left:300px;
+}
+#idMsjError a{
+	color:white;
+}
+.cssMsjErrBody{
+	height:78px;
+	margin-left:5px;
+	margin-top: 10px;
+}
+#idErrBtn{
+	height:18px;
+	width:55px;
+	border:1px;
+	border-style:solid;
+	border-color:#e4e6e9;
+	cursor:pointer;
+	background-color:#72778B;
+}
+.contenedor{
+	width:100%;
+	margin:0px;
+	height:600px;
+	OVERFLOW: hidden;
+}
+
+#pnlCentral{
+	MARGIN: 2px auto;
+	WIDTH: 99%;
+	height:602px;
+	OVERFLOW: hidden;
+}
+
+.cliente{
+	font-family: arial, sans-serif;
+	width:99.7%;
+	height:88px;
+	font-size:10.5px;
+	overflow:hidden;
+	color: #2B2A2A;
+	background:#E0E1E6 url(/ElektraFront/imagenes/BgTop.png) repeat-x;
+	border:#C9D8DE solid 1px;
+	z-index:99999;
+	position:relative;
+}
+.barraBeneficios{
+	background:url(/ElektraFront/imagenes/tit_beneficios.png) repeat-x;
+}
+.ContenedorMensajeBeneficios  div {
+	font-weight:bold;
+	font-size:11px;
+}
+.clienteA{
+	float:left;
+	width:36%;
+	/*width:288px;*/
+	height:92px;
+	color:#575656;
+	font-size:10.5px;
+	border-left:#FFF solid 1px;
+	border-right:#C9D8DE solid 1px;
+	border-bottom:#FFF solid 1px;
+	text-align:left;
+}
+
+
+.clienteA  table tr{
+	width:100%;
+}
+
+.text14{
+font-family: arial, sans-serif;
+font-size:12px;
+
+}
+.clienteB{
+	float:left;
+	width:26%;
+	height:89px;
+	color:#2b2a2a;
+	border-left:#FFF solid 1px;
+	border-right:#C9D8DE solid 1px;
+	border-bottom:#FFF solid 1px;
+	padding:3px 0 0 0px;
+	text-align:left;
+}
+
+.clienteB table td {
+	text-align:center;
+}
+
+.clienteC{
+	float:left;
+	width:36%;
+	height:90px;
+	color:#2b2a2a;
+	border-left:#FFF solid 1px;
+	border-bottom:#FFF solid 1px;
+	padding:2px 0px 0px 1.2%;
+	text-align:left;
+}
+.clienteE{
+	float:left;
+	width:125px;
+	height:92px;
+	color:#2b2a2a;
+	padding:5px;
+}
+.puntos{
+	font-family: arial,sans-serif;
+	font-weight:bold;
+	font-size:10.5px;
+	color:#395468;
+	font-weight:bold;
+	padding:2px 0px 0px 0px;
+}
+
+.Titpuntos{
+	font-family: arial,sans-serif;
+	font-size:12.5px;
+	color:#395468;
+	font-weight:bold;
+	height:20px;
+	padding:2px 0px 0px 0px;
+	text-align:center;
+}
+
+.stVerde{
+	font-family:Arial Narrow,sans-serif;
+	font-weight:bold;
+	color:#390;
+	font-size:11px;
+	top:-1px;
+	position: relative;
+}
+.stRojo{
+	font-family:Arial Narrow,sans-serif;
+	font-weight:bold;
+	color:#C00;
+	font-size:11px;
+	top:-1px;
+	position: relative;
+}
+.stAgua{
+	font-family:Arial Narrow,sans-serif;
+	font-weight:bold;
+	color:#39C;
+}
+.stAmarillo{
+	font-family:Arial Narrow,sans-serif;
+	font-weight:bold;
+	color:#C90;
+	width:270px;
+	font-size:11px;
+}
+.estatus{
+	color:#236009;
+	font-weight:bold;
+}
+.Nombre{
+	top:6px;
+	left:100px;
+	font-size:12px;
+	font-weight:bold;
+	width: 100%;
+	height:30px;
+	color:#575656;
+	font-family: arial,sans-serif;
+	
+}
+.TxtMovimientos {
+	font-family:Arial Narrow,sans-serif;
+	font-size:10.5px;
+	overflow:hidden;
+}
+.TxtMovimientosDesc {
+	font-family:Arial Narrow,sans-serif;
+	font-size:10.5px;
+	overflow:hidden;
+	float: left;
+	width:200px;
+	
+}
+
+.TxtMovimientosVerde {
+	font-family:Arial Narrow,sans-serif;
+	font-size:10.5px;
+	color:#3e9112;
+	text-align:left;
+	overflow:hidden;
+}
+.TxtMovimientosRojo {
+	font-family:Arial Narrow,sans-serif;
+	font-size:10.5px;
+	color:#CD0000;
+	overflow:hidden;
+
+}
+.textDatos {
+	font-family:Arial,sans-serif;
+	font-size:10.5px;
+	font-weight:bold;
+}
+.lineaDatos {
+	font-family:Arial Narrow,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	height:17px;
+}
+.textVerde {
+	font-family:Arial,sans-serif;
+	font-size:10.5px;
+	color:#3e9112;
+	font-weight:bold;
+	
+}
+.textNegro {
+	font-family:Arial Narrow,sans-serif;
+	font-size:11px;
+	/*color:#000000;*/
+}
+
+.textGris{
+	font-family: arial, sans-serif;
+	color:#575656;
+	font-size:10.5px;
+	font-weight:bold;
+
+}
+.textNegros a {
+	font-family: arial, sans-serif;
+	font-size:9px;
+	font-weight:bold;
+}
+
+.textNegros  {
+	font-family: arial, sans-serif;
+	font-size:15px;
+}
+.campoCliente {
+	width:78px;
+	font-size:11px;
+	color:#666;
+}
+.columnaIzquierda{
+	background:#e2e2e2;
+	position: relative;
+	font-size:11px;
+	color:#3e3e3e;
+	width:100%;
+	text-align:left;
+	height:510px;
+}
+.columnaIzquierda table {
+	
+	
+	
+}
+.Mpuntos  {
+	max-width:60px;
+}
+.CajasDetalle {
+	width:96%;
+	height:9px;
+	border-spacing:0px; 
+} 
+.Bentitulo{
+	
+} 
+.StBeneficios{
+	
+	top:5000px;
+	left: 19px;
+	width:50px;
+	height:0;	
+	list-style:none;
+	margin:0px;
+	text-align:left;
+	
+}
+.PaginaridClienteBen {
+	position:absolute;
+	top:-19px;
+	left: 19px;
+	width:50px;
+	height:0;	
+	list-style:none;
+	margin:0px;
+	margin-left:110px;
+	display:none;
+}
+
+
+.fondotit{
+background-image : url(/ElektraFront/imagenes/tit_beneficios.png);
+}
+#idPn1Beneficios{
+	display:none;
+}
+#idPn2Beneficios{
+	display:none;
+}
+#idPn3Beneficios{
+	display:none;
+}
+#idPn4Beneficios{
+	display:none;
+}
+#idPn5Beneficios{
+	display:none;
+}
+#idPn6Beneficios{
+	display:none;
+}
+#idPn7Beneficios{
+	display:none;
+}
+#oculta{
+	display:none;
+}
+.TablePagin{
+	position:relative;
+	cursor:pointer;
+	overflow:hidden;
+}
+.PaginaridClienteBen li{
+	padding:34px;
+	float:right;
+	margin:0px;
+	margin-left:0px;
+}
+td .contenedoridClienteBen {
+	width:570px;
+	font-size:16px;
+}
+	
+.contenedoridClienteBen{
+	height:150px;
+	overflow:hidden;
+
+
+}
+
+
+
+table.movimientos{
+	/* width:50%;*/
+}
+.contenedorCreditos0{
+	font-style: normal;
+	font-size:16px;
+	width:375px;
+	height:33px;
+	overflow:hidden;
+
+}
+.contenedorCreditos1{
+	width:375px;
+	height:33px;
+	overflow:hidden;
+
+}
+.contenedorCreditos2{
+	/*width:345px;*/
+	width:375px;
+	height:33px;
+
+}
+.contenedorCreditos3{
+	font-family: arial, sans-serif;
+	width:375px;
+	height:33px;
+	overflow:hidden;
+}
+.contenedorCreditos4{
+	font-family: arial, sans-serif;
+	width:375px;
+	height:33px;
+	overflow:hidden;
+
+}
+.contenedorCreditos5{
+	font-family: arial, sans-serif;
+	width:375px;
+	height:33px;
+	overflow:hidden;
+
+
+}
+.listaMovimientos {  
+	padding:0;   
+	list-style-type:none;  
+}
+.cajaBlanca{
+	width:97%;
+	height:50px;
+	background: #FFF;
+	/*border:1px solid #14CDFC;*/
+	font-size:12px;
+	padding:3px;
+	
+}
+.cajaBlancaback{
+	
+	
+}
+
+
+
+.cajaBlancaG{
+	width:97%;
+	height:56px;
+	background: #FFF;
+	font-size:10px;
+	padding:3px;
+}
+
+.cajaAzul{
+	width:183px;
+	height:76px;
+	background-image:url(/ElektraFront/imagenes/contenedor_azul.png);
+	border:none;
+	font-size:10px;
+	padding:3px;
+}
+.titCajaBlanca{
+	font-size:12px;
+	font-weight:bold;
+	color:#065a88;
+}
+.titCajaBen{
+	font-family:Arial Narrow,sans-serif;
+	font-size:11px;
+	color:#065a88;
+	font-weight:bold;
+	float:left;
+}
+.textGris{
+	color:#ADADAD;
+}
+.beneficios{
+	text-align:left;
+}
+.movimientosTitVerde{
+	font-size:12px;
+	background:#e4e6e9;
+	color:#390;
+	font-weight:bold;
+}
+
+
+.movimientosTotales {
+	font-family:Arial,sans-serif;
+	font-size:10px;
+	color:#390;
+	font-weight:bold;
+	width:43px;
+}
+
+.MovFecha{
+	font-family:Arial Narrow,sans-serif;
+	font-size:11px;
+	width:55px;
+	border:#FFF solid 1px;
+	text-align:center;
+	
+}
+
+.MovMonto{
+	font-family:Arial Narrow,sans-serif;
+	font-size:11px;
+	width:45px;
+	border-top:#FFF solid 1px;
+	border-right:#FFF solid 1px;
+	border-bottom:#FFF solid 1px;
+	text-align:center;
+	
+}
+
+.MovBonif{
+	font-family:Arial Narrow,sans-serif;
+	width:70px;
+	font-size:11px;
+	border-top:#FFF solid 1px;
+	border-right:#FFF solid 1px;
+	border-bottom:#FFF solid 1px;
+	text-align:center;
+	
+}
+
+
+.movimientos td a{
+	color:gray;
+	text-decoration:none;
+}
+.movimientos .fecha{
+	color:#124f7f;
+}
+.movimientosSub{
+	font-weight:bold;
+	background-color:#f1f2f4;
+	padding-left:11px;
+	height:16px;
+}
+#StBeneficios a img{
+	cursor:pointer;
+	top:9px;
+}
+#StBeneficios1 img {
+	cursor:pointer;
+	top:9px;
+}
+#MasBeneficios img {
+	cursor:pointer;
+	position:relative;
+	top:12px;
+	left:-25px;
+} 
+#SemaforoPMayores{
+	cursor:pointer;
+}
+#SemaforoPMenores{
+	cursor:pointer;
+}
+#SemaforoConsumo{
+	cursor:pointer;
+}
+#SemaforoTAZ{
+	cursor:pointer;
+}
+#SemaforoCaptacion{
+	cursor:pointer;
+}
+#SemaforoPMayores {
+	cursor:pointer;
+}
+#SemaforoChangarros{
+	cursor:pointer;
+}
+#SemaforoMicronegocios{
+	cursor:pointer;
+}
+
+#BeneLCR {
+	cursor:pointer;
+}
+.valor{
+	color:#419314;
+	text-align:left !important;
+}
+.prop span{
+	font-size:12px;
+	font-weight:bold;
+}
+.lc span{
+	display:block;
+	float:right;
+	font-size:10px;
+	margin-top:-12px;
+}
+
+.clienteD{
+	float:left;
+	width:100px;
+	height:80px;
+}
+.verde{
+	color:#3e9112;
+}
+.promoPanel{
+	margin:0;
+	padding:100px 0 0 0;
+	text-align:center;
+}
+#panelClienteReferencias{
+	width:100%;
+	height:600px;	
+}

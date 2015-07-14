@@ -1,0 +1,349 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+}
+
+ol{
+	padding:10px 30px 10px 30px;
+}
+
+body{
+	background:#d8dadc url(../imagenes/bgGeneral.jpg) top repeat-x;
+	
+}
+
+img{
+	border:0;
+}
+
+#encabezado{
+	padding:7px 10px 0 10px;
+	color:#515151;
+	height:33px;
+	margin-bottom:10px;
+}
+
+#encabezado h1{
+	float:right;
+	font-weight:normal;
+	font-size:24px;
+	margin:0;
+}
+
+#contenedor{
+	padding:5px;
+}
+
+#companias{
+	background:url(../imagenes/bgCompanias.png) top repeat-x;
+	width:140px;
+	float:left;
+	margin-top:-10px;
+	margin-left:30px;
+	padding-top:10px;
+}
+
+*html #companias{
+	margin-left:8px;
+}
+
+#companias ul, #companias li{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#companias li{
+	margin-left:-6px;
+}
+
+.cajaContenido{	
+	margin-bottom:4px;
+}
+
+.cajaContenido .izq{
+	background:url(../imagenes/bgIzq.png)left repeat-y;
+	padding-left:7px;
+	padding-right:7px;
+}
+
+.cajaContenido .sup{
+	background:url(../imagenes/bgSup.png) top repeat-x;
+	height:1px;
+}
+
+.cajaContenido .inf{
+	background:url(../imagenes/bgInf.png) top repeat-x;
+	height:15px;
+}
+
+.cajaContenido .Contenido{
+	background:#fff url(../imagenes/bgCaja.png) top repeat-x;
+	padding-bottom:1px;
+}
+
+.cajaContenido .Contenido table{
+	margin:5px 0px 0px 5px;
+	font-size:14px;
+	color:#797979;
+}
+
+.cajaContenido .Contenido p{
+	margin:5px 10px 0 10px;
+	font-size:12px;
+	color:#797979;
+}
+
+.cajaContenido .Contenido h4{
+	margin:0 10px 0 10px;
+	font-size:12px;
+	color:#797979;
+}
+
+.cajaContenido .Contenido .datos{
+	background:#FFF url(../imagenes/bgTab.png) top repeat-x;
+}
+
+.cajaContenido .Contenido .datos td{
+	font-size:12px;
+	text-align:center;
+	padding:3px
+}
+
+.cajaContenido .Contenido h6{
+	background:url(../imagenes/bgModelo.gif) top left no-repeat;
+	display:block;
+	width:148px;
+	height:35px;
+	text-align:right;
+	padding:5px 20px 0 0 ;
+	position:relative; 
+}
+
+.cajaContenido .Contenido h2{
+	font-size:17px;
+	font-weight:normal;
+	display:block;
+	padding:10px 0 0 15px;
+}
+
+.cajaContenido .Contenido .tipoPago{
+	font-size:12px;
+	color:#6f6f6f;
+	margin:5px 0 0 15px;
+}
+
+.cajaContenido .Contenido .CajaTipoPago{
+	background:#ededed;
+	text-align:center;
+	padding:10px;
+	margin:15px;
+}
+
+.cajaContenido .Contenido .datos .obscuro{
+	background:url(../imagenes/bgTd.png) repeat-x;
+	height:20px;
+	padding:0 5px 0 5px;
+}
+
+.cajaContenido .Contenido .datos a{
+	color:#333333;
+}
+
+.cajaContenido .Contenido th{
+	text-transform:uppercase;
+	font-size:10px;
+	color:#666666;
+	font-weight:normal;
+	height:20px;
+	padding:3px 5px 3px 5px;
+}
+
+.bandera{
+	position:absolute;
+	margin:-23px 0 0 -7px;
+	float:left;
+}
+
+.campo01, .campo02, .campo03, .campo04{
+	border:none;
+	text-transform:uppercase;
+	font-size:11px;
+	color:#808285;
+	padding:7px 0 0 10px;
+	height:22px;
+}
+
+.campo01{
+	background:url(../imagenes/bgCampo01.gif) center no-repeat;
+	width:144px;
+}
+
+.campo02{
+	background:url(../imagenes/bgCampo02.gif) center no-repeat;
+	width:64px;
+}
+
+.campo03{
+	background:url(../imagenes/bgCampo03.gif) center no-repeat;
+	width:94px;
+}
+
+.campo04{
+	background:url(../imagenes/bgCampo04.gif) center no-repeat;
+	width:174px;
+}
+
+.boton{
+	background:url(../imagenes/btnAgregar.gif) center no-repeat;
+	height:26px;
+	width:83px;
+	border:none;
+	cursor:pointer;
+}
+
+.boton01{
+	background:url(../imagenes/btnBuscar.gif) center no-repeat;
+	height:2px;
+	width:74px;
+	border:none;
+	cursor:pointer;
+}
+
+.celCatalogo{
+	float:left;
+	font-size:10px;
+	font-weight:bold;
+	margin:0 20px 0 10px;
+	position:relative;
+}
+
+*html .celCatalogo{
+	margin:0 0px 0 0px;
+}
+
+.celCatalogo h2{
+	font-size:14px;
+	text-align:center;
+}
+
+.celCatalogo .modelo{
+	font-size:14px;
+	text-align:center;
+	color:#646262;
+	font-weight:normal;
+}
+
+.celCatalogo .precio{
+	background:url(../imagenes/bgPrecioCat.gif) no-repeat;
+	font-size:22px;
+	font-weight:bold;
+	color:#FFF;
+	width:120px;
+	height:46px;
+	margin:-30px 0 0 14px;
+	position:fixed;
+	padding:20px 0 0 30px;
+}
+
+.celCatalogo .precio span{
+	color:#000;
+	font-size:10px;
+}
+
+.izquierda{
+	float:left;
+}
+
+.derecha{
+	float:right;
+}
+
+
+.tipoCel{
+	font-size:14px;
+	color:#666666;
+	text-align:center;
+	font-weight:bold;
+	margin-top:15px;
+}
+
+.total{
+	font-size:12px;
+	color:#636363;
+	font-weight:bold;
+	margin-top:20px;
+}
+
+.total p{
+	margin:0px;
+}
+
+.total .cantidad{
+	background:url(../imagenes/bgTotal.gif) top left no-repeat;
+	color:#FFF;
+	font-size:30px;
+	display:block;
+	width:139px;
+	height:49px;
+	padding:5px 0 0 40px;
+	margin:0 0 0 -15px;
+}
+
+.accesorios{
+	background:url(../imagenes/bgAccesorios.gif) top left no-repeat;
+	width:210px;
+	height:121px;
+	font-size:10px;
+	overflow:auto;
+	padding:10px 25px 10px 10px;
+	margin:0 0 2px 5px;
+	color:#6c6c6c;
+	float:left;
+}
+
+.accesorios div{
+	width:100px;
+}
+
+.accesorios h4{
+	margin:5px 0 15px 0;
+	font-size:12px;
+	color:#000;
+}
+
+.accesorios p{
+	margin:0 0 1px 0;
+}
+
+.accesorios .precio{
+	color:#12a912;
+	font-size:24px;
+	font-weight:bold;
+}
+
+.accesorios span{
+	color:#12a912;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.iconos{
+	border:#CCC solid 1px;
+	margin:-30px 0 0 23px!important;
+}
+
+.paginador{
+	text-align:center;
+	clear:both;
+	padding-top:30px;
+}
+
+*html .paginador{
+	padding-top:0px;
+	margin-top:-15px;
+}

@@ -1,0 +1,644 @@
+/*estilos para c3 nuevo producto*/
+body {
+	font-family: helvetica, tahoma, arial;
+	font-size: 12px;
+}
+
+img {
+	border: none;
+}
+
+h2 {
+	color: #6D0502;
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+
+form {
+	margin: 0;
+}
+
+.wrapper {
+	width: 760px;
+	margin: auto;
+}
+
+.header .inicio {
+	float: left;
+}
+
+.header {
+	height: 50px;
+}
+
+.header .options {
+	float: right;
+	margin-left: 20px;
+}
+
+.header .navigation {
+	margin-top: 6px;
+	float: right;
+	margin-left: 20px;
+}
+
+.header .options .btnCarrito {
+	float: left;
+	margin-top: 4px;
+}
+
+.buyData {
+	font-size: 10px;
+}
+
+.buyData th {
+	text-align: left;
+	color: #140066;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.buyData td {
+	text-align: right;
+}
+
+.RedBox {
+	margin-top: 2em;
+}
+
+.RedBox h2 {
+	font-family: "Myriad Pro", helvetica, tahoma, arial;
+	background: url(/ElektraFront/imagenes/bgBarraGrande.png) top left no-repeat;
+	color: white;
+	font-size: 17px;
+	margin: 0;
+}
+
+.RedBox h2 span {
+	display: block;
+	padding: 8px 5px;
+	background: url(/ElektraFront/imagenes/bgBarraGrande.png) top right no-repeat;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.RedBox .RBBody {
+	border: #B95B5A solid 1px;
+	padding: 1em;
+}
+
+.RedBoxMin {
+	margin-top: 2em;
+}
+
+.RedBoxMin h3 {
+	font-family: "Myriad Pro", helvetica, tahoma, arial;
+	background: url(/ElektraFront/imagenes/bgBarraChica.png) top left no-repeat;
+	color: white;
+	font-size: 14px;
+	margin: 0;
+}
+
+.RedBoxMin h3 span {
+	display: block;
+	padding: 3px 5px;
+	background: url(/ElektraFront/imagenes/bgBarraChica.png) top right no-repeat;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.RedBoxMin .RBBody {
+	border: #B95B5A solid 1px;
+	padding: 1em;
+}
+
+.datagrid {
+	width: 100%;
+	font-size: 12px;
+}
+
+.datagrid .first {
+	border-left: #CCCCCC solid 2px;
+}
+
+.datagrid th {
+	border-bottom: #CCCCCC solid 2px;
+}
+
+.datagrid td {
+	border-bottom: #CCCCCC solid 2px;
+	border-right: #CCCCCC solid 2px;
+	text-align: center;
+	padding: 4px;
+	background: #F4F4F4;
+}
+
+.actions {
+	text-align: right;
+	padding: 1em 0 0 0;
+}
+
+.inputButton {
+	background: transparent url(/ElektraFront/imagenes/bgButton.gif) left no-repeat;
+	padding-left: 5px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.inputButton input {
+	background: transparent url(/ElektraFront/imagenes/bgButton.gif) right no-repeat;
+	border: none;
+	padding: 3px 15px 3px 10px;
+	margin: 0;
+	cursor: pointer;
+}
+
+.w500 {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.statusBar {
+	width: 500px;
+	text-align: center;
+	color: #A3A3A3;
+	font-size: 11px;
+	margin: 2em auto;
+}
+
+.statusBar table {
+	margin: auto;
+}
+
+.statusBar table td {
+	width: 20%;
+	padding: 1px 10px;
+}
+
+.statusBar .sep {
+	border-right: #6D0502 solid 1px;
+}
+
+.statusBar .completed {
+	background: transparent url(/ElektraFront/imagenes/statComplete.gif) center no-repeat;
+	height: 15px;
+}
+
+.statusBar .incomplete {
+	background: transparent url(/ElektraFront/imagenes/statIncomplete.gif) center
+		no-repeat;
+	height: 15px;
+}
+
+.statusBar .first {
+	background-position: left;
+}
+
+.statusBar .last {
+	background-position: right;
+}
+
+.tabPanel .TPtabs {
+	border-bottom: #9C0D06 solid 10px;
+	height: 20px;
+	overflow: hidden;
+}
+
+.tabPanel .TPtabs div {
+	float: left;
+	padding-left: 10px;
+	background: url(/ElektraFront/imagenes/tabUnselected.gif) top left no-repeat;
+	margin-right: 1px;
+	text-transform: uppercase;
+}
+
+.tabPanel .TPtabs div span {
+	display: block;
+	padding: 5px 10px 0px 0;
+	background: url(/ElektraFront/imagenes/tabUnselected.gif) top right no-repeat;
+	color: white;
+	text-align: center;
+	width: 120px;
+}
+
+.tabPanel .TPtabs .selected,.tabPanel .TPtabs .selected span {
+	background-image: url(/ElektraFront/imagenes/tabSelected.gif);
+}
+
+.tabPanel .TPcontPanel {
+	border: #B95B5A solid 1px;
+}
+
+.tabPanel .TPFoot {
+	background: url(/ElektraFront/imagenes/bgTabPanelFooter.gif) bottom left no-repeat;
+	padding-left: 10px;
+	margin-top: 1px;
+}
+
+.tabPanel .TPFb {
+	background: url(/ElektraFront/imagenes/bgTabPanelFooter.gif) bottom right no-repeat;
+	padding: 2px 0;
+	font-size: 16px;
+	color: white;
+}
+
+.marked {
+	background: #E3E3E3;
+	padding: 0.5em;
+	margin: 1px;
+	color: #9C0D06;
+}
+
+.list1 {
+	padding: 10px 10px 10px 30px;
+	margin: 0;
+}
+
+.list1 li {
+	list-style-image: url(/ElektraFront/imagenes/bullet.gif);
+	margin-bottom: 5px;
+}
+
+.centrado {
+	text-align: center;
+}
+
+.redNote {
+	color: #9C0D06;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.BlackBox {
+	margin: auto;
+	border: black solid 1px;
+	padding: 15px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.BlackBox b {
+	color: #9C0D06;
+}
+
+.mainNavigation {
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+
+.mainNavigation img {
+	margin-right: 2px;
+}
+
+.breadCrumbs {
+	background: #666666;
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+	margin-right: 2px;
+}
+
+.noMargin {
+	margin-top: 0;
+}
+
+.propertyTable {
+	width: 100%;
+}
+
+.propertyTable th {
+	background: #E6E6E6;
+	margin: 2px;
+	text-align: center;
+	padding: 4px;
+}
+
+.propertyTable th b {
+	color: #9C0D06;
+}
+
+.m20 {
+	margin-right: 20px;
+}
+
+.scrollPanel200 {
+	height: 200px;
+	overflow: auto;
+}
+
+.general
+{
+	width: 735px;
+	height: 425px;
+	overflow: auto;	
+}
+
+.promos h3 {
+	color: white;
+	padding: 4px 6px;
+	margin: 0;
+}
+
+.promos h3 img {
+	float: right;
+	margin-top: -26px;
+	margin-right: 4px;
+}
+
+.promoList {
+	margin: 0;
+	padding: 0;
+	border-right: #ccc solid 1px;
+	margin-bottom: 10px;
+	
+}
+
+.promoList li {
+	display: block;
+	border-bottom: #ccc solid 1px;
+	overflow: hidden;
+	padding:20px 10px ;
+	color: #666;
+	position: relative;
+	margin:0;
+	width: 706px;
+	list-style: none;
+}
+
+.promoList li .foto {
+	display: block;
+	float: left;
+	height: 100px;
+	margin: 0 10px;
+}
+
+.tdprodRegalos {
+border-right-width: 1px;
+border-right-style: solid;
+border-right-color: #ccc;
+font-family: helvetica, tahoma, arial;
+font-size:12px;
+}
+
+.tdprodMitaYmira {
+border-right-width: 1px;
+border-right-style: solid;
+border-right-color: #ccc;
+font-family: helvetica, tahoma, arial;
+font-size:12px;
+}
+
+.promoList li .fotoMini {
+	display: block;
+	float: left;
+	height: 70px;
+	margin: 0 10px;
+}
+
+.promoList li .fotoReducida {
+	display: block;
+	float: left;
+	height: 35px;
+	margin: 0 10px;
+}	
+
+.promoList li h4 {
+	font-size: 21px;
+	color: #333;
+	margin: 3px;
+	margin-bottom: 10px;
+}
+
+.promoList li h4 span {
+	color: red;
+}
+
+.promoList li .PlazoEtiquetado {
+	float:right;	
+	margin-top:-50px;
+	right: 20px;
+	width: 400px;
+	text-align: right;
+	
+}
+
+.promoList li div table .PlazoEtiquetado {
+	float:right;	
+	margin-top:-50px;
+	right: 20px;
+	width: 400px;
+	color:#777;
+	text-align: right;
+	
+}
+
+.promoList li .plazoMitaYMita {
+	float:right;	
+	margin-top:-50px;
+	right: 20px;
+	width: 400px;
+	text-align: right;
+	
+}
+
+.promoList li div table .plazoMitaYMita {
+	float:right;	
+	margin-top:-50px;
+	right: 20px;
+	width: 400px;
+	color:#777;
+	text-align: right;
+	
+}
+
+.promoList li .chaz {
+	font-size: 15px;
+}
+
+.promoList li .pnormal {
+	padding-top: 10px;
+	font-size: 17px;
+	font-weight: bold;
+	color: red;
+}
+
+.promoList li .ppuntual {
+	padding-top: 10px;
+	font-size: 17px;
+	font-weight: bold;
+	color: red;
+}
+
+.promoList li .ptotalplazopago {
+	padding-top: 10px;
+	font-size: 17px;
+	font-weight: bold;
+	color: red;
+}
+
+.promoList li .ppuntual b {
+	color: #777;
+}
+
+
+
+.icoInventario,.icoLiquidacion 
+{
+	
+	float: right;
+	clear: right;
+	width: 120px;
+}
+
+.icoInventario img,.icoLiquidacion img {
+	vertical-align: middle;
+}
+
+.icoInventario {
+	margin-top: -50px;
+}
+
+.icoLiquidacion {
+	margin-top: -20px;
+}
+
+.tloMasVendido {
+	background: #00BEF3;
+}
+
+.loMasVendido {
+	border-left: #00BEF3 solid 7px;
+}
+
+.t_100_omenos {
+	background: #EFA800;
+}
+
+.s_100_omenos {
+	border-left: #EFA800 solid 7px;
+	border-bottom: #EFA800 solid 1px;
+}
+
+.tmeses_sin_intereses {
+	background: #D19275;
+}
+
+.smeses_sin_intereses {
+	border-left: #D19275 solid 7px;
+	border-bottom: #D19275 solid 1px;
+}
+
+.tmonedero {
+	background: #FF2600;
+}
+
+.monedero {
+	border-left: #FF2600 solid 7px;
+	border-bottom: #FF2600 solid 1px;
+}
+
+.tcreadito_contado {
+	background: #00BA63;
+}
+
+.creadito_contado {
+	border-left: #00BA63 solid 7px;
+	border-bottom: #00BA63 solid 1px;
+}
+
+.paquetepagochas {
+	color:#777;
+}
+
+.tmitaymita {
+	background: #CD335F;
+}
+
+.mitaymita {
+	border-left: #CD335F solid 7px;
+	border-bottom: #CD335F solid 1px;
+}
+
+.tliquidacion {
+	background: #CD665F;
+}
+
+.liquidacion {
+	border-left: #CD665F solid 7px;
+	border-bottom: #CD665F solid 1px;
+}
+
+.tpaquetes {
+	background: #9966FF;
+}
+
+.paquetes {
+	border-left: #9966FF solid 7px;
+	border-bottom: #9966FF solid 1px;
+}
+
+.tregalos {
+	background: #66CC99;
+}
+
+.regalos {
+	border-left: #66CC99 solid 7px;
+	border-bottom: #66CC99 solid 1px;
+}
+
+.tpreciosimbatibles {
+	background: #99EEFF;
+}
+
+.precios_imbatibles {
+	border-left: #99EEFF solid 7px;
+	border-bottom: #99EEFF solid 1px;
+}
+
+.tdesconton {
+	background: #FFEECC;
+}
+
+.desconton {
+	border-left: #FFEECC solid 7px;
+	border-bottom: #FFEECC solid 1px;
+}
+
+.tflete_gratis {
+	background: #99AEFE;
+}
+
+.flete_gratis {
+	border-left: #99AEFE solid 7px;
+	border-bottom: #99AEFE solid 1px;
+}
+
+.menuPromos{
+	background: url(/ElektraFront/imagenes/menuBg.gif);
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	height: 23px;
+	border: #6d1111 solid 1px;
+}
+.menuPromos li{
+	display: block;
+	float:left;
+	
+	border-left: gray solid 1px;
+}
+.menuPromos li a{
+	background: url(/ElektraFront/imagenes/menuBg.gif);
+	display:block;
+	color:white;
+	text-decoration: none;
+	font-size: 12px;
+	width: 80px;
+	padding:7px 0;
+	font-weight: bold;
+}
+.menuPromos li a:hover{
+	background: url(/ElektraFront/imagenes/menuBgOn.gif);
+}

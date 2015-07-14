@@ -1,0 +1,546 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+}
+
+body{
+	background:#d8dadc url(../imagenes/bgGeneral.jpg) top repeat-x;
+	
+}
+
+img{
+	border:0;
+}
+
+#encabezado{
+	padding:7px 10px 0 10px;
+	color:#515151;
+	height:33px;
+	margin-bottom:10px;
+}
+
+#encabezado h1{
+	float:right;
+	font-weight:normal;
+	font-size:24px;
+	margin:0;
+}
+
+#contenedor{
+	padding:5px;
+}
+
+#companias{
+	background:url(../imagenes/bgCompanias.png) top repeat-x;
+	width:140px;
+	float:left;
+	margin-top:-10px;
+	margin-left:30px;
+	padding-top:10px;
+}
+
+*html #companias{
+	margin-left:8px;
+}
+
+#companias ul, #companias li{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#companias li{
+	margin-left:-6px;
+}
+
+.cajaContenido{
+	background:url(../imagenes/bgDer.png) right repeat-y; 
+	margin-bottom:10px;
+}
+
+.cajaContenido .izq{
+	background:url(../imagenes/bgIzq.png)left repeat-y;
+	padding-left:7px;
+	padding-right:7px;
+}
+
+.cajaContenido .sup{
+	background:url(../imagenes/bgSup.png) top repeat-x;
+	height:15px;
+}
+
+.cajaContenido .inf{
+	background:url(../imagenes/bgInf.png) top repeat-x;
+	height:15px;
+}
+
+.cajaContenido .Contenido{
+	background:#fff url(../imagenes/bgCaja.png) top repeat-x;
+	padding-bottom:1px;
+}
+
+.cajaContenido .Contenido table{
+	margin:5px 5px 0 5px;
+}
+
+.cajaContenido .Contenido .datos{
+	background:#FFF url(../imagenes/bgTab.png) top repeat-x;
+}
+
+.cajaContenido .Contenido .datos td{
+	font-size:12px;
+	text-align:center;
+	padding:3px
+}
+
+.cajaContenido .Contenido h3{
+	background:url(../imagenes/bgModelo.gif) top left no-repeat;
+	display:block;
+	width:128px;
+	height:35px;
+	text-align:right;
+	padding:5px 20px 0 0 ;
+	position:relative; 
+}
+
+
+.cajaContenido .Contenido h4{
+	background:url(../imagenes/bgH4.gif) top left no-repeat;
+	display:block;
+	width:170px;
+	height:35px;
+	padding:5px 10px 0 10px ;
+	margin-left:-6px;
+}
+
+.cajaContenido .Contenido h2{
+	font-size:17px;
+	font-weight:normal;
+	display:block;
+	padding:10px 0 0 15px;
+}
+
+.cajaContenido .Contenido .tipoPago{
+	font-size:12px;
+	color:#6f6f6f;
+	margin:5px 0 0 15px;
+}
+
+.cajaContenido .Contenido .CajaTipoPago{
+	background:#ededed;
+	text-align:center;
+	padding:10px;
+	margin:15px;
+}
+
+.cajaContenido .Contenido .datos .obscuro{
+	background:url(../imagenes/bgTd.png) repeat-x;
+	height:20px;
+	padding:0 5px 0 5px;
+}
+
+.cajaContenido .Contenido .datos a{
+	color:#333333;
+}
+
+.cajaContenido .Contenido th{
+	text-transform:uppercase;
+	font-size:10px;
+	color:#666666;
+	font-weight:normal;
+	height:20px;
+	padding:3px 5px 3px 5px;
+}
+
+.bandera{
+	position:absolute;
+	margin:-23px 0 0 -7px;
+}
+
+.campo01, .campo02, .campo03, .campo04{
+	border:none;
+	text-transform:uppercase;
+	font-size:11px;
+	color:#808285;
+	padding:7px 0 0 10px;
+	height:22px;
+}
+
+.campo01{
+	background:url(../imagenes/bgCampo01.gif) center no-repeat;
+	width:154px;
+}
+
+.campo02{
+	background:url(../imagenes/bgCampo02.gif) center no-repeat;
+	width:64px;
+}
+
+.campo03{
+	background:url(../imagenes/bgCampo03.gif) center no-repeat;
+	width:94px;
+}
+
+.campo04{
+	background:url(../imagenes/bgCampo04.gif) center no-repeat;
+	width:174px;
+}
+
+.boton{
+	background:url(../imagenes/btnAgregar.gif) center no-repeat;
+	height:26px;
+	width:83px;
+	border:none;
+	cursor:pointer;
+}
+
+.boton01{
+	background:url(../imagenes/btnBuscar.gif) center no-repeat;
+	height:2px;
+	width:74px;
+	border:none;
+	cursor:pointer;
+}
+
+.celCatalogo{
+	float:left;
+	font-size:10px;
+	font-weight:bold;
+	margin:0 20px 0 10px;
+	position:relative;
+}
+
+*html .celCatalogo{
+	margin:0 0px 0 0px;
+}
+
+.celCatalogo h2{
+	font-size:14px;
+	text-align:center;
+}
+
+.celCatalogo .modelo{
+	font-size:14px;
+	text-align:center;
+	color:#646262;
+	font-weight:normal;
+}
+
+.celCatalogo .precio{
+	background:url(../imagenes/bgPrecioCat.gif) no-repeat;
+	font-size:22px;
+	font-weight:bold;
+	color:#FFF;
+	width:120px;
+	height:46px;
+	margin:-30px 0 0 14px;
+	position:fixed;
+	padding:20px 0 0 30px;
+}
+
+.celCatalogo .precio span{
+	color:#000;
+	font-size:10px;
+}
+
+.izquierda{
+	float:left;
+}
+
+.derecha{
+	float:right;
+}
+
+
+.tipoCel{
+	font-size:14px;
+	color:#666666;
+	text-align:center;
+	font-weight:bold;
+	margin-top:15px;
+}
+
+.total{
+	font-size:12px;
+	color:#636363;
+	font-weight:bold;
+	margin-top:20px;
+}
+
+.total p{
+	margin:0px;
+}
+
+.total .cantidad{
+	background:url(../imagenes/bgTotal.gif) top left no-repeat;
+	color:#FFF;
+	font-size:30px;
+	display:block;
+	width:139px;
+	height:49px;
+	padding:5px 0 0 40px;
+	margin:0 0 0 -15px;
+}
+
+.accesorios{
+	background:url(../imagenes/bgAccesorios.gif) top left no-repeat;
+	width:210px;
+	height:121px;
+	font-size:10px;
+	overflow:auto;
+	padding:10px 25px 10px 10px;
+	margin:0 0 2px 5px;
+	color:#6c6c6c;
+	float:left;
+}
+
+.accesorios div{
+	width:100px;
+}
+
+.accesorios h5{
+	margin:5px 0 15px 0;
+	font-size:12px;
+	color:#000;
+}
+
+.accesorios p{
+	margin:0 0 1px 0;
+}
+
+.accesorios .precio{
+	color:#12a912;
+	font-size:24px;
+	font-weight:bold;
+}
+
+.accesorios span{
+	color:#12a912;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.iconos{
+	border:#CCC solid 1px;
+	margin:-30px 0 0 23px!important;
+}
+
+.paginador{
+	text-align:center;
+	clear:both;
+	padding-top:30px;
+}
+
+*html .paginador{
+	padding-top:0px;
+	margin-top:-15px;
+}
+
+.pestanaAccsesorio{
+	list-style:none;
+	float:right;
+	margin-top:-31px;
+	display:inline;
+}
+
+*html .pestanaAccsesorio{
+	position:relative;
+}
+
+.pestanaAccsesorio li{
+	background:url(../imagenes/bgPestanaDer.png) top right no-repeat;
+	display:block;
+	float:left;
+	list-style:none;
+	height:23px;
+	padding-right:10px;
+}
+
+.pestanaAccsesorio li a{
+	background:url(../imagenes/bgPestanaIzq.png) top left no-repeat;
+	display:block;
+	float:left;
+	height:15px;
+	font-size:11px;
+	text-decoration:none;
+	color:#808285;
+	padding:8px 0 0 15px;
+}
+
+.pestanaAccsesorio li a:hover, .pestanaAccsesorio li .activo{
+	color:#000;
+}
+
+.milenia{
+	background:url(../imagenes/bgAccesoriosGnl.gif) top left no-repeat;
+	width:220px;
+	height:126px;
+	font-size:10px;
+	overflow:auto;
+	padding:5px 25px 5px 5px;
+	margin:0 0 2px 5px;
+	color:#6C6C6C;
+	float:left;
+}
+
+.seguro p{
+	color:#FF7600;
+	font-size:11px;
+	text-align:right;
+}
+
+
+.milenia table{
+	float:right!important;
+	margin:-30px -10px 0 0 !important;
+}
+
+.seguro table{
+	float:right!important;
+	font-size:11px;
+}
+
+.milenia table th, .seguro table th{
+	font-size:11px;
+	text-transform:none!important;
+	font-weight:bold!important;
+	padding:0!important;
+}
+
+.milenia table td, .seguro table td{
+	text-align:center;
+	height:13px!important;
+	padding:0!important;
+}
+
+.milenia table td .radio, .seguro tabletd .radio{
+	margin:0!important;
+	padding:0!important;
+}
+
+.milenia table .verde, .seguro table .verde{
+	color:#12A912;
+	font-weight:bold;
+}
+
+
+.modalBloqueadorNegro{
+	position:absolute !important;
+	background:black;
+	width:100%;
+	clear:both;
+	top:0;
+	height:100%;
+	filter: alpha(opacity=50);
+	opacity:0.5;
+}
+
+.ventanaModal{
+	top:50px;
+	position:absolute !important;
+	background:#e6e6e6 url(../imagenes/fondoModal.png) top repeat-x;
+	width:500px;	
+	left:50%;
+	margin-left:-250px;
+	border-radius:7px;
+	box-shadow:0 1px 4px #333;
+}
+.contenidoModal{
+	text-align:center;
+
+}
+
+.contenidoModal h3{
+	font-size:26px;
+	font-weight:normal;
+	color:#ff7600;
+	margin-bottom:15px;
+}
+
+.contenidoModal h4{
+	font-size:20px;
+	font-weight:normal;
+	color:#797979;
+	margin-bottom:2px;
+	margin-top:15px;
+}
+
+.contenidoModal p{
+	font-size:13px;
+	font-weight:normal;
+	color:#797979;
+	margin-bottom:15px;
+}
+
+.modalContainer{
+	position:relative;
+	height:390px;
+}
+
+
+
+.CTL, .CTR, .CBL, .CBR{
+	display:block;
+	width:10px;
+	height:10px;
+	position: absolute;
+	font-size:1px;
+}
+
+.CTL{top:-10px; left:-10px; 
+	background:url(../imagenes/tl.png);
+	/*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='imagenes/tl.png', sizingMethod='scale');*/
+}
+.CTR{top:-10px; right:-10px;
+	background:url(../imagenes/tr.png);
+	/*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='imagenes/tr.png', sizingMethod='scale');*/
+}
+.CBL{bottom:-10px; left:-10px;
+	background:url(../imagenes/bl.png);
+	/*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='imagenes/bl.png', sizingMethod='scale');*/
+}
+.CBR{bottom:-10px; right:-10px;
+	background:url(../imagenes/br.png);
+	/*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='imagenes/br.png', sizingMethod='scale');*/
+}
+
+.CT, .CR, .CL, .CB{
+	
+	position:absolute;
+	width:3px;
+	
+	font-size:1px;
+}
+.CT{top:-10px;  width:100%; height:10px;
+	background:url(../imagenes/t.png);
+	/*ffilter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='imagenes/t.png', sizingMethod='scale');*/
+}
+.CR{top:0; right:-10px; bottom:0; width:10px; height:390px;
+	background:url(../imagenes/r.png);
+	/*ffilter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='imagenes/r.png', sizingMethod='scale');*/
+}
+.CL{top:0; left:-10px; bottom:0;  width:10px; height:390px;
+	background:url(../imagenes/l.png);
+	/*ffilter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='imagenes/l.png', sizingMethod='scale');*/
+}
+.CB{bottom:-10px; width:100%; height:10px;
+	background:url(../imagenes/b.png);
+	/*ffilter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='imagenes/b.png', sizingMethod='scale');*/
+}
+
+.cajaPasos{
+	width:480px;
+	height:92px;
+	background:url(../imagenes/pasosCaja.gif) no-repeat;
+	padding:20px;
+	margin:auto;
+	text-align:left;
+}
+
+.cajaPasos td{vertical-align:middle; height:28px;}
+.cajaPasos p{margin:0 0 0 5px;}
+.cajaPasos img{vertical-align:top;}

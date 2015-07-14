@@ -1,0 +1,70 @@
+﻿#muestraProducto .producto {
+	width: auto;
+	margin: 0px 0px 5px 0px;
+	height:auto;
+	overflow-y:scroll;
+	
+}
+
+#container
+{
+	margin-top:20px;
+	width:790px;
+	position:relative;
+	float:left;
+}
+
+ #flipbox
+{
+	width:50%;
+	position:static;
+	float:left;
+	/*margin-left:-35px;
+	height:500px;*/
+}
+
+#tablaotros
+{
+    position:static;
+}
+
+#contenedor {
+	width: 795px;
+	height:615px;
+}
+
+#contenido {
+	width: 790px;
+	height:610px;
+}
+
+.contenidoScrollPopup  {
+	width: 795px;
+	height:600px;
+	overflow: scroll;
+	overflow-x: scroll;
+}
+
+.contenido .contenidoScrollPopup {
+	width: 795px;
+	height:615px;
+}
+
+.contenidoDetalle
+{
+   
+    overflow: scroll;
+
+    
+}
+.tabNewDes
+{
+    width:98%;
+}
+
+#caracND
+{
+    
+    height:500px;
+}
+

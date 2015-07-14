@@ -1,0 +1,34 @@
+p{
+	text-align: center;
+	margin-top: 170px;
+}
+
+p table{
+	text-align: right;
+	font-weight: bold;
+}
+
+.divBody{
+	height: 600px;
+	width: 800px;
+	background: url(\ElektraFront\Imagenes\VentaTA\CuotaEmpleado\backTA-Cuotas.jpg);
+	background-repeat: no-repeat;
+}
+
+.BotonSalir{
+	vertical-align: bottom;
+	float: right;
+	margin-bottom: 50px;
+	margin-right: 80px;
+}
+
+.datos{
+	font-weight: normal;
+	text-align: left;
+}
+
+.datoCuota{
+	font-weight: bold;
+	color: #900000;
+	text-align: left;
+}

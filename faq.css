@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+.c_FAQ {
+
+}
+.c_FAQ h4 {
+	font-size: 18px;
+	font-weight: normal;
+	color: #333333;
+	margin: 0px 0px 5px 0px;
+}
+.c_FAQ p {
+	margin: 10px;
+}
+.c_FAQ .seccion {
+	border-bottom: solid #EEECEC 1px;
+}
+.c_FAQ .AccordionPanelContent h5,
+.c_FAQ .AccordionPanelContent p {
+	margin: 10px;
+}

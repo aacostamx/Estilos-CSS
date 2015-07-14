@@ -1,0 +1,28 @@
+#elDRAGOne 
+{
+	FONT-WEIGHT: bold; 
+	LEFT: 100px; 
+	WIDTH: 100px; 
+	CLIP: rect(0px 388px 245px 0px); 
+	COLOR: white; 
+	POSITION: absolute; 
+	TOP: 100px; 
+	BACKGROUND-COLOR: #ffffff; 
+	TEXT-ALIGN: center; 
+	layer-background-color: black;
+}
+BODY 
+{
+	MARGIN: 0px
+}
+
+html,body 
+{
+	overflow-y:hidden;
+}
+
+.CeldaTam,#CeldaTam
+{
+	width: 15px; 
+	height: 10px;
+}

@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  overflow:hidden;
+}
+
+
+.scrollTelSkus
+{
+	overflow-y:auto;
+	height:120px;
+	width: 392px;
+}
+
+#basedialogoElec{
+	width: 406px;
+	height: 264px;
+	background-image:url(../imagenes/VentaRapidaTelefonia/cajaEleccion.jpg);
+	background-repeat: no-repeat;
+}
+
+.base_textoT{
+	width: 405px;
+	height: 22px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:13px;
+	text-align:center;
+	padding-top:45px;
+	}
+.titulos
+{
+padding-top:5px;
+}
+
+#botonContElec{
+	width: 108px;
+	height: 22px;
+	margin:10px 0 0 147px;
+}
+
+
+/*TABLA*/
+
+.txtTituloCompaniaElec{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color: #fb7800;
+	text-align:center;
+	padding-top:10px;
+}
+.txtTituloSKUElec{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color: #fb7800;
+	text-align:center;
+	padding-top:10px;
+}
+
+.txtSkuElec{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	font-weight: lighter;
+	color: #000;
+	text-align: center;
+	padding-left:10px;
+}
+	
+	
+	
+
+
+
+
+

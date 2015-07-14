@@ -1,0 +1,53 @@
+.divME { 
+	OVERFLOW: auto; 
+	HEIGHT: 450px;
+}
+a{
+	text-decoration:none;
+	color:#EC7600;	
+	font-weight:bold;
+}
+
+#screenshot{
+		position:absolute;
+		border:2px solid #EC7600;
+		background:white;
+		padding:5px;
+		display:none;
+		}
+.tablaMotosRezagadas{
+	margin: 0 0 8 3px;
+	text-align:center;
+	padding: 0 0 4 0px;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width:100%;
+	height:200px;
+}
+
+.celdasMotosRezagadas2 {
+	padding: 4 8 4 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #E6E6E6;
+}
+
+.celdasMotosRezagadas1{
+	padding: 4 8 4 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #F4F4F4;
+}
+.tamanoTabla
+{
+	width: 100%;
+	/*margin: 0 0 8 3px;*/
+	margin: 10 10 10 10px;
+	border: 1px solid #A30505;
+	text-align:center;
+	/*padding: 0 0 4 0px;*/
+	padding: 2 2 2 2px;
+	/*width:780px;*/
+	/*height:400px;*/
+	height:100%;
+}

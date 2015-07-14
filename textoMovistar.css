@@ -1,0 +1,55 @@
+.textoPUM12 {
+	font-family: "Trebuchet MS";
+	font-size: 12 px;
+	font-style: normal;
+	line-height: normal;
+}
+.textoPUM13 {
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	font-style: normal;
+	line-height: normal;
+}
+.textoPUM13B {
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+}
+.textoPUM21B {
+	font-family: "Trebuchet MS";
+	font-size: 21px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+}
+.textoPUM13Resaltado {
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	font-style: normal;
+	line-height: normal;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #000000
+}
+.textoPUM10 {
+	font-family:"Trebuchet MS";
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	text-align: justify
+}
+.tablaAbonoPUM
+{
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	background-color: #CCCCCC;
+	border: 1px solid #000000;
+	font-style: normal;
+	line-height: normal;
+	background-attachment: fixed;
+	background-position: center center;
+}

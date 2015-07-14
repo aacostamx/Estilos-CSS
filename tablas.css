@@ -1,0 +1,402 @@
+@charset "utf-8";
+/* CSS Document */
+table.tablaCentrada,
+.tablaCentrada table,
+table.tablaCentradaVertCentrada,
+.tablaCentradaVertCentrada table {
+	margin: auto;
+}
+table.tablaCentrada img,
+.tablaCentrada table img,
+table.tablaCentradaVertCentrada img,
+.tablaCentradaVertCentrada table img {
+	margin: auto;
+	vertical-align: middle;
+}
+table.tablaCentradaVertCentrada td,
+.tablaCentradaVertCentrada td,
+td.tablaCentradaVertCentrada {
+	vertical-align: middle;
+}
+.tablaAncho5 {
+	width: 300px;
+}
+.tablaAncho4 {
+	width: 400px;
+}
+.tablaAncho3 {
+	width: 600px;
+}
+.tablaAncho2 {
+	width: 80%;
+}
+.tablaAncho1 {
+	width: 100%;
+}
+
+/*********Tabla sencilla**********/
+table.tablaCSSsimple {
+	border-collapse: collapse;
+	margin: 0px auto 5px auto;
+}
+table.tablaCSSsimple,
+.tablaCSSsimple td,
+.tablaCSSsimple th,
+.tablaCSSrenglones th,
+.tablaCSSrenglones td {
+	border: 1px solid #eeecec;
+	padding: 3px;
+	font-size: 10px;
+	color: #666666;
+	padding: 5px;
+}
+table.tablaCSSsimple table td,
+table.tablaCSSsimple table th {
+	border: none;
+}
+.tablaCSSsimple .tablaCSSTitulo td,
+.tablaCSSsimple .tablaCSSTitulo2 td,
+.tablaCSSsimple td.tablaCSSTitulo {
+	border: 1px solid #eeecec;
+	padding: 3px;
+}
+.tablaCSSsimple th,
+.tablaCSSTitulo,
+.tablaCSSTitulo td,
+.tablaCSSTitulo2,
+.tablaCSSTitulo2 td {
+	color: #333333;
+	background-color: #eeecec;
+	font-weight: bold;
+	text-align: center;
+}
+.tablaCSSTitulo2,
+.tablaCSSTitulo2 td {
+	background-color: #ffffff;
+}
+.tablaCSSsimple .tablaCSSsimple .tablaCSSTitulo2 td div,
+.tablaCSSsimple td.tablaCSSTitulo div {
+	border: none;
+}
+.tablaCSSsimple .tablaRenglonResaltado{
+	background-color: #F0F0F0;
+}
+.seccion .tablaCSSsimple,
+.seccion .tablaCSSsimple td,
+.seccion .tablaCSSsimple th{
+	border:none;
+}
+
+/***********************************/
+.tablaCSSsimpleVentaBoletos {
+	border: none;
+	text-align: center;
+	background-image: url(/ElektraFront/imagenes/VentaBoletos/fondoControl.gif);
+	width: 400px;
+	background-repeat: no-repeat;
+}
+.TablaIngresos,
+.TablaIngresos th,
+.TablaIngresos td{
+	margin: 0px auto 5px auto;
+	border: 1px solid #eeecec;
+	text-align: center;
+	color: #000000;
+}
+.TablaIngresos td{
+	padding: 10px;
+}
+.TablaIngresos th {
+	background-color: #EEECEC;
+	font-weight:bold;
+	padding: 5px;
+}
+
+/*********Tabla sencilla con renglones**********/
+.tablaCSSrenglones,
+table.tablaCSSrenglones {
+	border-collapse: collapse;
+	margin: 0px auto 5px auto;
+	vertical-align:middle;
+}
+.tablaCSSrenglones th {
+	color: #333333;
+	background-color: #EEECEC;
+	border-bottom: solid #FFFFFF 1px;
+}
+.tablaCSSrenglones th,
+.tablaCSSrenglones td {
+	padding: 3px 6px;
+}
+.tablaCSSrenglones td {
+	border-collapse: collapse;
+	border: none;
+	border-bottom: 1px solid #cacaca;
+	vertical-align: middle;
+	height: 25px;
+}
+.tablaCSSrenglones .tablaCSSTitulo td,
+.tablaCSSrenglones .tablaCSSTitulo2 td,
+.tablaCSSrenglones td.tablaCSSTitulo {
+	border: 1px solid #eeecec;
+}
+.tablaCSSrenglones .tablaCSSTitulo td div,
+.tablaCSSrenglones .tablaCSSTitulo2 td div,
+.tablaCSSrenglones td.tablaCSSTitulo div,
+.tablaCSSrenglones table td {
+	border: none;
+}
+.tablaCSSrenglones img {
+	vertical-align: middle;
+	margin: 1px 2px 1px 0px
+}
+/*********Tabla sencilla con columnas**********/
+.tablaCSScolumnas, 
+.tablaCSScolumnas table.tablaCSScolumnas {
+	margin: 0px auto 5px auto;
+	border-collapse: collapse;
+}
+.tablaCSScolumnas td,
+.tablaCSScolumnas tr {
+	padding: 8px;
+	border-left: solid #eeecec 1px;
+	border-right: solid #eeecec 1px;
+	color: #333333;
+}
+.tablaCSScolumnas th {
+	background-color: #EEECEC;
+	border-left: solid #FFFFFF 1px;
+	border-right: solid #FFFFFF 1px;
+}
+table.tablaCSScolumnas table th,
+table.tablaCSScolumnas table td {
+	border-left: none;
+	border-right: none;
+}
+td.tablaCSScolumnasTdInicio {
+	border-left: none;
+}
+td.tablaCSScolumnasTdFinal {
+	border-right: none;
+}
+.tablaCSScolumnas .tablaCSSTitulo td,
+.tablaCSScolumnas .tablaCSSTitulo2 td,
+.tablaCSScolumnas td.tablaCSSTitulo,
+.tablaCSScolumnas td.tablaCSSTitulo2 {
+	border: 1px solid #eeecec;
+}
+.tablaCSScolumnas .tablaCSSTitulo td div,
+.tablaCSScolumnas .tablaCSSTitulo2 td div,
+.tablaCSScolumnas td.tablaCSSTitulo div,
+.tablaCSScolumnas td.tablaCSSTitulo2 div {
+	border: none;
+}
+
+/*********Tablas**********/
+.tabla3cols td {
+	width: 33%;
+}
+.tablaResaltadaCentrada,
+.tablaFormulario,
+.tablaBotones {
+	margin: 5px auto;
+}
+.tablaFormulario th,
+.tablaFormulario td,
+.tablaResaltadaCentrada td {
+	padding: 5px;
+	font-size: 10px;
+}
+.tablaResaltadaCentrada {
+	background-color: #EEECEC;
+}
+.tablaResaltadaCentrada h4 {
+	font-size: 16px;
+	color: #333333;
+	font-weight: bold;
+}
+.tablaResaltadaCentrada h5 {
+	font-size: 14px;
+	color: #333333;
+}
+.tablaBotones td {
+	padding: 5px 7px 5px 7px;
+	vertical-align: middle;
+}
+
+/*********Tabla Enfriamiento**********/
+
+.tablaEnfriamiento {
+	color: #333333;
+	padding: 2px;
+	margin: auto;
+	background: #ffffff;
+	border: 1px solid #DCDCDC;
+	font-size:10px;
+	text-align:center;
+}
+.tablaEnfriamiento td{
+	text-align:center;
+}
+.tablaEnfriamiento th{
+	background-color: #DCDCDC;
+	font-weight:bold;
+	font-size:11px;
+}
+.tablaEnfriamiento .tablaRenglonResaltado {
+	background-color: #F0F0F0;
+}
+/*********Tabla Enfriamiento**********/
+.tablaTd50pc {
+	width: 50%;
+}.tablaNoMargen {
+	margin: 0px;
+}
+.tablaNoMargen td {
+	padding: 0px;
+}
+.tablaComparativo {
+	margin: auto;
+	border-top: dotted #CCCCCC 1px;
+}
+.tablaComparativo th,
+.tablaComparativo td {
+	border-bottom: dotted #D5D5D5 1px;
+	text-align: left;
+	color: #666666;
+	padding: 2px;
+}
+.tablaComparativo th {
+}
+.tablaComparativo td {
+	font-size: 10px;
+}
+/**************************TABLA CALIFICACION Y ATRIBUTOS DE MUESTRA PRODUCTO*******************/
+.tablaCalificacion {
+	border: 1px solid #CCCCCC;
+}
+.tablaCalificacion th,
+.tablaCalificacion td {
+	border: 1px solid #eeecec;
+	padding: 2px 5px 2px 2px;
+	font-size: 9px;
+	color: #666666;
+	margin: 2px 2px 5px 0px;
+}
+.tablaAtributos {
+	width:100%;
+	/*margin: 2px auto 1px auto;*/
+}
+.tablaAtributos th {
+	padding: 0px;
+	font-size: 10px;
+	color: #666666;
+	padding: 5px;
+	text-align:left;
+}
+.tablaAtributos td {
+	border: dotted  1px #eeecec;
+	padding: 3px;
+	font-size: 10px;
+	color: #666666;
+	padding: 5px;
+	text-align:left;
+}
+.tablaAtributos .atributo {
+	width:60%;
+}
+.comparativo .tablaAtributos .atributo {
+	width:28%;
+}
+/********/
+.comparativo .tablaAtributos .atributoC {
+	width:28%;
+	text-align:center;
+}
+/********/
+.tablaAtributos .atributo img{
+	vertical-align:text-bottom;
+	margin-left: 2px;
+}
+.tablaAtributos .calificacion {
+	width:40%;
+	text-align:center;
+}
+.comparativo .tablaAtributos .calificacion {
+	width:24%;
+	text-align:center;
+}
+/********/
+.comparativo .tablaAtributos .calificacionC {
+	width:24%;
+	text-align:center;
+	vertical-align:middle;
+}
+/********/
+.tablaAtributos th.tituloAtributo {
+	font-size: 11px;
+	padding: 0px;
+	height: 20px;
+	color: #666666;
+	width:60%;
+	text-align: left;
+}
+.comparativo .tablaAtributos th.tituloAtributo {
+	width:28%;
+}
+.alinearAbajo{
+	vertical-align:text-bottom;
+}
+/**************************TABLA CALIFICACION Y ATRIBUTOS DE MUESTRA PRODUCTO SUGERIDO*******************/
+.tablaProductoSugerido {
+	width:100%;
+	/*margin: 2px auto 1px auto;*/
+}
+.tablaProductoSugerido th {
+	padding: 0px;
+	font-size: 10px;
+	color: #666666;
+	padding: 5px;
+	text-align:left;
+}
+.tablaProductoSugerido td {
+	border: dotted  1px #eeecec;
+	padding: 1px;
+	font-size: 10px;
+	color: #666666;
+	padding: 1px;
+	text-align:left;
+}
+
+.tablaProductoSugerido .atributo {
+	width:60%;
+}
+.comparativo .tablaProductoSugerido .atributo {
+	width:28%;
+}
+.tablaProductoSugerido .atributo img{
+	vertical-align:text-bottom;
+	margin-left: 2px;
+}
+.comparativo .tablaProductoSugerido .atributo {
+	width:28%;
+}
+.comparativo .tablaProductoSugerido .calificacion {
+	width:24%;
+	text-align:center;
+}
+.comparativo .tablaProductoSugerido th.tituloAtributo {
+	width:100%;
+}
+.tablaProductoSugerido .calificacion {
+	width:40%;
+	text-align:center;
+}
+.tablaProductoSugerido th.tituloAtributo {
+	font-size: 11px;
+	padding: 0px;
+	height: 20px;
+	color: #666666;
+	width:60%;
+	text-align: left;
+}

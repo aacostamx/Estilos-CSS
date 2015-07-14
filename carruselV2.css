@@ -1,0 +1,134 @@
+body {
+		font:80% Trebuchet MS, Arial, Helvetica, Sans-Serif;
+	}
+	
+	img{border:none;}
+	
+	.celCatalogo h3{
+	font-size:12px;
+	font-weight:600;
+	color:Gray;
+	text-align:center;
+	}
+			
+    /* image replacement */
+        .graphic, #prevBtn, #nextBtn, #slider1prev, #slider1next{
+            margin:0;
+            padding:0;
+            display:block;
+            overflow:hidden;
+            text-indent:-8000px;
+            }
+    /* // image replacement */
+			
+	#container
+	{
+		margin:0;
+		position:relative;
+		text-align:left;
+		width:620px;		
+		margin-bottom:2px;
+		margin-top:-12px;
+		}	
+	#header{
+		height:80px;
+		line-height:80px;
+		background:#5DC9E1;
+		color:#fff;
+		}				
+	#content{
+		position:relative;
+		}			
+
+/* Easy Slider */
+	
+	#slider ul, #slider li,
+	#slider2 ul, #slider2 li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	#slider2{margin-top:1em;}
+	#slider li, #slider2 li{ 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		width:775px;
+		height:241px;
+		overflow:hidden; 
+		}
+		#sliderAccesorios li{ 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		/*width:620px;*/
+		height:240px;
+		overflow:hidden; 
+		}	
+	#prevBtn, #nextBtn,
+	#slider1next, #slider1prev{ 
+		display:block;
+		width:30px;
+		height:77px;
+		position:absolute;
+		left:-30px;
+		top:71px;
+		z-index:1000;
+		}	
+	#nextBtn, #slider1next{ 
+		left:620px;
+		}														
+	#prevBtn a, #nextBtn a,
+	#slider1next a, #slider1prev a{  
+		display:block;
+		position:relative;
+		width:30px;
+		height:77px;
+		background:url(/ElektraFront/imagenes/btn_prev.gif) no-repeat 0 0;	
+		}	
+	#nextBtn a, #slider1next a{ 
+		background:url(/ElektraFront/imagenes/btn_next.gif) no-repeat 0 0;	
+		}	
+		
+	/* numeric controls */	
+
+	
+	ol#controls{
+	  margin-right: auto;
+	  margin-left: auto;
+	  float:right;
+	  padding:3;
+	  height:15px;
+	}
+	ol#controls li{
+		margin:0 10px 0 0; 
+		padding:3;
+		float:left;
+		list-style:none;
+		height:15px;
+		line-height:15px;
+		}
+	ol#controls li a
+	{
+	    background:url(/ElektraFront/imagenes/btnPagOff.gif) no-repeat 0 0;
+	    text-decoration:none;	
+	/*	float:left;
+		height:28px;
+		line-height:28px;
+		border:1px solid #ccc;
+		background:#DAF3F8;
+		color:#555;
+		padding:0 10px;
+		text-decoration:none;*/
+		}
+	ol#controls li.current a
+	{
+	    background:url(/ElektraFront/imagenes/btnPagOn.gif) no-repeat 0 0;
+	/*	background:#5DC9E1;
+		color:#fff;*/
+		}
+	ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
+	
+/* // Easy Slider */

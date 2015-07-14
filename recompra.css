@@ -1,0 +1,115 @@
+/* CSS Document */
+body {
+	font-size: 14px;
+	margin:0;
+	font-family: Arial, Helvetica, sans-serif;
+	background:url(../imagenes/TAZClienteRecompra/bgBody.gif) top no-repeat;
+	background-position:93% 1%;
+}
+h1{
+	float:left;
+	}
+	
+img{
+	border:none;
+	}
+	
+.user{
+	float:right;
+	width:20%;
+	margin:0;
+	height:38px;
+	padding-left:80px;
+	padding-top:6px;
+	color:#CCCCCC;
+	font-size:16px;
+	font-weight:normal;
+	margin-top:13px;
+	text-align:center;
+	}	
+.nav{
+	clear:left;
+	height:20px;
+	overflow:visible;
+	width:100%;
+	}
+h2{
+	background:url(../imagenes/TAZClienteRecompra/bgH2.gif) top no-repeat;
+	text-align:center;
+	margin:0;
+	padding:5px;
+	color:white;
+	font-weight:normal;
+	font-size:16px;
+	}
+.wrapper {
+	width:100%;
+	margin: auto;
+	padding-top:auto;
+}
+.cajaGris {
+	width: 100%;
+	background: url(../imagenes/TAZClienteRecompra/fondoModulo.gif) no-repeat;
+	background-position:303px 1px;
+	padding-top:20px;
+	padding-left:20px;
+	min-height:463px;
+}
+.modulo {
+	width: 761px;
+	font-size:12px;
+}
+.modulo .cuerpo {
+	border: #999999 solid 1px;
+	padding:5px 5px;
+}
+.modulo h3 {
+	background:url(../imagenes/TAZClienteRecompra/head0.gif) top no-repeat;
+	color: #FFFFFF;
+	padding: 5px 15px;
+	font-size: 16px;
+	margin-bottom: 0;
+	margin: 0;
+}
+.gris h3 {
+	background:url(../imagenes/TAZClienteRecompra/head1.gif) top no-repeat;
+	margin-top:6px;
+}
+.gris h4 {
+	background: url(../imagenes/TAZClienteRecompra/head2.gif) top repeat-x;
+	color: #FFFFFF;
+	padding: 4px 15px;
+	font-size: 16px;
+	margin-bottom: 0;
+	margin-top: 0;
+	margin: 0;
+}
+.input {
+	border: #999 solid 1px;
+	color: #666666;
+	padding:3px 0;
+	background:none;
+}
+
+.opcione{
+	text-align:center;
+	padding:10px;
+	}
+	
+.opcione input{
+	background:url(../imagenes/TAZClienteRecompra/bgButton.gif) no-repeat;
+	border:none;
+	width:101px;
+	height:29px;
+	text-align:center;
+	color:white;
+	}
+	
+.rbulletList li{
+	list-style-image: url(../imagenes/TAZClienteRecompra/bulletRojo.gif);
+	}
+	
+.caja{
+	border:#999999 solid 1px;
+	margin-top:10px;
+	}

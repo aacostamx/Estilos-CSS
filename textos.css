@@ -1,0 +1,1323 @@
+
+/*mejoras pagos minimos*/
+.textoTituloAbonoMinimo
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #464646;
+	/*line-height: 200%; */
+}
+
+.textoTituloPagoSeleccioando
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	font-weight: bold;
+	color: #464646;
+}
+
+
+
+
+	BODY 
+{
+	background-color: #FFFFFF
+}
+
+.textOpcionesMasUsadas {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Verdana;
+	color: #666666;
+}
+
+.textNombreProdDetalle {
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Verdana;
+	color: #666666;
+}
+.text12Blue {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000099;
+}
+.text12 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+.text14 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+}
+.text16 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+.text11 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+}
+.text10 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+}
+.text10b {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+}
+.text10b2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+}
+.text12b {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.text10bsemanales {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 8pt;
+}
+
+.text11BoldBlanco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+.text10BoldBlanco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.text10BoldBlancoLink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.text14RedBoldNuevos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #A30505;
+}
+
+.text14RedBoldLinkNuevos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration:underline;
+	color: #A30505;
+}
+
+.text13RedBoldLinkNuevos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration:underline;
+	color: #A30505;
+}
+
+.text18RedBoldNuevos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #A30505;
+}
+
+.text09RedBoldNuevos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #A30505;
+}
+
+.text10RedBoldNuevos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #A30505;
+}
+
+.text10RedBoldNuevos2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #A30505;
+}
+
+.text12RedBoldNuevos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #A30505;
+}
+
+.text11RedBoldNuevos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #A30505;
+}
+
+.text11RedBoldLinkNuevos  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration:none;		
+	color: #A30505;	
+}
+a.text11RedBoldLinkNuevos:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #A30505;
+	text-decoration: underline;
+}
+
+
+.text10RedBoldLinkNuevos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #A30505;
+	text-decoration: underline;
+}
+
+.text11BoldAmarillo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFCC00;
+}
+.text12link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: underline;
+}
+a.text12link:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: underline;
+}
+.text11link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a.text11link:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.textMenu10link  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration:none;		
+	color: #000000;	
+}
+a.textMenu10link:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000066;
+	text-decoration: underline;
+	font-weight: bold;	
+}
+.text10link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline;
+}
+a.text10link:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+a.text10link:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FF9900;
+	text-decoration: none;
+	font-weight: bold;
+}
+.text12linkBlue {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003366;
+	text-decoration: underline;
+}
+a.text12linkBlue:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003366;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.text10linkBlue {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000066;
+	text-decoration: underline;
+}
+.text10linkGreen {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #339900;
+	text-decoration: underline;
+}
+a.text10linkBlue:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #003366;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.10linkBlanco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.10linkBlanco:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.text10Rojo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FF0000;
+}
+.text10Bold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.text10BoldBlue {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000066;
+}
+
+.15linkRojoChaz {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: none;
+}
+.text10Gris {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #464646;
+}
+.text12UnivBold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000066;
+}
+a.text12UnivBold:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: underline;
+	color: #000066;
+	font-weight: bold;
+}
+.text12UnivBlanco {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.text16BoldBlanco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.text14BoldBlanco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.text18Bold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: Black;
+}
+
+.text25Bold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	color: Black;
+}
+
+.text18Blue {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: Blue;
+}
+
+.text25Blue {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	color: Blue;
+}
+
+.text25Green {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	color: Green;
+}	
+	
+.text10linkBluen {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #003366;
+	text-decoration: underline;
+}
+a.text10linkBluen:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #003366;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.text12linkBluec {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000099;
+	text-decoration: underline;
+}
+a.text12linkBluec:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000099;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.text22 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #464646;
+}
+
+.text21 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	color: #464646;
+}
+
+.text21light {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	color: #464646;
+}
+
+.text18light {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #464646;
+}
+
+.text14Bienvenidos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #464646;
+}
+
+.text20 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #464646;
+}
+
+.text19 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	font-weight: bold;
+	color: #464646;
+}
+
+.text19light {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	color: #464646;
+}
+
+.text10linkBlueN {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-decoration: none;
+}
+.text10linkGris {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-decoration: underline;
+}
+a.text10linkGris:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-decoration: underline;
+}
+.degrada     { background-image:  url("imagenes/caracterBack.jpg");
+               background-repeat: repeat-x }
+.text10GrisClaro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #818181;
+}
+.text11linkBlue {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003366;
+	text-decoration: underline;
+}
+a.text11linkBlue:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #003366;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.text13linkBlue {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003366;
+	text-decoration: underline;
+}
+.text12BoldBlanco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.text13BoldBlanco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.text15BoldBlanco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.text18BoldBlanco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.text11BlueBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003366;
+	text-decoration: none;
+}
+
+.text11RedLight {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FF0000;
+}
+
+.text11RedBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+   font-weight: bold;
+	color: #FF0000;
+}
+.text11GreenBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+   font-weight: bold;
+	color: #16B32E;
+}
+.text11YellowBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+   font-weight: bold;
+	color: #ACD349;
+}
+
+.text11blackLight {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+
+}
+
+.text10linkBlueLinea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000066;
+	text-decoration: underline;
+	font-weight: bold;
+}
+a.text10linkBlueLine:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FF0000;
+}
+.text12Rojo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FF0000;
+}
+.geneva10 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000033;
+}
+a.geneva10:Hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: line-through;
+	color: #993300;
+}
+.text11linkBlu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000066;
+	text-decoration: underline;
+}
+a.text11linkBlu:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000066;
+	text-decoration: underline;
+}
+.text18 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #464646;
+}
+.text16 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #464646;
+}
+.text15 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #464646;
+}
+.text10linkBlueLine {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000066;
+	text-decoration: underline;
+}
+.text14BlueBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #003366;
+	text-decoration: none;
+}
+.text11BlackBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.text11RedBoldLinkPromo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: underline;
+}
+.text9Gris {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #464646;
+}
+.text10linknegro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: underline;
+	font-weight: normal;
+}
+a.text10linknegro:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: underline;
+	font-weight: normal;
+}
+.text10linkGris- {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999999;
+	text-decoration: underline;
+}
+a.text10linkGris-:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999999;
+	text-decoration: underline;
+}
+.text10Upper {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+   text-transform:uppercase;
+}
+.text9 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+}
+.text14RojoBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: none;
+}
+
+
+
+.text15RojoBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #990000;
+	text-decoration: none;
+}
+.text16RojoBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #990000;
+	text-decoration: none;
+}
+.text12linkRed {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #990000;
+	text-decoration: underline;
+}
+a.text12linkRed {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000099;
+	text-decoration: underline;
+}
+.rolGerente{
+	color: #000033;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	width: 136px;
+	height: 23px;
+}
+a.rolGerente:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #000033;
+	text-decoration: none;
+}
+.text11linkGris {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	text-decoration: underline;
+}
+a.text11linkGris:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	text-decoration: underline;
+}
+.titFamilia990099 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #0000cc; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamilia990000 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #990000; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamiliaB08D00 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #B08D00; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamilia336633 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #336633; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamilia666699 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #666699; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamilia164878 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #164878; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamilia333333 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #333333; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamilia333399 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #333399; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamilia990099 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #990099; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamilia770000 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #770000; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamilia155959 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #155959; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamilia990099 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #990099; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamilia666666 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #666666; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamilia00BB2C { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #00BB2C; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamiliaFF3300 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #FF3300; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamiliaEA7500 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #EA7500; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamilia2FB900 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #2FB900; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamilia003399 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #003399; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamilia0099AF { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #0099AF; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamilia006598 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #006598; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamiliaB08D00 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #B08D00; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamilia009AFC { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #009AFC; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamiliaCA0000 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #CA0000; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamilia0000CC { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #0000CC; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamilia588EC5 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #588EC5; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 764px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.text10RojoBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FF0000;
+}
+.text10GrisBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #EAEAEA;
+}
+.titFamilia0033CC { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #0033CC; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamilia80B909 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #80B909; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamiliaA267C0 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #A267C0; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamilia3A7300 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #3A7300; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.titFamiliaDE371F { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 38px; color: 
+               #DE371F; font-weight: bold; background-image: 
+               url('../imagenes/backMuebles1.gif'); 
+               background-repeat: repeat-x; text-transform: capitalize; 
+               width: 615px; padding-left: 7px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 7px }
+.text10RojoDescuento {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #990000;
+}
+.tomatazo    { background-image: url('../imagenes/tomatazoResumen.gif'); 
+               font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 
+               14px; font-weight: bold; color: #003366; background-repeat: 
+               no-repeat; height: 30px; background-position: center 50% }
+.text11linkNegro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline;
+}
+a.text11linkNegro:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: underline;
+}
+.text11linkNegroL {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+a.text11linkNegroL:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.text14BlueLink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #003366;
+	text-decoration: underline;
+}
+a.text14BlueLink:hover {
+	color: #003366;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.text10linkAgua {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #007EA8;
+	text-decoration: underline;
+}
+
+.text10linkAzulNuevo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #0033CC;
+	text-decoration: underline;
+}
+
+a.text10linkAgua:hover {
+	color: #000099;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.text14BlueBoldCenter {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #003366;
+	text-decoration: none;
+	text-align: center;
+}
+
+.text14BlueBoldResultadoBusqueda {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 767px;
+	height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 0 0 0 10px;
+	border: 1px solid #DCDCDC;
+}
+
+.articuloBuscado {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: White;
+	text-decoration: underline;
+}
+
+.titItalika {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #2156B2;
+}
+
+.titNoSurt {
+	font-family: Verdana; 
+	font-size: 8pt; 
+	font-weight: bold; 
+	margin: 0 0 0 12px; 
+	color:#003399; 
+	width:740px; 
+	text-align:center
+}
+
+.text10linkRojo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #A20101;
+	text-decoration: underline;
+}
+
+/* Inicia Abono Pago Puntual*/
+
+.text8 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	font-weight: normal;
+}
+.tablaAbonoPuntual
+{
+	width:100;
+	height:27;
+	border:2; 	
+	padding:0 0 0 0;
+}
+
+.textoAbonoCotizador{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #464646;
+}
+
+.textoRojoPagoPuntual {	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #A20101;
+}
+
+/* Termina Abono Pago Puntual*/
+
+.text15BoldRojo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #A20101;
+}
+.text10c {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	background-color: #EEEEEE;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.text10d {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	background-color: #D6D6D6;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.text10BlueBoldFaw {
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	color: #10399C;
+}
+
+.text12BlueBoldFaw {
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: #10399C;
+}
+
+.text14BlueBoldFaw {
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	color: #10399C;
+}
+
+.text16BlueBoldFaw {
+	font-family: Verdana;
+	font-size: 16px;
+	font-weight: bold;
+	color: #10399C;
+}
+
+.text18BlueBoldFaw {
+	font-family: Verdana;
+	font-size: 18px;
+	font-weight: bold;
+	color: #10399C;
+}
+
+.ColorbgEKTSYR {
+   background-color: #a30505; 
+   bgColor: #a30505;
+}
+
+.ColorbgEKTSYRME {
+   background-color: #d6d6d6; 
+   bgColor: #a30505;
+}
+
+.ColorCabeceroME {
+   background-color: #d6d6d6; 
+   bgColor: #d6d6d6;
+}
+
+.ColorClienteME {
+   background-color: #a30505; 
+   bgColor: #a30505;
+}
+
+.ColorPieME {
+   background-color: #a30505; 
+   bgColor: #a30505;
+}
+
+.ColorFondoEKTSYR {
+  bgColor: #a30505;
+  background-color: #a30505; 
+}
+
+.BorderColorEKTSYR {
+  border: 1px solid #a30505;
+}
+
+.BorderGeneradorPromociones{
+  border: 1px solid #FFFFFF;
+}
+
+
+
+.ColorEKTSYR {   
+      color: #a30505;
+  	  bgColor: #a30505;
+}
+
+.totalCheckOut {
+	height: 25px;
+	background-color: #a30505;
+	bgcolor: #a30505;
+	text-align:center;
+	font-size: 14px;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.TabDefaultStyle {
+	background-color: #666666;
+	height: 17px;
+	width: 140px;
+	color: #AEAEAE;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #a30505;
+	}	
+
+.text10RedCotizadorExpress
+{
+	background-color:#eeeeee;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: normal;
+	color: #A30505;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	padding-right: 5px;
+	padding-left: 5px;
+	}
+
+.text11Verdana
+{
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	background-color: #D6D6D6;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	padding-right: 5px;
+	padding-left: 5px;
+	}
+	
+.text11BoldBlanco
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	}

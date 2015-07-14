@@ -1,0 +1,404 @@
+BODY {
+	margin: 0 0 0 0px;
+}
+
+.tablebotones {
+	width: 342px;
+	padding: 3 3 3 3px;
+	border: solid 1px #CCCCCC;
+	text-align: center;
+}
+
+.tablasContainers {
+    width: 763px;
+	 margin: 0 0 8 3px;
+	 border: 1px solid #6593d6;
+}
+
+.tablasContainersb {
+    width: 10px;
+	 margin: 0 0 8 3px;
+	 border: 1px solid #6593d6;
+}
+
+.tablasDetalles {
+    width: 555px;
+	 margin: 0 0 0 4px;
+	 border: 1px solid #F5F5F5;
+	 background-color: #FFFFFF;
+}
+
+.tablaPedidoSelec {
+    width: 765px;
+	 height: 24px;
+	 margin: 0 0 8 3px;
+	 border-bottom: 1px solid #6593d6;
+	 border-left: 1px solid #6593d6;
+	 border-right: 1px solid #6593d6;
+	 padding: 0 0 0 35px;
+	 background-image: url(../imagenes/botServic2.gif);
+}
+
+.numPedido {
+	font-size: 12pt;
+	font-weight: bold;
+   font-family: Verdana;
+	color: #003399;
+}
+
+.detallePedido {
+	 font-family: Verdana;
+	 font-size: 8pt; 
+	 font-weight: bold; 
+	 color:#003399;
+}
+
+.cont {
+	width: 763px;
+}
+
+.titulosTablas {
+	 font-family: Verdana; 
+	 font-size: 8pt; 
+	 font-weight: bold; 
+	 margin: 3 0 3 12px; 
+	 color:#003399;
+	 width:740px; 
+	 text-align:center;
+}
+
+.titulosTablasb {
+	 font-family: Verdana; 
+	 font-size: 8pt; 
+	 font-weight: bold; 
+	 margin: 3 0 3 12px; 
+	 color:#003399;
+	 width:740px; 
+	 text-align:center;
+}
+
+.titulosDetalles {
+	 font-family: Verdana; 
+	 font-size: 7pt; 
+	 font-weight: normal;
+	 margin: 0 0 3 0px; 
+    width:535px;
+ 	 padding: 0 0 0 10px;
+}
+
+.tabsTablas {
+	 width:117px; 
+	 height:22px;
+	 text-align:center;
+	 border: 1px solid #e6e6e6;
+	 background: url(../imagenes/barraArma2.jpg);
+}
+
+.tabsTablas2 {
+	 height:22px;
+	 text-align:center;
+	 border: 1px solid #e6e6e6;
+	 background: url(../imagenes/barraArma2.jpg);
+}
+
+.tabsTablasb {
+	 height:22px;
+	 text-align:center;
+	 border: 1px solid #F5F5F5;
+	 background-color: #F9F9F9;
+}
+
+.tabsTablas2b {
+	 height:22px;
+	 text-align:center;
+	 border: 1px solid #F5F5F5;
+	 background-color: #F9F9F9;
+	 width: 60%;
+}
+
+.tabsTablas3 {
+	 height:22px;
+	 text-align:center;
+	 border: 1px solid #e6e6e6;
+	 background: url(../imagenes/barraArma2.jpg);
+	 line-height: 10px;
+}
+
+.textoChico{
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 10px;
+	 font-weight: normal;
+}
+
+.textoChicoPedido{
+    width:45px;
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 10px;
+	 font-weight: normal;
+}
+
+.textoChicofpedido{
+    width:67px;
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 10px;
+	 font-weight: normal;
+	 line-height: 9px;
+}
+
+.textoChicofsurtido{
+    width:66px;
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 10px;
+	 font-weight: normal;
+	 line-height: 9px;
+}
+
+.textoChicoTipoVenta{
+    width:40px;
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 10px;
+	 font-weight: normal;
+}
+
+.textoChicoSaldo{
+    width:32px;
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 10px;
+	 font-weight: normal;
+}
+
+.textoChicoStatus{
+    width:40px;
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 10px;
+	 font-weight: normal;
+}
+
+.fondoOpciones{
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 10px;
+	 font-weight: bold;
+	 text-align: center;
+	 background-color: #E0E8F0;
+	 border: 1px solid #92AECB;
+	 width: 180px;
+	 color: #000066;
+	 margin: 0 4 0 0px;
+}
+
+.datosTablasAzul {
+	 width:120px;
+	 height:18px;
+	 text-align:center;
+	 border:1px solid #e6e6e6;
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 10px;
+	 font-weight: bold;
+	 color: #000066;
+	 text-decoration: none;
+}
+
+.datosTablasAzulb {
+	 width:120px;
+	 height:18px;
+	 text-align:center;
+	 border:1px solid #F5F5F5;
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 10px;
+	 font-weight: normal;
+	 color: #000066;
+	 text-decoration: none;
+}
+
+.datosTablasAzul2 {
+	 height:18px;
+	 text-align:center;
+	 border:1px solid #e6e6e6;
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 10px;
+	 font-weight: bold;
+	 color: #000066;
+	 text-decoration: none;
+}
+
+.datosTablasAzul2b {
+	 height:18px;
+	 text-align:center;
+	 border:1px solid #F5F5F5;
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 10px;
+	 font-weight: normal;
+	 color: #000066;
+	 text-decoration: none;
+}
+
+.datosTablasRojo {
+	 width:120px;
+	 height:18px;
+	 text-align:center;
+	 border:1px solid #e6e6e6;
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 10px;
+	 font-weight: bold;
+	 color: #990000;
+	 text-decoration: none;
+}
+
+.datosTablasRojob {
+	 width:120px;
+	 height:18px;
+	 text-align:center;
+	 border:1px solid #e6e6e6;
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 10px;
+	 font-weight: bold;
+	 color: #990000;
+	 text-decoration: none;
+}
+
+.datosTablasRojo2 {
+	 height:18px;
+	 text-align:center;
+	 border:1px solid #e6e6e6;
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 10px;
+	 font-weight: bold;
+	 color: #990000;
+	 text-decoration: none;
+}
+
+#scroll {
+	overflow:auto;
+	width:760px;
+	height:220px
+}
+
+#scroll2 {
+	overflow:auto;
+	width:759px;
+	height:118px
+}
+
+.cliente {
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 10px;
+	 font-weight: bold;
+	 padding: 0 0 0 10px;
+	 color: #000066;
+}
+
+.cifras {
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 10px;
+	 font-weight: bold;
+	 padding: 0 0 0 10px;
+	 color: #990000;
+}
+
+.center {
+	text-align: center;
+}
+
+.botonesSurtirImprimir {
+	text-align: center;
+	width: 200px;
+}
+
+.marginIzq {
+	margin: 0 0 0 2px;
+	width: 740px;
+}
+
+.anchoTablaArriba {
+	width: 740px;
+	margin: 0 0 0 2px;
+}
+
+.anchoTablaArribab {
+	width: 740px;
+	margin: 0 0 0 2px;
+}
+
+.anchoInArriba {
+	width: 755px;
+}
+
+.anchoInArriba2 {
+	width: 100%;
+}
+
+.anchoTablaAbajo {
+	width: 740px;
+}
+
+.anchoTablaDetalles {
+	width: 725px;
+}
+
+.rowGris {
+	background-color: #F5F5F5;
+}
+
+.rowGrisb {
+	background-color: #E8E8E8;
+}
+
+.rowGris2 {
+	background-color: #F9F9F9;
+}
+
+.topTablaRewFor {
+	margin: 0 0 8 0px;
+	width: 767px;
+	height: 36px;
+}
+
+.tablaBoton {
+	width: 767px;
+	height: 36px;
+}
+
+.tablaCalles {
+	width: 763px;
+	margin: 0 0 8 3px;
+	border: 1px solid #6593d6;
+	text-align:center;
+	padding: 0 0 4 0px;
+}
+
+.tabsTablasUbicacion {
+    width: 100%;
+	 height:22px;
+	 text-align:center;
+	 border: 1px solid #e6e6e6;
+	 background: url(../imagenes/Es-MX/fondos/barraArma2.jpg);
+	 font-family: Verdana;
+	 font-size: 8pt; 
+	 font-weight: bold; 
+	 color:#003399;
+	 margin: 0 0 5 0px;
+}
+
+.inputsCalles {
+	width: 180px;
+	font-size: 8pt;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000066;
+}
+
+.inputsObservaciones {
+	width: 600px;
+	font-size: 8pt;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000066;
+}
+
+.inputsNumeros {
+	width: 120px;
+	font-size: 8pt;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #990000;
+}

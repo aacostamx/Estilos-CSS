@@ -1,0 +1,205 @@
+/* Estilos agregados*/
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.panelEncabezado {
+	font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#333;
+	text-align:center;
+	padding:3px;
+	color:#005480;
+	FONT-WEIGHT: bold;
+}
+
+
+.panelSubtitulo {
+	background-image:url(../imagenes/tab2.png);
+	font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size:17px;
+	color:#333;
+	text-align:center;
+	padding:0px;
+	color:#005480;
+}
+
+.etiqueta {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#333;
+}
+.cajaTexto {
+	border: thin solid #BBBDBF;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#005480;
+	padding:3px;
+	background:url(../imagenes/forma.png);
+	background-color:#E0EEF1;
+	color:#005480;
+}
+
+.check {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#333;
+	color:#005480;
+}
+
+.tabla {
+	width:100%;
+	background-image:url(../imagenes/lista1.png);
+}
+
+.NombreCampo2
+{
+    color:#000000;        
+    font-family: Verdana, Arial, Helvetica, Tahoma;    
+    font-size:10pt;
+    font-weight:bold;
+}
+.Campo2
+{
+    color:#000000;
+    font-family: Verdana, Arial, Helvetica, Tahoma;    
+    font-size:12pt;
+}
+
+.Boton {
+	/*background-image: url(img-int/tab-top.jpg);*/
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	/*background-color:#569abd;*/
+	height:30px;
+	border-color:#6699FF;
+	border: thin solid #BBBDBF;
+	FONT-SIZE: 12px; 
+	CURSOR: hand;
+	/*font-bold:true;*/
+}
+
+.botonBuscar
+{
+	border: 1px trasparent #ffffff;
+	background-image: url(../imagenes/botBuscar.gif);
+	CURSOR: hand;
+	height: 26px;
+	width: 81px;
+}
+
+.botonImprimir
+{
+	border: 1px solid #ffffff;
+	background-image: url(../imagenes/b_ImprimirDetalles.gif);
+	CURSOR: hand;
+	height: 19px;
+	width: 91px;
+}
+
+.TituloPrincipal 
+{
+	TEXT-ALIGN: center; 
+	FONT-FAMILY: Arial; 
+	COLOR: #003399; 
+	FONT-SIZE: 18pt; 
+	FONT-WEIGHT: bold
+}
+
+.Contenido 
+{
+	BACKGROUND-COLOR: #ffffff; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma; 
+	FONT-SIZE: 10pt
+}
+
+.MensajeError 
+{
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma; 
+	COLOR: #57a9da; 
+	FONT-WEIGHT: bold
+}
+
+.FondoAplicacion 
+{
+	FILTER: alpha(opacity=60); 
+	BACKGROUND-COLOR: gray; 
+	/*opacity: 0.7*/
+}
+
+.CajaDialogo 
+{
+	BORDER-BOTTOM: 4px outset; 
+	BORDER-LEFT: 4px outset; 
+	PADDING-BOTTOM: 0px; 
+	BACKGROUND-COLOR: #ffffff; 
+	PADDING-LEFT: 0px; 
+	WIDTH: 200px; 
+	PADDING-RIGHT: 0px; 
+	BORDER-TOP: 4px outset; 
+	BORDER-RIGHT: 4px outset; 
+	PADDING-TOP: 0px
+}
+
+.AlertaFondo 
+{
+	BORDER-BOTTOM: #000000 1px solid; 
+	BORDER-LEFT: #000000 1px solid; 
+	BACKGROUND-COLOR: #dddddd; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma; 
+	FONT-SIZE: 10pt; 
+	BORDER-TOP: #000000 1px solid; 
+	BORDER-RIGHT: #000000 1px solid
+}
+
+.AlertaTitulo 
+{
+	BACKGROUND-IMAGE: url(../imagenes/tab-top.jpg); 
+	TEXT-ALIGN: center; 
+	BACKGROUND-REPEAT: repeat-x; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma; 
+	COLOR: white; 
+	FONT-SIZE: 17px; 
+	FONT-WEIGHT: bold
+}
+
+.AlertaTexto 
+{
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma; 
+	COLOR: #000000; 
+	FONT-SIZE: 9pt; 
+	FONT-WEIGHT: bold
+}
+
+
+
+.Contenido 
+{
+	Z-INDEX: 10000
+}
+
+.ContenidoOculto 
+{
+	Z-INDEX: 10000; 
+	POSITION: absolute; 
+	WIDTH: 1000px; 
+	TOP: 120px; 
+	LEFT: 200px
+}
+
+
+.botonInicio
+{
+	BACKGROUND-COLOR: #ffffff; 
+	background-image: url(../imagenes/logoCanal.gif);
+	CURSOR: hand;
+	width: 82px;
+	height:40px;
+}

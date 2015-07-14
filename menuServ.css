@@ -1,0 +1,97 @@
+.MainGroup
+{ 	
+	/*background-image: url(images/MainItemBg.gif);*/
+	cursor:pointer;
+	cursor:hand;
+}
+
+.MainItem
+{
+	/*font-size: 14px;
+	color: #666666;
+	height: 22px;
+	padding: 0px 10px;
+	padding: 0px 0px;
+	/*background-image: url(images/MainItemSeparator.gif);
+	background-repeat: no-repeat;
+	text-align:left;*/
+}
+
+.MainItemOver
+{
+	/*font-size: 12px;
+	color: #000000;
+	height: 22px;
+	padding: 0px 10px;
+	padding: 0px 0px;
+	background-image: url(images/MainItemSeparator.gif);
+	background-repeat: no-repeat;
+	text-align:left;*/
+}
+
+
+.MenuGroup
+{
+	/*background-image: url(images/backMenuInicio.jpg);*/
+	cursor:pointer;
+	cursor:hand;
+	/*width:258px;*/
+	border: 1px solid #E4E4E4;
+	border-top: 0px;
+	border-bottom: 1px solid #E4E4E4;
+}
+
+.MenuItem
+{
+	font-family:Verdana;
+	font-size:14px;
+	font-weight:bold;
+	color:#003399;
+	background-image: url(../imagenes/NuevoHome/backMenuInicio.jpg);
+	/*background-position: top;
+	background-repeat: repeat-y;*/
+	height: 22px;
+	/*border-left: 1px solid white;
+	border-right: 1px solid white;
+	padding-left: 4px;*/
+	text-align:left;
+	/*padding-top:2px;*/
+}
+
+.MenuItemOver
+{
+	font-family:Verdana;
+	font-size:14px;
+	color:white;
+	font-weight:bold;
+	background-image: url(../imagenes/NuevoHome/backMenuInicio2.jpg);
+	height: 22px;
+	/*border-left: 1px solid white;
+	border-right: 1px solid white;
+	padding-left: 4px;*/
+	text-align:left;
+	/*padding-top:2px;*/
+}
+
+.MenuItemClicked
+{
+	font-family:Verdana;
+	font-size:14px;
+	color: white;
+	background-image: url(../imagenes/NuevoHome/backMenuInicio2.jpg);
+	height: 22px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	padding-left: 4px;
+	padding-top:2px;
+	text-align:left;
+}
+.Separator
+{
+	/*background-image: url(images/ItemSeparator.gif);
+	background-position: top;
+	background-repeat: no-repeat;
+	padding-top: 3px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;*/
+}

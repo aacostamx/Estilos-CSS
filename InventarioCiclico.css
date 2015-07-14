@@ -1,0 +1,44 @@
+.oculta
+{
+    /*solo se pone comentario para corregir el marge*/
+    display:none !important;
+}
+.muestra
+{
+    display:block;
+}
+.cmdAccion
+{
+    border: 0px solid;
+    
+}
+.puntero
+{
+    cursor:hand !important;
+}
+.texto
+{
+    font-size: 12pt;
+    font-family: "Helvetica Neue" , "Lucida Grande" , "Segoe UI" , Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color:Black;
+}
+.caja
+{
+    /*rgb(102, 102, 102)*/
+    font-size: 12pt !important;
+    font-family:Consolas;
+    color:Black;
+    border:1px solid #ccc;
+    padding-left:5px;
+}
+.cajaNumerica
+{
+    /*rgb(102, 102, 102)*/
+    font-size: 12pt !important;
+    font-family:Consolas;
+    color:Black;
+    border:1px solid #ccc;
+    padding-left:5px;
+}
